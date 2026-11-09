@@ -1,0 +1,65 @@
+module
+
+public import ArtinMatthews.AllowedGeneratorSelection
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+
+/-! Allowed generators define a genuine multiplicative class modulo
+sixth powers of actual S-units, independent of every generator choice. -/
+
+namespace ArtinMatthews.AllowedGenerators
+open NumberField IsDedekindDomain FractionalIdeal KummerTheory SIntegerPrincipalization
+open GlobalClassFieldTheory.ClassFieldAxiom
+open scoped NumberField nonZeroDivisors Classical
+noncomputable section
+variable (K : Type) [Field K] [NumberField K]
+
+abbrev sixthSUnitPowers (S₀ : Finset (HeightOneSpectrum (𝓞 K))) : Subgroup Kˣ :=
+  sUnitNthPowersInField (K := K) 6 (sourceHilbertSet K S₀)
+
+theorem mem_sixthSUnitPowers_iff (S₀ : Finset (HeightOneSpectrum (𝓞 K))) (a : Kˣ) :
+    a ∈ sixthSUnitPowers K S₀ ↔
+      ∃ t : SUnitGroup (K := K) (sourceHilbertSet K S₀), a = (t : Kˣ) ^ 6 := by
+  constructor
+  · rintro ⟨u, ⟨t, ht⟩, hu⟩
+    refine ⟨t, ?_⟩
+    have h := congrArg (fun v : SUnitGroup (K := K) (sourceHilbertSet K S₀) => (v : Kˣ)) ht
+    exact hu.symm.trans h.symm
+  · rintro ⟨t, rfl⟩
+    exact ⟨t ^ 6, ⟨t, rfl⟩, rfl⟩
+
+abbrev generatorClassGroup (S₀ : Finset (HeightOneSpectrum (𝓞 K))) :=
+  Kˣ ⧸ sixthSUnitPowers K S₀
+
+theorem allowed_generator_class_eq {ζ : K} (hζ : IsPrimitiveRoot ζ 12)
+    (S₀ : Finset (HeightOneSpectrum (𝓞 K))) (I : idealGroup K S₀) (a : Kˣ)
+    (ha : a ∈ allowedSubgroup K hζ S₀)
+    (hI : toPrincipalIdeal (sourceRing K S₀) K a = I) :
+    QuotientGroup.mk' (sixthSUnitPowers K S₀) a =
+      QuotientGroup.mk' (sixthSUnitPowers K S₀) (generator K hζ S₀ I) := by
+  apply QuotientGroup.eq_iff_div_mem.mpr
+  apply (mem_sixthSUnitPowers_iff K S₀ _).mpr
+  exact allowed_ratio_sixth K hζ S₀ a _ ha (generator_allowed K hζ S₀ I)
+    (hI.trans (generator_principal K hζ S₀ I).symm)
+
+def generatorClassMap {ζ : K} (hζ : IsPrimitiveRoot ζ 12)
+    (S₀ : Finset (HeightOneSpectrum (𝓞 K))) :
+    idealGroup K S₀ →* generatorClassGroup K S₀ where
+  toFun I := QuotientGroup.mk' (sixthSUnitPowers K S₀) (generator K hζ S₀ I)
+  map_one' := by
+    apply (QuotientGroup.eq_one_iff _).mpr
+    exact (mem_sixthSUnitPowers_iff K S₀ _).mpr (generator_one_sixth K hζ S₀)
+  map_mul' I J := by
+    rw [← map_mul]
+    apply QuotientGroup.eq_iff_div_mem.mpr
+    exact (mem_sixthSUnitPowers_iff K S₀ _).mpr (generator_mul_ratio_sixth K hζ S₀ I J)
+
+@[simp] theorem generatorClassMap_apply {ζ : K} (hζ : IsPrimitiveRoot ζ 12)
+    (S₀ : Finset (HeightOneSpectrum (𝓞 K))) (I : idealGroup K S₀) :
+    generatorClassMap K hζ S₀ I =
+      QuotientGroup.mk' (sixthSUnitPowers K S₀) (generator K hζ S₀ I) := rfl
+
+end
+end ArtinMatthews.AllowedGenerators

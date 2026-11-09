@@ -1,0 +1,131 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "An Unconditional Artin–Matthews Theorem for Simultaneous Primitive Roots"
+  description: >-
+    For a nonempty finite set of integers excluding 0, 1, and −1, consider the
+    primes for which every integer in the set is a primitive root. When neither
+    Matthews obstruction occurs, the simultaneous primitive primes have a
+    lower bound of order x/log x in every sufficiently large real dyadic
+    interval (x, 2x] and positive lower relative density among the primes.
+    When either obstruction occurs, the simultaneous primitive primes form a
+    finite set. This is Theorem 1.1 of the accompanying paper.
+  authors: ["Vlado Vojdanovski"]
+  responsible_maintainers: ["Vlado Vojdanovski"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.NT"]
+  msc2020: ["11N64", "11F30", "11N36", "11R45"]
+
+sources:
+  - title: "An Unconditional Artin–Matthews Theorem for Simultaneous Primitive Roots"
+    authors: ["Vlado Vojdanovski"]
+    id: "An_Unconditional_Artin-Matthews_Theorem_for_Simultaneous_Primitive_Roots.pdf"
+    type: "paper"
+    location: "Theorem 1.1"
+    relationship: "formalizes"
+  - title: "A generalisation of Artin’s conjecture for primitive roots"
+    authors: ["K. R. Matthews"]
+    id: "https://doi.org/10.4064/aa-29-2-113-146"
+    type: "paper"
+    relationship: "background"
+    note: "The earlier conditional classification supplies the two obstruction conditions."
+  - title: "On simultaneous primitive roots"
+    authors: ["M. Anwar", "F. Pappalardi"]
+    id: "https://doi.org/10.4064/aa8566-3-2017"
+    type: "paper"
+    relationship: "background"
+    note: "The paper discusses the finite obstructions and conditional infinitude."
+  - title: "Every nonsquare integer not equal to −1 is a primitive root modulo a positive lower density of primes"
+    authors: ["Manjul Bhargava"]
+    id: "https://hexagonmath.org/2610.00228v1"
+    type: "paper"
+    relationship: "background"
+    note: "The accompanying paper describes this as the earlier single-base case."
+  - title: "Uniform Titchmarsh divisor problems"
+    authors: ["E. Assing", "V. Blomer", "J. Li"]
+    id: "https://arxiv.org/abs/2005.13915v1"
+    type: "paper"
+    location: "Theorem 2.4 and Sections 8.2–8.3 of v1"
+    relationship: "background"
+    note: "The shifted-convolution argument is adapted to the cubic theta source in the accompanying paper."
+  - title: "Modular Forms"
+    authors: ["T. Miyake"]
+    id: "https://doi.org/10.1007/3-540-29593-3"
+    type: "book"
+    relationship: "background"
+  - title: "Primitive roots for every admissible integer base"
+    authors: ["OpenAI"]
+    id: "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/preprints/Primitive-roots-for-every-admissible-integer-base-October-4-2026/primitive-roots-all-integer-bases.pdf"
+    type: "paper"
+    location: "Lemmas 9.1, 9.2, and 10.2 and the proof of Proposition 2.2"
+    relationship: "background"
+    note: "Supplies mathematical provenance for the marked estimates and the splitting step."
+  - title: "The Poisson–Dirichlet law for prime predecessors"
+    authors: ["OpenAI"]
+    id: "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/preprints/The-Poisson-Dirichlet-Law-for-Prime-Predecessors-September-24-2026/paper.pdf"
+    type: "paper"
+    location: "Sections 3–7"
+    relationship: "background"
+    note: "Supplies the correlation and prime-extraction framework."
+  - title: "Weighted dilation graphs, smooth shifted primes and totient fibers"
+    authors: ["OpenAI"]
+    id: "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/paper.pdf"
+    type: "paper"
+    location: "Lemma 2.9"
+    relationship: "background"
+    note: "Supplies the block sieve used by the paper."
+  - title: "The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane Re(s) > 7/8"
+    authors: ["OpenAI"]
+    id: "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf"
+    type: "paper"
+    location: "Theorem 1.1 and Lemma 4.8"
+    relationship: "background"
+    note: "Supplies the mathematical source of the Hecke zero-free and growth estimates."
+
+related_formalizations:
+  - id: "https://github.com/openai/math/tree/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/lean"
+    relationship: "builds-on"
+    note: "The OAI source closure supplies analytic and algebraic number-theory inputs. The source manifest records original and ported files."
+  - id: "https://github.com/n-yamaguchi-0729/ClassFieldTheory/tree/2eb22d6485af45f29c5219de6c49f196a61c4f49"
+    relationship: "builds-on"
+    note: "The selected reciprocity development includes the ClassFieldTheory, GaloisCohomology, ValuedFieldTheory, and ProCGroups namespaces."
+  - id: "PALOMAR-2026-11-03-000018"
+    relationship: "builds-on"
+    note: "The checked bridge uses the Weil Bounds Toolkit Kloosterman results at charliedorsey/weil-bounds-toolkit commit 0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68."
+  - id: "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/tree/c39a751132c88b6e8080b74c74023fd95b3d8be0"
+    relationship: "adapts"
+    note: "Selected prime number theorem and Mertens support uses the pinned OpenAI patch and local ports."
+  - id: "https://github.com/abenenson/rellich-kondrachov/tree/70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23"
+    relationship: "adapts"
+    note: "Selected Rellich–Kondrachov files use the pinned OpenAI patch."
+  - id: "https://github.com/hanwenzhu/LeanArchitect/tree/468e8f58fb4ad6e6ad672a08da6d0d0531e95a97"
+    relationship: "builds-on"
+    note: "Selected Architect files provide source annotations and tooling."
+  - id: "https://github.com/math-inc/strongpnt/tree/2f5835c322314f55f1026ec2f139d704b7c45c69"
+    relationship: "adapts"
+    note: "The earlier dependency supplied disk and pole interfaces. The release implements those estimates independently using Mathlib and the cited OpenAI Lean pole bound."
+
+status:
+  scope: "Theorem 1.1, including both obstruction directions and both lower bounds."
+  main_results:
+    - declaration: "ArtinMatthewsPaper.main_result"
+      file: "Solution.lean"
+      comparator_config: "comparator.json"
+
+automation:
+  methods:
+    - method: "agent"
+      models: ["GPT-6.1 Sol"]
+      framework: "OpenAI Codex"
+      tool_setup: >-
+        Coordinated agents developed Lean proofs, inspected existing proofs, and
+        compiled and audited selected proof stages. The recorded GPT-6.1 Sol
+        configuration used maximum reasoning effort.
+  notes: "Codex coordinated development, source selection, packaging, and kernel checks. The retained proof and the dependency replacement have recorded standard-axiom audits."
+
+review:
+  status: "unchecked"
+  notes: "The original exact theorem passed the Lean 4.35.0-rc3 kernel and its axiom audit. The review status records independent mathematical review."

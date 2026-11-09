@@ -1,0 +1,50 @@
+module
+
+public import ArtinMatthews.ProbeEulerHolomorphy
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+
+#print axioms ArtinMatthews.probePrimeWeight_nonneg
+#print axioms ArtinMatthews.probePrimeWeight_summable
+#print axioms ArtinMatthews.probePrimeWeight_tsum_le
+#print axioms ArtinMatthews.exists_probeEulerCutoff
+#print axioms ArtinMatthews.probeEulerCutoff_spec
+#print axioms ArtinMatthews.probePrimeCutoff_finite
+#print axioms ArtinMatthews.mem_probePrimeCutoff
+#print axioms ArtinMatthews.probeGoodPrime_norm_bounds
+#print axioms ArtinMatthews.probeGoodPrime_majorant_summable
+#print axioms ArtinMatthews.probePrimeCorrection_norm_sub_one_le
+#print axioms ArtinMatthews.probePrimeCorrection_norm_sub_one_half
+#print axioms ArtinMatthews.probePrimeCorrection_mem_slitPlane
+#print axioms ArtinMatthews.probePrimeCorrection_ne_zero
+#print axioms ArtinMatthews.probePrimeLog_norm_le
+#print axioms ArtinMatthews.probeGoodPrimeCorrection_differentiableAt
+#print axioms ArtinMatthews.probePrimeLog_differentiableAt
+#print axioms ArtinMatthews.probeEulerLogMajorant_nonneg
+#print axioms ArtinMatthews.probePrimeCorrection_sub_one_norm_summable
+#print axioms ArtinMatthews.probePrimeLog_norm_summable
+#print axioms ArtinMatthews.probePrimeLog_summable
+#print axioms ArtinMatthews.probeEulerLog_norm_le
+#print axioms ArtinMatthews.probeEulerLog_tendstoUniformlyOn
+#print axioms ArtinMatthews.probeEulerProduct_hasProd
+#print axioms ArtinMatthews.probeEulerProduct_eq_exp
+#print axioms ArtinMatthews.probeEulerProduct_ne_zero
+#print axioms ArtinMatthews.probeEulerProduct_hasProdUniformlyOn
+#print axioms ArtinMatthews.probeEulerLog_differentiableOn_path
+#print axioms ArtinMatthews.probeEulerProduct_differentiableOn_path
+#print axioms ArtinMatthews.probeEulerProduct_analyticOnNhd_path
+#print axioms ArtinMatthews.exists_probeEulerSmallTail_above
+#print axioms ArtinMatthews.exists_probeEulerSmallTail
+#print axioms ArtinMatthews.probeEulerProduct_norm_sub_one_le
+#print axioms ArtinMatthews.exists_probeEulerProduct_uniform_half
+#print axioms ArtinMatthews.probePrimeLog_differentiableAt_coordinates
+#print axioms ArtinMatthews.probeEulerLog_differentiableOn
+#print axioms ArtinMatthews.probeEulerProduct_differentiableOn
+#print axioms ArtinMatthews.isOpen_probeEulerOpenDomain
+#print axioms ArtinMatthews.probeEulerOpenDomain_subset_interior
+#print axioms ArtinMatthews.probeEuler_manuscriptRegion_mem_interior
+#print axioms ArtinMatthews.probeEulerPrincipalProduct_ne_zero
+#print axioms ArtinMatthews.probeEulerPrincipalProduct_differentiableOn
+#print axioms ArtinMatthews.exists_probeEulerPrincipalProduct_uniform_half

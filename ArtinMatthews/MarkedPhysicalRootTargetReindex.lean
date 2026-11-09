@@ -1,0 +1,88 @@
+module
+
+public import ArtinMatthews.MarkedPhysicalCanonicalRoots
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+
+/-! The canonical completion gives an exact integer change of coordinates
+for the target sum, with no loss of primitivity or target support. -/
+
+noncomputable section
+namespace ArtinMatthews
+open scoped BigOperators
+
+def markedPhysicalCanonicalCompletion {S : ℕ} {A B C D : ℝ}
+    (r : MarkedPhysicalCanonicalRoot S A B C D) : ℤ × ℤ :=
+  ((r.2.1).2.1,(1+(r.2.1).2.2*(r.2.1).2.1)/(r.2.1).1)
+
+theorem markedPhysicalCanonicalCompletion_det {S : ℕ} [NeZero S] {A B C D : ℝ}
+    (hA : 1 < A) (hC : 1 < C) (r : MarkedPhysicalCanonicalRoot S A B C D) :
+    markedMinorIntegerDet (markedPhysicalCanonicalRootPosition r) (markedPhysicalCanonicalCompletion r)=1 := by
+  obtain ⟨d,hu,_,_,_,_,_,hd,_⟩ :=
+    fixedURootReciprocal_box_canonical hA hC (by norm_num) (by norm_num) r.2.2
+  have hune : (r.2.1).1 ≠ 0 := (zero_lt_one.trans hu).ne'
+  unfold markedPhysicalCanonicalCompletion markedPhysicalCanonicalRootPosition fixedURootFirstColumn
+  rw [fixedURootReciprocal_completion_eq hune hd]
+  exact hd
+
+theorem markedPhysicalCanonicalCompletion_reduction {S : ℕ} [NeZero S] {A B C D : ℝ}
+    (hA : 1 < A) (hC : 1 < C) (r : MarkedPhysicalCanonicalRoot S A B C D) :
+    Matrix.SpecialLinearGroup.map (Int.castRingHom (ZMod S))
+      (markedPhysicalRootMatrix (markedPhysicalCanonicalRootPosition r) (markedPhysicalCanonicalCompletion r)
+        (markedPhysicalCanonicalCompletion_det hA hC r)) = r.1 := by
+  obtain ⟨d,hd,hred⟩ := fixedURootMatrixBox_integer_root r.1 A B 0 1 C D true true hA hC
+    (by norm_num) (by norm_num) r.2.1 r.2.2
+  have hu := (fixedURootMatrixBox_coordinate_bounds r.1 A B 0 1 C D true true r.2.1 r.2.2).1.1
+  have hune : (r.2.1).1 ≠ 0 := by
+    intro hz
+    simp only [hz,Int.cast_zero] at hu
+    linarith
+  have he : markedPhysicalCanonicalCompletion r=((r.2.1).2.1,d) := by
+    unfold markedPhysicalCanonicalCompletion
+    rw [fixedURootReciprocal_completion_eq hune hd]
+  simpa only [he,markedPhysicalCanonicalRootPosition,fixedURootFirstColumn] using hred
+
+def markedPhysicalCanonicalTargetEquiv {S : ℕ} [NeZero S] {A B C D : ℝ}
+    (hA : 1 < A) (hC : 1 < C) (r : MarkedPhysicalCanonicalRoot S A B C D) :
+    (ℤ × ℤ) ≃ (ℤ × ℤ) :=
+  markedPhysicalRootEquiv (markedPhysicalCanonicalRootPosition r) (markedPhysicalCanonicalCompletion r)
+    (markedPhysicalCanonicalCompletion_det hA hC r)
+
+def markedPhysicalCanonicalTargets {S : ℕ} [NeZero S] {A B C D : ℝ}
+    (hA : 1 < A) (hC : 1 < C) (r : MarkedPhysicalCanonicalRoot S A B C D)
+    (Z : Finset (ℤ × ℤ)) : Finset (ℤ × ℤ) :=
+  Z.image (markedPhysicalCanonicalTargetEquiv hA hC r)
+
+theorem markedPhysicalCanonicalTargets_mem {S : ℕ} [NeZero S] {A B C D : ℝ}
+    (hA : 1 < A) (hC : 1 < C) (r : MarkedPhysicalCanonicalRoot S A B C D)
+    (Z : Finset (ℤ × ℤ)) (z : ℤ × ℤ) :
+    z ∈ markedPhysicalCanonicalTargets hA hC r Z ↔
+      (markedPhysicalCanonicalTargetEquiv hA hC r).symm z ∈ Z := by
+  constructor
+  · rintro hz
+    obtain ⟨w,hw,he⟩ := Finset.mem_image.mp hz
+    rw [← he,Equiv.symm_apply_apply]
+    exact hw
+  · intro hz
+    exact Finset.mem_image.mpr ⟨_,hz,Equiv.apply_symm_apply _ z⟩
+
+theorem markedPhysicalCanonicalTargets_sum {S : ℕ} [NeZero S] {A B C D : ℝ}
+    (hA : 1 < A) (hC : 1 < C) (r : MarkedPhysicalCanonicalRoot S A B C D)
+    (Z : Finset (ℤ × ℤ)) (F : (ℤ × ℤ) → ℂ) :
+    (∑ w ∈ Z,F w) = ∑ z ∈ markedPhysicalCanonicalTargets hA hC r Z,
+      F ((markedPhysicalCanonicalTargetEquiv hA hC r).symm z) := by
+  unfold markedPhysicalCanonicalTargets
+  rw [Finset.sum_image]
+  · simp only [Equiv.symm_apply_apply]
+  · exact fun _ _ _ _ h => (markedPhysicalCanonicalTargetEquiv hA hC r).injective h
+
+theorem markedPhysicalCanonicalTargets_primitive {S : ℕ} [NeZero S] {A B C D : ℝ}
+    (hA : 1 < A) (hC : 1 < C) (r : MarkedPhysicalCanonicalRoot S A B C D)
+    (Z : Finset (ℤ × ℤ)) (hZ : ∀ z ∈ Z,IsCoprime z.1 z.2)
+    (z : ℤ × ℤ) (hz : z ∈ markedPhysicalCanonicalTargets hA hC r Z) : IsCoprime z.1 z.2 := by
+  obtain ⟨w,hw,rfl⟩ := Finset.mem_image.mp hz
+  exact (markedPhysicalRootCoordinates_primitive_iff _ _ _ (markedPhysicalCanonicalCompletion_det hA hC r)).mpr (hZ w hw)
+
+end ArtinMatthews

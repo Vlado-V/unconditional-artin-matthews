@@ -1,0 +1,13 @@
+module
+
+public import ArtinMatthews.VaryingKummerAnalyticKummerSignedZero
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+
+#print axioms ArtinMatthews.VaryingKummerAnalytic.splitPrimeMellinZeroSum_summable
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_splitPrime_smoothed_signed_zero_bound
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_splitPrime_count_signed_zero_bound
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_primeKummer_split_signed_zero_bound
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_primeKummer_aggregate_signed_zero_bound

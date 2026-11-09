@@ -1,0 +1,40 @@
+module
+
+public import ArtinMatthews.SpectralGamma0EllipticTests
+public import OAI.Analysis.PDE.Variational.H1Divergence
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+
+/-! The native strong H¹ graph converts the second-order distributional
+Laplacian equation into the first-order divergence formulation required by
+the genuine L²-forcing interior regularity theorem. -/
+
+noncomputable section
+open Set MeasureTheory
+open scoped ContDiff
+open OAI.Analysis.PDE.Weak OAI.Analysis.PDE.Variational
+
+namespace ArtinMatthews
+
+theorem spectralEllipticPositiveLaplacian_eq_divergence
+    (χ : (Fin 2 → ℝ) → ℝ) (x : Fin 2 → ℝ) :
+    spectralEllipticPositiveLaplacian χ x = -cellDivergence (cellGradient χ) x := rfl
+
+theorem spectralElliptic_weakDivergence_of_second_tests
+    (p : H1Pair 1) (hp : p ∈ H1Zero (univ : Set (Fin 2 → ℝ)))
+    (f : Lp ℝ 2 (volume : Measure (Fin 2 → ℝ))) {Ω : Set (Fin 2 → ℝ)}
+    (hsecond : ∀ (χ : (Fin 2 → ℝ) → ℝ), ContDiff ℝ ∞ χ → HasCompactSupport χ →
+      tsupport χ ⊆ Ω →
+      (∫ x, p.1 x * spectralEllipticPositiveLaplacian χ x) = ∫ x, f x * χ x) :
+    WeakDivergenceEquation Ω p.2 f := by
+  intro χ hχ hc hs
+  have hG : ContDiff ℝ 1 (cellGradient χ) := (contDiff_cellGradient hχ).of_le (by simp)
+  have he := OAI.Analysis.PDE.Variational.H1Zero.integral_divergence hp
+    (cellGradient χ) hG (hasCompactSupport_cellGradient hc)
+  rw [he]
+  simpa only [spectralEllipticPositiveLaplacian_eq_divergence,mul_neg,integral_neg] using
+    hsecond χ hχ hc hs
+
+end ArtinMatthews

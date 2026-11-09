@@ -1,0 +1,126 @@
+module
+
+public import ArtinMatthews.SourceKPRetainedSeedAllFrequency
+public import ArtinMatthews.SourceKPRetainedDepthCutoff
+public import ArtinMatthews.SourceKPRetainedCubeCutoff
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+
+/-! On the positive cutoff support the retained cubic phase is one.
+This gives the literal all-frequency formula for the nonzero seed. -/
+namespace ArtinMatthews
+
+open NumberField IsDedekindDomain Matrix StandardAdelic QuadraticWeil VaryingKummerAnalytic SourceReflection
+open SourcePhysical AllowedGenerators
+open scoped NumberField MatrixGroups AdeleRing SourcePhysical Classical BigOperators
+
+noncomputable section
+
+variable (K : Type) [Field K] [NumberField K] {ζ : K} (hζ : IsPrimitiveRoot ζ 12)
+local notation "Pr" => HeightOneSpectrum (𝓞 K)
+local notation "Gf" => SourceKPFiniteAdeleProjective K hζ
+local notation "A" => GL (Fin 2) 𝔸ᶠ[K]
+local notation "D" => sourceKPFiniteAdeleProjectiveDiagonalLift K hζ
+local notation "tuple" => sourceKPAdelicRootSupportTuple K hζ
+local notation "rUnit" => FiniteAdeleRing.unitEmbedding (𝓞 K) K
+local notation "unitAt" => sourceKPRetainedUnitAt K
+local notation "S[" S₀ "]" => sourceHilbertSet K S₀
+
+theorem sourceKPRetainedSeedFourierAt_principal_all_of_cubeCutoffs
+    (S₀ : Finset Pr) (hS : standardWeilBadPlaces K ⊆ S[S₀])
+    (R M : S[S₀] → ℕ) {T : ℝ} (hT : 2 < T) (a : A)
+    (U : ∀ P : S[S₀], SourceThetaFiniteCutoff K P.val)
+    (hCube : ∀ (P : S[S₀]) (t : (P.val.adicCompletion K)ˣ), t ∈ (U P).region → ∃ w, w^3 = t)
+    (hcut : ∀ z : ∀ P : S[S₀], (P.val.adicCompletion K)ˣ,
+      let q₀ := (tuple 1 a S[S₀]).2
+      sourceKPRetainedSeedCoefficient K hζ S[S₀] R M (one_le_two.trans hT.le) q₀ z =
+        sourceKPCuspResidualFourierValue K hζ 1 (one_le_two.trans hT.le) q₀ *
+          ∏ P : S[S₀], (U P).factor (z P))
+    (m : Kˣ)
+    (z : ∀ P : S[S₀], (P.val.adicCompletion K)ˣ) :
+    let q₀ := (tuple 1 a S[S₀]).2
+    let C₀ := sourceKPCuspResidualFourierValue K hζ 1 (one_le_two.trans hT.le) q₀
+    sourceKPCuspResidualFrequencyScale K hζ m (1/6) *
+        sourceKPRetainedSeedFourierAt K hζ S[S₀] R M (one_le_two.trans hT.le) m q₀
+          (D (sourceKPRetainedDiagonalUnit K S[S₀] z)) =
+      C₀ * (∏ P : S[S₀], (U P).factor (unitAt P.val (rUnit m) * z P)) *
+        sourceKPRetainedExteriorWhittaker K hζ S₀ hS m := by
+  let S := S[S₀]
+  let q₀ := (tuple 1 a S).2
+  let C₀ := sourceKPCuspResidualFourierValue K hζ 1 (one_le_two.trans hT.le) q₀
+  let z' (P : S) := unitAt P.val (rUnit m) * z P
+  let r := sourceKPRetainedUnitPart K S (rUnit m)
+  let v := sourceKPRetainedDiagonalUnit K S z
+  let θ := sourceKPRetainedDiagonalPhase K hζ r v
+  let G := sourceKPRetainedExteriorWhittaker K hζ S₀ hS m
+  have hraw :
+      sourceKPCuspResidualFrequencyScale K hζ m (1/6) *
+          sourceKPRetainedSeedFourierAt K hζ S R M (one_le_two.trans hT.le) m q₀ (D v) =
+        (sourceKPAdelicCentralComplex K hζ θ : ℂ) *
+          sourceKPRetainedSeedCoefficient K hζ S R M (one_le_two.trans hT.le) q₀ z' * G :=
+    sourceKPRetainedSeedFourierAt_principal_all K hζ S₀ hS R M hT a m z
+  change sourceKPCuspResidualFrequencyScale K hζ m (1/6) *
+    sourceKPRetainedSeedFourierAt K hζ S R M (one_le_two.trans hT.le) m q₀ (D v) =
+      C₀ * (∏ P : S, (U P).factor (z' P)) * G
+  rw [hraw, hcut]
+  by_cases hz : ∀ P : S, z' P ∈ (U P).region
+  · have hr : r*v = sourceKPRetainedDiagonalUnit K S z' :=
+      sourceKPRetainedDiagonalUnit_mul K S _ _
+    have hθ : θ = 1 := by
+      apply sourceKPRetainedDiagonalPhase_eq_one_of_local_cubes
+      intro P
+      rw [hr]
+      by_cases hP : P ∈ S
+      · rw [sourceKPRetainedDiagonalUnit_unitAt_mem K S z' ⟨P,hP⟩]
+        exact hCube ⟨P,hP⟩ (z' ⟨P,hP⟩) (hz ⟨P,hP⟩)
+      · refine ⟨1,?_⟩
+        rw [sourceKPRetainedDiagonalUnit_unitAt_notMem K S z' P hP, one_pow]
+    rw [hθ,map_one,Units.val_one,one_mul]
+  · obtain ⟨P,hP⟩ := not_forall.mp hz
+    have hzero : (∏ P : S, (U P).factor (z' P)) = 0 :=
+      Finset.prod_eq_zero (Finset.mem_univ P) (Set.indicator_of_notMem hP _)
+    change (sourceKPAdelicCentralComplex K hζ θ : ℂ) *
+      (C₀ * (∏ P : S, (U P).factor (z' P))) * G =
+        C₀ * (∏ P : S, (U P).factor (z' P)) * G
+    simp only [hzero, mul_zero, zero_mul]
+
+theorem sourceKPRetainedPositiveSeed_all_frequency_at_depth
+    (S₀ : Finset Pr) (hS : standardWeilBadPlaces K ⊆ S[S₀])
+    (depth : S[S₀] → ℕ) {T : ℝ} (hT : 2 < T) :
+    ∃ (a : A) (R M : S[S₀] → ℕ) (U : ∀ P : S[S₀], SourceThetaFiniteCutoff K P.val),
+      let q₀ := (tuple 1 a S[S₀]).2
+      let C₀ := sourceKPCuspResidualFourierValue K hζ 1 (one_le_two.trans hT.le) q₀
+      C₀ ≠ 0 ∧ sourceKPRetainedSeedVector K hζ S[S₀] R M hT q₀ ≠ 0 ∧
+      (∀ (P : S[S₀]) (t : (P.val.adicCompletion K)ˣ), t ∈ (U P).region →
+        ((t : P.val.adicCompletion K)-1) ∈ sourceLocalBall K P.val (-(depth P:ℤ)) ∧
+          ∃ w, w^6 = t) ∧
+      ∀ (m : Kˣ) (z : ∀ P : S[S₀], (P.val.adicCompletion K)ˣ),
+        sourceKPCuspResidualFrequencyScale K hζ m (1/6) *
+            sourceKPRetainedSeedFourierAt K hζ S[S₀] R M (one_le_two.trans hT.le) m q₀
+              (D (sourceKPRetainedDiagonalUnit K S[S₀] z)) =
+          C₀ * (∏ P : S[S₀], (U P).factor (unitAt P.val (rUnit m) * z P)) *
+            sourceKPRetainedExteriorWhittaker K hζ S₀ hS m := by
+  obtain ⟨a,R,M,U,hne,hv,hdeep,hcut⟩ :=
+    sourceKPRetainedPositiveSeed_exists_at_depth K hζ S₀ hS depth hT
+  have hCube (P : S[S₀]) (t : (P.val.adicCompletion K)ˣ) (ht : t ∈ (U P).region) :
+      ∃ w, w^3 = t := by
+    obtain ⟨w,hw⟩ := (hdeep P t ht).2
+    refine ⟨w^2,?_⟩
+    rw [← pow_mul, show (2:ℕ)*3 = 6 from rfl, hw]
+  exact ⟨a,R,M,U,hne,hv,hdeep,
+    sourceKPRetainedSeedFourierAt_principal_all_of_cubeCutoffs K hζ S₀ hS R M hT a U hCube hcut⟩
+
+theorem sourceKPRetainedSeedFourierAt_nonzero_sourceRing
+    (S₀ : Finset Pr) (hS : standardWeilBadPlaces K ⊆ S[S₀])
+    (R M : S[S₀] → ℕ) {T : ℝ} (hT : 2 < T) (a : A) (m : Kˣ)
+    (z : ∀ P : S[S₀], (P.val.adicCompletion K)ˣ)
+    (hm : sourceKPRetainedSeedFourierAt K hζ S[S₀] R M (one_le_two.trans hT.le) m (tuple 1 a S[S₀]).2
+      (D (sourceKPRetainedDiagonalUnit K S[S₀] z)) ≠ 0) :
+    ∃ x : sourceRing K S₀, (x:K) = (m:K) :=
+  sourceKPRetainedExteriorWhittaker_nonzero_sourceRing K hζ S₀ hS m
+    (sourceKPRetainedSeedFourierAt_nonzero_exterior K hζ S₀ hS R M hT a m z hm)
+
+end
+end ArtinMatthews

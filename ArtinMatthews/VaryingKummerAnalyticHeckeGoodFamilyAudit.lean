@@ -1,0 +1,17 @@
+module
+
+public import ArtinMatthews.VaryingKummerAnalyticHeckeGoodFamily
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+
+#print axioms ArtinMatthews.VaryingKummerAnalytic.primitiveDiskComplexity_ge_exp
+#print axioms ArtinMatthews.VaryingKummerAnalytic.primitiveDiskComplexity_bounds
+#print axioms ArtinMatthews.VaryingKummerAnalytic.primitiveDiskCoordinateBounds
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_primitiveContinued_disk_power_bound
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_primitive_eulerLog_inner_disk_bound
+#print axioms ArtinMatthews.VaryingKummerAnalytic.primitiveDiskComplexity_le_power
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_primitive_reciprocal_bound_on_zero_free_rectangle
+#print axioms ArtinMatthews.VaryingKummerAnalytic.primitiveExceptionalCoefficients_complement_nonvanishing
+#print axioms ArtinMatthews.VaryingKummerAnalytic.exists_actual_primitive_good_family

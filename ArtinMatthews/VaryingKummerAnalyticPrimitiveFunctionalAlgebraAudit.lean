@@ -1,0 +1,16 @@
+module
+
+public import ArtinMatthews.VaryingKummerAnalyticMixedConductorNormalization
+public import ArtinMatthews.VaryingKummerAnalyticRayIdealInverseNonprincipal
+public import ArtinMatthews.VaryingKummerAnalyticMixedRayClassSum
+
+
+set_option backward.privateInPublic true
+@[expose] public section
+#print axioms ArtinMatthews.VaryingKummerAnalytic.mixedConductorScale_pos
+#print axioms ArtinMatthews.VaryingKummerAnalytic.mixedConductorFunctionalEquation_coefficient
+#print axioms ArtinMatthews.VaryingKummerAnalytic.EvenIdealRayCharacter.inverse_isNonprincipal
+#print axioms ArtinMatthews.VaryingKummerAnalytic.EvenIdealRayCharacter.inverse_isPrimitive
+#print axioms ArtinMatthews.VaryingKummerAnalytic.EvenIdealRayCharacter.inverse_residue_ne_one
+#print axioms ArtinMatthews.VaryingKummerAnalytic.EvenIdealRayCharacter.partialDirichlet_eq_of_class_eq
+#print axioms ArtinMatthews.VaryingKummerAnalytic.EvenIdealRayCharacter.conductorDual_partial_class_sum
