@@ -1,7 +1,9 @@
 module
 
-public import Lean
 public meta import Batteries.Lean.NameMapAttribute
+public import Lean.Data.DeclarationRange
+public meta import Lean.Elab.InfoTree.Main
+public import Lean.Message
 
 public meta section
 

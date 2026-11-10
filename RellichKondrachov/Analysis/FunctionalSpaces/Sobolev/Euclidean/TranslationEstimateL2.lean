@@ -3,9 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimate
-public import Mathlib.MeasureTheory.Integral.MeanInequalities
-public import Mathlib.MeasureTheory.Measure.Prod
 
 
 set_option backward.privateInPublic true

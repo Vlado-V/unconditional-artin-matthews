@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.SourceRectangleEnergy
+public import OAI.NumberTheory.DirichletL.Moments.HeckeColumnWindow
+public import OAI.NumberTheory.DirichletL.Moments.RestrictedSource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.AbsoluteEnergy
 public import OAI.NumberTheory.DirichletL.Moments.PositiveSummability
+public import OAI.NumberTheory.DirichletL.Moments.SourceRectangleEnergy
 
 
 set_option backward.privateInPublic true

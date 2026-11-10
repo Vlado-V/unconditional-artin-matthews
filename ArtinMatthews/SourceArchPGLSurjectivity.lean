@@ -1,6 +1,7 @@
 module
 
 public import Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Projective
+public import Mathlib.Basic.Complex.Basic
 public import Mathlib.Analysis.Complex.Polynomial.Basic
 
 

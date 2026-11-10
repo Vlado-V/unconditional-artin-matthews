@@ -1,7 +1,16 @@
 module
 
-public import ArtinMatthews.Definitions
 public import Mathlib.Data.Nat.Totient
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

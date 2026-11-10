@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SourceThetaProfileSmoothing
+public import ArtinMatthews.SourceLogMellinCoordinate
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

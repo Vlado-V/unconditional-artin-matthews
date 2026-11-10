@@ -3,7 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.CubicSieve.Operator
-public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

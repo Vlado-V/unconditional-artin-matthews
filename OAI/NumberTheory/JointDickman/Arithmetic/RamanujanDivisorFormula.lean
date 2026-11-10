@@ -2,7 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.JointDickman.Probability.ResidueFourierParseval
+public import Mathlib.Analysis.SpecialFunctions.Complex.CircleAddChar
+public import OAI.NumberTheory.JointDickman.Amplification.RamanujanRoots
+public import OAI.NumberTheory.JointDickman.Amplification.RamanujanSum
 
 
 set_option backward.privateInPublic true

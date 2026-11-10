@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.SpectralWeights
 public import OAI.NumberTheory.DirichletL.Detector.ZeroIndex
+public import OAI.NumberTheory.DirichletL.Detector.PrincipalEulerIdentity
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

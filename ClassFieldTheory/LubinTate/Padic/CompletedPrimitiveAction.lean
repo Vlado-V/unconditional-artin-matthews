@@ -9,9 +9,28 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.LubinTate.FiniteLevel.LevelAutomorphisms
+public import ClassFieldTheory.LubinTate.Padic.MultiplicativeEvaluation.CompletedScalarEndomorphism
+public import Mathlib.RingTheory.Adjoin.PowerBasis
 public import ClassFieldTheory.LubinTate.Padic.CompletedPrimitiveIrreducible
-public import ClassFieldTheory.LubinTate.Padic.MultiplicativeEvaluation.Core
-public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.RingTheory.AdicCompletion.Topology
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.Measurability.Init
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.FiniteSupportChoiceProduct
+public import Mathlib.Tactic.Bound.Init
 
 
 set_option backward.privateInPublic true

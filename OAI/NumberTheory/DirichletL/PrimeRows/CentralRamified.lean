@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.PrimeRows.Ramified
+public import OAI.NumberTheory.DirichletL.PrimeRows.Selected
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsActual
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsCentralLower
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsCentralRamifiedQuotient
-public import OAI.NumberTheory.DirichletL.PrimeRows.SelectedBounds
 
 
 set_option backward.privateInPublic true

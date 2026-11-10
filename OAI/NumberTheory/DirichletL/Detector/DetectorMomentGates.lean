@@ -3,10 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentData
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawFiberSource
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorBatch
+public import OAI.NumberTheory.DirichletL.Inversion.InitialDetectorSource
+public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedPeriod
+public import OAI.NumberTheory.DirichletL.PrimeRows.CubeSupportedWitness
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedElement
-public import OAI.NumberTheory.DirichletL.Detector.DetectorBatch
 
 
 set_option backward.privateInPublic true

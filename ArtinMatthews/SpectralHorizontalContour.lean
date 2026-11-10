@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SourceContourHeightWeight
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

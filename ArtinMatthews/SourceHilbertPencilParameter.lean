@@ -1,8 +1,13 @@
 module
 
-public import ArtinMatthews.SourceHilbertMeromorphicResolvent
+public import ArtinMatthews.SourceHilbertPencil
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.CStarAlgebra.ContinuousLinearMap
 public import ArtinMatthews.SourceHilbertFormDefect
+public import ArtinMatthews.SourceHilbertRegularInverse
 public import Mathlib.Analysis.InnerProductSpace.Positive
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Eisenstein.MeromorphicResolvent
 
 

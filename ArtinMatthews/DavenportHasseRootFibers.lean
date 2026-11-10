@@ -1,8 +1,8 @@
 module
 
-public import ArtinMatthews.DavenportHasseRootWeight
-public import Mathlib.FieldTheory.Finite.GaloisField
 public import Mathlib.RingTheory.AdjoinRoot
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+public import ArtinMatthews.DavenportHasseRootWeight
 
 
 set_option backward.privateInPublic true

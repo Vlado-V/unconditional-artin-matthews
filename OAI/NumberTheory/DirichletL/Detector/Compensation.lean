@@ -2,11 +2,7 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Data.Finset.Powerset
-public import Mathlib.Tactic.FinCases
-public import Mathlib.Tactic.Ring
 
 
 set_option backward.privateInPublic true

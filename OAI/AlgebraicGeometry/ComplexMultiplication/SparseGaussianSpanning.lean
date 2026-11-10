@@ -3,8 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.SparseLatticeSums
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import OAI.AlgebraicGeometry.ComplexMultiplication.LatticeGaussian
-public import Mathlib.Analysis.Complex.Basic
 
 
 set_option backward.privateInPublic true

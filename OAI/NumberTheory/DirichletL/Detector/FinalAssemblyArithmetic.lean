@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorArithmetic
+public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyCountParameters
+public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorClass
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.CentralClassPartition
 public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyClass
+public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorExponent
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,12 @@
 module
 
+public import Mathlib.Analysis.InnerProductSpace.l2Space
+public import ArtinMatthews.ShiftedLegendreIntervalLp
 public import ArtinMatthews.ShiftedLegendreDense
 public import ArtinMatthews.ShiftedLegendreOrthogonality
-public import Mathlib.Analysis.InnerProductSpace.l2Space
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

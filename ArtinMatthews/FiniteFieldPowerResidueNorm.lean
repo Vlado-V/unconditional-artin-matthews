@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.FiniteFieldNormCharacter
-public import Mathlib.GroupTheory.SpecificGroups.Cyclic
 
 
 set_option backward.privateInPublic true

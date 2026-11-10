@@ -1,10 +1,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Bessel
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Ring
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceProduct
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CoefficientConvergence
-public import Mathlib.Analysis.Calculus.LineDeriv.Basic
 
 
 set_option backward.privateInPublic true

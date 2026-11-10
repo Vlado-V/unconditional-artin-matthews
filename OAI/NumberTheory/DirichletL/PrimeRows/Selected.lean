@@ -3,9 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedCoordinates
-public import OAI.NumberTheory.DirichletL.PrimeRows.Agreement
-public import OAI.NumberTheory.DirichletL.Detector.HighRowsSelectedActual
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsSelectedRamified
+public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedNormalization
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

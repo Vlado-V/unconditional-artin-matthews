@@ -2,7 +2,6 @@ module
 
 public import ArtinMatthews.DavenportHassePolynomialWeight
 public import Mathlib.Algebra.Polynomial.OfFn
-public import Mathlib.Data.Fin.Tuple.Basic
 
 
 set_option backward.privateInPublic true

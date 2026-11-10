@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceRetainedGeneratorBasis
 public import ArtinMatthews.SourceRetainedFiniteInterpolation
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
 
 
 set_option backward.privateInPublic true

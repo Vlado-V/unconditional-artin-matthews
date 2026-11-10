@@ -9,9 +9,9 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.TowerBaseChange
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Cohomology.Herbrand
-public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.IdeleClassDirectLimitFiniteLevel
 import all ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.IdeleClassDirectLimitCore
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.IdeleClassDirectLimitCore
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.IdeleClassDirectLimitFiniteLevel
 
 
 set_option backward.privateInPublic true

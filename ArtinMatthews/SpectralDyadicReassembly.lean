@@ -1,10 +1,9 @@
 module
 
 public import ArtinMatthews.SpectralDyadicPartition
-public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
 public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
 
 
 set_option backward.privateInPublic true

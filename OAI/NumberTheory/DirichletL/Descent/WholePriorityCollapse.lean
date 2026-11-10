@@ -2,9 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.WholePriorityRays
-public import OAI.NumberTheory.DirichletL.Descent.WholePriorityPrincipal
-public import OAI.NumberTheory.DirichletL.Inversion.WholePriorityRapidTail
+public import OAI.NumberTheory.DirichletL.Inversion.WholePriorityRetainedSource
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

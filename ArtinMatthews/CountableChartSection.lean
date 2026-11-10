@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
-public import Mathlib.Data.Countable.Defs
+public import Mathlib.MeasureTheory.MeasurableSpace.Defs
+public import Mathlib.MeasureTheory.MeasurableSpace.Basic
 
 
 set_option backward.privateInPublic true

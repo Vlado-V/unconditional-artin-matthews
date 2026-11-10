@@ -1,8 +1,6 @@
 module
 
 public import ArtinMatthews.SpectralGamma0EisensteinPositiveCoordinates
-public import Mathlib.Analysis.PSeries
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 
 set_option backward.privateInPublic true

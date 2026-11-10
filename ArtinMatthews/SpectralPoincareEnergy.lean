@@ -2,6 +2,9 @@ module
 
 public import ArtinMatthews.SpectralGamma0Core
 public import ArtinMatthews.SpectralSectionEnergy
+public import ArtinMatthews.SpectralPoincareSmooth
+public import Mathlib.Analysis.Complex.UpperHalfPlane.ProperAction
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

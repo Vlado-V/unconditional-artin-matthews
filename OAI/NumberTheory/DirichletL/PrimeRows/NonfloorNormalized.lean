@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorIntegral
+public import OAI.NumberTheory.DirichletL.Detector.PrincipalResidueActual
+public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorClass
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizer
+public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorIntegral
 
 
 set_option backward.privateInPublic true

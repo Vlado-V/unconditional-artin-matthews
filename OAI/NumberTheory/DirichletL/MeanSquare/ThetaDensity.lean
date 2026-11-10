@@ -2,6 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Eisenstein.BarrierPotential
+public import OAI.NumberTheory.DirichletL.Eisenstein.SeedHeight
+public import OAI.NumberTheory.DirichletL.RowCompletion.CompletedEnergy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.RowCompletion.InitialDensity
 
 

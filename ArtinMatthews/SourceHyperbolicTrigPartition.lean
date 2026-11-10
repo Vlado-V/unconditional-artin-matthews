@@ -1,7 +1,10 @@
 module
 
+public import ArtinMatthews.SourceHyperbolicProductEnergy
 public import ArtinMatthews.SourceHyperbolicProductIMS
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import ArtinMatthews.SourceHyperbolicProductMulEnergy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

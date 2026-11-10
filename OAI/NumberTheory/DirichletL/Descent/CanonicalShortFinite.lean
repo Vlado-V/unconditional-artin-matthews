@@ -2,6 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Descent.ReopenedBins
+public import OAI.NumberTheory.DirichletL.Descent.SecondNormalizedEnergy
+public import OAI.NumberTheory.DirichletL.Inversion.TerminalWidths
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Inversion.CanonicalShortAttachment
 public import OAI.NumberTheory.DirichletL.Inversion.ReflectedShortNormalizedUniformDegree
 

@@ -9,8 +9,9 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Ramification.HilbertRamification.RealLowerGroups
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.CategoryTheory.Category.Init
 public import ValuedFieldTheory.Valuation.DiscreteValuationField.ChevalleyExtension
-public import Mathlib.Algebra.Polynomial.Lifts
 
 
 set_option backward.privateInPublic true

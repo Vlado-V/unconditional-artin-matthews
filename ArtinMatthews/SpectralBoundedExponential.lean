@@ -1,6 +1,8 @@
 module
 
 public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Analysis.Normed.Algebra.Exponential
 public import Mathlib.Analysis.SpecialFunctions.Exponential
 
 

@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
 
 
 set_option backward.privateInPublic true

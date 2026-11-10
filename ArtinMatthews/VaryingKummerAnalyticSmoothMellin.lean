@@ -1,5 +1,9 @@
 module
 
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.CubicMoment.Estimates.MellinSmooth
 public import OAI.NumberTheory.DirichletL.QuadraticSieve.MainTermDifference
 

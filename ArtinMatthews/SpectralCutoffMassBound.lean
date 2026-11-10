@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Analysis.Complex.Basic
 
 
 set_option backward.privateInPublic true

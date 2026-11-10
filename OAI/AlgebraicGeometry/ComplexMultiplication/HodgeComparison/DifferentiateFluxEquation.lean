@@ -3,8 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CoefficientDerivative
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.EllipticDifferenceEstimate
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CoerciveKernelSolver
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceBounds
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceConvergence
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevDerivativeCoordinates
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Elliptic
 
 
 set_option backward.privateInPublic true

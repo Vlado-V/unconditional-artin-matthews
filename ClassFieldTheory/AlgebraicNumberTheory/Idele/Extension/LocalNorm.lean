@@ -8,7 +8,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.BaseChange
+public import ValuedFieldTheory.Valuation.Completion.TensorProductDecomposition
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.RingTheory.Norm.Basic
 public import ValuedFieldTheory.Valuation.Completion.DegreeNormTrace
 public import ValuedFieldTheory.Valuation.Completion.FiniteProductNormTrace
 

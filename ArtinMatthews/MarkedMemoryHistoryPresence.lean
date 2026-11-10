@@ -1,8 +1,8 @@
 module
 
 public import Mathlib.Logic.Embedding.Basic
+public import Mathlib.Tactic.Basic
 public import Mathlib.Data.Nat.Basic
-public import Lean.Elab.Tactic.Omega
 
 
 set_option backward.privateInPublic true

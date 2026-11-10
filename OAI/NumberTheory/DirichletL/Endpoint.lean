@@ -3,11 +3,14 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.Basic.Real.Basic
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Data.Rat.Cast.Order
 public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
-public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.Linarith.Frontend
+public import Mathlib.Tactic.NormNum.Abs
+public import Mathlib.Tactic.NormNum.DivMod
+public import Mathlib.Tactic.NormNum.OfScientific
+public import Mathlib.Tactic.Positivity.Finset
+public import Mathlib.Tactic.Ring.RingNF
 
 
 set_option backward.privateInPublic true

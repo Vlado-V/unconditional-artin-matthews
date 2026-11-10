@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.FirstScale
 public import OAI.NumberTheory.DirichletL.Moments.SectorLocalization
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.Tail
 
 
 set_option backward.privateInPublic true

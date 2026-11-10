@@ -2,9 +2,18 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Inversion.InitialOriginalHeight
-public import OAI.NumberTheory.DirichletL.Inversion.InitialInputReindex
+public import OAI.NumberTheory.DirichletL.Cusp.StaticReflectionPhases
+public import OAI.NumberTheory.DirichletL.Descent.SecondSeparatedColumns
+public import OAI.NumberTheory.DirichletL.Inversion.InitialCommonProfile
+public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedPool
+public import OAI.NumberTheory.DirichletL.Inversion.InitialQuotientGeometry
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedFourier
+public import OAI.NumberTheory.DirichletL.Inversion.InitialInputReindex
+public import OAI.NumberTheory.DirichletL.Inversion.InitialOriginalHeight
+public import OAI.NumberTheory.DirichletL.Inversion.InitialTotalFourier
 
 
 set_option backward.privateInPublic true

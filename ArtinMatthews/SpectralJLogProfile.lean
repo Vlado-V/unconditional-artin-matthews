@@ -1,7 +1,8 @@
 module
 
-public import ArtinMatthews.SourceSturmSpectralPowers
+public import ArtinMatthews.SourceSturmCore
 public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

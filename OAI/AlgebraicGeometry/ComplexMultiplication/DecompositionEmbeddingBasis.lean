@@ -4,9 +4,6 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.Decomposition
 public import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingHodgeType
-public import Mathlib.LinearAlgebra.DirectSum.TensorProduct
-public import Mathlib.LinearAlgebra.Finsupp.VectorSpace
-public import Mathlib.Algebra.Module.Rat
 
 
 set_option backward.privateInPublic true

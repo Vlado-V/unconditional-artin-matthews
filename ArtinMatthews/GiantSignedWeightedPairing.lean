@@ -1,10 +1,7 @@
 module
 
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Analysis.Normed.Group.InfiniteSum
 
 
 set_option backward.privateInPublic true

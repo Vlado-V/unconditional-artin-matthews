@@ -5,6 +5,12 @@ module
 public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceCanonicalData
 public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceWindow
 public import OAI.NumberTheory.DirichletL.Moments.ConjugateWindow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceOriginalColumn
+public import OAI.NumberTheory.DirichletL.Moments.SecondSectorColumns
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

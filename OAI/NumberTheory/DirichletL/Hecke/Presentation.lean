@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.StripActual
 public import OAI.NumberTheory.DirichletL.CharacterTransport
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.FamilySeries
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,10 @@
 module
 
-public import OAI.NumberTheory.DirichletL.ContinuationContour
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

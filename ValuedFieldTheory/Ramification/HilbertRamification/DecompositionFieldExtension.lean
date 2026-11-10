@@ -9,6 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionField
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Eisenstein.SourceMellinInversion
 public import OAI.NumberTheory.DirichletL.Mellin.VerticalContourShift
+public import OAI.NumberTheory.DirichletL.Eisenstein.CorrespondenceAdjoint
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

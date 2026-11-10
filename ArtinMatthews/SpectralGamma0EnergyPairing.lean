@@ -1,7 +1,8 @@
 module
 
-public import ArtinMatthews.SpectralModularGradientChart
 public import ArtinMatthews.SpectralGamma0EnergyGraph
+public import Mathlib.MeasureTheory.Function.L2Space
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

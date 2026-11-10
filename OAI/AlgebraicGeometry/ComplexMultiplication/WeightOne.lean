@@ -2,10 +2,6 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.LinearAlgebra.Complex.Module
-public import Mathlib.LinearAlgebra.TensorProduct.Tower
-public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
-public import Mathlib.LinearAlgebra.Dimension.Free
 public import Mathlib.NumberTheory.NumberField.CMField
 
 

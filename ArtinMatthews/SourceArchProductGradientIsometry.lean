@@ -1,7 +1,9 @@
 module
 
-public import ArtinMatthews.SourceArchGradientIsometry
 public import ArtinMatthews.SourceHyperbolicProductEnergy
+public import ArtinMatthews.SourceArchGradientIsometry
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

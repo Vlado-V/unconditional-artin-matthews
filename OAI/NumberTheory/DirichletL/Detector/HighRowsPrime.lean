@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.LocalUnitFrequency
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsSeries
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsLocal
+public import OAI.NumberTheory.DirichletL.Detector.SourceLocal
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.IdealLocalEuler
+public import OAI.NumberTheory.DirichletL.Detector.LocalUnitFrequency
+public import OAI.NumberTheory.DirichletL.Detector.SourcePrimeFactor
 
 
 set_option backward.privateInPublic true

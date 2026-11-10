@@ -3,7 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceProduct
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.GradientSupport
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.FourierEnergy
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpComponents
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceBounds
 
 
 set_option backward.privateInPublic true

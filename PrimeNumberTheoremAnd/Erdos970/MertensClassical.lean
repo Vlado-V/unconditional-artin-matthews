@@ -2,21 +2,19 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Algebra.Order.Field.GeomSum
-public import Mathlib.Analysis.SumIntegralComparisons
-public import Mathlib.NumberTheory.Chebyshev
 public import Mathlib.NumberTheory.Harmonic.EulerMascheroni
-public import Mathlib.NumberTheory.LSeries.PrimesInAP
 public import Mathlib.NumberTheory.LSeries.RiemannZeta
-public import Mathlib.NumberTheory.Harmonic.GammaDeriv
-public import Mathlib.Analysis.Asymptotics.Lemmas
+public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+public import Mathlib.Algebra.Order.Field.GeomSum
 public import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
 public import Mathlib.Analysis.SpecialFunctions.Integrability.Log
-public import Mathlib.NumberTheory.EulerProduct.DirichletLSeries
-public import Mathlib.NumberTheory.EulerProduct.ExpLog
-public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
 public import Mathlib.Analysis.SpecialFunctions.Log.Summable
-public import Mathlib.Algebra.Group.Submonoid.BigOperators
+public import Mathlib.Analysis.SumIntegralComparisons
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.EulerProduct.DirichletLSeries
+public import Mathlib.NumberTheory.Harmonic.GammaDeriv
 public import PrimeNumberTheoremAnd.Erdos970.EulerMaclaurin
 
 

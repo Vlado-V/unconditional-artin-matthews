@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.Ostmann.ZeroDensity.RectangleBoundary
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.Complex.CauchyIntegral
 
 
 set_option backward.privateInPublic true

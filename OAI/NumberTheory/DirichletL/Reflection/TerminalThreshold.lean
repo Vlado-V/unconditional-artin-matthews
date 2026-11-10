@@ -2,7 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Inversion.TerminalWidths
+public import OAI.NumberTheory.DirichletL.Reflection.Columns
+public import OAI.NumberTheory.DirichletL.Reflection.KernelActual
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Reflection.AnnularNormalization
+public import OAI.NumberTheory.DirichletL.Reflection.NormalizedColumns
 
 
 set_option backward.privateInPublic true

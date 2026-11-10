@@ -11,6 +11,10 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.IdeleClassDirectLimitAbstractFixedField
 import all ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.IdeleClassDirectLimitAbstractFixedField
 import all ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.IdeleClassDirectLimitCore
+public import ClassFieldTheory.AbstractClassFieldTheory.Degree.Valuation
+public import ClassFieldTheory.AbstractClassFieldTheory.Reciprocity.FieldRepresentation
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.TowerBaseChange
+public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.AbstractFixedFieldNorm
 
 
 set_option backward.privateInPublic true

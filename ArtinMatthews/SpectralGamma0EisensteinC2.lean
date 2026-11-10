@@ -1,7 +1,11 @@
 module
 
+public import ArtinMatthews.SpectralGamma0EisensteinPlaneTerms
 public import ArtinMatthews.SpectralGamma0EisensteinDerivativeBounds
 public import ArtinMatthews.SpectralLocalC2Series
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

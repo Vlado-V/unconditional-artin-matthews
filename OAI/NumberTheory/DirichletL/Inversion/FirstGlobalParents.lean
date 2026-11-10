@@ -2,7 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.FirstGlobalSourceEnergy
+public import OAI.NumberTheory.DirichletL.Descent.FirstGlobalSourceIndex
+public import OAI.NumberTheory.DirichletL.Descent.GlobalParentSource
+public import OAI.NumberTheory.DirichletL.Descent.GlobalPrioritySource
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.GlobalParentEnergy
 
 

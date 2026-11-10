@@ -3,6 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Descent.FirstLabelCellStepSource
+public import OAI.NumberTheory.DirichletL.Descent.ActualChildStateLabels
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.GlobalRetainedGatesBudget
+public import OAI.NumberTheory.DirichletL.Descent.GlobalRetainedGatesChildren
+public import OAI.NumberTheory.DirichletL.Descent.GlobalRetainedGatesRank
 
 
 set_option backward.privateInPublic true

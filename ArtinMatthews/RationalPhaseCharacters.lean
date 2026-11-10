@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.DirichletUnitFourier
 public import Mathlib.NumberTheory.GaussSum
+public import Mathlib.Analysis.SpecialFunctions.Complex.CircleAddChar
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.IdealCharacter
 public import Mathlib.NumberTheory.MulChar.Duality
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
 
 
 set_option backward.privateInPublic true

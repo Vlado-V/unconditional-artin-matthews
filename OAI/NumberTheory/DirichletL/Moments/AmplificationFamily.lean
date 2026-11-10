@@ -2,9 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationSourceError
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationShortening
+public import OAI.NumberTheory.DirichletL.Moments.ChildRows
+public import OAI.NumberTheory.DirichletL.Moments.HeckeColumnWindow
+public import OAI.NumberTheory.DirichletL.Moments.HeckeExpansion
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.SecondChildProfile
-public import OAI.NumberTheory.DirichletL.Moments.FirstTailAggregate
+public import OAI.NumberTheory.DirichletL.Moments.SourceRow
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

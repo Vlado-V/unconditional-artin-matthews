@@ -8,22 +8,42 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.GlobalHilbertSymbol.FinitePlaceCharacterComparison
-public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.FiniteIdeleArtin
-public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.HilbertProductFormula
 public import ClassFieldTheory.AlgebraicNumberTheory.PowerResidueSymbols.Ideal
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.NormApproximation.FinitePlaces
-public import Mathlib.NumberTheory.Padics.HeightOneSpectrum
-public import ValuedFieldTheory.LocalField.DiscreteValuationField.PadicField
-public import ClassFieldTheory.AlgebraicNumberTheory.QuadraticReciprocity
 public import ClassFieldTheory.AlgebraicNumberTheory.RayClass.Rational
 public import ClassFieldTheory.LocalClassFieldTheory.Kummer.PowerResidueTameFormula
-public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.IdealQuotients
-public import ClassFieldTheory.AlgebraicNumberTheory.Completion.UnramifiedComparison.IdealToCompletion
 public import ValuedFieldTheory.Valuation.Completion.ExtensionInvariants
-public import ClassFieldTheory.KummerTheory.Concrete.SimpleExtensionLocalBehavior
 public import ClassFieldTheory.KummerTheory.Concrete.SUnitPreparation.FiniteRadicalSupport
-public import ClassFieldTheory.LocalClassFieldTheory.Finite.CyclotomicNorm.PrincipalUnits
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.GlobalHilbertSymbol.Core
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.GlobalHilbertSymbol.InfinitePlace
+public import Mathlib.NumberTheory.LegendreSymbol.JacobiSymbol
+public import ClassFieldTheory.AlgebraicNumberTheory.Completion.UnramifiedComparison.IdealToCompletion
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.FiniteIdeleArtin
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.GlobalHilbertSymbol.FinitePlaceCharacterComparison
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.GlobalHilbertSymbol.FinitePlaceFiniteSupport
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.HilbertProductFormula
+public import ClassFieldTheory.KummerTheory.Concrete.SimpleExtensionLocalBehavior
+public import ClassFieldTheory.LocalClassFieldTheory.Kummer.LocalHilbertPairing
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.Tactic.Basify
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Tactic.Polynomial.Basic
+public import Mathlib.Tactic.ReduceModChar
 
 
 set_option backward.privateInPublic true

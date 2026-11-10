@@ -8,8 +8,8 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Index
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Cohomology.Herbrand
+public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Index
 
 
 set_option backward.privateInPublic true

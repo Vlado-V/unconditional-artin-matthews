@@ -1,8 +1,12 @@
 module
 
-public import ArtinMatthews.SpectralPolynomialC2Approximation
 public import ArtinMatthews.SpectralExpPullback
+public import Mathlib.Algebra.Polynomial.Eval.Defs
+public import ArtinMatthews.SpectralPolynomialC2Approximation
 public import Mathlib.Analysis.Calculus.ContDiff.Polynomial
+public import Mathlib.Analysis.Calculus.Deriv.Polynomial
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
 
 
 set_option backward.privateInPublic true

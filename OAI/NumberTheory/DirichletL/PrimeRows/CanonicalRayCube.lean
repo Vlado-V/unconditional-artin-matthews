@@ -2,8 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalCubeChoice
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeRay
+public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalReduction
+public import OAI.NumberTheory.DirichletL.PrimeRows.Conductor
+public import OAI.NumberTheory.DirichletL.PrimeRows.CubeFiniteError
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.RayCharacterFamily
+public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalCubeBins
+public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalCubeChoice
+public import OAI.NumberTheory.DirichletL.PrimeRows.PrincipalMask
 
 
 set_option backward.privateInPublic true

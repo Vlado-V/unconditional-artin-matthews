@@ -2,12 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Distribution.SchwartzSpace.Deriv
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
-public import Mathlib.Topology.ContinuousMap.Bounded.Basic
-public import Mathlib.Order.Filter.ZeroAndBoundedAtFilter
-public import Mathlib.Analysis.Fourier.FourierTransformDeriv
 public import PrimeNumberTheoremAnd.Sobolev
+public import Mathlib.Analysis.Fourier.FourierTransform
+public import Mathlib.Analysis.Fourier.FourierTransformDeriv
 
 
 set_option backward.privateInPublic true

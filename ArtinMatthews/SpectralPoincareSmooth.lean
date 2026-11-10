@@ -1,7 +1,10 @@
 module
 
 public import ArtinMatthews.SpectralPoincareSeed
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,8 @@
 module
 
 public import ArtinMatthews.EisensteinAngularNorm
-public import Mathlib.RingTheory.Norm.Transitivity
-public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,9 @@
 module
 
+public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
 public import ArtinMatthews.SpectralBesselKConvergence
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

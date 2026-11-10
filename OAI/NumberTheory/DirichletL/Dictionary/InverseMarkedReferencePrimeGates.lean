@@ -2,8 +2,18 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceDeleted
+public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyData
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawInitialGates
+public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedPool
+public import OAI.NumberTheory.DirichletL.Inversion.InitialPhysicalSlots
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentPrimeGeometry
+public import OAI.NumberTheory.DirichletL.Detector.RayPoolGood
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceDeleted
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorRelativePrime
+public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedOverlap
 
 
 set_option backward.privateInPublic true

@@ -8,10 +8,11 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveEisenstein
 public import Mathlib.FieldTheory.IsSepClosed
+public import ClassFieldTheory.LubinTate.FiniteLevel.DivisionPolynomial
+public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveEisenstein
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.RingTheory.Polynomial.GaussLemma
-public import Mathlib.SetTheory.Cardinal.Finite
 
 
 set_option backward.privateInPublic true

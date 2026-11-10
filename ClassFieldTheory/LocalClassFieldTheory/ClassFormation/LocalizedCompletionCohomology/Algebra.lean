@@ -8,7 +8,32 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalizedCompletionCohomology.CompMulEquiv
+public import Mathlib.FieldTheory.Galois.Abelian
+public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionGroup
+public import ValuedFieldTheory.Valuation.Completion.FiniteLocalization
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import ValuedFieldTheory.Ramification.HilbertRamification.AlgebraicLocalization
+public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionFieldLocalization
+import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.Hilbert90
+import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Basic
+import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.AdditiveEquiv
 
 
 set_option backward.privateInPublic true

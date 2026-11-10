@@ -5,7 +5,11 @@ module
 public import OAI.NumberTheory.DirichletL.Energy.State
 public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainFiberSource
 public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceFixedIdeal
-public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionaryUniformTests
+public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionaryProfiles
 
 
 set_option backward.privateInPublic true

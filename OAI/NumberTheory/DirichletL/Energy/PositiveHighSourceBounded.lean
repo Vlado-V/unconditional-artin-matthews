@@ -3,11 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Energy.PositiveHighSource
-public import OAI.NumberTheory.DirichletL.Energy.NaturalInputMatches
-public import OAI.NumberTheory.DirichletL.Energy.OriginalHighReflectionSymmetric
-public import OAI.NumberTheory.DirichletL.Energy.ReferenceLiveBounded
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Energy.FixedRadialReduction
 public import OAI.NumberTheory.DirichletL.Energy.PhysicalEntry
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceLiveBounded
 
 
 set_option backward.privateInPublic true

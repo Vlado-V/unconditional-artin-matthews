@@ -1,5 +1,6 @@
 module
 
+public import Mathlib.MeasureTheory.Function.LpSpace.Basic
 public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
 
 

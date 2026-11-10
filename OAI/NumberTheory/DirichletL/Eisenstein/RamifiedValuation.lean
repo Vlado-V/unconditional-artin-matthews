@@ -2,7 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Eisenstein.RamifiedTransform
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.FixedProfiles
 public import OAI.NumberTheory.DirichletL.Eisenstein.EntireMellinProfile
+public import OAI.NumberTheory.DirichletL.Eisenstein.PrimeGaussFactors
 
 
 set_option backward.privateInPublic true

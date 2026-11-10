@@ -1,8 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralGamma0EisensteinFourier
-public import ArtinMatthews.SpectralGamma0EisensteinParameter
-public import ArtinMatthews.SpectralGamma0EisensteinPrimitiveRows
+public import ArtinMatthews.SpectralGamma0EisensteinConvergence
 
 
 set_option backward.privateInPublic true

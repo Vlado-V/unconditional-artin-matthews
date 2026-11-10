@@ -10,6 +10,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.Definitions.HilbertSymbols.HilbertPairingLaws
 public import ClassFieldTheory.Definitions.HilbertSymbols.HilbertPairingNormResidueCriterion
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

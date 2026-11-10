@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Foundation
+public import OAI.NumberTheory.DirichletL.QuadraticSieve.IdealQuotients
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.Overlap
+public import OAI.NumberTheory.DirichletL.Fourier.LogDensity
 
 
 set_option backward.privateInPublic true

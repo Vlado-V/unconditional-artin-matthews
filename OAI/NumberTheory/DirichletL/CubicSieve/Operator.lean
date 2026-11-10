@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.CStarAlgebra.Matrix
-public import Mathlib.Tactic.Ring
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
 
 
 set_option backward.privateInPublic true

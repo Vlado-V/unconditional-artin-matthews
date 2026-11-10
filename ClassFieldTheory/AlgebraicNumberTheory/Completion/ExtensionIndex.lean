@@ -8,13 +8,32 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Adele.IntegralLocalFactor
 public import ClassFieldTheory.AlgebraicNumberTheory.SUnit.GaloisAction
-public import ClassFieldTheory.AlgebraicNumberTheory.NormalClosure
-public import ValuedFieldTheory.Ramification.HilbertRamification.Dedekind.Basic
-public import ValuedFieldTheory.Ramification.HilbertRamification.Dedekind.PrimeContractions
 public import ValuedFieldTheory.Ramification.HilbertRamification.AbsoluteValueConjugacy
-public import Mathlib.RingTheory.Ideal.GoingUp
+public import ValuedFieldTheory.Valuation.AbsoluteValue.ValuationSubring
+public import ClassFieldTheory.AlgebraicNumberTheory.Adele.IntegralTensorSupport.AbsoluteValue
+public import ClassFieldTheory.AlgebraicNumberTheory.NormalClosure
+public import ClassFieldTheory.AlgebraicNumberTheory.RayClass.Ideal
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import ValuedFieldTheory.Ramification.HilbertRamification.Dedekind.PrimeContractions
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
+public import ValuedFieldTheory.Valuation.Completion.ExtensionFactorClassification
 
 
 set_option backward.privateInPublic true

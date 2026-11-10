@@ -2,10 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Complex.BranchLogRoot
-public import Mathlib.Analysis.Convex.Topology
-public import Mathlib.Topology.Homotopy.Lifting
 import Mathlib.Analysis.Complex.CoveringMap
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Topology.Homotopy.Lifting
 
 
 set_option backward.privateInPublic true

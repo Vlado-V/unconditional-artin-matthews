@@ -2,12 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.Analysis.Complex.Convex
-public import Mathlib.Analysis.Complex.RemovableSingularity
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Analysis.Meromorphic.NormalForm
 public import PrimeNumberTheoremAnd.Erdos970.Rectangle
+public import Mathlib.Analysis.Meromorphic.Order
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.Meromorphic.NormalForm
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 public import PrimeNumberTheoremAnd.Erdos970.Tactic.AdditiveCombination
 
 

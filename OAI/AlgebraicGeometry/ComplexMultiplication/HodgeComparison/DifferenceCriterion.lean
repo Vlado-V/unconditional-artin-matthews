@@ -3,6 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceQuotients
+public import Mathlib.Analysis.Distribution.Sobolev
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevInv
 
 

@@ -2,10 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.OriginalCellBounds
-public import OAI.NumberTheory.DirichletL.Reflection.PoolArithmetic
+public import OAI.NumberTheory.DirichletL.Reflection.FixedTuples
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalDictionary
+public import OAI.NumberTheory.DirichletL.Reflection.RowReindex
+public import OAI.NumberTheory.DirichletL.Reflection.TupleFamily
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Reflection.MarkedLevel
-public import OAI.NumberTheory.DirichletL.Reflection.ChoiceTransport
+public import OAI.NumberTheory.DirichletL.Reflection.PoolArithmetic
 public import OAI.NumberTheory.DirichletL.Reflection.TupleSectors
 
 

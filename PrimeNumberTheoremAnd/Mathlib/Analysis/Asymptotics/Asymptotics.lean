@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.Asymptotics.Defs
+public import Mathlib.Topology.MetricSpace.ProperSpace
 public import Mathlib.Analysis.Asymptotics.Lemmas
-public import Mathlib.Topology.Order.Compact
 
 
 set_option backward.privateInPublic true

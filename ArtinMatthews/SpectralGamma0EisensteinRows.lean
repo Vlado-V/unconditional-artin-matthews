@@ -1,7 +1,9 @@
 module
 
-public import ArtinMatthews.SpectralGamma0CuspPeriod
-public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Summable
+public import Mathlib.Analysis.Complex.UpperHalfPlane.MoebiusAction
+public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 
 
 set_option backward.privateInPublic true

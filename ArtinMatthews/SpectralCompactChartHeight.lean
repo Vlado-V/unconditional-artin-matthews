@@ -1,8 +1,8 @@
 module
 
-public import ArtinMatthews.SpectralFiniteCuspCover
-public import ArtinMatthews.SpectralPoincareSeed
-public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.NumberTheory.Modular
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,10 @@
 module
 
 public import ArtinMatthews.SpectralWeberKMellinKernel
+public import ArtinMatthews.SpectralWeberKBasic
+public import ArtinMatthews.SpectralBesselMellinEvaluation
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

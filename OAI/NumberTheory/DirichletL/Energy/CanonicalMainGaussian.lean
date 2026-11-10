@@ -2,16 +2,18 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainUniform
-public import OAI.NumberTheory.DirichletL.Moments.FirstSeededGaussianPower
 public import OAI.NumberTheory.DirichletL.Moments.FirstSecondInputGates
 public import OAI.NumberTheory.DirichletL.Moments.SecondInputCapacitySource
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainPaid
 public import OAI.NumberTheory.DirichletL.Energy.ChildEnvelopeFitting
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedPaidReserve
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalUniformReference
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedPaidAdmission
-public import OAI.NumberTheory.DirichletL.Energy.AmplifiedRayDictionary
+public import OAI.NumberTheory.DirichletL.Energy.Bands
+public import OAI.NumberTheory.DirichletL.Moments.AllocatedRayDictionary
+public import OAI.NumberTheory.DirichletL.Moments.AmplifiedRetainedRadius
+public import OAI.NumberTheory.DirichletL.Moments.SecondSourceSeededPowerDescent
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainUniform
+public import OAI.NumberTheory.DirichletL.Moments.FirstSeededGaussianPower
 
 
 set_option backward.privateInPublic true

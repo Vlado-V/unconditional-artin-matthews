@@ -1,5 +1,7 @@
 module
 
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Measure
+public import Mathlib.NumberTheory.Modular
 public import ArtinMatthews.SpectralModularPartition
 
 

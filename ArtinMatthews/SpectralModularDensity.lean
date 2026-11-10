@@ -1,8 +1,9 @@
 module
 
+public import ArtinMatthews.SpectralGamma0EnergyGraph
 public import ArtinMatthews.SpectralModularDensityAssembly
 public import ArtinMatthews.SpectralModularDensitySmooth
-public import ArtinMatthews.SpectralGamma0EnergyGraph
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,8 @@
 module
 
 public import OAI.NumberTheory.DirichletL.MeanSquare.UnitRows
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,6 @@ module
 
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
 public import Mathlib.Analysis.Normed.Operator.Fredholm.Basic
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
 
 
 set_option backward.privateInPublic true

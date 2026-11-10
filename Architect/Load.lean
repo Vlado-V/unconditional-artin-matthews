@@ -1,6 +1,7 @@
 module
 
 public import Architect.Output
+public meta import Std.Do.Triple.SpecLemmas
 
 public meta section
 

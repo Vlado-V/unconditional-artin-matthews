@@ -9,7 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.BaseChange
-public import Mathlib.RingTheory.Norm.Transitivity
 
 
 set_option backward.privateInPublic true

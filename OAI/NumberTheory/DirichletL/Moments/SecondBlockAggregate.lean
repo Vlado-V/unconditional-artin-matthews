@@ -6,7 +6,10 @@ public import OAI.NumberTheory.DirichletL.Moments.SecondRetainedAggregate
 public import OAI.NumberTheory.DirichletL.Moments.SecondRetainedRows
 public import OAI.NumberTheory.DirichletL.Moments.SecondActiveDyadic
 public import OAI.NumberTheory.DirichletL.Moments.SecondPhysicalBlock
-public import OAI.NumberTheory.DirichletL.Moments.ActiveSource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.SecondPhysicalWindow
 
 
 set_option backward.privateInPublic true

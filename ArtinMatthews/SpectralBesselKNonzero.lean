@@ -1,7 +1,9 @@
 module
 
-public import ArtinMatthews.SpectralBesselKDecay
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+public import ArtinMatthews.SpectralBesselKDerivative
+public import ArtinMatthews.SpectralBesselKConvergence
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

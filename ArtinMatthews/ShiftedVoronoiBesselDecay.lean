@@ -1,7 +1,12 @@
 module
 
-public import ArtinMatthews.ShiftedVoronoiBesselIdentification
 public import ArtinMatthews.ShiftedVoronoiBesselTransform
+public import OAI.NumberTheory.DirichletL.Fourier.PositiveLogProfiles
+public import OAI.NumberTheory.DirichletL.GaussSum.SexticRadialPoisson
+public import ArtinMatthews.ShiftedVoronoiBesselIdentification
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Poisson.RadialFourier
 
 
 set_option backward.privateInPublic true

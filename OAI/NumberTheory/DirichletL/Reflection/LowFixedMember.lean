@@ -2,12 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.LowMemberGeometry
-public import OAI.NumberTheory.DirichletL.Reflection.LowCaps
+public import OAI.NumberTheory.DirichletL.Inversion.TerminalWidths
+public import OAI.NumberTheory.DirichletL.Reflection.TupleMembers
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.Widths
 public import OAI.NumberTheory.DirichletL.Reflection.CompletedCanonicalEnergy
+public import OAI.NumberTheory.DirichletL.Reflection.LowCaps
+public import OAI.NumberTheory.DirichletL.Reflection.LowMemberGeometry
 public import OAI.NumberTheory.DirichletL.Reflection.SourceScaleCaps
-public import OAI.NumberTheory.DirichletL.Reflection.ActualSizeCaps
-public import OAI.NumberTheory.DirichletL.Reflection.OriginalCellBounds
 
 
 set_option backward.privateInPublic true

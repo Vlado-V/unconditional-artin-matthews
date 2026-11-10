@@ -1,7 +1,10 @@
 module
 
-public import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
 public import Mathlib.Geometry.Manifold.PartitionOfUnity
+import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralPrincipalDecayWeight
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

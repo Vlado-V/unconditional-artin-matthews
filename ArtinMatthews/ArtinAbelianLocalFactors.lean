@@ -1,7 +1,13 @@
 module
 
-public import ArtinMatthews.ArtinAbelianLocalEuler
+public import Mathlib.Algebra.CharZero.Infinite
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.FieldTheory.Galois.Abelian
+public import Mathlib.FieldTheory.Galois.IsGaloisGroup
+public import Mathlib.RingTheory.Frobenius
+public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
 public import ArtinMatthews.ArtinAbelianInertiaCharacters
+public import ArtinMatthews.ArtinAbelianLocalEuler
 
 
 set_option backward.privateInPublic true

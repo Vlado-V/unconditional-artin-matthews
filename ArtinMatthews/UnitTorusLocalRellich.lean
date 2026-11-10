@@ -2,7 +2,6 @@ module
 
 public import ArtinMatthews.UnitTorusRellich
 public import Mathlib.MeasureTheory.Function.Holder
-public import Mathlib.Analysis.Normed.Operator.Mul
 
 
 set_option backward.privateInPublic true

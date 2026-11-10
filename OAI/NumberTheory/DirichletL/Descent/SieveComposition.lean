@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.Complex.Norm
+public import Mathlib.Analysis.Complex.Basic
 public import OAI.NumberTheory.DirichletL.Descent.Fibers
-public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 
 
 set_option backward.privateInPublic true

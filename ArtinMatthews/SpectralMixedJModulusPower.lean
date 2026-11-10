@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.Analysis.PSeries
-public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 
 
 set_option backward.privateInPublic true

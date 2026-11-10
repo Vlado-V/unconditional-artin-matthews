@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Reciprocity.CubicJacobi
 public import OAI.NumberTheory.DirichletL.GaussSum.ReflectionBrackets
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.Three
 
 
 set_option backward.privateInPublic true

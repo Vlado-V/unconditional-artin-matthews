@@ -1,7 +1,10 @@
 module
 
-public import ArtinMatthews.SpectralBesselODEUniqueness
+public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
 public import ArtinMatthews.SpectralBesselKWhittakerDecay
+public import ArtinMatthews.SpectralBesselODEUniqueness
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

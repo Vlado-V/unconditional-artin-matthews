@@ -2,7 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.SlotProducts
+public import OAI.NumberTheory.DirichletL.CubicSieve.Ideal
+public import OAI.NumberTheory.DirichletL.Descent.Hybrid
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.MeasureTheory.SpecificCodomains.Pi
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.HybridBound
 
 
 set_option backward.privateInPublic true

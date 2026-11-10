@@ -1,6 +1,11 @@
 module
 
-public import ArtinMatthews.SourceHilbertSpectralResidue
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.Meromorphic.Basic
+public import Mathlib.Analysis.Meromorphic.Order
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Eisenstein.MeromorphicResolvent
 
 
 set_option backward.privateInPublic true

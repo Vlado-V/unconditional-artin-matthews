@@ -2,10 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.RadialMellin
 public import OAI.NumberTheory.DirichletL.Detector.HighAbsolute
-public import OAI.NumberTheory.DirichletL.Detector.FrequencySupport
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.RadialMellin
 
 
 set_option backward.privateInPublic true

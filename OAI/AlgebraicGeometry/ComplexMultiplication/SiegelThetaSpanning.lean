@@ -4,6 +4,9 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.SiegelThetaSeries
 public import OAI.AlgebraicGeometry.ComplexMultiplication.SparseGaussianSpanning
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

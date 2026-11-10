@@ -8,13 +8,17 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.Henselian.UniqueAlgebraicExtensions
-public import Mathlib.LinearAlgebra.Dimension.Finrank
-public import Mathlib.LinearAlgebra.Dimension.Free
 public import Mathlib.Algebra.Order.WithTop.Untop0
-public import Mathlib.GroupTheory.Index
-public import Mathlib.Data.ZMod.QuotientGroup
-public import Mathlib.Algebra.Algebra.Tower
+public import Mathlib.NumberTheory.RamificationInertia.Ramification
+public import Mathlib.RingTheory.RamificationInertia.Inertia
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Theory.ExponentialValuations
+public import ValuedFieldTheory.Valuation.AbsoluteValue.ValuationSubring
+public import ValuedFieldTheory.Valuation.Henselian.Core
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.RingTheory.RamificationInertia.Basic
+public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaExtension
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.ResidueField
+public import ValuedFieldTheory.Valuation.Henselian.UniqueAlgebraicExtensions
 public import ValuedFieldTheory.Valuation.LocalRingEquiv
 
 

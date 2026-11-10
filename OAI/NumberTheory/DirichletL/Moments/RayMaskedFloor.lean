@@ -2,7 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Moments.InductionEnergy
+public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceInternal
+public import OAI.NumberTheory.DirichletL.Moments.RadialEligibleEnergy
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.RayMaskedFloorSource
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

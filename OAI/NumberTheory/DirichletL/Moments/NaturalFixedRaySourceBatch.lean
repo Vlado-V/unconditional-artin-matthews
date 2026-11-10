@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceFiber
 public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyData
+public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

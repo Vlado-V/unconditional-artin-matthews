@@ -1,9 +1,6 @@
 module
 
 public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
-public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
-public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
-public import Mathlib.MeasureTheory.Integral.Prod
 
 
 set_option backward.privateInPublic true

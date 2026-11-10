@@ -3,8 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation
-public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation
-public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,12 +1,55 @@
 module
 
-public import ArtinMatthews.SourceEisensteinNativeWeakLocal
 public import ArtinMatthews.SourceEisensteinHighCompactChart
 public import ArtinMatthews.SourceEisensteinHighShellRecurrence
+public import ArtinMatthews.SourceKPAutomorphicCompactTruncated
+public import ArtinMatthews.SourceKPCompactDirichletCore
+public import ArtinMatthews.SourceEisensteinNativeWeakLocal
+public import ArtinMatthews.SourceEisensteinNonconstantGradient
+public import ArtinMatthews.SourceHyperbolicCaccioppoliAlgebra
 public import ArtinMatthews.SourceKPAdelicEisensteinProductC2
+public import ArtinMatthews.SourceKPAutomorphicCompactHaar
+public import ArtinMatthews.SourceKPAutomorphicCompactTopology
+public import ArtinMatthews.SourceKPCompactCorePairChart
+public import ArtinMatthews.SourceKPCompactEisensteinChart
+public import ArtinMatthews.SourceKPCompactEnergyRegularity
+public import ArtinMatthews.SourceKPCompactRationalTransport
 public import ArtinMatthews.SourceKPCompactSupportedWeakTest
-public import ArtinMatthews.SourceHyperbolicCaccioppoli
+public import ArtinMatthews.SourceKPCompactTruncatedChart
 public import ArtinMatthews.SourceKPCompactTruncatedL2Join
+public import Mathlib.Algebra.Order.Floor.Extended
+public import Mathlib.Algebra.Order.Interval.Basic
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Algebra.Ring.IsFormallyReal
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Combinatorics.Enumerative.DyckWord
+public import Mathlib.Combinatorics.SimpleGraph.Triangle.Removal
+public import Mathlib.Data.NNRat.Floor
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.Geometry.Euclidean.Volume.Basic
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.Height.Projectivization
+public import Mathlib.NumberTheory.LucasLehmer
+public import Mathlib.NumberTheory.SelbergSieve
+public import Mathlib.RingTheory.Radical.NatInt
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Topology.Sheaves.Init
 
 
 set_option backward.privateInPublic true

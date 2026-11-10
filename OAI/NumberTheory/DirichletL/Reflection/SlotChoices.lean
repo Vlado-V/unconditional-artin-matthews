@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.InactiveEnergy
-public import OAI.NumberTheory.DirichletL.Reflection.TupleFamily
+public import OAI.NumberTheory.DirichletL.GaussSum.FiniteFourier
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+import OAI.NumberTheory.DirichletL.QuadraticSieve.CoprimeBilinearBound
+import OAI.NumberTheory.DirichletL.Descent.Marks
 
 
 set_option backward.privateInPublic true

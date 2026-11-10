@@ -2,8 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.LowRetainedBudget
+public import OAI.NumberTheory.DirichletL.Inversion.TerminalWidths
+public import OAI.NumberTheory.DirichletL.Reflection.FamilyTail
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalDictionary
+public import OAI.NumberTheory.DirichletL.Reflection.SectorData
+public import OAI.NumberTheory.DirichletL.Reflection.WholeRow
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Reflection.FullEnergyBasic
+public import OAI.NumberTheory.DirichletL.Reflection.LowRetainedBudget
+public import OAI.NumberTheory.DirichletL.Reflection.ShapeWeights
+public import OAI.NumberTheory.DirichletL.Reflection.WholeTail
 
 
 set_option backward.privateInPublic true

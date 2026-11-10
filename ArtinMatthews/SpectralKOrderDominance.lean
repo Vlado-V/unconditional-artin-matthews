@@ -2,9 +2,9 @@ module
 
 public import ArtinMatthews.SpectralBesselCoshEvaluation
 public import ArtinMatthews.SpectralBesselMellinConvergence
-public import ArtinMatthews.SpectralBesselOrderAnalytic
-public import Mathlib.Analysis.Complex.Liouville
 public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

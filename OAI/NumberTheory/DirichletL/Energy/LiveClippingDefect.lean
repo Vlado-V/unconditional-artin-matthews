@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.OriginalSource
+public import OAI.NumberTheory.DirichletL.Energy.Bands
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceState
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceDeletionBudget
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceDeletionCapacity
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceLowBranchGeometry
 public import OAI.NumberTheory.DirichletL.Energy.ReferenceLowWindow
-public import OAI.NumberTheory.DirichletL.Energy.ReferenceLowReflectionError
 
 
 set_option backward.privateInPublic true

@@ -3,14 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.WeightOne
-public import Mathlib.Analysis.Complex.Polynomial.Basic
-public import Mathlib.FieldTheory.PrimitiveElement
-public import Mathlib.LinearAlgebra.Dual.Basis
-public import Mathlib.LinearAlgebra.Dual.Lemmas
-public import Mathlib.LinearAlgebra.Eigenspace.Basic
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
-public import Mathlib.LinearAlgebra.TensorProduct.Finiteness
-public import Mathlib.RingTheory.TensorProduct.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,9 @@
 module
 
+public import ArtinMatthews.SourceHyperbolicProductEnergy
 public import ArtinMatthews.SourceHyperbolicCaccioppoliAlgebra
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

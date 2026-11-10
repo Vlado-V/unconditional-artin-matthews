@@ -2,8 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.Exponential
 public import Mathlib.Analysis.Complex.PhragmenLindelof
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
 
 
 set_option backward.privateInPublic true

@@ -6,8 +6,10 @@ module
    Original: Charlie Dorsey, Weil Bounds Toolkit, commit
    0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68. Apache-2.0. -/
 
-public import rml.stepanov.defect
 public import Mathlib.FieldTheory.Finite.GaloisField
+public import rml.stepanov.auxiliary
+public import rml.stepanov.curve_count
+public import rml.stepanov.defect
 
 @[expose] public section
 

@@ -1,7 +1,8 @@
 module
 
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Factorial.Basic
 public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Topology.Algebra.InfiniteSum.Order
 
 
 set_option backward.privateInPublic true

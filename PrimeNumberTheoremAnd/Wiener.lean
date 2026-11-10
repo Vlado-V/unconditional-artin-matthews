@@ -2,18 +2,27 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Architect
+public import Mathlib.Analysis.Convolution
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
+public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+public import Mathlib.NumberTheory.DirichletCharacter.Basic
+public import Mathlib.NumberTheory.LSeries.Basic
+public import Mathlib.Order.Filter.ZeroAndBoundedAtFilter
+public import PrimeNumberTheoremAnd.Sobolev
+public import Architect.Attribute
+public import Architect.Command
+public import Mathlib.Analysis.Calculus.ContDiff.Convolution
 public import Mathlib.Analysis.Fourier.RiemannLebesgueLemma
 public import Mathlib.Analysis.Normed.Group.Tannery
 public import Mathlib.Analysis.SumIntegralComparisons
+public import Mathlib.Geometry.Manifold.IsManifold.Basic
 public import Mathlib.NumberTheory.Chebyshev
 public import Mathlib.NumberTheory.LSeries.PrimesInAP
-public import Mathlib.NumberTheory.MulChar.Lemmas
-public import Mathlib.Topology.EMetricSpace.BoundedVariation
-public import PrimeNumberTheoremAnd.Mathlib.Analysis.Asymptotics.Asymptotics
 public import PrimeNumberTheoremAnd.Fourier
+public import PrimeNumberTheoremAnd.Mathlib.Analysis.Asymptotics.Asymptotics
 public import PrimeNumberTheoremAnd.SmoothExistence
-public import Mathlib.Analysis.Convolution
+public import Std.Tactic.BVDecide.Normalize.Prop
+meta import Batteries.Tactic.Lemma
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,9 @@
 module
 
-public import ArtinMatthews.SpectralContinuousCyclicMap
 import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+public import ArtinMatthews.SpectralContinuousCyclicMap
 
 
 set_option backward.privateInPublic true

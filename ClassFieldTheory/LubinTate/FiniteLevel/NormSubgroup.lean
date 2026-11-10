@@ -8,8 +8,12 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.LubinTate.FiniteLevel.NormUniformizer
 public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.NormQuotient
+public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveRoot
+public import ClassFieldTheory.LubinTate.FiniteLevel.NormUniformizer
+public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveTorsion
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpCoefficients
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpDominated
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceProduct
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,9 @@
 module
 
 public import ArtinMatthews.ShiftedVoronoiRadialDuality
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Poisson.RadialFourier
 
 
 set_option backward.privateInPublic true

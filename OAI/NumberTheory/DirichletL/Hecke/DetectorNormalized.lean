@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorCommonFrequency
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicCutoff
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicSupport
 
 
 set_option backward.privateInPublic true

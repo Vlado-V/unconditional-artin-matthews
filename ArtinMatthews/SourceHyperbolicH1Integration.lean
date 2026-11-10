@@ -2,6 +2,9 @@ module
 
 public import ArtinMatthews.SourceHyperbolicH1AdjointCalculus
 public import ArtinMatthews.SourceHyperbolicH1Gradient
+public import ArtinMatthews.SourceHyperbolicProductMeasureGreen
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

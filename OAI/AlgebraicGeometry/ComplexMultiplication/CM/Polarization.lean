@@ -3,7 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.TraceForm
-public import Mathlib.Basic.Complex.BigOperators
 
 
 set_option backward.privateInPublic true

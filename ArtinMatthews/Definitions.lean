@@ -1,10 +1,15 @@
 module
 
-public import Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity
-public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.Data.Rat.Lemmas
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
-public import Mathlib.Order.Filter.AtTopBot.Basic
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

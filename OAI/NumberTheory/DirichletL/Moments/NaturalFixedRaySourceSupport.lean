@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceCapacity
 public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceInternal
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorRawFiber
+public import OAI.NumberTheory.DirichletL.PrimeRows.Moments
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentData
+public import OAI.NumberTheory.DirichletL.Hecke.IdealOperations
 
 
 set_option backward.privateInPublic true

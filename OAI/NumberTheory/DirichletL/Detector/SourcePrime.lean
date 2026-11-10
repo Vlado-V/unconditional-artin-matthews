@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.SourceCoefficient
-public import OAI.NumberTheory.DirichletL.Detector.PhysicalLocalEuler
+public import OAI.NumberTheory.DirichletL.Detector.Phase
+public import OAI.NumberTheory.DirichletL.Detector.PrimeConstants
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.CubicGaussCRT
+public import OAI.NumberTheory.DirichletL.Detector.LocalPhysical
+public import OAI.NumberTheory.DirichletL.Detector.PhaseCancellation
+public import OAI.NumberTheory.DirichletL.RowCompletion.ThetaNonvanishing
+import OAI.NumberTheory.DirichletL.Detector.LocalWeights
 
 
 set_option backward.privateInPublic true

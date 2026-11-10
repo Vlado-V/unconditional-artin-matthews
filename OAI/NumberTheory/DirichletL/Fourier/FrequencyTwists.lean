@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.CubicSieve.SecondPoisson
 public import OAI.NumberTheory.DirichletL.Poisson.PrincipalTruncation
+public import Mathlib.Analysis.Calculus.ContDiff.Bounds
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 
 
 set_option backward.privateInPublic true

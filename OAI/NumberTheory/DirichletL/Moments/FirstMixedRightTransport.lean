@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstMixedRoot
+public import OAI.NumberTheory.DirichletL.Moments.AmplifiedRetainedRadius
+public import OAI.NumberTheory.DirichletL.Moments.FirstDiscardedEnergy
+public import OAI.NumberTheory.DirichletL.Moments.FirstMixedAllowance
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceFixedFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.FirstMixedCommonRadius
-public import OAI.NumberTheory.DirichletL.Moments.FirstCommonTransport
+public import OAI.NumberTheory.DirichletL.Moments.FirstMixedRoot
 
 
 set_option backward.privateInPublic true

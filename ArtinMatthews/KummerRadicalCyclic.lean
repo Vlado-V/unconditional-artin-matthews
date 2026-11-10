@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.FieldTheory.KummerExtension
-public import Mathlib.GroupTheory.Coset.Card
+public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
 
 
 set_option backward.privateInPublic true

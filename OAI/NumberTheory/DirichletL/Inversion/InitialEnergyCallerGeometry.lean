@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerReference
-public import OAI.NumberTheory.DirichletL.Descent.SecondSquarefree
 public import OAI.NumberTheory.DirichletL.Descent.ChildCutoff
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerModes
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.SecondSquarefree
+import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerSource
 
 
 set_option backward.privateInPublic true

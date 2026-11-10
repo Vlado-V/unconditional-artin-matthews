@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.Presentation
 public import OAI.NumberTheory.DirichletL.Hecke.Origin
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.FamilySeries
+public import OAI.NumberTheory.DirichletL.Mellin.VerticalContourShift
 
 
 set_option backward.privateInPublic true

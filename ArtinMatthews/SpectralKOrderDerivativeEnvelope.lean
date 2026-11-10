@@ -1,6 +1,11 @@
 module
 
+public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
+public import ArtinMatthews.SpectralBesselOrderAnalytic
 public import ArtinMatthews.SpectralKOrderDominance
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

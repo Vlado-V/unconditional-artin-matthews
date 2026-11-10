@@ -10,6 +10,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.Definitions.HilbertSymbols.GlobalHilbertPairingFiniteFactor
 public import ClassFieldTheory.Definitions.HilbertSymbols.IsLocalHilbertPairing
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

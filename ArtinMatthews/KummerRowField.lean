@@ -1,9 +1,11 @@
 module
 
-public import ArtinMatthews.KummerCharacterKernel
-public import Mathlib.Analysis.Complex.Polynomial.Basic
 public import Mathlib.NumberTheory.NumberField.Basic
 public import Mathlib.FieldTheory.Galois.Abelian
+public import ArtinMatthews.KummerRadicalCyclic
+public import Mathlib.Basic.Complex.Basic
+public import ArtinMatthews.KummerCharacterKernel
+public import Mathlib.Analysis.Complex.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

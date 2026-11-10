@@ -3,9 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.CM.ImaginaryElement
-public import Mathlib.LinearAlgebra.BilinearForm.Hom
 public import Mathlib.LinearAlgebra.BilinearForm.TensorProduct
-public import Mathlib.RingTheory.Trace.Basic
 
 
 set_option backward.privateInPublic true

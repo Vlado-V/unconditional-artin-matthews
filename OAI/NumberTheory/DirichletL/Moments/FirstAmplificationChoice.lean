@@ -2,13 +2,26 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstExtractedLedger
 public import OAI.NumberTheory.DirichletL.Moments.FirstScale
 public import OAI.NumberTheory.DirichletL.Moments.SectorLocalization
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationSlotGap
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationActiveFactor
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationEligibility
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationErrorEnergy
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationLiveMask
+public import OAI.NumberTheory.DirichletL.Moments.ChildRows
+public import OAI.NumberTheory.DirichletL.Moments.DescentLedger
+public import OAI.NumberTheory.DirichletL.Moments.HeckeColumnWindow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationMask
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationOriginalErrors
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationAllocationScale
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationSlotGap
+public import OAI.NumberTheory.DirichletL.Moments.FirstExtractedLedger
+public import OAI.NumberTheory.DirichletL.Moments.GaussNormalization
+public import OAI.NumberTheory.DirichletL.Moments.LiveDomain
+public import OAI.NumberTheory.DirichletL.Moments.SmoothedWindowEnergy
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

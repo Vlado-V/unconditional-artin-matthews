@@ -1,9 +1,7 @@
 module
 
-public import Mathlib.Topology.Algebra.InfiniteSum.Group
-public import Mathlib.Topology.Algebra.GroupWithZero
-public import Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity
 public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.RingTheory.RootsOfUnity.Basic
 
 
 set_option backward.privateInPublic true

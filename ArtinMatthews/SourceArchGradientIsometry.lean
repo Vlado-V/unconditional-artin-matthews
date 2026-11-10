@@ -1,8 +1,7 @@
 module
 
+public import Mathlib.Analysis.InnerProductSpace.PiL2
 public import Mathlib.Analysis.InnerProductSpace.Dual
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.Analysis.Complex.Norm
 
 
 set_option backward.privateInPublic true

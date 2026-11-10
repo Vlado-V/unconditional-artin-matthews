@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SixthExteriorPowerClasses
-public import Mathlib.GroupTheory.QuotientGroup.Basic
 
 
 set_option backward.privateInPublic true

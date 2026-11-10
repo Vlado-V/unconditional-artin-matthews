@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceFiber
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawConjugateGates
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawInitialGates
+public import OAI.NumberTheory.DirichletL.Inversion.InitialPhysicalSlots
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.RayPoolGood
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorRelativePrime
 public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedEnergy
+public import OAI.NumberTheory.DirichletL.Inversion.InitialMarkedDictionary
 
 
 set_option backward.privateInPublic true

@@ -4,8 +4,12 @@ module
 
 public import OAI.NumberTheory.DirichletL.Energy.State
 public import OAI.NumberTheory.DirichletL.Moments.SecondNonexceptionalChosenBlock
-public import OAI.NumberTheory.DirichletL.Moments.SecondChildRadialWidth
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.AmplifiedRetainedRadius
+public import OAI.NumberTheory.DirichletL.Moments.FixedRowMask
+public import OAI.NumberTheory.DirichletL.Moments.SecondChildRadialWidth
 
 
 set_option backward.privateInPublic true

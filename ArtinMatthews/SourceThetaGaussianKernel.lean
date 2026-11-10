@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.SourceThetaReciprocalMellin
+public import ArtinMatthews.VaryingKummerAnalyticGaussianFiniteBounds
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
+public import OAI.NumberTheory.DirichletL.ContinuationContour
 
 
 set_option backward.privateInPublic true

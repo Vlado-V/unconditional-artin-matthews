@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Fourier.LogDensity
 public import OAI.NumberTheory.DirichletL.CubicSieve.TwistedProfiles
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 
 
 set_option backward.privateInPublic true

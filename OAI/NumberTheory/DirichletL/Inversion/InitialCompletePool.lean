@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Inversion.InitialLargeFourier
-public import OAI.NumberTheory.DirichletL.Descent.CompleteMarkedPool
+public import OAI.NumberTheory.DirichletL.Inversion.InitialCommonTuples
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+import OAI.NumberTheory.DirichletL.Inversion.InitialLargePool
 
 
 set_option backward.privateInPublic true

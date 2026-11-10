@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.QuadraticSieve.LogarithmicSectors
 public import OAI.NumberTheory.DirichletL.CubicSieve.PrincipalNormalization
+public import OAI.NumberTheory.DirichletL.Eisenstein.SeedDefects
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.QuadraticSieve.LogarithmicSectors
+public import OAI.NumberTheory.DirichletL.QuadraticSieve.MaskedPrincipalBounds
 
 
 set_option backward.privateInPublic true

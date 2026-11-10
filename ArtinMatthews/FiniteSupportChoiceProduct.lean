@@ -1,7 +1,8 @@
 module
 
-public import Mathlib.Data.Finsupp.Basic
-public import Mathlib.Data.Fin.Basic
+public import Mathlib.Algebra.GroupWithZero.Nat
+public import Mathlib.Data.Finsupp.Defs
+public import Mathlib.Tactic.Bound.Init
 
 
 set_option backward.privateInPublic true

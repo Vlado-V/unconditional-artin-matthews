@@ -1,6 +1,12 @@
 module
 
 public import ArtinMatthews.Definitions
+public import Mathlib.NumberTheory.LegendreSymbol.Basic
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
 
 
 set_option backward.privateInPublic true

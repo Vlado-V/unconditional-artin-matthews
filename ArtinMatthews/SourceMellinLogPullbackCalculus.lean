@@ -1,10 +1,8 @@
 module
 
-public import Mathlib.Analysis.Calculus.Deriv.Support
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Analysis.Distribution.SchwartzSpace.Deriv
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
 
 
 set_option backward.privateInPublic true

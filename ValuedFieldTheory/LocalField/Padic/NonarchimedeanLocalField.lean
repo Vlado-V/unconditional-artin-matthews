@@ -8,9 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.Basic
-public import Mathlib.NumberTheory.Padics.ProperSpace
 public import Mathlib.NumberTheory.Padics.ValuativeRel
+public import Mathlib.NumberTheory.LocalField.Basic
+public import Mathlib.NumberTheory.Padics.ProperSpace
 
 
 set_option backward.privateInPublic true

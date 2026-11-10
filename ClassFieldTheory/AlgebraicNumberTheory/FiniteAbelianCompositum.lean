@@ -9,7 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.FieldTheory.Galois.Abelian
-public import Mathlib.FieldTheory.Galois.GaloisClosure
 public import ClassFieldTheory.AlgebraicNumberTheory.SeparableClosureEmbedding
 
 

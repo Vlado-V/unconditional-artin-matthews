@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.CubicSieve.RadialProfiles
 public import OAI.NumberTheory.DirichletL.CubicSieve.CanonicalLogEnergy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.MeasureTheory.SpecificCodomains.Pi
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

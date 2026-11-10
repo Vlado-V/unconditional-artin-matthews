@@ -3,9 +3,15 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.Character
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.ChineseRemainder.PrimaryCompletions
+public import OAI.NumberTheory.DirichletL.Detector.HighExcludedLocal
+public import OAI.NumberTheory.DirichletL.Hecke.FiniteDeletion
 public import OAI.NumberTheory.DirichletL.Hecke.RowNonprincipal
-public import OAI.NumberTheory.DirichletL.Hecke.UnitRows
 public import OAI.NumberTheory.DirichletL.UnitSexticWitness
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

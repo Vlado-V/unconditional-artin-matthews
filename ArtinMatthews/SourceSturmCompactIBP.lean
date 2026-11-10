@@ -1,9 +1,7 @@
 module
 
 public import ArtinMatthews.SourceSturmCore
-public import Mathlib.Analysis.Complex.RealDeriv
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
+public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
 
 
 set_option backward.privateInPublic true

@@ -4,7 +4,9 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevInv
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpComponents
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CoerciveEnergy
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CoerciveKernelSolver
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpLocalization
 
 
 set_option backward.privateInPublic true

@@ -10,6 +10,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.Definitions.HilbertSymbols.HilbertPairingSymbol
 public import ClassFieldTheory.Definitions.HilbertSymbols.IsKummerNorm
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

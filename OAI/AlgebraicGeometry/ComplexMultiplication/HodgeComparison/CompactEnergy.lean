@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Normed.Operator.Compact.FredholmAlternative
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.Analysis.Normed.Operator.Compact.Basic
+public import Mathlib.Analysis.Normed.Operator.Compact.FredholmAlternative
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstMixed
 public import OAI.NumberTheory.DirichletL.Moments.Active
+public import OAI.NumberTheory.DirichletL.Moments.Fourier
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstMixed
 
 
 set_option backward.privateInPublic true

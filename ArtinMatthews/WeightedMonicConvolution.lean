@@ -1,5 +1,6 @@
 module
 
+public import ArtinMatthews.WeightedMonicPointing
 public import ArtinMatthews.WeightedMonicDivisorSum
 public import ArtinMatthews.WeightedMonicPointedSum
 

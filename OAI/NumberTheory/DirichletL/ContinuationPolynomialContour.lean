@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.ContinuationContour
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation
+public import OAI.NumberTheory.DirichletL.ContinuationContour
 
 
 set_option backward.privateInPublic true

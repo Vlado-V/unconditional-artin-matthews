@@ -2,9 +2,19 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceShift
+public import OAI.NumberTheory.DirichletL.Descent.SecondSeparatedColumns
+public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyData
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceDeleted
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceTuples
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerWindow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferencePaddedEnergy
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferencePrimeGates
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceShift
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawConjugateGates
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
 
 
 set_option backward.privateInPublic true

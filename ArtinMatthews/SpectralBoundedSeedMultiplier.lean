@@ -1,7 +1,10 @@
 module
 
-public import ArtinMatthews.SpectralGamma0Core
-public import Mathlib.Topology.ContinuousMap.Bounded.Normed
+public import ArtinMatthews.SpectralPoincareSeed
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

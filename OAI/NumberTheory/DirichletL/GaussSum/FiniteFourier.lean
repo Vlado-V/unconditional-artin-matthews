@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Arithmetic.EisensteinIdeals
 public import OAI.NumberTheory.DirichletL.Mellin.LogProfiles
+import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
+import Mathlib.Analysis.Fourier.Notation
 
 
 set_option backward.privateInPublic true

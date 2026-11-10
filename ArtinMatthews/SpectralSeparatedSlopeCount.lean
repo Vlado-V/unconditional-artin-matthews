@@ -1,12 +1,10 @@
 module
 
-public import Mathlib.Algebra.Order.Floor.Ring
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Finset.Card
 public import Mathlib.Algebra.Order.Archimedean.Real.Basic
 public import Mathlib.Data.Int.Interval
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

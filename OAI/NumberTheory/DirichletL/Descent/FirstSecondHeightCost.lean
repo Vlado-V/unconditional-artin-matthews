@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Descent.WindowFourier
+public import OAI.NumberTheory.DirichletL.Inversion.ClippingProfiles
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.FirstHeightBudget
-public import OAI.NumberTheory.DirichletL.Descent.FirstLabelCellStep
 public import OAI.NumberTheory.DirichletL.Descent.FirstLiveCountBudget
 
 

@@ -2,10 +2,19 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.Valuation
 public import OAI.NumberTheory.DirichletL.Detector.FixedEuler
 public import OAI.NumberTheory.DirichletL.Hecke.RowClosure
+public import OAI.NumberTheory.DirichletL.Detector.HighExcludedEuler
+public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationRows
+public import OAI.NumberTheory.DirichletL.Hecke.Operations
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.ChineseRemainder.PrimaryCompletions
+public import OAI.NumberTheory.DirichletL.Detector.HighExcludedLocal
 public import OAI.NumberTheory.DirichletL.Hecke.Conjugation
+public import OAI.NumberTheory.DirichletL.Hecke.IdealOperations
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

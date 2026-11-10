@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralBoundedSeedMass
 public import ArtinMatthews.SpectralBoundedExponential
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

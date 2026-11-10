@@ -10,6 +10,9 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import GaloisCohomology.Cyclic.Herbrand.Permutation.Lattice
 public import GaloisCohomology.Cyclic.Herbrand.Permutation.Module
+public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.EquivariantEquiv
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

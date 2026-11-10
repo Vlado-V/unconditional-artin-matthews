@@ -1,7 +1,9 @@
 module
 
+public import ArtinMatthews.SpectralBesselHyperbolicEvaluation
 public import ArtinMatthews.SpectralBesselMellinConvergence
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

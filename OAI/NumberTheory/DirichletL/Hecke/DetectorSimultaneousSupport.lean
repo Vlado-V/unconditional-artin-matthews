@@ -2,8 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicCutoff
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorZeros
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.BoundaryIntegration
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicGeometry
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicLengths
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorNormalized
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorSaturation
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,6 @@
 module
 
 public import ClassFieldTheory.AlgebraicNumberTheory.SUnit.LogLattice
-public import Mathlib.Tactic.Module
 
 
 set_option backward.privateInPublic true

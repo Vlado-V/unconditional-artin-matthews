@@ -2,9 +2,10 @@ module
 
 public import ArtinMatthews.EisensteinAngularIdeal
 public import ArtinMatthews.NormPrincipalCongruence
-public import Mathlib.RingTheory.Ideal.Norm.RelNorm
-public import Mathlib.LinearAlgebra.FreeModule.PID
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
+public import OAI.NumberTheory.DirichletL.GaussSum.SquarePhaseFactorization
 
 
 set_option backward.privateInPublic true

@@ -2,7 +2,19 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.HighSeries
+public import OAI.NumberTheory.DirichletL.Detector.IdealFactorization
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighEuler
+public import OAI.NumberTheory.DirichletL.Detector.HighEulerGeneral
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsMultiplicative
+public import OAI.NumberTheory.DirichletL.Detector.IdealUnit
+public import OAI.NumberTheory.DirichletL.Detector.LocalPhysical
+public import OAI.NumberTheory.DirichletL.Detector.PhasePowers
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalLocalEuler
+public import OAI.NumberTheory.DirichletL.Detector.SourcePrime
+public import OAI.NumberTheory.DirichletL.IdealEuler
 
 
 set_option backward.privateInPublic true

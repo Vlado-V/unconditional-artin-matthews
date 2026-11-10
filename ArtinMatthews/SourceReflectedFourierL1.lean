@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SourceReflectedAngularFourier
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 
 set_option backward.privateInPublic true

@@ -2,9 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.MarkedLocal
+public import OAI.NumberTheory.DirichletL.Detector.SourceExclusions
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.MarkedProduct
-public import OAI.NumberTheory.DirichletL.Detector.MarkedRational
-public import Mathlib.Algebra.BigOperators.Ring.Finset
 
 
 set_option backward.privateInPublic true

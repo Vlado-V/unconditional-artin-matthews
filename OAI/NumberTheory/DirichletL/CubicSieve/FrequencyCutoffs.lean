@@ -3,6 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.QuadraticSieve.PrincipalTruncation
+public import OAI.NumberTheory.DirichletL.Eisenstein.RamifiedNormWeights
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.Three
+public import OAI.NumberTheory.DirichletL.CubicSieve.FixedProfiles
 
 
 set_option backward.privateInPublic true

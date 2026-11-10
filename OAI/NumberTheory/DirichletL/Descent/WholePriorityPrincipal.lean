@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.CubicSieve.GlobalEncoding
+public import OAI.NumberTheory.DirichletL.Descent.PrincipalChild
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.MarkBounds
 public import OAI.NumberTheory.DirichletL.Descent.SecondVariablePrincipal
-public import OAI.NumberTheory.DirichletL.Descent.FirstWholeCubePriority
-public import OAI.NumberTheory.DirichletL.Descent.FirstWholeMarkedColumns
+public import OAI.NumberTheory.DirichletL.Inversion.SecondPrincipalCaller
 
 
 set_option backward.privateInPublic true

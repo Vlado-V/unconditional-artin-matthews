@@ -1,8 +1,9 @@
 module
 
+public import Mathlib.Analysis.Complex.Norm
 public import ArtinMatthews.FiniteProductTonelli
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
 public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
 
 
 set_option backward.privateInPublic true

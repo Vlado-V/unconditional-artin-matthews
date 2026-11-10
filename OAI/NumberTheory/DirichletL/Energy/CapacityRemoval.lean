@@ -2,9 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.RelativeCapacityRemoval
 public import OAI.NumberTheory.DirichletL.Energy.State
+public import OAI.NumberTheory.DirichletL.Moments.LiveCapacity
+public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceInternal
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FixedRowMask
 public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceFiber
+public import OAI.NumberTheory.DirichletL.Moments.RelativeCapacityRemoval
+public import OAI.NumberTheory.DirichletL.Moments.SlotNormalization
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

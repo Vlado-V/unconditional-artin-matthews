@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceProducts
 public import OAI.NumberTheory.DirichletL.Inversion.InitialQuotientGeometry
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

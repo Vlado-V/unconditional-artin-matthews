@@ -2,9 +2,20 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Hecke.Operations
+public import OAI.NumberTheory.DirichletL.Moments.NaturalPrimitive
+public import OAI.NumberTheory.DirichletL.Moments.ReflectionMass
+public import OAI.NumberTheory.DirichletL.Moments.SectorLocalization
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.ComparisonReflection
+public import OAI.NumberTheory.DirichletL.Moments.NaturalReflection
+public import OAI.NumberTheory.DirichletL.Moments.ReflectionNegligible
 public import OAI.NumberTheory.DirichletL.Moments.ReflectionTailMass
+public import OAI.NumberTheory.DirichletL.Moments.ReflectionTails
 public import OAI.NumberTheory.DirichletL.Moments.ReflectedTruncation
-public import OAI.NumberTheory.DirichletL.Moments.TwistedReflection
+public import OAI.NumberTheory.DirichletL.Moments.ReflectedAnnuli
 
 
 set_option backward.privateInPublic true

@@ -8,10 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
 public import Mathlib.FieldTheory.Minpoly.IsConjRoot
-public import Mathlib.Algebra.Polynomial.FieldDivision
 public import Mathlib.RingTheory.Adjoin.PowerBasis
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
 
 
 set_option backward.privateInPublic true

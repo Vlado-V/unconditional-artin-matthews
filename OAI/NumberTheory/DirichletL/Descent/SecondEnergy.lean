@@ -3,7 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Inversion.SecondFibers
-public import OAI.NumberTheory.DirichletL.Descent.InitializationEnergy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.Fibers
 
 
 set_option backward.privateInPublic true

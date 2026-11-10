@@ -9,7 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.Definitions.HilbertSymbols.KummerAlgebra
-public import Mathlib.RingTheory.Norm.Basic
+public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.IdealBridge
-public import OAI.NumberTheory.DirichletL.Reflection.Norms
 public import OAI.NumberTheory.DirichletL.Reflection.FrozenSplit
+public import OAI.NumberTheory.DirichletL.Descent.Hybrid
+public import OAI.NumberTheory.DirichletL.Descent.MarkedPhase
+public import OAI.NumberTheory.DirichletL.Reflection.Ramified
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.IdealBridge
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,9 @@
 module
 
 public import ArtinMatthews.Density
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Data.Set.Card
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

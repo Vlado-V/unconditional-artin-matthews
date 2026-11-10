@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.RowCompletion.CubicReopening
 public import OAI.NumberTheory.DirichletL.Eisenstein.MeromorphicResolvent
+public import OAI.NumberTheory.DirichletL.Mellin.CompactWeights
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

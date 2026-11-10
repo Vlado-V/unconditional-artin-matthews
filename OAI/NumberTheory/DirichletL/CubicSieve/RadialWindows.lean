@@ -4,6 +4,10 @@ module
 
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Rellich
 public import OAI.NumberTheory.DirichletL.MeanSquare.PoissonSource
+public import OAI.NumberTheory.DirichletL.MeanSquare.InputEnergy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.SquarefreeTransfer
 
 
 set_option backward.privateInPublic true

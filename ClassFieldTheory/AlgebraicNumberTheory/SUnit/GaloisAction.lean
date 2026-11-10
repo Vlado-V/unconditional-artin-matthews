@@ -10,7 +10,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.AlgebraicNumberTheory.SUnit.LogLattice
 public import GaloisCohomology.Cyclic.Herbrand.Permutation.LatticeHerbrand
-public import Mathlib.NumberTheory.NumberField.InfinitePlace.Ramification
 
 
 set_option backward.privateInPublic true

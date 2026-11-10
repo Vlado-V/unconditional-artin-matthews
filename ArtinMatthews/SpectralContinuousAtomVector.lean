@@ -2,6 +2,9 @@ module
 
 public import ArtinMatthews.SpectralContinuousAtomCutoff
 import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import ArtinMatthews.SpectralContinuousCyclicMap
+public import ArtinMatthews.SpectralContinuousQuadraticIntegral
+public import Mathlib.Algebra.Order.Ring.Star
 
 
 set_option backward.privateInPublic true

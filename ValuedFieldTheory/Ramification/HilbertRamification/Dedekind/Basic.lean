@@ -9,8 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.NumberTheory.RamificationInertia.Galois
-public import Mathlib.NumberTheory.RamificationInertia.Inertia
-public import Mathlib.Algebra.Exact.Basic
 public import Mathlib.RingTheory.DedekindDomain.Factorization
 
 

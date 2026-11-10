@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.CuspCongruence
-public import OAI.NumberTheory.DirichletL.Descent.MarkedStratum
+public import OAI.NumberTheory.DirichletL.GaussSum.ResidualEquivalence
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

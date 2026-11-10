@@ -3,6 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Reflection.CoprimeSource
+public import OAI.NumberTheory.DirichletL.Reflection.KernelActual
+public import OAI.NumberTheory.DirichletL.Reflection.KernelSeparation
+public import OAI.NumberTheory.DirichletL.Reflection.KernelWeights
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.KernelActualSource
 
 
 set_option backward.privateInPublic true

@@ -1,10 +1,8 @@
 module
 
-public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.MeasureTheory.SpecificCodomains.WithLp
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 
 set_option backward.privateInPublic true

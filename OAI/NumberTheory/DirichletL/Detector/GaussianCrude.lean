@@ -2,7 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.GaussianSeminorm
+public import OAI.NumberTheory.DirichletL.Detector.RowAnalytic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GaussianSlots
 public import OAI.NumberTheory.DirichletL.Detector.GaussianTuple
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 
 
 set_option backward.privateInPublic true

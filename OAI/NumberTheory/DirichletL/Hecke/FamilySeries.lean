@@ -3,8 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Hecke.Family
-public import OAI.NumberTheory.DirichletL.Hecke.ThetaSeries
+public import Mathlib.Analysis.Complex.HalfPlane
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
 public import OAI.NumberTheory.DirichletL.Continuation
+public import OAI.NumberTheory.DirichletL.Hecke.ThetaSeries
 
 
 set_option backward.privateInPublic true

@@ -9,8 +9,9 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.Definitions.FrobeniusAndHilbertClassFields.NumberFieldFractionalIdealGroup
-public import Mathlib.NumberTheory.NumberField.Completion.FinitePlace
-public import Mathlib.RingTheory.DedekindDomain.Factorization
+public import Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

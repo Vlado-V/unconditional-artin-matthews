@@ -2,10 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.PositiveHighBound
+public import OAI.NumberTheory.DirichletL.Energy.PositiveHighSource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.BandMonotonicity
 public import OAI.NumberTheory.DirichletL.Energy.LowBandSubtype
-public import OAI.NumberTheory.DirichletL.Energy.ReferenceLowBands
-public import OAI.NumberTheory.DirichletL.Energy.LowBandEmpty
+public import OAI.NumberTheory.DirichletL.Energy.PositiveHighAssembly
+public import OAI.NumberTheory.DirichletL.Energy.PositiveHighBound
 
 
 set_option backward.privateInPublic true

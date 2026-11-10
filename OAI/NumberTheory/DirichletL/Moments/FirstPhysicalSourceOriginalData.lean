@@ -2,12 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourcePool
 public import OAI.NumberTheory.DirichletL.Moments.FirstAmplificationChoice
-public import OAI.NumberTheory.DirichletL.Moments.SourceAllocationEnergy
-public import OAI.NumberTheory.DirichletL.Moments.LiveDomain
-public import OAI.NumberTheory.DirichletL.Moments.CommonPuncture
 public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.LiveDomain
+public import OAI.NumberTheory.DirichletL.Moments.SourceAllocationEnergy
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

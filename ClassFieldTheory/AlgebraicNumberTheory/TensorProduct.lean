@@ -8,9 +8,8 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import Mathlib.FieldTheory.Galois.Basic
 public import Mathlib.FieldTheory.LinearDisjoint
-public import Mathlib.LinearAlgebra.Dimension.Constructions
-public import Mathlib.LinearAlgebra.TensorProduct.Basis
 
 
 set_option backward.privateInPublic true

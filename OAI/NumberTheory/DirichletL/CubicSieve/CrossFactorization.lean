@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Mellin.UniformKernelBounds
 public import OAI.NumberTheory.DirichletL.QuadraticSieve.FiniteOperator
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

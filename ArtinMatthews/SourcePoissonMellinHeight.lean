@@ -1,8 +1,9 @@
 module
 
+public import Mathlib.MeasureTheory.Function.L1Space.Integrable
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import ArtinMatthews.SourceLogRadialShear
 public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-public import Mathlib.MeasureTheory.Integral.Prod
 
 
 set_option backward.privateInPublic true

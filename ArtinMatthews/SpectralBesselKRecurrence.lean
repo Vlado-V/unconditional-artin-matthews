@@ -1,8 +1,9 @@
 module
 
 public import ArtinMatthews.SpectralBesselKDerivative
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import ArtinMatthews.SpectralBesselKConvergence
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -2,10 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.CommonHeightEnvelope
-public import OAI.NumberTheory.DirichletL.Moments.CommonRadialSource
+public import OAI.NumberTheory.DirichletL.Moments.CommonRadialPointwise
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.CommonRadialCost
+public import OAI.NumberTheory.DirichletL.Moments.CommonRawCost
 public import OAI.NumberTheory.DirichletL.Moments.RadialPointwiseUniform
+public import OAI.NumberTheory.DirichletL.Moments.RestrictedSourceNormalization
+public import OAI.NumberTheory.DirichletL.Moments.SecondLiveEnergy
 
 
 set_option backward.privateInPublic true

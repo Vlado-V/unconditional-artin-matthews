@@ -10,29 +10,11 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicLocalization
 public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.Core
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.FiniteNormExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormula
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaAbsoluteValue
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaCoefficients
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaIntegralClosure
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.RamificationInvariants
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.UniqueExtensionCoefficients
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.UniqueValuationSubring
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Completeness
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Completion
-public import ValuedFieldTheory.Valuation.AbsoluteValue.ExponentialValuation
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Extension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Ostrowski
-public import ValuedFieldTheory.Valuation.AbsoluteValue.PrincipalAdicCompleteness
-public import ValuedFieldTheory.Valuation.AbsoluteValue.SpectralExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Theory.Core
-public import ValuedFieldTheory.Valuation.AbsoluteValue.ValuationSubring
-public import Mathlib.Analysis.Normed.Field.Instances
-public import Mathlib.Analysis.Normed.Module.Completion
 public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+public import Mathlib.RingTheory.Flat.FaithfullyFlat.Algebra
+public import Mathlib.RingTheory.Flat.TorsionFree
+public import Mathlib.FieldTheory.PurelyInseparable.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

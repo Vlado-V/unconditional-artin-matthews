@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Manifold
-public import Mathlib.Analysis.InnerProductSpace.PiL2
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,10 @@
 module
 
-public import Mathlib.RingTheory.RootsOfUnity.Complex
 public import Mathlib.SetTheory.Cardinal.Finite
-public import Mathlib.GroupTheory.OrderOfElement
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Data.Nat.Totient
 
 
 set_option backward.privateInPublic true

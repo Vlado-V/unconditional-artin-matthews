@@ -4,7 +4,8 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.ThetaCoordinates
 public import Mathlib.LinearAlgebra.Matrix.PosDef
-public import Mathlib.LinearAlgebra.Matrix.Symmetric
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

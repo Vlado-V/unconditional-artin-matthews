@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticMixedTraceDual
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

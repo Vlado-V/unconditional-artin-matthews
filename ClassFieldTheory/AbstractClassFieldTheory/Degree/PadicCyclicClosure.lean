@@ -9,10 +9,11 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import GaloisCohomology.ProfiniteIntegers.TopologicalGeneration
+public import Mathlib.NumberTheory.Padics.PadicIntegers
 public import ClassFieldTheory.AbstractClassFieldTheory.Degree.Indices
-public import ValuedFieldTheory.LocalField.Padic.ClosedAddSubgroup
-public import Mathlib.GroupTheory.Index
 public import Mathlib.NumberTheory.Padics.ProperSpace
+public import Mathlib.Topology.Algebra.OpenSubgroup
+public import ValuedFieldTheory.LocalField.Padic.ClosedAddSubgroup
 
 
 set_option backward.privateInPublic true

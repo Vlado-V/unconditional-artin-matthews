@@ -2,7 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.HeightTail
+public import OAI.NumberTheory.DirichletL.Reflection.DyadicTail
+public import OAI.NumberTheory.DirichletL.Reflection.FullDyadic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

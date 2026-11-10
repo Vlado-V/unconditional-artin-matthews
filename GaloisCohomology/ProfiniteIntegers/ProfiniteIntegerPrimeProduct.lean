@@ -8,9 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import GaloisCohomology.ProfiniteIntegers.ProfiniteInteger
-public import Mathlib.Data.ZMod.QuotientRing
 public import Mathlib.NumberTheory.Padics.RingHoms
+public import GaloisCohomology.ProfiniteIntegers.ProfiniteIntegerCore
+public import Mathlib.Data.ZMod.QuotientRing
 
 
 set_option backward.privateInPublic true

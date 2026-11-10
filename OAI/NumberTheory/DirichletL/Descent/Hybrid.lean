@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.IdealMasks
-public import OAI.NumberTheory.DirichletL.Descent.Fibers
+public import OAI.NumberTheory.DirichletL.Eisenstein.CompactEnergyFamilies
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.CubicSieve.Ideal
+public import OAI.NumberTheory.DirichletL.Descent.Fibers
+public import OAI.NumberTheory.DirichletL.Descent.IdealMasks
+public import OAI.NumberTheory.DirichletL.Descent.Overlap
+public import OAI.NumberTheory.DirichletL.RowCompletion.ThetaNonvanishing
 
 
 set_option backward.privateInPublic true

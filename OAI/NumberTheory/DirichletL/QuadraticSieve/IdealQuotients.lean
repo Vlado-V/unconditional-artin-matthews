@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.QuadraticSieve.CoprimeBilinearBound
 public import OAI.NumberTheory.DirichletL.CubicSieve.RayExpansion
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 public import OAI.NumberTheory.DirichletL.GaussSum.ReflectionBrackets
 
 

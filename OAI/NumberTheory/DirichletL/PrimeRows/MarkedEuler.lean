@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.MarkedEuler
-public import OAI.NumberTheory.DirichletL.Detector.HighRowsLocal
+public import OAI.NumberTheory.DirichletL.Detector.EulerMarked
+public import OAI.NumberTheory.DirichletL.Detector.MarkedValuations
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighEuler
+public import OAI.NumberTheory.DirichletL.Detector.HighEulerGeneral
+public import OAI.NumberTheory.DirichletL.Detector.HighExcludedEuler
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsEuler
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsMultiplicative
 
 
 set_option backward.privateInPublic true

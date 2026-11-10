@@ -1,8 +1,8 @@
 module
 
+public import Mathlib.Analysis.Matrix.Spectrum
+public import Mathlib.LinearAlgebra.Matrix.PosDef
 public import Mathlib.Analysis.Matrix.PosDef
-public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.Analysis.MeanInequalities
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,16 @@
 module
 
-public import Mathlib.FieldTheory.KummerExtension
-public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.FieldTheory.KummerPolynomial
+public import Mathlib.LinearAlgebra.FreeModule.PID
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.RingTheory.SimpleModule.Basic
 
 
 set_option backward.privateInPublic true

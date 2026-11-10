@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Tactic.Linarith
 
 
 set_option backward.privateInPublic true

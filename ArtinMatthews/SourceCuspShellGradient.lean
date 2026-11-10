@@ -2,7 +2,8 @@ module
 
 public import ArtinMatthews.SourceCuspShellBump
 public import ArtinMatthews.SourceHyperbolicProductEnergy
-public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

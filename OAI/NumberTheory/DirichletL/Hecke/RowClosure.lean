@@ -2,7 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Eisenstein.CoordinateLaplacian
+public import OAI.NumberTheory.DirichletL.Hecke.IdealBridge
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.ConductorBounds
 public import OAI.NumberTheory.DirichletL.Hecke.IdealOperations
+public import OAI.NumberTheory.DirichletL.RowCompletion.PeriodicRows
 
 
 set_option backward.privateInPublic true

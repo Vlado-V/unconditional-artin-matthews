@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.Rectangle
 public import OAI.NumberTheory.DirichletL.Moments.Support
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.Height
 
 
 set_option backward.privateInPublic true

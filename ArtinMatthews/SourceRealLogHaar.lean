@@ -1,6 +1,6 @@
 module
 
-public import ArtinMatthews.SourceLogRadialShear
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 
 set_option backward.privateInPublic true

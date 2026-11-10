@@ -3,7 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.TwoPoint.Halasz.HalaszHyperbola
-public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

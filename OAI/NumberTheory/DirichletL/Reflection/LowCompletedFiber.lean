@@ -2,11 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.LowFrozenEnergy
+public import OAI.NumberTheory.DirichletL.Descent.Completion
+public import OAI.NumberTheory.DirichletL.Eisenstein.ReflectionFibers
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.CellArithmetic
 public import OAI.NumberTheory.DirichletL.Reflection.CompletedCanonicalEnergy
-public import OAI.NumberTheory.DirichletL.Reflection.PunctureAbsorption
 public import OAI.NumberTheory.DirichletL.Reflection.CompletedFiberSource
-public import OAI.NumberTheory.DirichletL.Reflection.CanonicalCellArithmetic
+public import OAI.NumberTheory.DirichletL.Reflection.LowFrozenEnergy
+public import OAI.NumberTheory.DirichletL.Reflection.MarkedLevel
+public import OAI.NumberTheory.DirichletL.Reflection.PoolArithmetic
+public import OAI.NumberTheory.DirichletL.Reflection.PunctureAbsorption
 
 
 set_option backward.privateInPublic true

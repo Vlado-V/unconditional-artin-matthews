@@ -9,7 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.GaloisNorm
-public import Mathlib.FieldTheory.Normal.Basic
+public import Mathlib.Algebra.MvPolynomial.Funext
 
 
 set_option backward.privateInPublic true

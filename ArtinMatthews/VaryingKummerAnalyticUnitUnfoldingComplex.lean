@@ -1,5 +1,6 @@
 module
 
+public import ArtinMatthews.VaryingKummerAnalyticMixedLogCoordinates
 public import ArtinMatthews.VaryingKummerAnalyticUnitUnfolding
 
 

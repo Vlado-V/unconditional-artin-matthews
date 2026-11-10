@@ -9,7 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.LubinTate.FormalModule.StandardSeries
-public import Mathlib.Algebra.Polynomial.Monic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

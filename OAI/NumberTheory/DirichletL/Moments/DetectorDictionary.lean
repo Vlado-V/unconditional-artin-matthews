@@ -2,10 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.SlotNormalization
-public import OAI.NumberTheory.DirichletL.Moments.PrimeSlotShift
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorCoefficientTransfer
 public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationProfiles
+public import OAI.NumberTheory.DirichletL.Moments.PrimeSlot
+public import OAI.NumberTheory.DirichletL.Moments.RetainedEnergy
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.PrimeSlotShift
+public import OAI.NumberTheory.DirichletL.Moments.SlotNormalization
 
 
 set_option backward.privateInPublic true

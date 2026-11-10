@@ -1,6 +1,12 @@
 module
 
+public import ArtinMatthews.SpectralExpPolynomialDensity
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import ArtinMatthews.SpectralExpWeightedL1
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

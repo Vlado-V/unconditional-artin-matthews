@@ -1,7 +1,9 @@
 module
 
+public import OAI.NumberTheory.DirichletL.GaussSum.SexticRadialPoisson
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Poisson.RadialFourier
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
 
 
 set_option backward.privateInPublic true

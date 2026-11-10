@@ -2,8 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.SelectedHolomorphic
+public import OAI.NumberTheory.DirichletL.PrimeRows.Selected
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.EulerHolomorphic
+public import OAI.NumberTheory.DirichletL.Detector.GlobalHolomorphic
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsFirstHolomorphic
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
 public import OAI.NumberTheory.DirichletL.PrimeRows.FirstContinuation
+public import OAI.NumberTheory.DirichletL.PrimeRows.SelectedAnalytic
 
 
 set_option backward.privateInPublic true

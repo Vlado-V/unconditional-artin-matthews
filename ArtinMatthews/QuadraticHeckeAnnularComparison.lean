@@ -1,7 +1,8 @@
 module
 
-public import ArtinMatthews.QuadraticHeckeTagAverage
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import ArtinMatthews.QuadraticHeckeFiniteEnergy
+public import ArtinMatthews.QuadraticHeckeTagAverage
 
 
 set_option backward.privateInPublic true

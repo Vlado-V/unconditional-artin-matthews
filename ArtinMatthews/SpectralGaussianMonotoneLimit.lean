@@ -1,8 +1,7 @@
 module
 
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

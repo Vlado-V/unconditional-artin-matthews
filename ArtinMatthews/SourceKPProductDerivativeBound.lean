@@ -1,7 +1,9 @@
 module
 
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
 public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Normed.Operator.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Mul
 
 
 set_option backward.privateInPublic true

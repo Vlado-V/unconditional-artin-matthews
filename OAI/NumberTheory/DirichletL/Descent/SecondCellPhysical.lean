@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.PriorityProfile
 public import OAI.NumberTheory.DirichletL.Inversion.SecondSourceBlocks
+public import OAI.NumberTheory.DirichletL.Inversion.SecondChildWindows
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

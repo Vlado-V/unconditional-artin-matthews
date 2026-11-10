@@ -2,11 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Architect
-public import Batteries.Tactic.Lemma
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Architect.Attribute
+public import Architect.Command
 public import Mathlib.Geometry.Manifold.PartitionOfUnity
-public import Mathlib.Tactic.Bound
 public import PrimeNumberTheoremAnd.Mathlib.Algebra.Notation.Support
+public import Std.Tactic.BVDecide.Normalize.Prop
+meta import Batteries.Tactic.Lemma
 
 
 set_option backward.privateInPublic true

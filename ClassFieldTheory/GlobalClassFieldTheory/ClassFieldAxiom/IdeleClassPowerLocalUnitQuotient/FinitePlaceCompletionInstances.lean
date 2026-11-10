@@ -8,9 +8,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import Mathlib.RingTheory.DedekindDomain.AdicValuation
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Complete
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.LocallyCompact
 public import ValuedFieldTheory.Valuation.ValuedAdicComplete
-public import Mathlib.NumberTheory.NumberField.ProductFormula
 
 
 set_option backward.privateInPublic true

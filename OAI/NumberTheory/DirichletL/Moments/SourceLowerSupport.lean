@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.SourceZeroEnergy
-public import OAI.NumberTheory.DirichletL.Moments.SecondPhysicalCost
+public import OAI.NumberTheory.DirichletL.Moments.SourceMass
+public import OAI.NumberTheory.DirichletL.Moments.SourceProfileMass
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.SupportedZeroEnergy
 
 
 set_option backward.privateInPublic true

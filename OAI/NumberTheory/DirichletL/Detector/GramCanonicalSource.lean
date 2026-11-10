@@ -3,6 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Detector.GramCanonicalBlock
+public import OAI.NumberTheory.DirichletL.Detector.GramCommonSource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GramLatticeWindow
+public import OAI.NumberTheory.DirichletL.Detector.GramMobiusPool
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,9 @@
 module
 
-public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 
 
 set_option backward.privateInPublic true

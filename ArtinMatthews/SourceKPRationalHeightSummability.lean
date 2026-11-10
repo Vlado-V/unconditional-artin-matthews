@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.SourceKPRationalHeight
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
+public import Mathlib.Algebra.Module.ZLattice.Summable
 
 
 set_option backward.privateInPublic true

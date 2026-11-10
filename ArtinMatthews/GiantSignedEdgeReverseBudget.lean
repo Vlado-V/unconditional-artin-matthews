@@ -1,6 +1,13 @@
 module
 
-public import ArtinMatthews.GiantSignedEdgeSlotBudget
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Algebra.Order.Field.Power
+public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Data.EReal.Inv
+public import Mathlib.Topology.Algebra.InfiniteSum.Order
+public import Mathlib.Topology.MetricSpace.Bounded
 
 
 set_option backward.privateInPublic true

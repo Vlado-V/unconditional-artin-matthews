@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstSecondPaidLedger
-public import OAI.NumberTheory.DirichletL.Moments.FirstSecondLossParameters
+public import OAI.NumberTheory.DirichletL.Moments.DescentLedger
+public import OAI.NumberTheory.DirichletL.Moments.FirstScale
+public import OAI.NumberTheory.DirichletL.Moments.SectorLocalization
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalLedger
 
 
 set_option backward.privateInPublic true

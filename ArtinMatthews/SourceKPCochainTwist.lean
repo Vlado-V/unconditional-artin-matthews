@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.Algebra.Group.TypeTags.Basic
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Group.Commute.Defs
 public import Mathlib.Tactic.Abel
 
 

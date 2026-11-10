@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.QuotientSectionMeasure
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

@@ -3,8 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedEuler
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsLocal
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.HighExcludedLocal
-public import OAI.NumberTheory.DirichletL.Detector.HighEulerRational
 
 
 set_option backward.privateInPublic true

@@ -8,11 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.Algebra.Group.TransferInstance
 public import Mathlib.Topology.Algebra.FilterBasis
-public import Mathlib.Topology.Algebra.Group.ClosedSubgroup
 public import ClassFieldTheory.AbstractClassFieldTheory.Reciprocity.FiniteGaloisSubextension
-public import GaloisCohomology.Cyclic.IntegralRepUniverse
+public import Mathlib.Topology.Algebra.OpenSubgroup
 public import ValuedFieldTheory.Valuation.Topology.Models
 
 

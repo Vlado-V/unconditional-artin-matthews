@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.Topology.ContinuousMap.Weierstrass
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Topology.ContinuousMap.Weierstrass
 
 
 set_option backward.privateInPublic true

@@ -2,9 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.SlotHeight
+public import OAI.NumberTheory.DirichletL.Moments.AllocatedNaturalSource
+public import OAI.NumberTheory.DirichletL.Moments.CommonHeightEnvelope
+public import OAI.NumberTheory.DirichletL.Moments.InductionEnergy
+public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceCharacters
+public import OAI.NumberTheory.DirichletL.Moments.PrimeSlot
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Energy.Reindex
-public import OAI.NumberTheory.DirichletL.Moments.SlotClassTransport
+public import OAI.NumberTheory.DirichletL.Energy.SlotHeight
 
 
 set_option backward.privateInPublic true

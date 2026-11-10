@@ -1,6 +1,11 @@
 module
 
+public import ArtinMatthews.SourceHyperbolicHardyCalculus
+public import ArtinMatthews.SourceHyperbolicProductGreen
+public import ArtinMatthews.SourceHyperbolicHardyIBP
 public import ArtinMatthews.SourceHyperbolicHardyIntegral
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

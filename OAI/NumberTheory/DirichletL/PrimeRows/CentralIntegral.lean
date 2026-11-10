@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedTransport
+public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedBin
+public import OAI.NumberTheory.DirichletL.PrimeRows.WZTransport
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedIntegral
 public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedJoins
-public import OAI.NumberTheory.DirichletL.PrimeRows.OriginalHeightTail
+public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedTransport
+public import OAI.NumberTheory.DirichletL.PrimeRows.FirstTransport
 
 
 set_option backward.privateInPublic true

@@ -2,13 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Normed.Operator.Compact
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-public import Mathlib.MeasureTheory.Function.LpSpace.Complete
-public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1
+public import Mathlib.Analysis.Normed.Operator.Compact.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1
+public import RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.FrechetKolmogorov
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.TranslationIntegral
+public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1
 
 
 set_option backward.privateInPublic true

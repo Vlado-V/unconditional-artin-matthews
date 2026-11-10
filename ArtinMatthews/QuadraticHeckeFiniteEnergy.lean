@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.Analysis.Complex.Norm
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 
 set_option backward.privateInPublic true

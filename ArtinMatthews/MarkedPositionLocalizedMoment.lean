@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.MarkedFinitePositionCompression
+public import ArtinMatthews.MarkedFiniteLocalizedMoments
+public import Mathlib.Analysis.Matrix.PosDef
 
 
 set_option backward.privateInPublic true

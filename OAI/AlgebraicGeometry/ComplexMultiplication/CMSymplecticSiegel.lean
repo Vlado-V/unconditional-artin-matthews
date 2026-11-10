@@ -4,7 +4,8 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.CMSiegelMatrix
 public import Mathlib.LinearAlgebra.SymplecticGroup
-public import Mathlib.Tactic.NoncommRing
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

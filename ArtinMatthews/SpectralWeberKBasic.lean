@@ -1,6 +1,9 @@
 module
 
-public import ArtinMatthews.SpectralGaussianMellin
+public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
+public import ArtinMatthews.SpectralBesselMellinConvergence
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

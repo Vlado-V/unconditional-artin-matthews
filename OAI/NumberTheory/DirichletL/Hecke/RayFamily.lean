@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.RayOrthogonality
 public import OAI.NumberTheory.DirichletL.Hecke.LogDerivative
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
+public import OAI.NumberTheory.DirichletL.Hecke.BoundaryIntegration
 
 
 set_option backward.privateInPublic true

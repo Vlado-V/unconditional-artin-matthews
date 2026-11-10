@@ -1,6 +1,7 @@
 module
 
-public import ArtinMatthews.ArtinAbelianLocalCharacters
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
 
 
 set_option backward.privateInPublic true

@@ -2,7 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.HighRowsSelectedTerms
+public import OAI.NumberTheory.DirichletL.Detector.CongruenceScalar
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsFirstTerms
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsScalar
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsScalarBounds
+public import OAI.NumberTheory.DirichletL.Hecke.MobiusEulerCorrection
 
 
 set_option backward.privateInPublic true

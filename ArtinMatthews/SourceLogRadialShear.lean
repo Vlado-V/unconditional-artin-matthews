@@ -1,6 +1,5 @@
 module
 
-public import Mathlib.MeasureTheory.Group.Prod
 public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 

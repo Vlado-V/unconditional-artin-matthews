@@ -1,8 +1,9 @@
 module
 
-public import Mathlib.RingTheory.Norm.Basic
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

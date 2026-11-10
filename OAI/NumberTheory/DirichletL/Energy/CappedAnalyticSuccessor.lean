@@ -2,12 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Energy.CappedWidthInduction
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.BandMonotonicity
 public import OAI.NumberTheory.DirichletL.Energy.CappedLowStage
+public import OAI.NumberTheory.DirichletL.Energy.CappedSuccessorPacking
 public import OAI.NumberTheory.DirichletL.Energy.NaturalHighStage
 public import OAI.NumberTheory.DirichletL.Energy.NaturalZeroStage
-public import OAI.NumberTheory.DirichletL.Energy.CappedSuccessorPacking
-public import OAI.NumberTheory.DirichletL.Energy.CappedRequests
-public import OAI.NumberTheory.DirichletL.Energy.CappedBandTransport
+public import OAI.NumberTheory.DirichletL.Energy.SourceCapSchedule
+public import OAI.NumberTheory.DirichletL.Energy.StageMonotonicity
 
 
 set_option backward.privateInPublic true

@@ -2,7 +2,7 @@ module
 
 public import ArtinMatthews.ShiftedLegendreIntervalLp
 public import Mathlib.Algebra.Polynomial.Sequence
-public import Mathlib.RingTheory.Adjoin.Polynomial.Basic
+public import Mathlib.MeasureTheory.Function.ContinuousMapDense
 public import Mathlib.Topology.ContinuousMap.StoneWeierstrass
 
 

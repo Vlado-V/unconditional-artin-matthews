@@ -9,8 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.ClassGroup
-public import Mathlib.LinearAlgebra.TensorProduct.Basis
-public import Mathlib.RingTheory.TensorProduct.Maps
 
 
 set_option backward.privateInPublic true

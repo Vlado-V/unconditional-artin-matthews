@@ -2,10 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorNoSlotInverseCount
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorNoSlotPlainCount
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorSupportedWitness
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorBranchBudget
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorCoefficientTransfer
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorInverseFiberCount
+public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationRowwise
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

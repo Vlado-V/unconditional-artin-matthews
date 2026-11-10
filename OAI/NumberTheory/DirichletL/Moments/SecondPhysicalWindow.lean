@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.LogDyadic
 public import OAI.NumberTheory.DirichletL.Moments.SecondSectorRetained
+public import OAI.NumberTheory.DirichletL.Moments.SecondWholeKernel
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstScale
 
 
 set_option backward.privateInPublic true

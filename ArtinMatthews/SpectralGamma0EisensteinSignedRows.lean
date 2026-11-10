@@ -1,6 +1,6 @@
 module
 
-public import ArtinMatthews.SpectralEisensteinResidueRows
+public import ArtinMatthews.SpectralGamma0EisensteinPrimitiveRows
 
 
 set_option backward.privateInPublic true

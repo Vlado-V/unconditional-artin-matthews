@@ -3,9 +3,16 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainSource
-public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainSlotProfile
-public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceFiber
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawRealRadial
+public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionaryFiber
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionaryProfiles
+public import OAI.NumberTheory.DirichletL.Moments.DivisorRawEnergy
+public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceFiber
+public import OAI.NumberTheory.DirichletL.Moments.SourceRectangleEnergy
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

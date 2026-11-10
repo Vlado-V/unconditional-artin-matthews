@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.PhysicalCoefficientScaling
+public import OAI.NumberTheory.DirichletL.Detector.SourceCoefficient
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.MellinPowers
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalCoefficientScaling
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalNorms
+public import OAI.NumberTheory.DirichletL.Detector.RadialIdentity
 
 
 set_option backward.privateInPublic true

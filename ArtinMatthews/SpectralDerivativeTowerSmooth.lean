@@ -1,7 +1,8 @@
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
 public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.ContDiff.Deriv
 
 
 set_option backward.privateInPublic true

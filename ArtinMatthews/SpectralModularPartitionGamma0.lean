@@ -1,6 +1,10 @@
 module
 
-public import ArtinMatthews.SpectralModularDensityCharts
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Measure
+public import Mathlib.NumberTheory.Modular
+public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
+public import ArtinMatthews.SpectralModularPartition
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

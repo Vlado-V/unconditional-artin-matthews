@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.GaussSum.BranchScaling
 public import OAI.NumberTheory.DirichletL.CubicSieve.RadialWindows
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.SquarefreeTransfer
 
 
 set_option backward.privateInPublic true

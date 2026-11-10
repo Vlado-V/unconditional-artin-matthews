@@ -1,8 +1,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
 
 
 set_option backward.privateInPublic true

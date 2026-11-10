@@ -1,9 +1,7 @@
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
 
 
 set_option backward.privateInPublic true

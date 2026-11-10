@@ -1,6 +1,13 @@
 module
 
-public import ArtinMatthews.MarkedFiniteCells
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Data.Int.Interval
+public import Mathlib.Data.Matrix.Mul
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

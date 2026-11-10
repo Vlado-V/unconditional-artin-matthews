@@ -2,7 +2,6 @@ module
 
 public import ArtinMatthews.SpectralHeightProfileBlocks
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
 
 
 set_option backward.privateInPublic true

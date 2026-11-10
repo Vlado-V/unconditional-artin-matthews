@@ -2,7 +2,6 @@ module
 
 public import ArtinMatthews.SourceReflectedFourierSeparation
 public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
-public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
 
 
 set_option backward.privateInPublic true

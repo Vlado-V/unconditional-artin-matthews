@@ -2,7 +2,6 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Topology.Algebra.Support
 
 
 set_option backward.privateInPublic true

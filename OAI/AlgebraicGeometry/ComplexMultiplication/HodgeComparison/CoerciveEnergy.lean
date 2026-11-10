@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CompactEnergy
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import Mathlib.Analysis.Normed.Operator.Compact.Basic
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
 public import Mathlib.Analysis.InnerProductSpace.LaxMilgram
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CompactEnergy
 
 
 set_option backward.privateInPublic true

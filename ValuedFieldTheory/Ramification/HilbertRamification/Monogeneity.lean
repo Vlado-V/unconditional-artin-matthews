@@ -8,11 +8,15 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.HenselLemma
-public import ValuedFieldTheory.Ramification.HilbertRamification.UniqueExtensionIntegralClosure
-public import ValuedFieldTheory.Ramification.HilbertRamification.Polynomial
-public import Mathlib.NumberTheory.RamificationInertia.Inertia
 public import Mathlib.NumberTheory.RamificationInertia.Ramification
+public import ValuedFieldTheory.Ramification.HilbertRamification.RealLowerGroups
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.RingTheory.RamificationInertia.Inertia
+public import ValuedFieldTheory.Ramification.HilbertRamification.Polynomial
+public import ValuedFieldTheory.Ramification.HilbertRamification.UniqueExtensionIntegralClosure
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.ChevalleyExtension
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.ResidueField
+public import ValuedFieldTheory.Valuation.HenselLemma
 
 
 set_option backward.privateInPublic true

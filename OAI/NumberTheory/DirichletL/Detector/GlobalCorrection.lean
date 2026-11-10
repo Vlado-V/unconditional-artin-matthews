@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.GlobalHolomorphic
 public import OAI.NumberTheory.DirichletL.Detector.HighEulerRational
 public import OAI.NumberTheory.DirichletL.Detector.PrincipalProduct
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GlobalHolomorphic
+public import OAI.NumberTheory.DirichletL.Detector.GlobalRegion
+public import OAI.NumberTheory.DirichletL.Detector.NormalProduct
 public import OAI.NumberTheory.DirichletL.Hecke.Euler
 
 

@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.Physical
 public import Mathlib.Algebra.Group.Pi.Units
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.ReflectionPool
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,6 @@
 module
 
 public import ArtinMatthews.MarkedBirthDistinctPermutation
-public import Mathlib.Data.Finset.Sort
-public import Mathlib.Data.Fintype.Card
 
 
 set_option backward.privateInPublic true

@@ -5,6 +5,13 @@ module
 public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceAllocatedProfile
 public import OAI.NumberTheory.DirichletL.Moments.OriginalReflectionErrorMass
 public import OAI.NumberTheory.DirichletL.Moments.OriginalRadialComparison
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
+public import OAI.NumberTheory.DirichletL.Moments.AbsoluteEnergy
+public import OAI.NumberTheory.DirichletL.Moments.ComparisonReflection
+public import OAI.NumberTheory.DirichletL.Moments.Counting
 
 
 set_option backward.privateInPublic true

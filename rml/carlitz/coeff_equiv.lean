@@ -1,6 +1,7 @@
 module
 
 public import rml.carlitz.factor_data
+public import rml.carlitz.dickson_finite_algebra
 
 @[expose] public section
 

@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.RowCompletion.ThetaNonvanishing
 public import OAI.NumberTheory.DirichletL.Eisenstein.CuspResidues
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
+public import OAI.NumberTheory.DirichletL.RowCompletion.DensityTransfer
+public import OAI.NumberTheory.DirichletL.RowCompletion.ThetaNonvanishing
 
 
 set_option backward.privateInPublic true

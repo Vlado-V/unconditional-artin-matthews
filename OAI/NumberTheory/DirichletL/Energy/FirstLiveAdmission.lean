@@ -3,13 +3,19 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Energy.AmplifiedChildWidth
-public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceFixedSource
 public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalDyadicRows
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedRadiusLower
 public import OAI.NumberTheory.DirichletL.Moments.FirstSecondCommonGates
-public import OAI.NumberTheory.DirichletL.Moments.FirstSourceConductorCaps
 public import OAI.NumberTheory.DirichletL.Moments.SecondInputCapacitySource
+public import OAI.NumberTheory.DirichletL.Energy.Bands
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceCanonicalData
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceFixedFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Energy.InputParentCapacity
+public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedRadiusLower
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceFixedSource
+public import OAI.NumberTheory.DirichletL.Moments.FirstSourceConductorCaps
 
 
 set_option backward.privateInPublic true

@@ -2,7 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceWindowEnergy
+public import OAI.NumberTheory.DirichletL.Moments.CanonicalFirst
+public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+import OAI.NumberTheory.DirichletL.Moments.FirstCanonicalFamily
 
 
 set_option backward.privateInPublic true

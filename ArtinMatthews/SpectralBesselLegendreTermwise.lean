@@ -1,8 +1,10 @@
 module
 
-public import ArtinMatthews.ShiftedVoronoiBessel
+public import Mathlib.Analysis.SpecialFunctions.Bessel
+public import Mathlib.RingTheory.Polynomial.ShiftedLegendre
 public import ArtinMatthews.ShiftedLegendreMoments
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import ArtinMatthews.ShiftedVoronoiBessel
+public import Mathlib.Analysis.Calculus.Deriv.Polynomial
 
 
 set_option backward.privateInPublic true

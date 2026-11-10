@@ -2,6 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Hecke.DeletionBounds
+public import OAI.NumberTheory.DirichletL.Hecke.Logarithmic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.DeletionReciprocal
 public import OAI.NumberTheory.DirichletL.Hecke.LogarithmicActual
 
 

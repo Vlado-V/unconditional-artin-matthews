@@ -2,10 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongCoefficientProducts
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongSobolev
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CoefficientDerivative
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.EllipticDifferenceEstimate
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevInv
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferentiateFluxEquation
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Elliptic
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Smooth
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SmoothCoefficientDerivatives
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevDerivativeCoordinates
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongCoefficientProducts
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongSobolevOperators
 
 
 set_option backward.privateInPublic true

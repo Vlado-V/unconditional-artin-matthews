@@ -8,27 +8,12 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Completion
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.Core
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.FiniteNormExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormula
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaAbsoluteValue
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaCoefficients
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaIntegralClosure
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.RamificationInvariants
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.UniqueExtensionCoefficients
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.UniqueValuationSubring
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicLocalization
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Completeness
 public import ValuedFieldTheory.Valuation.AbsoluteValue.ExponentialValuation
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Extension
+public import ValuedFieldTheory.Valuation.Completion.TensorProductDecomposition
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.ResidueField
+public import Mathlib.FieldTheory.SeparableClosure
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Ostrowski
-public import ValuedFieldTheory.Valuation.AbsoluteValue.PrincipalAdicCompleteness
-public import ValuedFieldTheory.Valuation.AbsoluteValue.SpectralExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Theory.Core
-public import ValuedFieldTheory.Valuation.AbsoluteValue.ValuationSubring
 public import ValuedFieldTheory.Valuation.Completion.DegreeNormTrace
 public import ValuedFieldTheory.Valuation.Henselian.Complete
 

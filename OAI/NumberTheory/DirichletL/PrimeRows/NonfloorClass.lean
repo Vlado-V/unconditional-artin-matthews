@@ -3,7 +3,16 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorMoments
-public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorExponent
+public import OAI.NumberTheory.DirichletL.Detector.RaySlots
+public import OAI.NumberTheory.DirichletL.PrimeRows.CubeCommonProfile
+public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorSourceCount
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.CentralClassArithmetic
+public import OAI.NumberTheory.DirichletL.Detector.SourceAmplitudeClasses
+public import OAI.NumberTheory.DirichletL.PrimeRows.CubeSlotExponent
+public import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorDictionary
 
 
 set_option backward.privateInPublic true

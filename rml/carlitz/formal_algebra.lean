@@ -7,7 +7,7 @@ module
    commit 0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68. Apache-2.0. -/
 
 public import Mathlib.RingTheory.PowerSeries.Log
-public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Basic.Complex.Basic
 public import Mathlib.Analysis.Complex.Polynomial.Basic
 
 @[expose] public section

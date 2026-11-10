@@ -1,6 +1,9 @@
 module
 
-public import Architect.Content
+public import Architect.Basic
+public meta import Lean.OriginalConstKind
+public meta import Architect.Basic
+public import Lean.Util.Trace
 
 public meta section
 

@@ -1,9 +1,10 @@
 module
 
+public import ArtinMatthews.SpectralPrincipalWeightedMeasure
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
 public import ArtinMatthews.SpectralPrincipalWeightedDensity
 public import Mathlib.MeasureTheory.Function.L2Space
-public import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-public import Mathlib.Analysis.Complex.Basic
 
 
 set_option backward.privateInPublic true

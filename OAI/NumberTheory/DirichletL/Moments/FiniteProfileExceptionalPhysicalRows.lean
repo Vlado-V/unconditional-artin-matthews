@@ -4,8 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalPhysicalBlock
 public import OAI.NumberTheory.DirichletL.Moments.SecondPhysicalBlock
-public import OAI.NumberTheory.DirichletL.Moments.SecondExceptionalKernel
-public import OAI.NumberTheory.DirichletL.Moments.SecondDivisorSupport
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

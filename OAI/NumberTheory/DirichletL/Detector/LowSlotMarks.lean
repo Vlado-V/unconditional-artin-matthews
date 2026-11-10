@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.LowSlotPolynomial
 public import OAI.NumberTheory.DirichletL.Detector.CanonicalSlots
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

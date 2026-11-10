@@ -9,8 +9,9 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.LubinTate.FormalModule.Series
-public import ClassFieldTheory.LubinTate.FormalModule.LinearTerm
-public import Mathlib.RingTheory.MvPowerSeries.Substitution
+public import Mathlib.RingTheory.PowerSeries.Substitution
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

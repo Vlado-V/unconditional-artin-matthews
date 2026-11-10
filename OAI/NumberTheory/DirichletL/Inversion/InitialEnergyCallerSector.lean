@@ -2,9 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerSource
-public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerAssignedCanonical
-public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerWeights
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerModes
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerOpposite
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerSource
 
 
 set_option backward.privateInPublic true

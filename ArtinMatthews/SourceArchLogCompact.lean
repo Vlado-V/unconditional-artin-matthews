@@ -1,8 +1,10 @@
 module
 
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.Complex.Exponential
 public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.SpecialFunctions.Exp
-public import Mathlib.Tactic.Linarith
+public import Mathlib.Analysis.Complex.Order
+public import Mathlib.Analysis.Complex.Trigonometric
 
 
 set_option backward.privateInPublic true

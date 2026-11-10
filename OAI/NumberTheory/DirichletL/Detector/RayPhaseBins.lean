@@ -2,7 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.RaySlots
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeAmplitudeBins
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeRow
+public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedBin
+public import OAI.NumberTheory.DirichletL.PrimeRows.Conductor
+public import OAI.NumberTheory.DirichletL.PrimeRows.RowPartition
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.RayCharacterFamily
+public import OAI.NumberTheory.DirichletL.Detector.RayPhaseAmplitude
 public import OAI.NumberTheory.DirichletL.Hecke.PrimeAmplitudeActual
 
 

@@ -1,7 +1,9 @@
 module
 
-public import ArtinMatthews.SourceFiniteDensityProduct
 public import OAI.NumberTheory.DirichletL.CubicSieve.ArithmeticBins
+public import ArtinMatthews.SourceFiniteDensityProduct
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

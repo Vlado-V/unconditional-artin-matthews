@@ -2,8 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Moments.ExceptionalSourceShell
+public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
+public import OAI.NumberTheory.DirichletL.Moments.SourceRectangle
+public import OAI.NumberTheory.DirichletL.Moments.SourceRow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.ExceptionalWholeSource
 public import OAI.NumberTheory.DirichletL.Moments.SourceRectangleEnergy
+public import OAI.NumberTheory.DirichletL.Moments.SourceRectangleMask
+public import OAI.NumberTheory.DirichletL.Moments.WholeDivisorShell
 
 
 set_option backward.privateInPublic true

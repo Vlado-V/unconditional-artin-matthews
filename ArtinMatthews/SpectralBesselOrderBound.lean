@@ -1,7 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralBesselHyperbolicEvaluation
-public import Mathlib.Analysis.Calculus.ParametricIntegral
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

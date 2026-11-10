@@ -3,10 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
-public import Mathlib.Analysis.Calculus.Deriv.Comp
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
 public import Mathlib.Analysis.Calculus.Deriv.Mul
-public import Mathlib.Analysis.Calculus.Deriv.Add
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
 
 
 set_option backward.privateInPublic true

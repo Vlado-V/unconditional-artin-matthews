@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalAmplitude
 public import OAI.NumberTheory.DirichletL.Moments.ExceptionalAmplitudePair
+public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalNormalize
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalAmplitude
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,11 @@
 module
 
-public import ArtinMatthews.SpectralModularDensityPeriodization
+public import ArtinMatthews.SpectralPoincareGamma0
+public import Mathlib.NumberTheory.Modular
 public import ArtinMatthews.SpectralCompactChartCover
+public import ArtinMatthews.SpectralModularDensityPeriodization
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

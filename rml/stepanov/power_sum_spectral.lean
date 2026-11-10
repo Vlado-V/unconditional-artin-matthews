@@ -1,8 +1,10 @@
 module
 
-public import Mathlib.Analysis.Polynomial.CauchyBound
-public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.Norm
+public import Mathlib.RingTheory.MvPolynomial.Symmetric.Defs
 public import Mathlib.Algebra.BigOperators.Field
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Polynomial.CauchyBound
 public import Mathlib.RingTheory.MvPolynomial.Symmetric.NewtonIdentities
 public import Mathlib.RingTheory.Polynomial.Vieta
 

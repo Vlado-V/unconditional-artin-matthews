@@ -1,6 +1,14 @@
 module
 
+public import ArtinMatthews.SpectralCuspEulerSolutions
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import ArtinMatthews.SpectralCuspEulerOrigin
+public import ArtinMatthews.SpectralCuspEulerTail
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Covering.Besicovitch
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Reflection.Shape
 public import OAI.NumberTheory.DirichletL.CubicSieve.Ideal
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

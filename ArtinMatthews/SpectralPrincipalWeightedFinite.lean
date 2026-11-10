@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SpectralPrincipalWeightedMeasure
-public import Mathlib.MeasureTheory.Measure.Dirac.Basic
 
 
 set_option backward.privateInPublic true

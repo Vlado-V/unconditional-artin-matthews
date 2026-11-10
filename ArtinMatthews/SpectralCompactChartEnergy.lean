@@ -1,8 +1,11 @@
 module
 
+public import ArtinMatthews.SpectralGamma0EnergyGraph
 public import ArtinMatthews.SpectralCompactChartCover
 public import ArtinMatthews.SpectralGamma0CosetCharts
-public import Mathlib.MeasureTheory.Group.Integral
+public import ArtinMatthews.SpectralPoincareEnergy
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.Topology.Metrizable.Urysohn
 
 
 set_option backward.privateInPublic true

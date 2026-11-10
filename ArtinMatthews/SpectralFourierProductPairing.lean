@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.Analysis.Fourier.FourierTransform
 public import Mathlib.Analysis.Fourier.Inversion
-public import Mathlib.MeasureTheory.Integral.Prod
 
 
 set_option backward.privateInPublic true

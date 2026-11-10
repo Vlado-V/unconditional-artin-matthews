@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.GiantSignedTraceSum
+public import Mathlib.Analysis.Normed.Group.InfiniteSum
 
 
 set_option backward.privateInPublic true

@@ -3,11 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.Analysis.MellinTransform
-public import Mathlib.Analysis.Complex.HalfPlane
-public import Mathlib.Analysis.Complex.Convex
-public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.Analysis.Analytic.Uniqueness
 public import OAI.NumberTheory.DirichletL.Supremum
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Complex.HalfPlane
 
 
 set_option backward.privateInPublic true

@@ -1,5 +1,7 @@
 module
 
+public import ArtinMatthews.MarkedBirthDistinctPermutation
+public import Mathlib.Basic.Real.Basic
 public import ArtinMatthews.MarkedBirthRankSums
 
 

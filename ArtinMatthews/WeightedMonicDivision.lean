@@ -1,6 +1,10 @@
 module
 
-public import ArtinMatthews.WeightedMonicFactorization
+public import Mathlib.Algebra.Polynomial.Monic
+public import Mathlib.Algebra.EuclideanDomain.Field
+public import Mathlib.Algebra.Field.IsField
+public import Mathlib.Algebra.Order.AbsoluteValue.Basic
+public import Mathlib.Algebra.Order.Field.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,8 @@
 module
 
+public import ArtinMatthews.SourceSturmCore
 public import ArtinMatthews.SourceSturmCompactIBP
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

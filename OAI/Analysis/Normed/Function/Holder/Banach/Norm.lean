@@ -2,6 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.Analysis.Normed.Function.Holder.Banach
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 public import OAI.Analysis.Normed.Function.Holder.Banach.Construct
 
 

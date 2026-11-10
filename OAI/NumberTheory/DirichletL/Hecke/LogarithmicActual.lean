@@ -4,7 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.Logarithmic
 public import OAI.NumberTheory.DirichletL.Hecke.EulerLog
-public import OAI.NumberTheory.DirichletL.Hecke.DeletionReciprocal
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
 
 
 set_option backward.privateInPublic true

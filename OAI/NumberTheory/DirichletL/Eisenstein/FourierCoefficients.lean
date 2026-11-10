@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
 public import OAI.NumberTheory.DirichletL.CubicSieve.RowMajorants
+public import Mathlib.Algebra.Module.ZLattice.Summable
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

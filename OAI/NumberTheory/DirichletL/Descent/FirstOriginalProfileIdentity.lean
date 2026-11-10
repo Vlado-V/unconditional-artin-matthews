@@ -2,6 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Descent.FirstFamilySource
+public import OAI.NumberTheory.DirichletL.Descent.FirstProfileUniform
+public import OAI.NumberTheory.DirichletL.Descent.PriorityProfile
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileData
 
 

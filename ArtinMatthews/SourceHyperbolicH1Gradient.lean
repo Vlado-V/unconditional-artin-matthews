@@ -1,6 +1,11 @@
 module
 
 public import ArtinMatthews.SourceHyperbolicH1Tests
+public import ArtinMatthews.SourceHyperbolicProductCalculus
+public import ArtinMatthews.SourceHyperbolicH1Measure
+public import ArtinMatthews.SourceHyperbolicProductGreen
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

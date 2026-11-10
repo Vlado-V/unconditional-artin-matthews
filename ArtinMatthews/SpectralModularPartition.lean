@@ -1,8 +1,9 @@
 module
 
-public import ArtinMatthews.SpectralModularBoundary
 public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
-public import Mathlib.Basic.Countable.Basic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Measure
+public import Mathlib.NumberTheory.Modular
+public import ArtinMatthews.SpectralModularBoundary
 
 
 set_option backward.privateInPublic true

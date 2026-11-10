@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.FirstCanonicalEnergy
 public import OAI.NumberTheory.DirichletL.Descent.FirstFamilySource
+public import OAI.NumberTheory.DirichletL.Descent.FirstRetainedPhysical
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -2,11 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceFixedEnergy
-public import OAI.NumberTheory.DirichletL.Moments.SecondDivisorSupport
-public import OAI.NumberTheory.DirichletL.Moments.MobiusHarmonicMass
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildInput
 public import OAI.NumberTheory.DirichletL.Moments.OriginalCommonHarmonic
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceWindowCanonical
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourceWindowEnergy
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.MobiusHarmonicMass
+public import OAI.NumberTheory.DirichletL.Moments.SecondDivisorSupport
 
 
 set_option backward.privateInPublic true

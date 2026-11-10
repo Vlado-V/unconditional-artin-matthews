@@ -3,6 +3,7 @@ module
 public import Architect.Basic
 public import Architect.Command
 public meta import Architect.Basic
+public import Lean.DocString.Extension
 
 public meta section
 

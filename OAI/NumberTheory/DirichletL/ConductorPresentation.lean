@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.DirichletL.ConductorBounds
 public import OAI.NumberTheory.DirichletL.CharacterTransport
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

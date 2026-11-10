@@ -3,10 +3,15 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyChosenData
-public import OAI.NumberTheory.DirichletL.Detector.DetectorInverseFields
 public import OAI.NumberTheory.DirichletL.Detector.DetectorPlainMarkedFineField
-public import OAI.NumberTheory.DirichletL.Detector.DetectorPlainUnmarkedRestrictedField
 public import OAI.NumberTheory.DirichletL.Energy.CappedWidthInduction
+public import OAI.NumberTheory.DirichletL.Detector.DetectorPlainUnmarkedField
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.DetectorInverseFields
+public import OAI.NumberTheory.DirichletL.Detector.DetectorPlainUnmarkedRestrictedField
+public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyMomentMono
 
 
 set_option backward.privateInPublic true

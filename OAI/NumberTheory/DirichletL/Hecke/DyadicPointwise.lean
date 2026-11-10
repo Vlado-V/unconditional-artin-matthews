@@ -2,7 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Hecke.DyadicBuffered
+public import OAI.NumberTheory.DirichletL.Hecke.Dyadic
+public import OAI.NumberTheory.DirichletL.Hecke.ReciprocalBound
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.DyadicEstimates
+public import OAI.NumberTheory.DirichletL.Hecke.DyadicJoins
 
 
 set_option backward.privateInPublic true

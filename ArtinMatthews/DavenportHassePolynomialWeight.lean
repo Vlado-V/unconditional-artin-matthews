@@ -1,9 +1,5 @@
 module
 
-public import ArtinMatthews.FiniteFieldNormCharacter
-public import Mathlib.Algebra.Polynomial.Monic
-public import Mathlib.RingTheory.Norm.Basic
-public import Mathlib.RingTheory.Trace.Basic
 public import Mathlib.NumberTheory.GaussSum
 
 

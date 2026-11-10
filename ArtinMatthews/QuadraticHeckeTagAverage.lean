@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.QuadraticHeckeTagLift
+public import Mathlib.Algebra.Order.BigOperators.Expect
+public import Mathlib.Analysis.Complex.Order
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
 
 
 set_option backward.privateInPublic true

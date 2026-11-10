@@ -2,10 +2,20 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.RaySlots
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeAmplitudeBins
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeRow
+public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalRayCube
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.CentralPrimeSum
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicGeometry
+public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalCubeBins
+public import OAI.NumberTheory.DirichletL.PrimeRows.CentralHeightCost
+public import OAI.NumberTheory.DirichletL.PrimeRows.CubeFiniteIntegral
 public import OAI.NumberTheory.DirichletL.PrimeRows.CubePhaseBins
 public import OAI.NumberTheory.DirichletL.PrimeRows.CubePrimeThresholds
-public import OAI.NumberTheory.DirichletL.PrimeRows.CentralHeightCost
 
 
 set_option backward.privateInPublic true

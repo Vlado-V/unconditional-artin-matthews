@@ -9,7 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.Algebra.Polynomial.Splits
-public import Mathlib.Data.Finset.Max
 public import Mathlib.RingTheory.DiscreteValuationRing.Basic
 
 

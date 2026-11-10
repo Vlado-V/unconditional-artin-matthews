@@ -2,8 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedCompensation
-public import OAI.NumberTheory.DirichletL.PrimeRows.Continuation
+public import OAI.NumberTheory.DirichletL.Detector.HighEulerRational
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsClosed
+public import OAI.NumberTheory.DirichletL.Detector.IdealMultiplicative
+public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedLocal
+public import OAI.NumberTheory.DirichletL.PrimeRows.Valuation
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsActual
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsRegion
+public import OAI.NumberTheory.DirichletL.Hecke.Dyadic
 
 
 set_option backward.privateInPublic true

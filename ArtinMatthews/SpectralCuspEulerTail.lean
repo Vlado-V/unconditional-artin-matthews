@@ -1,6 +1,7 @@
 module
 
-public import ArtinMatthews.SpectralCuspEulerSolutions
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 

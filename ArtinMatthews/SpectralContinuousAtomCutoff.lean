@@ -1,7 +1,8 @@
 module
 
+public import ArtinMatthews.SpectralContinuousQuadraticMeasure
+public import Mathlib.MeasureTheory.Function.LpSpace.ContinuousFunctions
 public import ArtinMatthews.SpectralLp2DominatedLimit
-public import Mathlib.MeasureTheory.Function.LpSpace.Indicator
 
 
 set_option backward.privateInPublic true

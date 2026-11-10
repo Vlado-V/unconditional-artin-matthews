@@ -2,12 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalAmplifiedUniform
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedPowerBudget
-public import OAI.NumberTheory.DirichletL.Moments.FirstCommonReferencePower
-public import OAI.NumberTheory.DirichletL.Moments.FirstMixedMainError
-public import OAI.NumberTheory.DirichletL.Energy.FirstLiveAdmission
-public import OAI.NumberTheory.DirichletL.Energy.FirstAnnularAdmission
+public import OAI.NumberTheory.DirichletL.Moments.FirstSourceConductorCaps
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.SecondRadicalBudget
+import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedFourCoefficients
 
 
 set_option backward.privateInPublic true

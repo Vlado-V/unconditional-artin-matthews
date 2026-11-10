@@ -1,6 +1,6 @@
 module
 
-public import Mathlib.Topology.Algebra.ProperAction.CompactlyGenerated
+public import Mathlib.Topology.Algebra.Group.Quotient
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,12 @@
 module
 
-public import ArtinMatthews.MarkedPositionLocalizedMoment
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Algebra.Order.Ring.Star
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

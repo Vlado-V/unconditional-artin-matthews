@@ -3,7 +3,6 @@ module
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.Normed.Group.Tannery
 public import Mathlib.Topology.Algebra.InfiniteSum.Real
-public import Mathlib.Topology.Algebra.InfiniteSum.Ring
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,11 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.NumberTheory.PrimeCounting
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.PrimeCounting.AnnularPrimeMass
 public import OAI.NumberTheory.DirichletL.PrimeCounting.PrimeMass
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
 
 
 set_option backward.privateInPublic true

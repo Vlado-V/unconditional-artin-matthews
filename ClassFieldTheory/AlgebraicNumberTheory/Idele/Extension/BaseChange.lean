@@ -8,13 +8,7 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Basic
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.PrincipalCore
-public import Mathlib.FieldTheory.Galois.NormalBasis
-public import Mathlib.GroupTheory.GroupAction.Defs
-public import Mathlib.LinearAlgebra.TensorProduct.Basis
-public import Mathlib.RingTheory.Norm.Basic
-public import Mathlib.RingTheory.TensorProduct.Maps
 
 
 set_option backward.privateInPublic true

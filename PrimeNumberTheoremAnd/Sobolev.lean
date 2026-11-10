@@ -2,7 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Calculus.Deriv.Support
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Analysis.Distribution.SchwartzSpace.Deriv
 public import Mathlib.Order.Filter.ZeroAndBoundedAtFilter
 

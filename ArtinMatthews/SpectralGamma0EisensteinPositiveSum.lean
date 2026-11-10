@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SpectralGamma0EisensteinSignedRows
-public import ArtinMatthews.SpectralGamma0EisensteinConvergence
 
 
 set_option backward.privateInPublic true

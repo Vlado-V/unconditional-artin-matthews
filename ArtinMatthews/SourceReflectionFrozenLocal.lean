@@ -1,8 +1,6 @@
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Logic.Equiv.Fin.Basic
 
 
 set_option backward.privateInPublic true

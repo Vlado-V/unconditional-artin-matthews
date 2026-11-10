@@ -9,7 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Valuation.Completion.PolynomialFactors
-public import Mathlib.FieldTheory.Separable
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Foundation
 public import OAI.NumberTheory.DirichletL.FiniteFourier
+public import OAI.NumberTheory.DirichletL.GaussSum.SexticRadialPoisson
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.PrimeRows.IdealGenerators
 
 
 set_option backward.privateInPublic true

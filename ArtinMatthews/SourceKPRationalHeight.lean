@@ -2,7 +2,6 @@ module
 
 public import Mathlib.NumberTheory.Height.NumberField
 public import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic
-public import Mathlib.Algebra.Module.ZLattice.Summable
 
 
 set_option backward.privateInPublic true

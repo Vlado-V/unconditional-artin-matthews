@@ -1,8 +1,7 @@
 module
 
-public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
 public import Mathlib.Analysis.Calculus.BumpFunction.Normed
-public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
 
 
 set_option backward.privateInPublic true

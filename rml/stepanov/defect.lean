@@ -1,8 +1,9 @@
 module
 
-public import rml.stepanov.parameters
 public import rml.stepanov.curve_count
-public import Mathlib.FieldTheory.Separable
+public import Mathlib.Algebra.Order.Floor.Div
+public import rml.stepanov.auxiliary
+public import rml.stepanov.parameters
 
 @[expose] public section
 

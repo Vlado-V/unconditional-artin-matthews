@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Inversion.TerminalWidths
+public import OAI.NumberTheory.DirichletL.Reflection.PhysicalIntegral
+public import OAI.NumberTheory.DirichletL.Reflection.Surviving
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.AnnularExponent
+public import OAI.NumberTheory.DirichletL.Reflection.ThresholdError
 public import OAI.NumberTheory.DirichletL.Reflection.UniformPhysical
-public import OAI.NumberTheory.DirichletL.Reflection.NormalizedPhysical
+public import OAI.NumberTheory.DirichletL.Reflection.UpperThreshold
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.Data.Fintype.Basic
-public import Mathlib.Logic.Function.Basic
+public import Mathlib.Data.Finset.Insert
+public import Mathlib.Data.Fintype.Defs
 
 
 set_option backward.privateInPublic true

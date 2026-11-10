@@ -1,9 +1,9 @@
 module
 
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
 public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.Analysis.SpecificLimits.Basic
 public import Mathlib.MeasureTheory.Constructions.BorelSpace.Metrizable
-public import Mathlib.MeasureTheory.Group.Arithmetic
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,14 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.SupportedTailAggregate
 public import OAI.NumberTheory.DirichletL.Moments.SourceSecondZeroEnergy
+public import OAI.NumberTheory.DirichletL.Moments.SecondSourceEnergy
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstLocalization
+public import OAI.NumberTheory.DirichletL.Moments.SecondSourcePoisson
+public import OAI.NumberTheory.DirichletL.Moments.SecondWholeKernel
+public import OAI.NumberTheory.DirichletL.Moments.Tail
 
 
 set_option backward.privateInPublic true

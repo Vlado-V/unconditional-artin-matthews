@@ -1,6 +1,8 @@
 module
 
-public import ArtinMatthews.ShiftedSourceBessel
+public import OAI.NumberTheory.DirichletL.Fourier.PositiveLogProfiles
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralDyadicPartition
-public import Mathlib.Data.Nat.Log
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 
 set_option backward.privateInPublic true

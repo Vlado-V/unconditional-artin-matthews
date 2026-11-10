@@ -2,10 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Energy.FirstLiveAdmission
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceLowBands
+public import OAI.NumberTheory.DirichletL.Energy.StageMargins
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.BandMonotonicity
+public import OAI.NumberTheory.DirichletL.Energy.StageMonotonicity
+public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthContourBounded
 public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthPhysical
 public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthSourceControlled
-public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthContourBounded
-public import OAI.NumberTheory.DirichletL.Energy.StageMonotonicity
 
 
 set_option backward.privateInPublic true

@@ -8,12 +8,19 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.Core
 public import ValuedFieldTheory.Valuation.AbsoluteValue.Completeness
-public import ValuedFieldTheory.Valuation.AbsoluteValue.ValuationSubring
-public import Mathlib.Analysis.Normed.Unbundled.SpectralNorm
-public import Mathlib.RingTheory.Norm.Transitivity
+public import ValuedFieldTheory.Valuation.AbsoluteValue.SpectralExtension
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Theory.AbsoluteValues
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.FieldTheory.PurelyInseparable.Basic
+public import Mathlib.LinearAlgebra.FreeModule.PID
 public import Mathlib.RingTheory.Complex
+public import Mathlib.RingTheory.Flat.FaithfullyFlat.Algebra
+public import Mathlib.RingTheory.Flat.TorsionFree
+public import Mathlib.RingTheory.Norm.Transitivity
+public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.Core
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Ostrowski
 
 
 set_option backward.privateInPublic true

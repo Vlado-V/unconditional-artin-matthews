@@ -9,9 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.ClassGroup
-public import GaloisCohomology.Kummer.Concrete.GaloisCohomology
-public import Mathlib.Algebra.Group.Action.Basic
-public import Mathlib.GroupTheory.GroupAction.Quotient
+public import Mathlib.RepresentationTheory.Homological.GroupCohomology.Hilbert90
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.SourceHyperbolicLocalCalculus
+public import OAI.NumberTheory.DirichletL.MeanSquare.UnitRows
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

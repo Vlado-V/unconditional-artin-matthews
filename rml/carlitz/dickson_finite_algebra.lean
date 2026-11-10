@@ -7,14 +7,7 @@ module
    commit 0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68. Apache-2.0. -/
 
 public import Mathlib.Analysis.SpecialFunctions.Complex.CircleAddChar
-public import Mathlib.Algebra.Polynomial.Monic
-public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
-public import Mathlib.Algebra.Field.ZMod
 public import Mathlib.RingTheory.Polynomial.Dickson
-public import Mathlib.Algebra.Polynomial.Reverse
-public import Mathlib.FieldTheory.Finite.Extension
-public import Mathlib.FieldTheory.Minpoly.ConjRootClass
-public import Mathlib.RingTheory.Trace.Basic
 
 @[expose] public section
 

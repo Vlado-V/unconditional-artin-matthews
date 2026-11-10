@@ -9,13 +9,32 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.NormResidue
+public import ValuedFieldTheory.LocalField.DiscreteValuationField.FieldUnitDecomposition
+public import ClassFieldTheory.LubinTate.Padic.CompletedChangedStandardResidue
+public import ClassFieldTheory.LubinTate.Padic.MultiplicativeEvaluation.FiniteLevelPrimitiveRoot
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.FixedFieldIntrinsicReciprocity.NormRestriction
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.UnramifiedNormalization
-public import ValuedFieldTheory.LocalField.DiscreteValuationField.FieldUnitDecomposition
-public import ValuedFieldTheory.LocalField.DiscreteValuationField.PadicField
 public import ClassFieldTheory.LubinTate.FiniteLevel.HigherUnitLevelEquiv
 public import ClassFieldTheory.LubinTate.Padic.CompletedChangedStandardFrobenius
-public import ClassFieldTheory.LubinTate.Padic.MultiplicativeEvaluation.Core
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Tactic.Polynomial.Basic
+public import Mathlib.Tactic.ReduceModChar
 
 
 set_option backward.privateInPublic true

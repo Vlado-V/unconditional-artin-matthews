@@ -1,8 +1,6 @@
 module
 
 public import ArtinMatthews.MarkedFiniteSpectralMoments
-public import Mathlib.Data.Fin.Tuple.Basic
-public import Mathlib.Algebra.BigOperators.Fin
 
 
 set_option backward.privateInPublic true

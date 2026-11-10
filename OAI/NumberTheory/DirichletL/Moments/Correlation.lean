@@ -3,11 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.NumberTheory.JacobiSum.Basic
-public import Mathlib.Analysis.Normed.Ring.Finite
-public import Mathlib.Tactic.Ring
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.LinearCombination
-public import Mathlib.GroupTheory.Index
 
 
 set_option backward.privateInPublic true

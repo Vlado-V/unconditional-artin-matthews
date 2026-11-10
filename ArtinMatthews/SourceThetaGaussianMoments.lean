@@ -2,7 +2,7 @@ module
 
 public import ArtinMatthews.SourceThetaGaussianKernel
 public import ArtinMatthews.SourceLogMellinCoordinate
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

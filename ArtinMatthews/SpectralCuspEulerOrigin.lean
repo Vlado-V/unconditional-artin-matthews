@@ -1,8 +1,9 @@
 module
 
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import ArtinMatthews.SpectralCuspEulerTail
 public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
 
 
 set_option backward.privateInPublic true

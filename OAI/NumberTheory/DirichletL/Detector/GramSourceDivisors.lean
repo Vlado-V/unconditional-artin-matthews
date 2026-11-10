@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.GramCommonEnergy
-public import OAI.NumberTheory.DirichletL.Detector.GramIdealMass
+public import OAI.NumberTheory.DirichletL.Detector.GramCanonicalSource
+public import OAI.NumberTheory.DirichletL.Detector.GramIdealSummation
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GramMobiusPool
+public import OAI.NumberTheory.DirichletL.Detector.GramWeightedFrequency
 
 
 set_option backward.privateInPublic true

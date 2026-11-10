@@ -2,7 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.CanonicalLongCoefficient
+public import OAI.NumberTheory.DirichletL.CubicSieve.ReopeningBounds
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalLongSource
+public import OAI.NumberTheory.DirichletL.RowCompletion.CubicReopening
 
 
 set_option backward.privateInPublic true

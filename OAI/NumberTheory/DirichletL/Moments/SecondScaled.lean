@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.SecondDescent
 public import OAI.NumberTheory.DirichletL.Moments.Partition
 public import OAI.NumberTheory.DirichletL.Moments.ChildRows
+public import OAI.NumberTheory.DirichletL.Moments.ChildAssembly
+public import OAI.NumberTheory.DirichletL.Moments.Smooth
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.PlainChildEnergy
+public import OAI.NumberTheory.DirichletL.Moments.SecondDescent
 
 
 set_option backward.privateInPublic true

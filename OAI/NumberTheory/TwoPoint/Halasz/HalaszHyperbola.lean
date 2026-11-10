@@ -2,6 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Positivity.Finset
 public import OAI.NumberTheory.TwoPoint.Halasz.HalaszLogConvolution
 
 

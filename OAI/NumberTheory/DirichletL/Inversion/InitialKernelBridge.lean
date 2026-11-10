@@ -5,6 +5,8 @@ module
 public import OAI.NumberTheory.DirichletL.Inversion.InitialPoissonBridge
 public import OAI.NumberTheory.DirichletL.Inversion.InitialProfile
 public import OAI.NumberTheory.DirichletL.Inversion.InitialArithmetic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

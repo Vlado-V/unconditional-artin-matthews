@@ -1,9 +1,7 @@
 module
 
 public import Mathlib.MeasureTheory.Constructions.UnitInterval
-public import Mathlib.MeasureTheory.Function.ContinuousMapDense
 public import Mathlib.MeasureTheory.Function.L2Space
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 public import Mathlib.RingTheory.Polynomial.ShiftedLegendre
 public import Mathlib.Topology.Algebra.Polynomial
 

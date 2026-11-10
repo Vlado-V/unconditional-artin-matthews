@@ -8,8 +8,7 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.NormProperties
-public import Mathlib.LinearAlgebra.Basis.VectorSpace
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.BaseChange
 
 
 set_option backward.privateInPublic true

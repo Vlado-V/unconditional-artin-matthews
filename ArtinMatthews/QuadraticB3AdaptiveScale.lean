@@ -1,6 +1,6 @@
 module
 
-public import ArtinMatthews.QuadraticB3TailScale
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 
 set_option backward.privateInPublic true

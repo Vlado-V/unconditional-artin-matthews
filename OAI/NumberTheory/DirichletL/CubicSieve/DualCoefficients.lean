@@ -2,7 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.CubicSieve.FrequencyShell
+public import OAI.NumberTheory.DirichletL.CubicSieve.Gcd
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.GaussNorm
 
 
 set_option backward.privateInPublic true

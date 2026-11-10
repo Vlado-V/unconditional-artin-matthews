@@ -1,8 +1,8 @@
 module
 
 public import ArtinMatthews.SourceHyperbolicH1LocalTests
-public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
-public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

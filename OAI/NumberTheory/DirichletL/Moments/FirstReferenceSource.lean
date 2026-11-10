@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstReferenceBlock
-public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalActiveDictionary
 public import OAI.NumberTheory.DirichletL.Moments.FirstNonexceptionalLocalWeightSum
+public import OAI.NumberTheory.DirichletL.Moments.FirstSourceReduction
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalActiveDictionary
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalDyadicCountSource
 
 
 set_option backward.privateInPublic true

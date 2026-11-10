@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.ExhaustivePartition
+public import OAI.NumberTheory.DirichletL.Detector.CanonicalSlots
+public import OAI.NumberTheory.DirichletL.PrimeRows.PhysicalDyad
+public import OAI.NumberTheory.DirichletL.PrimeRows.SmallPartition
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.CanonicalPhysicalRows
+public import OAI.NumberTheory.DirichletL.PrimeRows.ExhaustivePartition
 
 
 set_option backward.privateInPublic true

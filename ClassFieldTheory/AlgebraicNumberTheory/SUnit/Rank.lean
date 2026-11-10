@@ -9,12 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.SPlaces
-public import Mathlib.Algebra.Exact.Basic
-public import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
-public import Mathlib.LinearAlgebra.StdBasis
 public import Mathlib.NumberTheory.NumberField.ClassNumber
-public import Mathlib.NumberTheory.NumberField.Units.Regulator
-public import Mathlib.RingTheory.DedekindDomain.Factorization
+public import Mathlib.NumberTheory.NumberField.Units.DirichletTheorem
 
 
 set_option backward.privateInPublic true

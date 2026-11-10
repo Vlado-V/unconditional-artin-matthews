@@ -9,8 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.FieldTheory.Galois.GaloisClosure
-public import Mathlib.FieldTheory.Normal.Basic
-public import Mathlib.FieldTheory.SeparableClosure
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.NormFiberExtraction
 public import OAI.NumberTheory.DirichletL.Mellin.FiniteEulerRestoration
+public import Mathlib.NumberTheory.NumberField.ClassNumber
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Ideal.Asymptotics
 
 
 set_option backward.privateInPublic true

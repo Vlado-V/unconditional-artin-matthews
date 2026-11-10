@@ -1,8 +1,7 @@
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
-public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

@@ -8,10 +8,11 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.FieldTheory.Galois.Basic
-public import Mathlib.FieldTheory.PrimitiveElement
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.AbstractFixedFieldUnits
+public import Mathlib.FieldTheory.IsSepClosed
+public import ValuedFieldTheory.LocalField.NormUnits
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.SeparableNormProduct
+public import GaloisCohomology.Kummer.Abstract.KummerAbelianAssembly
 
 
 set_option backward.privateInPublic true

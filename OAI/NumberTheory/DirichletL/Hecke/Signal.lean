@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.ReciprocalBound
 public import OAI.NumberTheory.DirichletL.ContinuationContour
+public import OAI.NumberTheory.DirichletL.ContinuationInversion
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Analysis.MellinInversion
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

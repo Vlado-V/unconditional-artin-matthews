@@ -3,8 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Reflection.SourcePhysical
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalDictionary
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalWeights
+public import OAI.NumberTheory.DirichletL.Reflection.RowReindex
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.MarkedLevel
 public import OAI.NumberTheory.DirichletL.Reflection.OriginalActiveReflection
-public import OAI.NumberTheory.DirichletL.Reflection.FixedLevel
 
 
 set_option backward.privateInPublic true

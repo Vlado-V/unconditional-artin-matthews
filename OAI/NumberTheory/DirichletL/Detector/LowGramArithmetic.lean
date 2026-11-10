@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.LowGramProfile
-public import OAI.NumberTheory.DirichletL.Detector.LowPeriod
+public import OAI.NumberTheory.DirichletL.Detector.LowCompletion
+public import OAI.NumberTheory.DirichletL.Detector.LowRowMellin
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.LowPuncture
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalAnalytic
 
 
 set_option backward.privateInPublic true

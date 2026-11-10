@@ -1,6 +1,10 @@
 module
 
+public import ArtinMatthews.ShiftedVoronoiBesselTransform
+public import OAI.NumberTheory.DirichletL.Fourier.PositiveLogProfiles
 public import ArtinMatthews.ShiftedBesselScale
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

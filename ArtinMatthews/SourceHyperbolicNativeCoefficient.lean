@@ -1,7 +1,10 @@
 module
 
+public import ArtinMatthews.SourceHyperbolicH1Tests
+public import ArtinMatthews.SourceHyperbolicProductGreen
 public import ArtinMatthews.SourceHyperbolicProductMeasureGreen
-public import ArtinMatthews.SourceHyperbolicH1Gradient
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

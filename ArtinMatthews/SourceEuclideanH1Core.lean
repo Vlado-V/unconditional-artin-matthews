@@ -1,7 +1,7 @@
 module
 
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.EuclideanGradient
 public import ArtinMatthews.SourceEuclideanH1Gradient
-public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
 
 
 set_option backward.privateInPublic true

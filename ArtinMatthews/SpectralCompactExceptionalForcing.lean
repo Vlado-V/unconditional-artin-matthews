@@ -1,6 +1,8 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import ArtinMatthews.SpectralExceptionalPowerForcing
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 
 
 set_option backward.privateInPublic true

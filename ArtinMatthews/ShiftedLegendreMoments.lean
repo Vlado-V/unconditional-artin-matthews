@@ -1,6 +1,7 @@
 module
 
 public import Mathlib.RingTheory.Polynomial.ShiftedLegendre
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 public import Mathlib.Analysis.Calculus.Deriv.Polynomial
 public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 

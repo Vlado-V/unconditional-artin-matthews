@@ -8,11 +8,12 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.SetTheory.Cardinal.Finite
-public import ClassFieldTheory.LubinTate.FormalModule.CoefficientEquation
 public import ClassFieldTheory.LubinTate.FormalModule.Intertwiner
-public import Mathlib.FieldTheory.Finite.Basic
 public import Mathlib.RingTheory.MvPowerSeries.Expand
+public import ClassFieldTheory.LubinTate.FormalModule.LinearTerm
+public import ClassFieldTheory.LubinTate.FormalModule.CoefficientEquation
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,8 @@
 module
 
 public import ArtinMatthews.EisensteinAngularNorm
-public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Moments.CommonMaskExpansion
+public import OAI.NumberTheory.DirichletL.Moments.OriginalRadialComparison
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
 public import OAI.NumberTheory.DirichletL.Moments.CommonMaskEnergy
-public import OAI.NumberTheory.DirichletL.Moments.UniformRadialComparison
+public import OAI.NumberTheory.DirichletL.Moments.RadialPolynomialEnergy
+public import OAI.NumberTheory.DirichletL.Moments.UniformReflectionProfile
 
 
 set_option backward.privateInPublic true

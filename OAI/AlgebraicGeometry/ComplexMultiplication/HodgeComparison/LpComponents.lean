@@ -2,8 +2,7 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpCoefficients
-public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.MeasureTheory.Function.L2Space
 
 
 set_option backward.privateInPublic true

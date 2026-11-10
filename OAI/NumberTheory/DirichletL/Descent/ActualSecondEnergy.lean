@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.SecondSourceEncoding
 public import OAI.NumberTheory.DirichletL.Descent.SecondCauchy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.Fibers
 
 
 set_option backward.privateInPublic true

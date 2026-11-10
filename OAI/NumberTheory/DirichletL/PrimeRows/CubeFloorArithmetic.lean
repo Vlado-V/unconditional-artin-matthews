@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.RaySlots
+public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalRayCube
+public import OAI.NumberTheory.DirichletL.PrimeRows.CubeCommonProfile
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.PrimeRows.CubeFixedPrimes
 public import OAI.NumberTheory.DirichletL.PrimeRows.CubeSlotExponent
-public import OAI.NumberTheory.DirichletL.Detector.CentralCubeNorm
+public import OAI.NumberTheory.DirichletL.PrimeRows.RowCount
 
 
 set_option backward.privateInPublic true

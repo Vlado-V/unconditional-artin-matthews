@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.SecondBlockEnergy
-public import OAI.NumberTheory.DirichletL.Descent.WholePriorityPhysical
+public import OAI.NumberTheory.DirichletL.Descent.ActualSecondProfile
+public import OAI.NumberTheory.DirichletL.Inversion.SecondPrincipalCaller
+public import OAI.NumberTheory.DirichletL.Inversion.SecondProfileUniform
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

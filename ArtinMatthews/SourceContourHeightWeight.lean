@@ -1,7 +1,11 @@
 module
 
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 public import OAI.NumberTheory.DirichletL.ContinuationContour
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 
 set_option backward.privateInPublic true

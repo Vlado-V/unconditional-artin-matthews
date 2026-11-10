@@ -4,6 +4,8 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.CMSymplecticSiegel
 public import OAI.AlgebraicGeometry.ComplexMultiplication.ThetaCovariance
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

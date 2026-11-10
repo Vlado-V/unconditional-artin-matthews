@@ -4,10 +4,6 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.ScalarDescent
 public import Mathlib.LinearAlgebra.ExteriorPower.Basis
-public import Mathlib.LinearAlgebra.TensorProduct.Basis
-public import Mathlib.LinearAlgebra.TensorProduct.Tower
-public import Mathlib.LinearAlgebra.TensorProduct.Pi
-public import Mathlib.Algebra.Module.Rat
 
 
 set_option backward.privateInPublic true

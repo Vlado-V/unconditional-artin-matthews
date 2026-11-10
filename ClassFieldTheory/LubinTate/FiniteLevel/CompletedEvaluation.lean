@@ -10,9 +10,10 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveUniformizer
 public import ClassFieldTheory.LubinTate.FormalModule.StandardFormalGroup
-public import Mathlib.RingTheory.AdicCompletion.Topology
-public import Mathlib.RingTheory.PowerSeries.Evaluation
 public import Mathlib.Topology.Algebra.Nonarchimedean.AdicTopology
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.RingTheory.AdicCompletion.Topology
 
 
 set_option backward.privateInPublic true

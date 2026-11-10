@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalTransport
+public import OAI.NumberTheory.DirichletL.Reflection.TupleFamily
+public import OAI.NumberTheory.DirichletL.Reflection.WholeRow
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Reflection.ActiveProducts
 public import OAI.NumberTheory.DirichletL.Reflection.SlotCoefficients
-public import OAI.NumberTheory.DirichletL.Reflection.OriginalTransport
 
 
 set_option backward.privateInPublic true

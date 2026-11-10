@@ -1,6 +1,8 @@
 module
 
-public import ArtinMatthews.SpectralCuspEulerTail
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 
 set_option backward.privateInPublic true

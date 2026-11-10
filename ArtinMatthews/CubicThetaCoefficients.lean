@@ -2,6 +2,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.Family
 public import OAI.NumberTheory.DirichletL.IdealCharacter
+public import OAI.NumberTheory.DirichletL.Arithmetic.LatticeCount
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
 public import OAI.NumberTheory.DirichletL.GaussSum.QuadraticTrace
 
 

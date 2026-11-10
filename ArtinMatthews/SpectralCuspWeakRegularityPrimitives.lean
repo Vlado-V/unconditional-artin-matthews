@@ -1,10 +1,9 @@
 module
 
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 public import Mathlib.Analysis.Calculus.BumpFunction.Convolution
-public import Mathlib.Analysis.Calculus.ContDiff.Convolution
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
 
 
 set_option backward.privateInPublic true

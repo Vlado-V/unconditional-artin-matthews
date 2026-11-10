@@ -1,10 +1,9 @@
 module
 
-public import Mathlib.GroupTheory.FiniteAbelian.Duality
-public import Mathlib.RingTheory.RootsOfUnity.Complex
-public import Mathlib.FieldTheory.KummerExtension
 public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
 public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.FieldTheory.KummerExtension
+public import Mathlib.GroupTheory.FiniteAbelian.Duality
 
 
 set_option backward.privateInPublic true

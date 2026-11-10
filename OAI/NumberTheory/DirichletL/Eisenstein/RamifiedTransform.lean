@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.GaussSum.MellinSupport
 public import OAI.NumberTheory.DirichletL.GaussSum.FiniteTranslations
+public import Mathlib.Analysis.Calculus.FDeriv.Star
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Eisenstein.PrimeGaussFactors
+public import OAI.NumberTheory.DirichletL.GaussSum.DualKernelSummability
 
 
 set_option backward.privateInPublic true

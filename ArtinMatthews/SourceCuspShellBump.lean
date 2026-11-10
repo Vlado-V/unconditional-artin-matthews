@@ -2,8 +2,6 @@ module
 
 public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Support
-public import Mathlib.Analysis.Normed.Group.Bounded
 
 
 set_option backward.privateInPublic true

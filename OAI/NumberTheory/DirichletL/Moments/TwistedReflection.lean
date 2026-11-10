@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.NaturalReflection
+public import OAI.NumberTheory.DirichletL.Hecke.Operations
+public import OAI.NumberTheory.DirichletL.Moments.NaturalPrimitive
+public import OAI.NumberTheory.DirichletL.Moments.ReflectionDeletion
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicBridge
+public import OAI.NumberTheory.DirichletL.Moments.NaturalReflection
 
 
 set_option backward.privateInPublic true

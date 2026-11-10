@@ -1,5 +1,6 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Bessel
 public import ArtinMatthews.ShiftedVoronoiBessel
 public import Mathlib.Analysis.Calculus.SmoothSeries
 public import Mathlib.Analysis.Normed.Module.Connected

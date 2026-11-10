@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.RowReflectedAllocation
 public import OAI.NumberTheory.DirichletL.PrimeRows.CentralSplit
+public import OAI.NumberTheory.DirichletL.Detector.RowRadicalConductor
+public import OAI.NumberTheory.DirichletL.Hecke.ReciprocalGrowth
+public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedBin
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.RowReflectedAllocation
 
 
 set_option backward.privateInPublic true

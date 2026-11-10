@@ -2,10 +2,18 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthPhysicalReindex
+public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthSource
+public import OAI.NumberTheory.DirichletL.Energy.FirstLiveAdmission
+public import OAI.NumberTheory.DirichletL.Energy.StageMargins
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Energy.CanonicalHighPhysical
 public import OAI.NumberTheory.DirichletL.Energy.FirstSourceParameters
-public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthSource
+public import OAI.NumberTheory.DirichletL.Energy.NaturalSourceAdmission
+public import OAI.NumberTheory.DirichletL.Energy.ZeroBalancedAdmission
+public import OAI.NumberTheory.DirichletL.Energy.ZeroBalancedDictionary
+public import OAI.NumberTheory.DirichletL.Energy.ZeroGrowthPhysicalReindex
 
 
 set_option backward.privateInPublic true

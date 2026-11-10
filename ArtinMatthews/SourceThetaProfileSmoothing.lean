@@ -1,7 +1,10 @@
 module
 
-public import ArtinMatthews.SourceThetaIntegralDerivatives
+public import ArtinMatthews.SourceThetaGaussianKernel
+public import ArtinMatthews.SourceLogMellinCoordinate
 public import ArtinMatthews.SourceThetaGaussianMoments
+public import ArtinMatthews.SourceThetaIntegralDerivatives
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

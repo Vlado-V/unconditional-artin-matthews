@@ -3,7 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.CMSiegelMatrix
-public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+public import Mathlib.Analysis.RCLike.Lemmas
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import OAI.AlgebraicGeometry.ComplexMultiplication.LatticeGaussian
 
 
 set_option backward.privateInPublic true

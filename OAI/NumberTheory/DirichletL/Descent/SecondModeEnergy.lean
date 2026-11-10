@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.SecondModeCanonical
 public import OAI.NumberTheory.DirichletL.Descent.SecondPhysicalRows
+public import OAI.NumberTheory.DirichletL.Descent.SecondAssignedSource
+public import OAI.NumberTheory.DirichletL.Descent.SecondSquarefree
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.SecondInheritedEnergy
 
 
 set_option backward.privateInPublic true

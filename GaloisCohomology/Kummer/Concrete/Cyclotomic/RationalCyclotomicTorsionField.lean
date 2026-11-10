@@ -9,8 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import GaloisCohomology.Kummer.Concrete.Cyclotomic.RationalCyclotomicField
-public import Mathlib.FieldTheory.Galois.Profinite
-public import Mathlib.GroupTheory.Torsion
 
 
 set_option backward.privateInPublic true

@@ -3,8 +3,17 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.Continuation
-public import OAI.NumberTheory.DirichletL.PrimeRows.FirstAnalytic
+public import OAI.NumberTheory.DirichletL.PrimeRows.FirstTail
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsActual
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsFirstHolomorphic
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsFirstRamified
+public import OAI.NumberTheory.DirichletL.Detector.IdealMultiplicative
+public import OAI.NumberTheory.DirichletL.Hecke.DeletionBounds
+public import OAI.NumberTheory.DirichletL.PrimeRows.FirstAnalytic
+public import OAI.NumberTheory.DirichletL.PrimeRows.FirstProduct
 
 
 set_option backward.privateInPublic true

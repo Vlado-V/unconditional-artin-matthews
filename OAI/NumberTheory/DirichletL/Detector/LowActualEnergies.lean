@@ -3,7 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Detector.LowColumnBounds
+public import OAI.NumberTheory.DirichletL.Detector.LowSeparated
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.LowCauchy
+public import OAI.NumberTheory.DirichletL.Detector.Windows
+public import OAI.NumberTheory.DirichletL.Moments.Cauchy
+public import OAI.NumberTheory.DirichletL.Moments.ReflectedChild
 
 
 set_option backward.privateInPublic true

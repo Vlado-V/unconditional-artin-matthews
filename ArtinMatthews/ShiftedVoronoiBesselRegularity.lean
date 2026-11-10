@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.ShiftedVoronoiBesselDuality
+public import ArtinMatthews.ShiftedVoronoiBesselBounds
 
 
 set_option backward.privateInPublic true

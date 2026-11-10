@@ -2,9 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.SecondDeletedPhysicalEnergy
 public import OAI.NumberTheory.DirichletL.Descent.SecondNormalizedEnergy
-public import OAI.NumberTheory.DirichletL.Descent.SecondBalancedSource
+public import OAI.NumberTheory.DirichletL.Descent.SecondPhysicalRows
+public import OAI.NumberTheory.DirichletL.Descent.SecondSquarefree
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.SecondDeletedPhysicalEnergy
 
 
 set_option backward.privateInPublic true

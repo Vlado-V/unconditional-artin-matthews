@@ -2,9 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Analysis.Complex.Norm
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Analysis.Real.Sqrt
 public import Mathlib.Tactic.LinearCombination
 
 

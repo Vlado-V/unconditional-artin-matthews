@@ -1,8 +1,9 @@
 module
 
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import Mathlib.Topology.Algebra.Module.Spaces.ContinuousLinearMap
 public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.Normed.Operator.Basic
-public import Mathlib.Topology.MetricSpace.Basic
 
 
 set_option backward.privateInPublic true

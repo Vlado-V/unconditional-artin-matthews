@@ -2,10 +2,21 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceState
+public import OAI.NumberTheory.DirichletL.Moments.UniformReflectionApproximation
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceReflection
 public import OAI.NumberTheory.DirichletL.Energy.ZeroReflectionSupport
-public import OAI.NumberTheory.DirichletL.Moments.UniformOriginalEnergy
-public import OAI.NumberTheory.DirichletL.Energy.ReferenceHomogeneous
+public import OAI.NumberTheory.DirichletL.Moments.AbsoluteEnergy
+public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalControl
+public import OAI.NumberTheory.DirichletL.Moments.NaturalMaskedFloor
 public import OAI.NumberTheory.DirichletL.Moments.OriginalReflectionErrorMass
+public import OAI.NumberTheory.DirichletL.Moments.RadialPolynomialEnergy
+public import OAI.NumberTheory.DirichletL.Moments.UniformOriginalEnergy
+public import Std.Tactic.BVDecide.Normalize.Prop
+import OAI.NumberTheory.DirichletL.Energy.ReferenceHomogeneous
 
 
 set_option backward.privateInPublic true

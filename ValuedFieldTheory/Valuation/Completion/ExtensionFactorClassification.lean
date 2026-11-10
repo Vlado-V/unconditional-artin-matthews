@@ -8,10 +8,12 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicLocalization
 public import ValuedFieldTheory.Valuation.Completion.PolynomialFactors
-public import ValuedFieldTheory.Valuation.Completion.FiniteLocalization
 public import Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed
+public import ValuedFieldTheory.Valuation.Completion.AbsoluteValueExtensions
+public import Mathlib.FieldTheory.PurelyInseparable.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import ValuedFieldTheory.Valuation.Completion.FiniteLocalization
 
 
 set_option backward.privateInPublic true

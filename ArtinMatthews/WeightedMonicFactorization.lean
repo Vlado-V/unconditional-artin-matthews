@@ -1,8 +1,6 @@
 module
 
 public import Mathlib.RingTheory.Polynomial.UniqueFactorization
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
-public import Mathlib.Algebra.Polynomial.BigOperators
 public import Mathlib.Basic.Complex.Basic
 
 

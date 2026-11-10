@@ -1,8 +1,8 @@
 module
 
 public import ArtinMatthews.SourceCuspShellGradient
-public import Mathlib.Analysis.Calculus.Deriv.Support
-public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

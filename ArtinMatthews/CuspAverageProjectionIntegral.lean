@@ -2,7 +2,7 @@ module
 
 public import ArtinMatthews.CuspAverageProjectionOperator
 public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
-public import Mathlib.MeasureTheory.Function.LpSpace.Indicator
+public import Mathlib.MeasureTheory.Integral.Prod
 
 
 set_option backward.privateInPublic true

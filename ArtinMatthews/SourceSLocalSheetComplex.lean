@@ -1,8 +1,7 @@
 module
 
 public import Mathlib.NumberTheory.NumberField.Completion.InfinitePlace
-public import Mathlib.MeasureTheory.Group.Circle
-public import Mathlib.Topology.Algebra.Group.Units
+public import Mathlib.Analysis.Complex.Circle
 
 
 set_option backward.privateInPublic true

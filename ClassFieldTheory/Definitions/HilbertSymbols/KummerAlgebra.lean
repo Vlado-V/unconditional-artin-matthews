@@ -8,7 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.FieldTheory.KummerExtension
+public import Mathlib.RingTheory.AdjoinRoot
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Nat.Totient
 
 
 set_option backward.privateInPublic true

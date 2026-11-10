@@ -1,9 +1,7 @@
 module
 
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Data.Fintype.Option
-public import Mathlib.Logic.Equiv.Basic
+public import Mathlib.Analysis.Normed.Ring.InfiniteSum
 
 
 set_option backward.privateInPublic true

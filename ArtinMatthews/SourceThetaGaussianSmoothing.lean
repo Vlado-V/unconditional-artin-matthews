@@ -1,9 +1,14 @@
 module
 
 public import ArtinMatthews.SourceThetaGaussianKernel
-public import ArtinMatthews.SourceLogMellinCoordinate
 public import ArtinMatthews.ReflectionGaussianWeight
-public import Mathlib.MeasureTheory.Integral.Prod
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import ArtinMatthews.SourceLogMellinCoordinate
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

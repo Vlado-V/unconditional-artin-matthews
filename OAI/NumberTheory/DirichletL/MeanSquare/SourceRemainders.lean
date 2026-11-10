@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.MeanSquare.HighRadialBounds
 public import OAI.NumberTheory.DirichletL.CubicSieve.PaddedPassage
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.QuadraticSieve.LogarithmicLoss
 
 
 set_option backward.privateInPublic true

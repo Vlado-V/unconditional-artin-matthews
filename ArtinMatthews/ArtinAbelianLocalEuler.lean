@@ -1,7 +1,9 @@
 module
 
-public import ArtinMatthews.ArtinAbelianLocalCharacters
+public import Mathlib.NumberTheory.NumberField.Ideal.Basic
+public import Mathlib.RingTheory.Frobenius
 public import ArtinMatthews.ArtinAbelianFrobeniusOrder
+public import ArtinMatthews.ArtinAbelianLocalCharacters
 
 
 set_option backward.privateInPublic true

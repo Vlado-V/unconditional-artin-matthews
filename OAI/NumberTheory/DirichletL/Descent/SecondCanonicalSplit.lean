@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.SecondCanonicalChild
 public import OAI.NumberTheory.DirichletL.Descent.SecondSourceProfile
+public import OAI.NumberTheory.DirichletL.Descent.SecondFreshAssembly
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.SecondFixedFamily
 
 
 set_option backward.privateInPublic true

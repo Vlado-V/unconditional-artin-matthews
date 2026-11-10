@@ -2,8 +2,19 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.CanonicalFrozenEnergy
+public import OAI.NumberTheory.DirichletL.Inversion.TerminalWidths
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalDictionary
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalWeights
+public import OAI.NumberTheory.DirichletL.Reflection.RowReindex
+public import OAI.NumberTheory.DirichletL.Reflection.SourcePhysical
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.CanonicalCaps
 public import OAI.NumberTheory.DirichletL.Reflection.CanonicalInactiveEnergyUniformDegree
+public import OAI.NumberTheory.DirichletL.Reflection.InactiveBudget
+public import OAI.NumberTheory.DirichletL.Reflection.InactiveEnergy
+public import OAI.NumberTheory.DirichletL.Reflection.OriginalAggregation
+public import OAI.NumberTheory.DirichletL.Reflection.SourceBudget
 
 
 set_option backward.privateInPublic true

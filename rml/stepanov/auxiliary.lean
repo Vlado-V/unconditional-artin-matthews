@@ -7,10 +7,11 @@ module
    commit 0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68. Apache-2.0. -/
 
 public import rml.stepanov.algebra
-public import Mathlib.RingTheory.Polynomial.DegreeLT
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Polynomial.Basic
 public import Mathlib.FieldTheory.Finite.Basic
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Multiplicity
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.RingTheory.Polynomial.DegreeLT
 
 @[expose] public section
 

@@ -1,9 +1,9 @@
 module
 
+public import Mathlib.NumberTheory.Modular
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Measure
 public import ArtinMatthews.SpectralHyperbolicL2
 public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-public import Mathlib.NumberTheory.Modular
-public import Mathlib.MeasureTheory.Integral.Prod
 
 
 set_option backward.privateInPublic true

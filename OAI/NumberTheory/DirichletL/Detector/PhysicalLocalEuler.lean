@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.LocalPhysical
 public import OAI.NumberTheory.DirichletL.Detector.SourceLocal
+public import OAI.NumberTheory.DirichletL.Detector.CalibrationRemoval
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Cusp.WeylRepresentatives
+public import OAI.NumberTheory.DirichletL.Detector.LocalPhysical
 
 
 set_option backward.privateInPublic true

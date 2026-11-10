@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.CompensatedTriple
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.InitialRows
+public import OAI.NumberTheory.DirichletL.Detector.InitialScales
 public import OAI.NumberTheory.DirichletL.Detector.TupleKernel
+public import OAI.NumberTheory.DirichletL.Detector.TupleScaling
 
 
 set_option backward.privateInPublic true

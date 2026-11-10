@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.SecondBlockEnergyWindowOrder
-public import OAI.NumberTheory.DirichletL.Descent.SecondDeletedMovingMassUniform
 public import OAI.NumberTheory.DirichletL.Inversion.SecondChildWindows
+public import OAI.NumberTheory.DirichletL.Descent.SecondNormalizedEnergy
+public import OAI.NumberTheory.DirichletL.Descent.SecondPhysicalRows
+public import OAI.NumberTheory.DirichletL.Descent.SecondSquarefree
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.SecondDeletedMovingMassUniform
 
 
 set_option backward.privateInPublic true

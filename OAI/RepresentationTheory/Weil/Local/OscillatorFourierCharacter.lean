@@ -2,12 +2,55 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.RepresentationTheory.Weil.Local.NonarchimedeanNormalFormProduct
-public import OAI.RepresentationTheory.Weil.Local.GeneralSchur
-public import OAI.RepresentationTheory.Weil.Local.BruhatCosets
+public import OAI.RepresentationTheory.Weil.Local.FourierNormalForm
+public import OAI.RepresentationTheory.Weil.Local.GaussianSquareCharacter
+public import OAI.RepresentationTheory.Weil.Local.NonarchimedeanTestSpace
+public import OAI.RepresentationTheory.Weil.Local.TestFourierNormalForm
+public import Mathlib.Algebra.Order.Floor.Extended
+public import Mathlib.Algebra.Order.Interval.Basic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Combinatorics.Enumerative.DyckWord
+public import Mathlib.Combinatorics.SimpleGraph.Triangle.Removal
+public import Mathlib.Data.NNRat.Floor
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.Geometry.Euclidean.Volume.Basic
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.Height.NumberField
+public import Mathlib.NumberTheory.Height.Projectivization
+public import Mathlib.NumberTheory.LucasLehmer
+public import Mathlib.NumberTheory.SelbergSieve
 public import Mathlib.RingTheory.Etale.Weakly
-public import Mathlib.RingTheory.TotallySplit
 public import Mathlib.RingTheory.Finiteness.ModuleFinitePresentation
+public import Mathlib.RingTheory.Radical.NatInt
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.RingTheory.TotallySplit
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Topology.Connected.Separation
+public import Mathlib.Topology.MetricSpace.Ultra.Pi
+public import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
+public import Mathlib.Topology.Sheaves.Init
+public import OAI.RepresentationTheory.Weil.Local.BruhatCosets
+public import OAI.RepresentationTheory.Weil.Local.CompactCharacter
+public import OAI.RepresentationTheory.Weil.Local.GaussianCompact
+public import OAI.RepresentationTheory.Weil.Local.NonarchimedeanNormalFormProduct
 
 
 set_option backward.privateInPublic true

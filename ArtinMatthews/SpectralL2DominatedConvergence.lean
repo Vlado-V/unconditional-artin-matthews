@@ -1,7 +1,14 @@
 module
 
-public import ArtinMatthews.SpectralGamma0EnergyGraph
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Covering.Besicovitch
+public import Mathlib.MeasureTheory.Function.L2Space
 public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

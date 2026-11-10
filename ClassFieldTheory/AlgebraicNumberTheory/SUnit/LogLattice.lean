@@ -9,8 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.SUnit.Rank
-public import Mathlib.Algebra.Module.PID
-public import Mathlib.Algebra.Module.ZLattice.Basic
+public import Mathlib.NumberTheory.NumberField.Completion.FinitePlace
+public import Mathlib.Algebra.Category.ModuleCat.Biproducts
 public import Mathlib.NumberTheory.NumberField.ProductFormula
 
 

@@ -2,11 +2,20 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.PlainPositiveEnergy
-public import OAI.NumberTheory.DirichletL.Moments.CommonMaskRadialEnergy
-public import OAI.NumberTheory.DirichletL.Moments.NaturalCoreFloor
-public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalControl
+public import OAI.NumberTheory.DirichletL.Moments.CoreFloor
+public import OAI.NumberTheory.DirichletL.Moments.NaturalRowSourceMask
+public import OAI.NumberTheory.DirichletL.Moments.OriginalRadialComparison
+public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationProfiles
 public import OAI.NumberTheory.DirichletL.Moments.AllocatedNaturalSource
+public import OAI.NumberTheory.DirichletL.Moments.CommonMaskRadialEnergy
+public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalControl
+public import OAI.NumberTheory.DirichletL.Moments.PlainGlobalEnergy
+public import OAI.NumberTheory.DirichletL.Moments.PlainPositiveEnergy
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

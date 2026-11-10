@@ -1,10 +1,13 @@
 module
 
-public import rml.carlitz.dickson_finite_algebra
-public import Mathlib.Algebra.Polynomial.BigOperators
-public import Mathlib.Algebra.Polynomial.Div
-public import Mathlib.Algebra.Polynomial.FieldDivision
-public import Mathlib.RingTheory.UniqueFactorizationDomain.NormalizedFactors
+public import Mathlib.Algebra.Field.ZMod
+public import Mathlib.RingTheory.Polynomial.UniqueFactorization
+public import Mathlib.RingTheory.SimpleModule.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.Tactic.Positivity.Finset
 
 @[expose] public section
 

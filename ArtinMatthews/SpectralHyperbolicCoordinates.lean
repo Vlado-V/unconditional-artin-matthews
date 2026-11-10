@@ -1,8 +1,6 @@
 module
 
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Measure
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 
 set_option backward.privateInPublic true

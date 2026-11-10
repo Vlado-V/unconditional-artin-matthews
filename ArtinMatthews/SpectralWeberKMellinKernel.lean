@@ -1,7 +1,12 @@
 module
 
-public import ArtinMatthews.SpectralWeberKBasic
+public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
+public import ArtinMatthews.SpectralBesselMellinConvergence
 public import ArtinMatthews.SpectralInverseSquarePower
+public import ArtinMatthews.SpectralLaplaceGamma
+public import ArtinMatthews.SpectralWeberKBasic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

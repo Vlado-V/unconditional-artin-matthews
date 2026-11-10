@@ -3,6 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.ParametersHighData
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Tactic.Positivity.Finset
+public import OAI.NumberTheory.DirichletL.ParametersCentralBudget
+public import OAI.NumberTheory.DirichletL.ParametersDetectorScales
+public import OAI.NumberTheory.DirichletL.ParametersSlotLengths
 
 
 set_option backward.privateInPublic true

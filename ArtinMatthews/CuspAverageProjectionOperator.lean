@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.CuspAverageProjectionBase
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.MeasureTheory.Function.L2Space
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 
 set_option backward.privateInPublic true

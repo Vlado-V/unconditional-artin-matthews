@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.PrimeRay
 public import OAI.NumberTheory.DirichletL.Hecke.RowClosure
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
+public import OAI.NumberTheory.DirichletL.ChineseRemainder.PrimaryCompletions
 public import OAI.NumberTheory.DirichletL.Hecke.Conjugation
 
 

@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.MarkedMemoryLineageLabelEquiv
+public import ArtinMatthews.MarkedMemoryHistoryPresenceIntervals
 
 
 set_option backward.privateInPublic true

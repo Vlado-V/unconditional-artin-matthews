@@ -1,7 +1,9 @@
 module
 
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
 public import ArtinMatthews.SourceEuclideanCoefficientCutoff
 public import ArtinMatthews.SourceEuclideanCoercivity
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
 public import Mathlib.Analysis.Calculus.MeanValue
 
 

@@ -3,7 +3,14 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.Conductor
-public import OAI.NumberTheory.DirichletL.Hecke.LocalRamification
+public import OAI.NumberTheory.DirichletL.Moments.Canonical
+public import OAI.NumberTheory.DirichletL.RowCompletion.PeriodicRows
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.ConductorBounds
+public import OAI.NumberTheory.DirichletL.Hecke.IdealOperations
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

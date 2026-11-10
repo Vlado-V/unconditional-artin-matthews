@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.HeckeExpansion
 public import OAI.NumberTheory.DirichletL.Moments.RowNorm
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.RowCompletion.PeriodicRows
 
 
 set_option backward.privateInPublic true

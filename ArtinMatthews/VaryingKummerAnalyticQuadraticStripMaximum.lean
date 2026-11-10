@@ -1,7 +1,9 @@
 module
 
+public import Mathlib.Analysis.Calculus.DiffContOnCl
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.Complex.PhragmenLindelof
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
 
 
 set_option backward.privateInPublic true

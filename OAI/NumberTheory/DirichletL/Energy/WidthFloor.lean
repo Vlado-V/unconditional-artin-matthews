@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Energy.WidthSchedule
 public import OAI.NumberTheory.DirichletL.Energy.Bands
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.Floor
 
 
 set_option backward.privateInPublic true

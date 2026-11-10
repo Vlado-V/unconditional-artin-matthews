@@ -1,9 +1,13 @@
 module
 
+public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
+public import ArtinMatthews.SpectralBesselKEquation
+public import ArtinMatthews.SpectralBesselMellinConvergence
 public import ArtinMatthews.SpectralBesselMellinEvaluation
 public import ArtinMatthews.SpectralGammaVerticalIntegrable
-public import ArtinMatthews.SpectralBesselKEquation
 public import Mathlib.Analysis.MellinInversion
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

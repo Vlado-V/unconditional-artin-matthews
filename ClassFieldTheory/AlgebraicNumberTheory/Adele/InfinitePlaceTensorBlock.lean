@@ -11,6 +11,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 public import ClassFieldTheory.AlgebraicNumberTheory.Adele.RestrictedAction
 public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalBlocks.Tensor
 public import Mathlib.NumberTheory.NumberField.Completion.LiesOverInstances
+public import Mathlib.RingTheory.Henselian
 
 
 set_option backward.privateInPublic true

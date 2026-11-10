@@ -1,7 +1,9 @@
 module
 
 public import ArtinMatthews.DavenportHasseMonicEnumeration
+public import ArtinMatthews.FiniteFieldNormCharacter
 public import ArtinMatthews.DavenportHasseRootFibers
+public import ArtinMatthews.DavenportHasseRootWeight
 
 
 set_option backward.privateInPublic true

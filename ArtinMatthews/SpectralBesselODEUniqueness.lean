@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.SpectralBesselKWhittaker
 public import ArtinMatthews.SpectralBesselKNonzero
 public import Mathlib.Analysis.ODE.ExistUnique
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

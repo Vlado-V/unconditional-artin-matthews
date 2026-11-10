@@ -2,10 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Data.Nat.Squarefree
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.BigOperators.Field
 public import Mathlib.Basic.Real.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Data.Nat.PrimeFin
+public import Mathlib.Data.Nat.Squarefree
 
 
 set_option backward.privateInPublic true

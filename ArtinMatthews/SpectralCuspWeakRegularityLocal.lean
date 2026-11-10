@@ -1,8 +1,10 @@
 module
 
-public import ArtinMatthews.SpectralCuspWeakRegularityPrimitives
-public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
-public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.MeasureTheory.Covering.Besicovitch
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.Tactic.Positivity.Finset
+import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
 
 
 set_option backward.privateInPublic true

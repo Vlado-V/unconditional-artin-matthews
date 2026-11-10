@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.SourceThetaSchlafliMoments
+public import ArtinMatthews.SourceThetaBesselMellin
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Eisenstein.ResidualFourierBounds
 
 

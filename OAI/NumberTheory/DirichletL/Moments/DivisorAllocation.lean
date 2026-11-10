@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.HeckeExpansion
-public import OAI.NumberTheory.DirichletL.Moments.MobiusRegroup
+public import OAI.NumberTheory.DirichletL.Arithmetic.IdealMobius
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Arithmetic.SquarefreeDivisors
 
 
 set_option backward.privateInPublic true

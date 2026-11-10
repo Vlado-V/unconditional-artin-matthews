@@ -2,9 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveIdentity
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveCount
 public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileScales
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveEnergy
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLivePartition
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveIdentity
 
 
 set_option backward.privateInPublic true

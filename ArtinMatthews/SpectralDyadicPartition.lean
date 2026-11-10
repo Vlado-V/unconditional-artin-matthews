@@ -1,8 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralDyadicWeight
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 
 set_option backward.privateInPublic true

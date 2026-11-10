@@ -2,6 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.CubicSieve.Majorant
+public import OAI.NumberTheory.DirichletL.CubicSieve.Mobius
+public import OAI.NumberTheory.DirichletL.CubicSieve.RowMajorants
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.CompactDescent
+public import OAI.NumberTheory.DirichletL.CubicSieve.DescentEnergy
 public import OAI.NumberTheory.DirichletL.CubicSieve.QuotientColumns
 public import OAI.NumberTheory.DirichletL.CubicSieve.Recurrence
 

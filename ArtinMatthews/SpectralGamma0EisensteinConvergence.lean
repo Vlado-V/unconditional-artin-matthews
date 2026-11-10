@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralGamma0EisensteinSeries
-public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.UniformConvergence
+public import Mathlib.Analysis.Normed.Group.FunctionSeries
 public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
 
 

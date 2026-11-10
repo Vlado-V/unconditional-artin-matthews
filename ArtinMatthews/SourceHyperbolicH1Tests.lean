@@ -1,6 +1,10 @@
 module
 
+public import ArtinMatthews.SourceHyperbolicProductMeasure
 public import ArtinMatthews.SourceHyperbolicH1Measure
+public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

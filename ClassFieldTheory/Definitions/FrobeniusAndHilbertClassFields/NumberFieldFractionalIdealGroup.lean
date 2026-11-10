@@ -9,7 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.NumberTheory.NumberField.Basic
-public import Mathlib.RingTheory.ClassGroup.Basic
+public import Mathlib.RingTheory.FractionalIdeal.Basic
 
 
 set_option backward.privateInPublic true

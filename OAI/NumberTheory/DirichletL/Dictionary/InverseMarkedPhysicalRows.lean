@@ -3,8 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceDeleted
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedUniform
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceShift
+public import OAI.NumberTheory.DirichletL.Descent.SecondSeparatedColumns
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorRawFiber
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawConjugateGates
 
 
 set_option backward.privateInPublic true

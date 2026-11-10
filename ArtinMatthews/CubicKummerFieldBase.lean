@@ -1,7 +1,8 @@
 module
 
-public import Mathlib.Analysis.Complex.Polynomial.Basic
 public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

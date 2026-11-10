@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralGamma0EisensteinFourier
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import ArtinMatthews.SpectralGamma0EisensteinConvergence
 
 
 set_option backward.privateInPublic true

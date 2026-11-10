@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.OneReflectionEnergy
 public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionaryUniformTests
+public import OAI.NumberTheory.DirichletL.Hecke.Operations
+public import OAI.NumberTheory.DirichletL.Moments.ReflectedUniformPair
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.OneReflectionEnergy
+public import OAI.NumberTheory.DirichletL.Moments.ReflectedPairEnergy
+public import OAI.NumberTheory.DirichletL.Moments.TwistedReflection
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.Logic.Embedding.Basic
-public import Mathlib.Logic.Equiv.Sum
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,9 @@
 module
 
-public import ArtinMatthews.SourceHyperbolicProductMeasureGreen
-public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
-public import Mathlib.Analysis.InnerProductSpace.LinearPMap
+public import ArtinMatthews.SourceHyperbolicProductMeasure
+public import ArtinMatthews.SourceHyperbolicProductCalculus
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.Logic.Equiv.Basic
+public import Aesop.BuiltinRules
+public import Mathlib.Logic.Equiv.Defs
 
 
 set_option backward.privateInPublic true

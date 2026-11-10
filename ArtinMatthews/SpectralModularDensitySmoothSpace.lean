@@ -1,7 +1,7 @@
 module
 
-public import ArtinMatthews.SpectralModularDensitySmoothGeometry
-public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+public import ArtinMatthews.SpectralGamma0Core
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

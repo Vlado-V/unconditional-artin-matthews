@@ -1,6 +1,6 @@
 module
 
-public import ArtinMatthews.UnitTorusFourierTail
+public import ArtinMatthews.UnitTorusWeakGradient
 
 
 set_option backward.privateInPublic true

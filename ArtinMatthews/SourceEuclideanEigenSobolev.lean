@@ -1,6 +1,11 @@
 module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LocalSmoothRegularity
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CutoffDifferential
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.HigherCutoffRegularity
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.NestedCutoffExistence
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.NestedCutoffIdentities
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Smooth
 
 
 set_option backward.privateInPublic true

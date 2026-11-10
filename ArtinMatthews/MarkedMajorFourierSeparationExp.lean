@@ -1,5 +1,6 @@
 module
 
+public import ArtinMatthews.MarkedMajorFourierSeparationBase
 public import ArtinMatthews.MarkedMajorFourierSeparation
 
 

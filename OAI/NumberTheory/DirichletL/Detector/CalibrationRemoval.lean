@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.FrequencySupport
 public import OAI.NumberTheory.DirichletL.Detector.PhysicalReopen
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.CalibrationCRT
 
 
 set_option backward.privateInPublic true

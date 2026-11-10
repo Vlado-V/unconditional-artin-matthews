@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Reflection.OriginalSlotSupport
 public import OAI.NumberTheory.DirichletL.Reflection.OriginalTransport
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

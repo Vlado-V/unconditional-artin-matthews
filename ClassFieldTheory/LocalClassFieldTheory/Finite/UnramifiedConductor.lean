@@ -8,11 +8,32 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.SetTheory.Cardinal.Finite
-public import Mathlib.FieldTheory.Galois.Abelian
-public import Mathlib.GroupTheory.Abelianization.Defs
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.Conductor
+public import Mathlib.RingTheory.Henselian
+public import ValuedFieldTheory.LocalField.DiscreteValuationField.FieldNorm
+public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.FiniteUnramified
+public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.Valuation
+public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.ValuationExactSequence
+public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.Main
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.UnramifiedNormComparison
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.SeparableNormValuation
 
 
 set_option backward.privateInPublic true

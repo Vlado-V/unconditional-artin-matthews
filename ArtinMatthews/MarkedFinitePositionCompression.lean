@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.MarkedFiniteCells
-public import ArtinMatthews.MarkedFiniteLocalizedMoments
+public import Mathlib.Analysis.Matrix.PosDef
 
 
 set_option backward.privateInPublic true

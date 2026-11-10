@@ -4,7 +4,6 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.OddSignSwitch
 public import OAI.AlgebraicGeometry.ComplexMultiplication.EmbeddingHodgeType
-public import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
 
 
 set_option backward.privateInPublic true

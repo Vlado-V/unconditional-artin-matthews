@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Reflection.FixedTuples
 public import OAI.NumberTheory.DirichletL.Reflection.OriginalTransport
+public import OAI.NumberTheory.DirichletL.Reflection.SlotCoefficients
+public import OAI.NumberTheory.DirichletL.Reflection.TupleFamily
+public import OAI.NumberTheory.DirichletL.Reflection.WholeRow
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

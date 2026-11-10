@@ -2,8 +2,28 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.TwoPoint.Halasz.HalaszWindowPairCount
+public import OAI.NumberTheory.TwoPoint.Halasz.HalaszScaledFrequency
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import OAI.NumberTheory.TwoPoint.Halasz.HalaszCollisionPartition
 public import OAI.NumberTheory.TwoPoint.Halasz.HalaszFrequencyBox
+public import OAI.NumberTheory.TwoPoint.Halasz.HalaszWindowPairCount
+public import OAI.NumberTheory.TwoPoint.Halasz.HalaszWindowSampling
 
 
 set_option backward.privateInPublic true

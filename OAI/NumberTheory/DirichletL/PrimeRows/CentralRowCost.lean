@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.CentralRepeatedProduct
 public import OAI.NumberTheory.DirichletL.PrimeRows.RowPartition
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.RowReflectedAllocation
 
 
 set_option backward.privateInPublic true

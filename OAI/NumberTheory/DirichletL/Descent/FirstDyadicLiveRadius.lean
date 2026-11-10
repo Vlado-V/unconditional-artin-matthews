@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicCell
 public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLivePartition
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

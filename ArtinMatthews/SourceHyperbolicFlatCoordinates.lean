@@ -1,7 +1,8 @@
 module
 
 public import ArtinMatthews.SourceHyperbolicProductCalculus
-public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

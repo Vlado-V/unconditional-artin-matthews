@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.RepresentationTheory.Basic
-public import Mathlib.Algebra.Group.Subgroup.Basic
 
 
 set_option backward.privateInPublic true

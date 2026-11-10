@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstRetainedAssembly
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalDyadicAssembly
+public import OAI.NumberTheory.DirichletL.Moments.FirstSectorLocalization
+public import OAI.NumberTheory.DirichletL.Moments.FirstSectorTransform
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.FirstRetainedActive
-public import OAI.NumberTheory.DirichletL.Moments.FirstTailAggregate
+public import OAI.NumberTheory.DirichletL.Moments.FirstRetainedAssembly
 
 
 set_option backward.privateInPublic true

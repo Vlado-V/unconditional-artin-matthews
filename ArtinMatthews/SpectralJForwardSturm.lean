@@ -1,8 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralJForwardTransform
+public import ArtinMatthews.SourceSturmCore
 public import ArtinMatthews.SpectralBesselJSpatialODE
-public import ArtinMatthews.SourceSturmSpectralPowers
 
 
 set_option backward.privateInPublic true

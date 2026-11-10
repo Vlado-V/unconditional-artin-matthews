@@ -2,8 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.IdealMultiplicative
-public import Mathlib.RingTheory.UniqueFactorizationDomain.Finsupp
+public import OAI.NumberTheory.DirichletL.GaussSum.FiniteFourier
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

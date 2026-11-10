@@ -4,7 +4,6 @@ module
 
 public import RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict
 public import Mathlib.Analysis.Convolution
-public import Mathlib.Topology.Algebra.Support
 
 
 set_option backward.privateInPublic true

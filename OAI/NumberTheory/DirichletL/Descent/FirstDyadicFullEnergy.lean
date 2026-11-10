@@ -2,12 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicPriorityBudget
+public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicCell
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLivePartition
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileScales
+public import OAI.NumberTheory.DirichletL.Descent.GlobalPriorityFullAggregate
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicLiveRadius
 public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicOriginalBranches
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveParents
-public import OAI.NumberTheory.DirichletL.Descent.FirstLiveCountBudget
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveAggregate
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveEnergy
+public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicPriorityBudget
 
 
 set_option backward.privateInPublic true

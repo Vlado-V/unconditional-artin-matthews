@@ -4,7 +4,8 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongSobolev
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CutoffDifferential
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongSobolevAdjoints
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevInv
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,12 @@
 module
 
-public import ArtinMatthews.SpectralPoincareEnergy
 public import ArtinMatthews.SpectralSectionGradient
+public import ArtinMatthews.SpectralGamma0Core
+public import ArtinMatthews.SpectralPoincareEnergy
+public import ArtinMatthews.SpectralPoincareLinear
+public import ArtinMatthews.SpectralPoincareSmooth
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Function.L2Space
 
 
 set_option backward.privateInPublic true

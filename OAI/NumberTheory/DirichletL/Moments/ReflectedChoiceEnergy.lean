@@ -2,8 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.OneReflectionScaleEnergy
 public import OAI.NumberTheory.DirichletL.Moments.ReflectionWeightedEnergy
+public import OAI.NumberTheory.DirichletL.Hecke.Operations
+public import OAI.NumberTheory.DirichletL.Moments.NaturalPrimitive
+public import OAI.NumberTheory.DirichletL.Moments.ReflectedTruncation
+public import OAI.NumberTheory.DirichletL.Moments.ReflectedUniformPair
+public import OAI.NumberTheory.DirichletL.Moments.ScaleSupremum
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.OneReflectionScaleEnergy
 public import OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength
 public import OAI.NumberTheory.DirichletL.Moments.ReflectionTailMass
 

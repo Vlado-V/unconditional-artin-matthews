@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedBin
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.DyadicScale
 public import OAI.NumberTheory.DirichletL.PrimeRows.CoarseUniform
-public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedHeightGrowth
+public import OAI.NumberTheory.DirichletL.PrimeRows.Conductor
+public import OAI.NumberTheory.DirichletL.PrimeRows.DiskControl
 
 
 set_option backward.privateInPublic true

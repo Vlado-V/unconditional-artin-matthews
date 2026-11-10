@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstChildBound
+public import OAI.NumberTheory.DirichletL.Moments.CanonicalFirst
+public import OAI.NumberTheory.DirichletL.Moments.FirstSectors
+public import OAI.NumberTheory.DirichletL.Moments.FirstWholeKernel
+public import OAI.NumberTheory.DirichletL.Moments.SourceRow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstCanonicalFamily
 public import OAI.NumberTheory.DirichletL.Moments.FirstSectorTransform
-public import OAI.NumberTheory.DirichletL.Moments.FirstChildProfile
 
 
 set_option backward.privateInPublic true

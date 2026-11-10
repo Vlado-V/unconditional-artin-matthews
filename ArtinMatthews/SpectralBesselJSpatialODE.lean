@@ -1,8 +1,7 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Bessel
 public import ArtinMatthews.SpectralRegularizedBesselSeries
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-public import Mathlib.Analysis.Complex.RealDeriv
 
 
 set_option backward.privateInPublic true

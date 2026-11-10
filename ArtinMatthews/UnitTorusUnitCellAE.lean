@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.UnitTorusLocalRellich
-public import Mathlib.Algebra.Order.Floor.Ring
 
 
 set_option backward.privateInPublic true

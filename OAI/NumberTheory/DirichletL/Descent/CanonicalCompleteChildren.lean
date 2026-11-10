@@ -2,6 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalLongGeometry
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalLongKeys
+public import OAI.NumberTheory.DirichletL.Descent.CompletedReopening
+public import OAI.NumberTheory.DirichletL.Descent.FirstLabelCellStep
+public import OAI.NumberTheory.DirichletL.Descent.FirstSecondHeightCost
+public import OAI.NumberTheory.DirichletL.Inversion.TerminalWidths
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalCompleteState
 public import OAI.NumberTheory.DirichletL.Descent.CanonicalLongCosts
 public import OAI.NumberTheory.DirichletL.Descent.CanonicalLongHeightBin
 

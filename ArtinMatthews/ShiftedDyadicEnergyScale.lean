@@ -1,7 +1,6 @@
 module
 
-public import ArtinMatthews.ShiftedBilinearPowers
-public import Mathlib.Tactic.GCongr
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
 
 
 set_option backward.privateInPublic true

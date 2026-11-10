@@ -1,7 +1,9 @@
 module
 
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
 public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.QExpansion
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
 
 
 set_option backward.privateInPublic true

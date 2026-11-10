@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
 public import Mathlib.Analysis.Normed.Module.FiniteDimension
 
 

@@ -8,7 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.Tower
+public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

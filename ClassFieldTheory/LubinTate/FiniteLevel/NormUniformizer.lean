@@ -9,7 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveUniformizer
-public import Mathlib.RingTheory.Norm.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
 
 
 set_option backward.privateInPublic true

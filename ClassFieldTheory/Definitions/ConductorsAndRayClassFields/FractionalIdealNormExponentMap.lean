@@ -8,11 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.Algebra.BigOperators.Finsupp.Basic
 public import Mathlib.NumberTheory.NumberField.Basic
-public import Mathlib.RingTheory.DedekindDomain.Factorization
-public import Mathlib.RingTheory.Ideal.GoingUp
-public import Mathlib.RingTheory.Ideal.Norm.RelNorm
+public import Mathlib.RingTheory.RamificationInertia.Inertia
+public import Mathlib.CategoryTheory.Category.Init
 
 
 set_option backward.privateInPublic true

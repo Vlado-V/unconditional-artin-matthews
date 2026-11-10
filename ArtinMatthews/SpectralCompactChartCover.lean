@@ -1,6 +1,8 @@
 module
 
+public import Mathlib.NumberTheory.Modular
 public import ArtinMatthews.SpectralCompactChartHeight
+public import Mathlib.NumberTheory.ModularForms.ProperlyDiscontinuous
 
 
 set_option backward.privateInPublic true

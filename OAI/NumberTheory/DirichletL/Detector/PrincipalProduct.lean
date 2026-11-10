@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.EulerCoordinates
+public import OAI.NumberTheory.DirichletL.Hecke.MobiusEulerCorrection
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.EulerHolomorphic
+public import OAI.NumberTheory.DirichletL.Detector.EulerRegion
 public import OAI.NumberTheory.DirichletL.Detector.NormalProduct
+public import OAI.NumberTheory.DirichletL.Detector.Row
 
 
 set_option backward.privateInPublic true

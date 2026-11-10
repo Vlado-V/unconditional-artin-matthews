@@ -1,7 +1,11 @@
 module
 
-public import ArtinMatthews.ShiftedVoronoiBesselInversion
+public import ArtinMatthews.ShiftedVoronoiBesselTransform
+public import Mathlib.Analysis.CStarAlgebra.Classes
 public import ArtinMatthews.ShiftedVoronoiBesselDecay
+public import ArtinMatthews.ShiftedVoronoiBesselInversion
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,9 @@
 module
 
+public import ArtinMatthews.SpectralBesselOrderBound
 public import ArtinMatthews.SpectralBesselOrderAnalytic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -11,6 +11,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 public import ClassFieldTheory.Definitions.HilbertSymbols.GlobalHilbertPairingFamily
 public import ClassFieldTheory.Definitions.HilbertSymbols.PowerClass
 public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

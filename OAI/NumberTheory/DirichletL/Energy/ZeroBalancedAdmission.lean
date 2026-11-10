@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.ZeroBalancedDictionary
+public import OAI.NumberTheory.DirichletL.Energy.ZeroReferencePhysical
+public import OAI.NumberTheory.DirichletL.Moments.FirstReferenceEnergy
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Energy.NaturalSourceAdmission
+public import OAI.NumberTheory.DirichletL.Energy.OriginalProfileControl
+public import OAI.NumberTheory.DirichletL.Energy.PositiveHighParameters
+public import OAI.NumberTheory.DirichletL.Energy.ZeroBalancedDictionary
 
 
 set_option backward.privateInPublic true

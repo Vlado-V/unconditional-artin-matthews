@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralPrincipalWeightedMeasure
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
 public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 

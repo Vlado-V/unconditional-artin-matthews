@@ -1,7 +1,6 @@
 module
 
-public import ArtinMatthews.UnitTorusLocalRellich
-public import Mathlib.MeasureTheory.Group.Prod
+public import ArtinMatthews.UnitTorusWeakGradient
 
 
 set_option backward.privateInPublic true

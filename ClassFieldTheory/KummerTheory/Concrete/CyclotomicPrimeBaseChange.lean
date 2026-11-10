@@ -8,8 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import Mathlib.NumberTheory.Cyclotomic.Basic
 public import ClassFieldTheory.AlgebraicNumberTheory.TensorProduct
-public import Mathlib.NumberTheory.Cyclotomic.PrimitiveRoots
+public import Mathlib.Algebra.Order.Algebra
 
 
 set_option backward.privateInPublic true

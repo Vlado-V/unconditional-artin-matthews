@@ -1,8 +1,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Analysis.Real.Sqrt
 
 
 set_option backward.privateInPublic true

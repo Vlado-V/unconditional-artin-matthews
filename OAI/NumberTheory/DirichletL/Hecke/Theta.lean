@@ -3,8 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.EisensteinTheta
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
-public import Mathlib.NumberTheory.LSeries.MellinEqDirichlet
 
 
 set_option backward.privateInPublic true

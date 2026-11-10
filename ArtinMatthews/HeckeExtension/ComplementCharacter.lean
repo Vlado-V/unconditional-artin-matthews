@@ -1,7 +1,9 @@
 module
 
-public import Mathlib.GroupTheory.Complement
-public import Mathlib.Algebra.Group.Prod
+public import Mathlib.Algebra.Group.Subgroup.Lattice
+public import Mathlib.Data.Finset.Attr
+public import Mathlib.Order.ConditionallyCompleteLattice.Basic
+public import Mathlib.Tactic.Bound.Init
 
 
 set_option backward.privateInPublic true

@@ -3,13 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Descent.CanonicalLowerMoments
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLivePartition
+public import OAI.NumberTheory.DirichletL.Descent.FirstSecondHeightCost
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.FirstTwoPassParentEnergy
-public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicFullEnergy
-public import OAI.NumberTheory.DirichletL.Descent.FirstDyadicOriginalBranches
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveParents
-public import OAI.NumberTheory.DirichletL.Descent.FirstLiveCountBudget
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveAggregate
-public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveEnergy
 
 
 set_option backward.privateInPublic true

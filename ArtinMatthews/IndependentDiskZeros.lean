@@ -1,5 +1,8 @@
 module
 
+public import Mathlib.Analysis.Analytic.Order
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 public import Mathlib.Analysis.Complex.JensenFormula
 
 /-! Finite disk zeros and their multiplicities, proved using the Mathlib

@@ -8,8 +8,12 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import ClassFieldTheory.LubinTate.FormalModule.RecursiveCoefficient
+public import ClassFieldTheory.LubinTate.FormalModule.CoefficientEquation
 public import ClassFieldTheory.LubinTate.FormalModule.DegreeStabilization
 public import ClassFieldTheory.LubinTate.FormalModule.RecursiveCorrection
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

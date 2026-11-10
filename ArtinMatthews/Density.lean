@@ -1,8 +1,10 @@
 module
 
 public import ArtinMatthews.Definitions
+public import Mathlib.NumberTheory.PrimeCounting
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
 public import Mathlib.NumberTheory.Chebyshev
-public import Mathlib.Topology.Order.LiminfLimsup
 
 
 set_option backward.privateInPublic true

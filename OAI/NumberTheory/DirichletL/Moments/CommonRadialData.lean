@@ -2,8 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.RadialSourceDictionary
-public import OAI.NumberTheory.DirichletL.Moments.ActiveCanonicalSource
+public import OAI.NumberTheory.DirichletL.Moments.EligibleEnergy
+public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
+public import OAI.NumberTheory.DirichletL.Moments.SourceRectangle
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+import OAI.NumberTheory.DirichletL.Moments.RadialEligibleEnergy
+import OAI.NumberTheory.DirichletL.Moments.AmplificationLiveMask
+import OAI.NumberTheory.DirichletL.Moments.RestrictedSource
+import OAI.NumberTheory.DirichletL.Moments.CommonRawScale
 
 
 set_option backward.privateInPublic true

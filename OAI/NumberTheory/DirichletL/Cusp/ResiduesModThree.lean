@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Eisenstein.ConjugateCuspProfiles
 public import OAI.NumberTheory.DirichletL.Eisenstein.CuspDilation
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.FixedProfiles
 
 
 set_option backward.privateInPublic true

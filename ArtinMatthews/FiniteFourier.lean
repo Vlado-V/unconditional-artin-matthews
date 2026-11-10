@@ -1,7 +1,10 @@
 module
 
 public import ArtinMatthews.CubicTrace
+public import Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 public import Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
 
 
 set_option backward.privateInPublic true

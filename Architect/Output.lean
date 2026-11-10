@@ -3,6 +3,7 @@ module
 public import Architect.CollectUsed
 public import Architect.Content
 public import Architect.Tactic
+public import Lean.Data.Json.Elab
 
 public meta section
 

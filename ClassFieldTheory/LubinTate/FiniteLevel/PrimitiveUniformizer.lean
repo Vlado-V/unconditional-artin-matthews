@@ -8,13 +8,20 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveRoot
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Extensions
+public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveEisenstein
 public import ClassFieldTheory.LubinTate.FiniteLevel.PrimitiveTorsion
-public import ValuedFieldTheory.LocalField.DiscreteValuationField.RamificationAddVal
-public import ValuedFieldTheory.Valuation.DiscreteValuationField.AddVal
-public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteIntegralClosure
-public import Mathlib.RingTheory.Finiteness.Cardinality
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.RingTheory.Discriminant
 public import Mathlib.RingTheory.Polynomial.Eisenstein.IsIntegral
+public import Mathlib.RingTheory.Valuation.LocalSubring
+public import ValuedFieldTheory.LocalField.DiscreteValuationField.RamificationAddVal
+public import ValuedFieldTheory.LocalField.DiscreteValuationField.RamificationIdeal
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.AddVal
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteExtension.Degree
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteIntegralClosure
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.IntegralClosure
 
 
 set_option backward.privateInPublic true

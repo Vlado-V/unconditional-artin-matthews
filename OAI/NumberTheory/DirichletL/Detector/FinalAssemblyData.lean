@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.ParametersFixedSource
 public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblySource
 public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyCountParameters
+public import OAI.NumberTheory.DirichletL.ParametersHighData
+public import OAI.NumberTheory.DirichletL.PrimeRows.FirstTail
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.ParametersFixedSource
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

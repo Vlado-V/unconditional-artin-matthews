@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.LowCutoff
-public import OAI.NumberTheory.DirichletL.Detector.PhysicalNorms
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.SpectralWeights
+public import OAI.NumberTheory.DirichletL.Eisenstein.SourceMellinInversion
 
 
 set_option backward.privateInPublic true

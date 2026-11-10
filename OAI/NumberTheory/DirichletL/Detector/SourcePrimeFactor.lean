@@ -2,6 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.SourceCoefficient
+public import OAI.NumberTheory.DirichletL.Detector.SourceLocal
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.CompletedCRTPhase
+public import OAI.NumberTheory.DirichletL.Detector.PhasePowers
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalLocalEuler
+public import OAI.NumberTheory.DirichletL.Detector.PrimePhase
 public import OAI.NumberTheory.DirichletL.Detector.SourcePrime
 
 

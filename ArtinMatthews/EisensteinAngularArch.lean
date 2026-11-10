@@ -1,9 +1,8 @@
 module
 
 public import ArtinMatthews.EisensteinAngularEmbedding
-public import Mathlib.NumberTheory.NumberField.Cyclotomic.Embeddings
-public import Mathlib.Data.Fintype.EquivFin
-import ArtinMatthews.EisensteinAngularField
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

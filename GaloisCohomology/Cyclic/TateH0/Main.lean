@@ -9,6 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import GaloisCohomology.Cyclic.TateH0.NormImage
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
 
 
 set_option backward.privateInPublic true

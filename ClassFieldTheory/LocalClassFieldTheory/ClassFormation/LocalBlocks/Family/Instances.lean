@@ -10,6 +10,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalBlocks.Induced
 public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Product
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

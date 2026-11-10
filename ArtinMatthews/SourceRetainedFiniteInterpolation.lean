@@ -1,8 +1,9 @@
 module
 
 public import Mathlib.Basic.Complex.Basic
-public import Mathlib.Data.Fintype.BigOperators
-public import Mathlib.Algebra.BigOperators.GroupWithZero.Finset
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Data.Fintype.Pi
+public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
 public import Mathlib.Algebra.BigOperators.Ring.Finset
 
 

@@ -2,8 +2,6 @@ module
 
 public import Mathlib.NumberTheory.Modular
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Measure
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
-public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
 
 
 set_option backward.privateInPublic true

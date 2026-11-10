@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.MeasureTheory.Function.L2Space
-public import Mathlib.Topology.ContinuousMap.Bounded.Normed
 
 
 set_option backward.privateInPublic true

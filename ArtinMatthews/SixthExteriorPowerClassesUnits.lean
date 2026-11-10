@@ -2,8 +2,6 @@ module
 
 public import ArtinMatthews.SixthExteriorPowerClasses
 public import Mathlib.NumberTheory.NumberField.Units.DirichletTheorem
-public import Mathlib.RingTheory.Finiteness.Finsupp
-public import Mathlib.RingTheory.Noetherian.Basic
 
 
 set_option backward.privateInPublic true

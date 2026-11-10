@@ -1,8 +1,8 @@
 module
 
 public import Mathlib.Analysis.Normed.Operator.Compact.Basic
-public import Mathlib.Analysis.Normed.Operator.Extend
 public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Normed.Operator.Extend
 
 
 set_option backward.privateInPublic true

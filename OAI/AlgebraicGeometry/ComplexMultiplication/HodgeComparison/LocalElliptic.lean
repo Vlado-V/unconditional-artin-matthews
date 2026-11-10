@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.WeakEquationLocalization
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CutoffDifferenceBounds
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.GradientSupport
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.EuclideanGradient
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevCutoffOperator
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CutoffDifferenceBounds
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Elliptic
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevSmoothDensity
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.WeakEquationLocalization
 
 
 set_option backward.privateInPublic true

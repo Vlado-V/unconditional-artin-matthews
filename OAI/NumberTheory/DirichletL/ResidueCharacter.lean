@@ -2,6 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
+public import OAI.NumberTheory.DirichletL.FiniteConductor
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import OAI.NumberTheory.DirichletL.ConductorPresentation
 
 

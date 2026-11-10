@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.QuadraticSieve.DivisorBlocks
 public import OAI.NumberTheory.DirichletL.CubicSieve.IntegratedTransfer
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 
 
 set_option backward.privateInPublic true

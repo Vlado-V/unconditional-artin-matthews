@@ -2,10 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Algebra.Module.ZLattice.Basic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
 public import Mathlib.Analysis.Normed.Group.Tannery
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
-public import Mathlib.Tactic.Linarith
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

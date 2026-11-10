@@ -8,11 +8,31 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalBlocks.Induced
+public import Mathlib.NumberTheory.NumberField.Completion.LiesOverInstances
+public import Mathlib.RingTheory.Henselian
+public import ValuedFieldTheory.LocalField.NonarchimedeanLocalField.NormQuotient
 public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.ArchimedeanHilbert90
-public import ClassFieldTheory.AlgebraicNumberTheory.Adele.InfinitePlaceTensorBlock
-public import Mathlib.Basic.Real.Sign
-public import Mathlib.NumberTheory.NumberField.Completion.Ramification
+public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalizedCompletionCohomology.HerbrandEquiv
 public import Mathlib.RingTheory.Complex
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Topology.Algebra.Group.Units
+public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionFieldLocalization
 
 
 set_option backward.privateInPublic true

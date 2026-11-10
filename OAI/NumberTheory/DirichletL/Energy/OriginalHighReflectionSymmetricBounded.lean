@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.OriginalHighReflectionSymmetric
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceLowBands
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Energy.OriginalHighReflectionBounded
+public import OAI.NumberTheory.DirichletL.Energy.OriginalHighReflectionSymmetric
 
 
 set_option backward.privateInPublic true

@@ -9,7 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Basic
-public import Mathlib.RingTheory.DedekindDomain.Factorization
 public import Mathlib.RingTheory.ClassGroup.Basic
 
 

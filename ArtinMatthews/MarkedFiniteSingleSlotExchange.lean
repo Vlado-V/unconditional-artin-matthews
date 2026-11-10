@@ -1,6 +1,10 @@
 module
 
-public import Mathlib.Data.Fin.Tuple.Basic
+public import Aesop.BuiltinRules
+public import Mathlib.Data.Nat.Notation
+public import Mathlib.Logic.Equiv.Defs
+public import Mathlib.Data.Fin.SuccPred
+public import Mathlib.Tactic.Finiteness.Attr
 
 
 set_option backward.privateInPublic true

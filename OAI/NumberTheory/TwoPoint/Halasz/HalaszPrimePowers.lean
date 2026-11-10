@@ -2,7 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.TwoPoint.Halasz.HalaszHyperbolaRows
+public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+public import OAI.NumberTheory.TwoPoint.Basic
 public import Mathlib.NumberTheory.LSeries.PrimesInAP
 
 

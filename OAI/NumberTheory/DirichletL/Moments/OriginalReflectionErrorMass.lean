@@ -2,11 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.OriginalReflectionEnergy
-public import OAI.NumberTheory.DirichletL.Moments.AbsoluteEnergy
-public import OAI.NumberTheory.DirichletL.Moments.Counting
 public import OAI.NumberTheory.DirichletL.Hecke.PrimeRay
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
+public import OAI.NumberTheory.DirichletL.Moments.AbsoluteEnergy
 public import OAI.NumberTheory.DirichletL.Moments.ComparisonReflection
+public import OAI.NumberTheory.DirichletL.Moments.Counting
 
 
 set_option backward.privateInPublic true

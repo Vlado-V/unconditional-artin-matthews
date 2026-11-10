@@ -1,8 +1,8 @@
 module
 
-public import ArtinMatthews.SourceThetaPhysicalMoment
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.MeasureTheory.Constructions.Polish.Basic
+public import ArtinMatthews.SourceThetaProfileSmoothing
+public import ArtinMatthews.SourceThetaGaussianMoments
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

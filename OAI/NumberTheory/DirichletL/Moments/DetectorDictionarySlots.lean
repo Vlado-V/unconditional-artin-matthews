@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.DetectorDictionary
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeRow
+public import OAI.NumberTheory.DirichletL.Moments.PrimeSlot
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.ChineseRemainder.PrimaryCompletions
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorRelativePrime
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
+public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationConjugation
 
 
 set_option backward.privateInPublic true

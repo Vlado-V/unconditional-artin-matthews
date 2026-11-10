@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.MeasureTheory.Integral.CompactlySupported
+public import Mathlib.Topology.ContinuousMap.CompactlySupported
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

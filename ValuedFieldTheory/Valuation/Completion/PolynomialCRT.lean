@@ -9,7 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.RingTheory.AdjoinRoot
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
 
 
 set_option backward.privateInPublic true

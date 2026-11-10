@@ -10,6 +10,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import GaloisCohomology.Cyclic.Herbrand.Induced
 public import ValuedFieldTheory.Ramification.HilbertRamification.AlgebraicLocalization
+public import ValuedFieldTheory.Valuation.Completion.FiniteLocalization
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

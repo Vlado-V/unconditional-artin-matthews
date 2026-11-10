@@ -2,9 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpCoefficients
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Function.L2Space
 public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SpectralGammaVertical
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
 
 
 set_option backward.privateInPublic true

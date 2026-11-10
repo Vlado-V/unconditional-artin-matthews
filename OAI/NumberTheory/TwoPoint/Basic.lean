@@ -3,7 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.NumberTheory.ArithmeticFunction.Liouville
-public import Mathlib.Algebra.BigOperators.Intervals
+public import Mathlib.Analysis.Complex.Norm
 public import Mathlib.Analysis.Complex.Basic
 
 

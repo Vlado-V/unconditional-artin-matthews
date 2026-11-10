@@ -8,9 +8,18 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Core
 public import ProCGroups.InducedFunctions
 public import Mathlib.Logic.Equiv.Fin.Rotate
+public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Basic
+public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
+public import Mathlib.Algebra.GroupWithZero.Invertible
+public import Mathlib.Data.NNRat.Defs
 
 
 set_option backward.privateInPublic true

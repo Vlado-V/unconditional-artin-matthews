@@ -8,9 +8,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.RingTheory.Trace.Defs
 public import Mathlib.RingTheory.Norm.Basic
 public import Mathlib.RingTheory.Trace.Basic
-public import Mathlib.LinearAlgebra.Dimension.Constructions
 
 
 set_option backward.privateInPublic true

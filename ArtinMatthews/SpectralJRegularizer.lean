@@ -1,5 +1,7 @@
 module
 
+public import Mathlib.Analysis.Calculus.DSlope
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 public import Mathlib.Analysis.Complex.RemovableSingularity
 public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 

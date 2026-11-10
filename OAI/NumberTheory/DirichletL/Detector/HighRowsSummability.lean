@@ -3,7 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsSeries
+public import OAI.NumberTheory.DirichletL.Detector.ScalarTable
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsDiagonal
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsRecurrence
 
 
 set_option backward.privateInPublic true

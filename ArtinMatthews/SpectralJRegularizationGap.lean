@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralJRegularizerLimit
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

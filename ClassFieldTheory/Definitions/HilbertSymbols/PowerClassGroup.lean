@@ -8,8 +8,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.Algebra.Field.Basic
-public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Data.PNat.Notation
+public import Mathlib.GroupTheory.QuotientGroup.Defs
+public import Mathlib.Data.Finset.Attr
 
 
 set_option backward.privateInPublic true

@@ -3,7 +3,6 @@ module
 public import Mathlib.Analysis.Complex.Exponential
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.SpecialFunctions.Exp
-public import Mathlib.Analysis.SpecificLimits.Basic
 
 
 set_option backward.privateInPublic true

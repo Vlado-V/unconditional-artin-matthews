@@ -2,6 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.CubicSieve.LogSeparation
+public import OAI.NumberTheory.DirichletL.Descent.ReopenedOriginalRow
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.CanonicalLogEnergy
+public import OAI.NumberTheory.DirichletL.Descent.ReopenedIdentification
 public import OAI.NumberTheory.DirichletL.Descent.ReopenedSeparation
 
 

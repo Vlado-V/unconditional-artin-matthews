@@ -10,7 +10,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.AbstractClassFieldTheory.Reciprocity.MaximalUnramifiedSymbol
 public import ClassFieldTheory.AbstractClassFieldTheory.Reciprocity.Main
-public import GaloisCohomology.Cyclic.IntegralRepUniverse
 
 
 set_option backward.privateInPublic true

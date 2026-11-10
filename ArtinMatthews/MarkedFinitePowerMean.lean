@@ -1,8 +1,11 @@
 module
 
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Algebra.BigOperators.Field
 public import Mathlib.Analysis.Convex.Jensen
 public import Mathlib.Analysis.Convex.Mul
-public import Mathlib.Analysis.MeanInequalities
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 
 
 set_option backward.privateInPublic true

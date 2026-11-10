@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.MarkedFiniteSpectralMoments
+public import ArtinMatthews.MarkedFinitePowerMean
+public import Mathlib.Analysis.Matrix.PosDef
 
 
 set_option backward.privateInPublic true

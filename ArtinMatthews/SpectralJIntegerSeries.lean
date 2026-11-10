@@ -1,6 +1,6 @@
 module
 
-public import ArtinMatthews.ShiftedVoronoiBessel
+public import Mathlib.Analysis.SpecialFunctions.Bessel
 
 
 set_option backward.privateInPublic true

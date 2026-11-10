@@ -1,8 +1,10 @@
 module
 
+public import ArtinMatthews.QuotientSectionFrame
+public import Mathlib.MeasureTheory.Group.Defs
+public import Mathlib.MeasureTheory.Measure.Prod
 public import ArtinMatthews.QuotientSectionCocycle
-public import Mathlib.MeasureTheory.Group.Prod
-public import Mathlib.MeasureTheory.Integral.Prod
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

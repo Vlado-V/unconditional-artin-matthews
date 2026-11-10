@@ -3,7 +3,6 @@ module
 public import Mathlib.NumberTheory.NumberField.Basic
 public import Mathlib.RingTheory.DedekindDomain.Factorization
 public import Mathlib.RingTheory.ClassGroup.Basic
-public import Lean.Elab.Tactic.Omega
 
 
 set_option backward.privateInPublic true

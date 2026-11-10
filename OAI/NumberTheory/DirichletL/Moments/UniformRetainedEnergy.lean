@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.UniformReflectionChoices
-public import OAI.NumberTheory.DirichletL.Moments.RetainedComparisonEnergy
 public import OAI.NumberTheory.DirichletL.Moments.UniformReflectionApproximation
+public import OAI.NumberTheory.DirichletL.Moments.RetainedWeightedSource
+public import OAI.NumberTheory.DirichletL.Moments.ScaleSupremum
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.ReflectedNormalization
+public import OAI.NumberTheory.DirichletL.Moments.UniformReflectionChoices
 
 
 set_option backward.privateInPublic true

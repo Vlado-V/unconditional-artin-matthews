@@ -9,6 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.LubinTate.FiniteLevel.CompletedEvaluation
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
 
 
 set_option backward.privateInPublic true

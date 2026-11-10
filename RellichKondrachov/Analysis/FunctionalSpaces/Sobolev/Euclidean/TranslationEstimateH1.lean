@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2
-public import Mathlib.Topology.Order.OrderClosed
 
 
 set_option backward.privateInPublic true

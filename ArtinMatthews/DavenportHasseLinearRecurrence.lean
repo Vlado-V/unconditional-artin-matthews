@@ -1,7 +1,7 @@
 module
 
+public import ArtinMatthews.DavenportHasseMonicFrames
 public import ArtinMatthews.DavenportHasseCoefficientCollapse
-public import Mathlib.Algebra.BigOperators.Intervals
 
 
 set_option backward.privateInPublic true

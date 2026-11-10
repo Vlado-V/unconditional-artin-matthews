@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Arithmetic.EisensteinCoordinates
+import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
+import Mathlib.Analysis.Fourier.Notation
 
 
 set_option backward.privateInPublic true

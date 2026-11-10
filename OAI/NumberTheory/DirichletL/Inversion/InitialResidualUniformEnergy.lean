@@ -2,9 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Cusp.StaticReflectionPhases
+public import OAI.NumberTheory.DirichletL.Descent.SecondSeparatedColumns
+public import OAI.NumberTheory.DirichletL.Inversion.InitialCommonProfile
+public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedPool
+public import OAI.NumberTheory.DirichletL.Inversion.InitialQuotientGeometry
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Inversion.InitialResidualPool
 public import OAI.NumberTheory.DirichletL.Inversion.InitialResidualTupleEnergy
 public import OAI.NumberTheory.DirichletL.Inversion.InitialUniformFresh
-public import OAI.NumberTheory.DirichletL.Inversion.InitialResidualPool
 
 
 set_option backward.privateInPublic true

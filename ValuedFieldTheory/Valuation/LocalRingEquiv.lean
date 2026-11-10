@@ -9,8 +9,10 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.NumberTheory.RamificationInertia.Ramification
-public import Mathlib.RingTheory.LocalRing.Basic
-public import Mathlib.RingTheory.Valuation.Discrete.IsDiscreteValuationRing
+public import Mathlib.RingTheory.DiscreteValuationRing.Basic
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.Basic.NNReal.Defs
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

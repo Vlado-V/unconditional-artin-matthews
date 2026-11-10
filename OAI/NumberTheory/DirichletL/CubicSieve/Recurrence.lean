@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.CubicSieve.Smoothed
 public import OAI.NumberTheory.DirichletL.CubicSieve.Majorant
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.DualShell
+public import OAI.NumberTheory.DirichletL.CubicSieve.FrequencyDyads
 public import OAI.NumberTheory.DirichletL.CubicSieve.ZeroMode
 
 

@@ -1,6 +1,10 @@
 module
 
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Finset.Card
 public import ArtinMatthews.SpectralSeparatedSlopeCount
+public import Mathlib.Algebra.Order.Archimedean.Real.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

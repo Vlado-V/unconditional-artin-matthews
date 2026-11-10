@@ -1,8 +1,8 @@
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
-public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 
 set_option backward.privateInPublic true

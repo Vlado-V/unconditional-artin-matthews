@@ -2,11 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.ParametersHighDataFine
 public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainMomentParameters
-public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainRelativeClass
-public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainProfileControl
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicGeometry
+public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainMarkedState
+public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainProfileControl
+public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainRelativeClass
+public import OAI.NumberTheory.DirichletL.ParametersHighDataFine
 
 
 set_option backward.privateInPublic true

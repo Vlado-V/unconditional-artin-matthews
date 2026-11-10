@@ -8,8 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import GaloisCohomology.ProfiniteIntegers.ProfiniteInteger
 public import Mathlib.GroupTheory.Torsion
+public import GaloisCohomology.ProfiniteIntegers.ProfiniteIntegerCore
+public import GaloisCohomology.ProfiniteIntegers.ProfiniteInteger
 
 
 set_option backward.privateInPublic true

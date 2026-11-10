@@ -1,8 +1,11 @@
 module
 
 public import ArtinMatthews.QuadraticKummer
-public import Mathlib.NumberTheory.RamificationInertia.Valuation
+public import Mathlib.RingTheory.DedekindDomain.AdicValuation
+public import Mathlib.RingTheory.Unramified.Locus
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.NumberTheory.RamificationInertia.Unramified
+public import Mathlib.NumberTheory.RamificationInertia.Valuation
 
 
 set_option backward.privateInPublic true

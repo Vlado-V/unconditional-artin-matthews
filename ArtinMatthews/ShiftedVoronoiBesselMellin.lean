@@ -1,7 +1,11 @@
 module
 
+public import ArtinMatthews.ShiftedVoronoiBesselDuality
+public import ArtinMatthews.ShiftedVoronoiRadialNormalization
 public import ArtinMatthews.ShiftedVoronoiBesselIdentification
 public import ArtinMatthews.ShiftedVoronoiNormalizedMellin
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

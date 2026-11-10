@@ -4,7 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.FirstMaskedFamily
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildInput
-public import OAI.NumberTheory.DirichletL.Moments.OriginalCommonHarmonic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

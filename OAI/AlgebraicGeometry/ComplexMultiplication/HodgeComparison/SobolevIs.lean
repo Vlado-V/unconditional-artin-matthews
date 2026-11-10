@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.Normed.Operator.Compact.Basic
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Bounds
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LocalizedFourier
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpLocalization
 
 
 set_option backward.privateInPublic true

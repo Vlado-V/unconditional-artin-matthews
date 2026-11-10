@@ -2,25 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainSubsets
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalErrorSubsets
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainHomogeneous
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainSeparatedPower
 public import OAI.NumberTheory.DirichletL.Energy.FirstGaussianProfileWeights
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainSeparated
-public import OAI.NumberTheory.DirichletL.Energy.FirstGaussianCoefficients
-public import OAI.NumberTheory.DirichletL.Energy.OriginalProfileControl
-public import OAI.NumberTheory.DirichletL.Energy.AmplifiedChildWidth
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainUniform
-public import OAI.NumberTheory.DirichletL.Moments.FirstSeededGaussianPower
-public import OAI.NumberTheory.DirichletL.Moments.FirstSecondInputGates
 public import OAI.NumberTheory.DirichletL.Moments.SecondInputCapacitySource
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainPaid
-public import OAI.NumberTheory.DirichletL.Energy.ChildEnvelopeFitting
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedPaidReserve
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalUniformReference
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedPaidAdmission
-public import OAI.NumberTheory.DirichletL.Energy.AmplifiedRayDictionary
+public import OAI.NumberTheory.DirichletL.Energy.Bands
+public import OAI.NumberTheory.DirichletL.Moments.AllocatedRayDictionary
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationRadicalFamily
+public import OAI.NumberTheory.DirichletL.Moments.FirstSecondActiveErrorGates
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.CanonicalErrorSubsets
+public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainSubsets
 
 
 set_option backward.privateInPublic true

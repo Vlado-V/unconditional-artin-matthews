@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalSourcePresentation
 public import OAI.NumberTheory.DirichletL.Moments.FirstMaskedFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.SupportedZeroEnergy
 
 

@@ -1,9 +1,8 @@
 module
 
-public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.Complex.CauchyIntegral
-public import Mathlib.Analysis.Convex.Basic
-public import Mathlib.Analysis.SpecificLimits.Basic
 
 
 set_option backward.privateInPublic true

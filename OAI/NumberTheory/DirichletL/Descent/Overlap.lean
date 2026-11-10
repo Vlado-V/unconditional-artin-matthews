@@ -3,9 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.RingTheory.UniqueFactorizationDomain.Moebius
+public import Mathlib.Analysis.Complex.Norm
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Tactic.Ring
-public import Mathlib.Tactic.NormNum
 
 
 set_option backward.privateInPublic true

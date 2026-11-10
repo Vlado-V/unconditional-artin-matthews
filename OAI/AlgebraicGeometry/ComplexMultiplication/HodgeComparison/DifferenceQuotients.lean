@@ -3,9 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Translations
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
 
 
 set_option backward.privateInPublic true

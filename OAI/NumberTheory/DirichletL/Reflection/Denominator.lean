@@ -2,7 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.NormalizedEnergy
+public import OAI.NumberTheory.DirichletL.Inversion.ReflectedNormalization
+public import OAI.NumberTheory.DirichletL.Reflection.Columns
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.NormalizedColumns
 
 
 set_option backward.privateInPublic true

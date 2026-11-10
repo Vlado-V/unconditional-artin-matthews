@@ -2,10 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Reflection.PhysicalIntegral
+public import OAI.NumberTheory.DirichletL.Reflection.Surviving
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.KernelAdmissible
 public import OAI.NumberTheory.DirichletL.Reflection.UniformFiltered
 public import OAI.NumberTheory.DirichletL.Reflection.UniformMeasure
-public import OAI.NumberTheory.DirichletL.Reflection.PhysicalEnergy
-public import OAI.NumberTheory.DirichletL.Reflection.SurvivingEnergy
+public import OAI.NumberTheory.DirichletL.Reflection.UniformSieve
 
 
 set_option backward.privateInPublic true

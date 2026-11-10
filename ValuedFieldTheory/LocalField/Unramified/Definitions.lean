@@ -9,7 +9,10 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.RamificationInvariants
-public import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Complete
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Extensions
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

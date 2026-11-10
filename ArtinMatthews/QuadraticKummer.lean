@@ -1,6 +1,8 @@
 module
 
-public import ArtinMatthews.KummerRowIndividualDegree
+public import ArtinMatthews.KummerRowField
+public import ArtinMatthews.KummerRowDegree
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.RingTheory.RootsOfUnity.Complex
 
 

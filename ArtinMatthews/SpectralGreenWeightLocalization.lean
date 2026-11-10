@@ -1,7 +1,10 @@
 module
 
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import ArtinMatthews.SpectralBoundedMomentTesting
 public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
 
 
 set_option backward.privateInPublic true

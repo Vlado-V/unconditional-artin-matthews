@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationEnergy
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorRowwisePlain
+public import OAI.NumberTheory.DirichletL.Hecke.Dyadic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicBridge
+import OAI.NumberTheory.DirichletL.Hecke.DetectorRowwise
 
 
 set_option backward.privateInPublic true

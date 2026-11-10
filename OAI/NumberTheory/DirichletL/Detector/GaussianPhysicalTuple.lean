@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.PhysicalRows
 public import OAI.NumberTheory.DirichletL.Detector.GaussianDensityBudget
+public import OAI.NumberTheory.DirichletL.Detector.GaussianSeminorm
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GaussianSlots
+public import OAI.NumberTheory.DirichletL.Detector.GaussianTuple
 
 
 set_option backward.privateInPublic true

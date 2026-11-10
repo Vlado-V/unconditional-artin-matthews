@@ -8,11 +8,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.Algebra.Group.Equiv.TypeTags
 public import Mathlib.Algebra.Module.ZMod
-public import Mathlib.Data.Finsupp.Fintype
-public import Mathlib.Data.ZMod.Basic
 public import Mathlib.FieldTheory.IntermediateField.Basic
+public import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+public import Mathlib.RingTheory.Noetherian.Basic
 public import Mathlib.RingTheory.LocalRing.Module
 
 

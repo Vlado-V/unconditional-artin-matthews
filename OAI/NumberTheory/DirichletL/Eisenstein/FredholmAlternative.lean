@@ -2,7 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.Normed.Operator.Fredholm.Basic
+public import OAI.NumberTheory.DirichletL.CubicSieve.RankMargins
+public import OAI.NumberTheory.DirichletL.CubicSieve.ReopeningBounds
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.CubicSieve.ClosedRecursion
+public import OAI.NumberTheory.DirichletL.CubicSieve.CutoffOrders
+public import OAI.NumberTheory.DirichletL.QuadraticSieve.LogarithmicLoss
 
 
 set_option backward.privateInPublic true

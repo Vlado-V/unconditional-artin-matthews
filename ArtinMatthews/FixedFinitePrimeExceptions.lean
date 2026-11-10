@@ -1,9 +1,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Log.Basic
-public import Mathlib.Topology.Algebra.Support
-public import Mathlib.Analysis.Asymptotics.Lemmas
-public import Mathlib.Analysis.Complex.Basic
 
 
 set_option backward.privateInPublic true

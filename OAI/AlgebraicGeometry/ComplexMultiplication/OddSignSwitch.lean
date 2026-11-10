@@ -4,6 +4,7 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.SignSwitch
 public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Tactic.NormNum.Ineq
 
 
 set_option backward.privateInPublic true

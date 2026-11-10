@@ -1,8 +1,8 @@
 module
 
-public import Lean
-public meta import Batteries.Lean.NameMapAttribute
-public import Architect.Basic
+public meta import Lean.Elab.Tactic.Basic
+public meta import Lean.Meta.Tactic.Assert
+public import Lean.Exception
 
 public meta section
 

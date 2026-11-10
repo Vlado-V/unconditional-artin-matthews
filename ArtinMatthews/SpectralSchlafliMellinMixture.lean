@@ -1,6 +1,9 @@
 module
 
-public import ArtinMatthews.SpectralBesselCoshEvaluation
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Eisenstein.CuspAverage
 
 

@@ -1,6 +1,7 @@
 module
 
-public import ArtinMatthews.SpectralModularDensitySeeds
+public import ArtinMatthews.SpectralGamma0Core
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

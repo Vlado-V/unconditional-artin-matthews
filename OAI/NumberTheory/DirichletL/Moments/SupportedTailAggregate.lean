@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.SecondTail
 public import OAI.NumberTheory.DirichletL.Moments.FirstTailAggregate
+public import OAI.NumberTheory.DirichletL.Moments.HeckeColumnWindow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
 
 

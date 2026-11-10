@@ -3,7 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevIs
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.Bounds
 
 
 set_option backward.privateInPublic true

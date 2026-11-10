@@ -1,7 +1,8 @@
 module
 
 public import ArtinMatthews.SourcePoissonMellinHeight
-public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

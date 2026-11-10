@@ -3,8 +3,16 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.SecondDiagonal
-public import OAI.NumberTheory.DirichletL.Moments.SourceZeroEnergy
 public import OAI.NumberTheory.DirichletL.Moments.HeckeColumnWindow
+public import OAI.NumberTheory.DirichletL.Moments.SourceMass
+public import OAI.NumberTheory.DirichletL.Moments.SourceProfileMass
+public import OAI.NumberTheory.DirichletL.Moments.SourceRow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
+public import OAI.NumberTheory.DirichletL.Moments.SourceZeroEnergy
+public import OAI.NumberTheory.DirichletL.Moments.SupportedZeroEnergy
 
 
 set_option backward.privateInPublic true

@@ -8,6 +8,11 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import Mathlib.FieldTheory.Separable
+public import Mathlib.RingTheory.Valuation.Extension
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Complete
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.Combinatorics.Matroid.Init
 public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteExtension.Uniqueness
 
 

@@ -3,10 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1
-public import Mathlib.Analysis.Calculus.FDeriv.Add
-public import Mathlib.MeasureTheory.Group.Measure
-public import Mathlib.MeasureTheory.Function.LpSpace.Basic
-public import Mathlib.Topology.Algebra.Group.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.MeasureTheory.Measure.Real
 
 
 set_option backward.privateInPublic true

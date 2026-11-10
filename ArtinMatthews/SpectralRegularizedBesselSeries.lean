@@ -1,9 +1,6 @@
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Bessel
-public import Mathlib.Analysis.Calculus.FDeriv.Analytic
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
+public import Mathlib.Analysis.SpecialFunctions.RegularizedHypergeometric
 
 
 set_option backward.privateInPublic true

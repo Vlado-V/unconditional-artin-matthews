@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.PlainPositiveScale
 public import OAI.NumberTheory.DirichletL.Moments.OriginalRadialComparison
+public import OAI.NumberTheory.DirichletL.Moments.RadialEligibleEnergy
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.PlainGlobalEnergy
+public import OAI.NumberTheory.DirichletL.Moments.PlainPositiveScale
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,7 @@
 module
 
+public import ArtinMatthews.L2MeasurableCutoff
 public import ArtinMatthews.L2FiniteChartCompactness
-public import Mathlib.Order.Disjointed
 
 
 set_option backward.privateInPublic true

@@ -2,10 +2,18 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.CommonSectorColumn
 public import OAI.NumberTheory.DirichletL.Moments.CommonWindowColumn
 public import OAI.NumberTheory.DirichletL.Moments.ReflectedSource
+public import OAI.NumberTheory.DirichletL.Moments.LogDyadic
+public import OAI.NumberTheory.DirichletL.Moments.SecondSectorColumns
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.ExceptionalWholeWindow
+public import OAI.NumberTheory.DirichletL.Moments.SecondMaskedWindow
+public import OAI.NumberTheory.DirichletL.Moments.SecondSectorEnergy
 public import OAI.NumberTheory.DirichletL.Moments.SecondWindowSource
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

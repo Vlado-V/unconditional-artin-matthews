@@ -2,6 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Energy.AllocatedChildren
+public import OAI.NumberTheory.DirichletL.Energy.AllocatedProfiles
+public import OAI.NumberTheory.DirichletL.Energy.Bands
+public import OAI.NumberTheory.DirichletL.Moments.AllocatedRayDictionary
+public import OAI.NumberTheory.DirichletL.Moments.LiveCapacity
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Energy.AllocatedPaid
 public import OAI.NumberTheory.DirichletL.Energy.AllocatedZero
 

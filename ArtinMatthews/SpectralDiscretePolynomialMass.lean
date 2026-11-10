@@ -1,7 +1,10 @@
 module
 
-public import ArtinMatthews.SpectralPolynomialMass
 import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Topology.Algebra.InfiniteSum.Defs
+public import Mathlib.Topology.MetricSpace.Pseudo.Defs
+public import ArtinMatthews.SpectralPolynomialMass
+public import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 
 set_option backward.privateInPublic true

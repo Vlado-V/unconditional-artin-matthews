@@ -8,25 +8,40 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.ArchimedeanPowerIndex
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.FinitePlaceCompletionInstances
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.LocalResidueArithmetic
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.FinitePlacePowerIndex
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.NormContainment
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.SupportedIdeleIndex
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.SupportedPrincipalQuotient
-public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.PrimePowerKummerIndex
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Principal
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.BaseChange
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.NormComparison
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.TowerBaseChange
-public import ClassFieldTheory.KummerTheory.Concrete.CyclotomicPrimeBaseChange
 public import ClassFieldTheory.AlgebraicNumberTheory.Galois.CyclicPrimeDegreeSubextension
-public import ClassFieldTheory.GlobalClassFieldTheory.Cohomology.IdeleClassHerbrandSupportedFinal
 public import ClassFieldTheory.AlgebraicNumberTheory.Ramification.Splitting.PrimeOrderFixedField
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Cohomology.Herbrand
+public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.Valuation
+public import Mathlib.FieldTheory.Galois.Abelian
+public import Mathlib.RepresentationTheory.Homological.TateCohomology.Basic
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.NormComparison
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Principal
+public import ClassFieldTheory.GlobalClassFieldTheory.ClassFieldAxiom.IdeleClassPowerLocalUnitQuotient.PrimePowerKummerIndex
+public import ClassFieldTheory.GlobalClassFieldTheory.Cohomology.IdeleClassHerbrandSupportedFinal
+public import ClassFieldTheory.KummerTheory.Concrete.CyclotomicPrimeBaseChange
 public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.CohomologyBridge
 public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.Hilbert90
+public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Index
 public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.TateComparison
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
 
 
 set_option backward.privateInPublic true

@@ -9,9 +9,9 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.Algebra.Polynomial.Eval.Defs
-public import Mathlib.Algebra.Ring.GeomSum
 public import Mathlib.RingTheory.Ideal.Defs
-public import Mathlib.Tactic.Ring
+public import Mathlib.Algebra.Ring.GeomSum
+public import Mathlib.Tactic.Ring.RingNF
 
 
 set_option backward.privateInPublic true

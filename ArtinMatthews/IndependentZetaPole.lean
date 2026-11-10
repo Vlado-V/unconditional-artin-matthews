@@ -1,5 +1,7 @@
 module
 
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
 public import OAI.NumberTheory.SiegelZeros.Differentials.ZetaLogDerivative
 
 

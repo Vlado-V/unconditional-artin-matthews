@@ -1,7 +1,8 @@
 module
 
-public import ArtinMatthews.QuotientSectionRightMeasure
-public import Mathlib.MeasureTheory.Measure.Haar.Basic
+public import ArtinMatthews.QuotientSectionMeasure
+public import Mathlib.MeasureTheory.Group.Measure
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,12 +1,8 @@
 module
 
-public import Mathlib.Analysis.Complex.CanonicalDecomposition
 public import Mathlib.Analysis.Calculus.LogDeriv
-public import Mathlib.Algebra.Order.BigOperators.GroupWithZero.Finset
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Ring
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.CanonicalDecomposition
 
 /-! Polynomial factors of the finite Blaschke quotient used in the disk
 estimate. Their logarithmic derivatives retain the literal zero terms. -/

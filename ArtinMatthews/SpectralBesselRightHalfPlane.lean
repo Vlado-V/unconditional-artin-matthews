@@ -1,7 +1,13 @@
 module
 
-public import ArtinMatthews.SpectralBesselFiniteEnergy
 public import Mathlib.Analysis.RCLike.Sqrt
+public import ArtinMatthews.SpectralBesselKDecay
+public import ArtinMatthews.SpectralBesselKWhittaker
+public import ArtinMatthews.SpectralBesselFiniteEnergy
+public import ArtinMatthews.SpectralBesselKWhittakerDecay
+public import ArtinMatthews.SpectralBesselODEUniqueness
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

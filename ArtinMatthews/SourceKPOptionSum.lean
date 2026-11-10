@@ -1,6 +1,5 @@
 module
 
-public import Mathlib.Topology.Algebra.InfiniteSum.Constructions
 public import Mathlib.Analysis.Complex.Basic
 
 

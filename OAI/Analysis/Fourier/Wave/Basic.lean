@@ -3,8 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.Analysis.Fourier.LpSpace
-public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
-public import Mathlib.Tactic.NormNum
 
 
 set_option backward.privateInPublic true

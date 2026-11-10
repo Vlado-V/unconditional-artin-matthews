@@ -3,9 +3,18 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Energy.State
-public import OAI.NumberTheory.DirichletL.Moments.FirstSourceReduction
-public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainSource
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildInput
+public import OAI.NumberTheory.DirichletL.Moments.OriginalCommonHarmonic
+public import OAI.NumberTheory.DirichletL.Moments.RestrictedSource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
+public import OAI.NumberTheory.DirichletL.Moments.DetectorPlainSource
+public import OAI.NumberTheory.DirichletL.Moments.PlainEnergy
+public import OAI.NumberTheory.DirichletL.Moments.PositiveSummability
+public import OAI.NumberTheory.DirichletL.Moments.SourceRectangleEnergy
+public import OAI.NumberTheory.DirichletL.Moments.SourceRectangleMask
 
 
 set_option backward.privateInPublic true

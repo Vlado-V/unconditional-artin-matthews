@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 
 

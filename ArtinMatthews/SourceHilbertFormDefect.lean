@@ -1,9 +1,14 @@
 module
 
 public import ArtinMatthews.SourceHilbertPencil
+public import Mathlib.Analysis.Normed.Operator.Compact.Basic
 public import ArtinMatthews.SourceHilbertFredholmCriterion
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -2,7 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.FirstRetainedPhysical
+public import OAI.NumberTheory.DirichletL.Descent.FirstFamilyEnergy
+public import OAI.NumberTheory.DirichletL.Descent.FirstOldEnergy
+public import OAI.NumberTheory.DirichletL.Descent.FirstPhysicalCutoff
+public import OAI.NumberTheory.DirichletL.Descent.FirstToSecond
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.FirstFamilyToSecond
 
 

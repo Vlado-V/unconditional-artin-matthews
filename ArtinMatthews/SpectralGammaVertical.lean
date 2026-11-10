@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
 public import ArtinMatthews.SpectralGammaHalfLine
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 
 set_option backward.privateInPublic true

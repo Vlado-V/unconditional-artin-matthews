@@ -9,8 +9,31 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.LubinTate.FiniteLevel.ChangedUniformizer
+public import ValuedFieldTheory.Ramification.HilbertRamification.RealLowerGroups
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteExtension.Uniqueness
+public import ClassFieldTheory.LubinTate.FiniteLevel.LevelAutomorphisms
 public import ClassFieldTheory.LubinTate.FiniteLevel.LevelValuation
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.Measurability.Init
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
 public import ValuedFieldTheory.LocalField.DiscreteValuationField.RamificationAddVal
+public import ValuedFieldTheory.LocalField.DiscreteValuationField.RamificationIdeal
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteIntegralClosure
 
 
 set_option backward.privateInPublic true

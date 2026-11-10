@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.TwoPoint.Walks.RetainedDivisorMass
-public import OAI.NumberTheory.TwoPoint.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Data.Nat.Prime.Defs
+public import Mathlib.Algebra.Order.BigOperators.Expect
+public import Mathlib.Analysis.Complex.Order
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
 
 
 set_option backward.privateInPublic true

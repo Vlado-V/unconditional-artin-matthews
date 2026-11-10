@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralGamma0Core
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.Topology.Metrizable.Urysohn
 
 
 set_option backward.privateInPublic true

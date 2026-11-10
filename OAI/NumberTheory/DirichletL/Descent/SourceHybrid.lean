@@ -2,7 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Descent.MaskedGrid
+public import OAI.NumberTheory.DirichletL.Descent.Reconstruction
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.Dyadic
 public import OAI.NumberTheory.DirichletL.Descent.FixedSquare
+public import OAI.NumberTheory.DirichletL.Descent.SieveComposition
 
 
 set_option backward.privateInPublic true

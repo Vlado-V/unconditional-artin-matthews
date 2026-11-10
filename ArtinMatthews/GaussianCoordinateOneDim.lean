@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
 public import Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation
-public import Mathlib.Analysis.Normed.Ring.InfiniteSum
 
 
 set_option backward.privateInPublic true

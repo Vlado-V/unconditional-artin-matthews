@@ -2,7 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.PrincipalNormalized
+public import OAI.NumberTheory.DirichletL.Detector.PrincipalResidueActual
+public import OAI.NumberTheory.DirichletL.Detector.RaySlots
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.PrincipalNormalizer
+public import OAI.NumberTheory.DirichletL.Detector.RayPoolThresholds
 
 
 set_option backward.privateInPublic true

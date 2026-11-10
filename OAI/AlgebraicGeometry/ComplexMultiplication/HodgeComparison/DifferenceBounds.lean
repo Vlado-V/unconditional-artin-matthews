@@ -4,6 +4,7 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceQuotients
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevDifferential
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpLocalization
 
 
 set_option backward.privateInPublic true

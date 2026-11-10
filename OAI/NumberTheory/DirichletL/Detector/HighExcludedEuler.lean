@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.HighEulerGeneral
 public import OAI.NumberTheory.DirichletL.Detector.HighDeletion
+public import OAI.NumberTheory.DirichletL.Detector.HighValuations
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighEuler
+public import OAI.NumberTheory.DirichletL.Detector.HighEulerGeneral
+public import OAI.NumberTheory.DirichletL.Detector.IdealUnit
 
 
 set_option backward.privateInPublic true

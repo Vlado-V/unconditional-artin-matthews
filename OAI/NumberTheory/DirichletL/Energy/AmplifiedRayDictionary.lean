@@ -5,6 +5,9 @@ module
 public import OAI.NumberTheory.DirichletL.Moments.FirstAnnularActiveInput
 public import OAI.NumberTheory.DirichletL.Moments.AllocatedRayDictionary
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildSourceCaps
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

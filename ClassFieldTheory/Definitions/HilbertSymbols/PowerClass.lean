@@ -9,6 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.Definitions.HilbertSymbols.PowerClassGroup
+public import Mathlib.Data.Finset.Attr
 
 
 set_option backward.privateInPublic true

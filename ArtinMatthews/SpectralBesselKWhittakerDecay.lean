@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.SpectralBesselKDecay
 public import ArtinMatthews.SpectralBesselKWhittaker
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

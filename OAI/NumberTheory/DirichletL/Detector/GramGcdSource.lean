@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.GramCommonActual
+public import OAI.NumberTheory.DirichletL.Detector.GramGcd
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GramCommonPhase
 public import OAI.NumberTheory.DirichletL.Detector.GramFrequency
-public import OAI.NumberTheory.DirichletL.Detector.LowGramPoisson
 
 
 set_option backward.privateInPublic true

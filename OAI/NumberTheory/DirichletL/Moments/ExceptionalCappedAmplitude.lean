@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Moments.ActiveDivisorShell
+public import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalNonunit
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.Counting
 public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceDegree
-public import OAI.NumberTheory.DirichletL.Moments.SecondExceptionalEnergy
-public import OAI.NumberTheory.DirichletL.Moments.ExceptionalAllocationShell
+public import OAI.NumberTheory.DirichletL.Moments.SecondExceptionalCount
 
 
 set_option backward.privateInPublic true

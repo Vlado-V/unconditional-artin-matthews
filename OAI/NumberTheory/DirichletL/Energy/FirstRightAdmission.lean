@@ -4,6 +4,12 @@ module
 
 public import OAI.NumberTheory.DirichletL.Energy.FirstLiveAdmission
 public import OAI.NumberTheory.DirichletL.Moments.FirstMixedRightTransport
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.InputParentCapacity
+public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedRadiusLower
+public import OAI.NumberTheory.DirichletL.Moments.FirstSourceConductorCaps
 
 
 set_option backward.privateInPublic true

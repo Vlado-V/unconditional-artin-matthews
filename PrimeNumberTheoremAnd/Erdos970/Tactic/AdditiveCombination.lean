@@ -2,8 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Tactic.Abel
 public import Mathlib.Tactic.LinearCombinationPrime
+public import Mathlib.Tactic.Abel
 
 
 set_option backward.privateInPublic true

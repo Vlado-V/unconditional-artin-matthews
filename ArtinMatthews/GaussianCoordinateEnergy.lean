@@ -2,6 +2,9 @@ module
 
 public import ArtinMatthews.GaussianCoordinateKernel
 public import ArtinMatthews.GaussianCoordinateSchur
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

@@ -9,10 +9,13 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Valuation.AbsoluteValue.Extension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
 public import Mathlib.Analysis.Normed.Field.Instances
 public import Mathlib.Analysis.Normed.Module.Completion
 public import Mathlib.Analysis.Normed.Unbundled.RingSeminorm
+public import Mathlib.Analysis.Normed.Field.WithAbs
+public import Mathlib.Topology.UniformSpace.AbsoluteValue
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
 
 
 set_option backward.privateInPublic true

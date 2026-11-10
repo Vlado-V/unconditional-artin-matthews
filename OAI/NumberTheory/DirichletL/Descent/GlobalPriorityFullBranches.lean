@@ -2,9 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.GlobalPriorityZeroPhysical
-public import OAI.NumberTheory.DirichletL.Descent.GlobalPriorityAggregate
-public import OAI.NumberTheory.DirichletL.Descent.GlobalPriorityTailPhysical
+public import OAI.NumberTheory.DirichletL.Descent.GlobalPrioritySource
+public import OAI.NumberTheory.DirichletL.Descent.WholePriorityBranches
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.GlobalPriorityBranches
 
 
 set_option backward.privateInPublic true

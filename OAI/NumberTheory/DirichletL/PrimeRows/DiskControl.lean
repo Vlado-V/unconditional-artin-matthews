@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Hecke.ReciprocalGrowth
+public import OAI.NumberTheory.DirichletL.PrimeRows.DetectorZeros
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.DeletionReciprocal
+public import OAI.NumberTheory.DirichletL.Hecke.IdealOperations
+public import OAI.NumberTheory.DirichletL.Hecke.LogarithmicActual
 public import OAI.NumberTheory.DirichletL.PrimeRows.DetectorBins
-public import OAI.NumberTheory.DirichletL.Hecke.DyadicControl
 
 
 set_option backward.privateInPublic true

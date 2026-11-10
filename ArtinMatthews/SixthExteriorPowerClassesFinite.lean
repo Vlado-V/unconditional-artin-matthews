@@ -1,6 +1,9 @@
 module
 
+public import ArtinMatthews.SixthExteriorPowerClasses
 public import ArtinMatthews.SixthExteriorPowerClassesUnits
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 public import Mathlib.GroupTheory.FiniteAbelian.Basic
 
 

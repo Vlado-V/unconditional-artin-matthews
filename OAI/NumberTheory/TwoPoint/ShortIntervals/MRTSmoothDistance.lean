@@ -2,9 +2,34 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.TwoPoint.ShortIntervals.MRTSmoothEuler
+public import Mathlib.NumberTheory.LSeries.Basic
+public import Mathlib.NumberTheory.SmoothNumbers
+public import OAI.NumberTheory.TwoPoint.Basic
+public import OAI.NumberTheory.TwoPoint.Bounds.MertensScale
+public import OAI.NumberTheory.TwoPoint.ShortIntervals.MRTEulerProducts
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Tactic.ReduceModChar
 public import OAI.NumberTheory.TwoPoint.Bounds.PrimeReciprocalTheorem
-public import Mathlib.Analysis.PSeries
+public import OAI.NumberTheory.TwoPoint.ShortIntervals.MRTSmoothEuler
 
 
 set_option backward.privateInPublic true

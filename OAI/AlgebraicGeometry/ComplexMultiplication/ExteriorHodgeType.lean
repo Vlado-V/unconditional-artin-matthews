@@ -2,7 +2,6 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.AlgebraicGeometry.ComplexMultiplication.DecompositionEmbeddingBasis
 public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorTypedBasis
 public import OAI.AlgebraicGeometry.ComplexMultiplication.ExteriorBalance
 

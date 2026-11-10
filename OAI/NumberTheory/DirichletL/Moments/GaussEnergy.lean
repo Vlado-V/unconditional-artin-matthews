@@ -2,7 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.RowNorm
+public import OAI.NumberTheory.DirichletL.Detector.Physical
+public import OAI.NumberTheory.DirichletL.Moments.SupportedCorrelation
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.Poisson
 
 
 set_option backward.privateInPublic true

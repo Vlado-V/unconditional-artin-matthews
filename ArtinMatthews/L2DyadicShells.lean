@@ -1,8 +1,8 @@
 module
 
-public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.MeasureTheory.Function.L2Space
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 
 set_option backward.privateInPublic true

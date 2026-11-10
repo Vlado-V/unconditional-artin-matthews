@@ -1,6 +1,6 @@
 module
 
-public import Mathlib.RepresentationTheory.Intertwining
+public import Mathlib.RepresentationTheory.Basic
 
 
 set_option backward.privateInPublic true

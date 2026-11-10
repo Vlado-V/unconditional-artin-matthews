@@ -9,9 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.GaloisDescent
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.GaloisNorm
 public import GaloisCohomology.Cyclic.Herbrand.Permutation.Module
-public import GaloisCohomology.Cyclic.Herbrand.HerbrandFiniteness
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.GaloisNorm
 
 
 set_option backward.privateInPublic true

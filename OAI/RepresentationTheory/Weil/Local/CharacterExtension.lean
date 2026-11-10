@@ -2,7 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.GroupTheory.Index
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Algebra.Group.Hom.Defs
+public import Mathlib.Data.Finset.Defs
+public import Mathlib.Data.Finset.Insert
 public import Mathlib.Tactic.Group
 
 

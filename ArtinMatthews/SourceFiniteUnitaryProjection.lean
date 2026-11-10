@@ -2,7 +2,6 @@ module
 
 public import Mathlib.RepresentationTheory.Invariants
 public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
-public import Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Idempotent
 
 
 set_option backward.privateInPublic true

@@ -3,7 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.Analysis.PDE.Dirichlet.L2Coefficient
-public import Mathlib.Analysis.InnerProductSpace.LaxMilgram
+public import Mathlib.MeasureTheory.Function.L2Space
 
 
 set_option backward.privateInPublic true

@@ -3,6 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Mellin.LogProfiles
+import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
+import Mathlib.Analysis.Fourier.Notation
+import Mathlib.NumberTheory.MulChar.Basic
 
 
 set_option backward.privateInPublic true

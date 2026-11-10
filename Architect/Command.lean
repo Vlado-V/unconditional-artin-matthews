@@ -1,6 +1,7 @@
 module
 
-public import Lean
+public meta import Lean.Elab.Command
+public import Lean.Data.DeclarationRange
 
 public meta section
 

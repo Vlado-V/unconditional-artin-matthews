@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.GramWindowMobius
 public import OAI.NumberTheory.DirichletL.Detector.GramPhysicalScale
+public import OAI.NumberTheory.DirichletL.Detector.GramJoint
+public import OAI.NumberTheory.DirichletL.Detector.GramShell
+public import OAI.NumberTheory.DirichletL.Moments.MobiusRegroup
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GramJointSource
+public import OAI.NumberTheory.DirichletL.Detector.GramWindowMobius
+public import OAI.NumberTheory.DirichletL.Detector.LowGramPoisson
 
 
 set_option backward.privateInPublic true

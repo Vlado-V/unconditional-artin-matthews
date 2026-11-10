@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
-public import Mathlib.GroupTheory.Perm.Cycle.Type
 
 
 set_option backward.privateInPublic true

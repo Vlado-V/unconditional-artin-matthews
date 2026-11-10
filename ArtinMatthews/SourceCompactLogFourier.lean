@@ -1,12 +1,11 @@
 module
 
 public import Mathlib.Analysis.Fourier.AddCircle
+
+public import Mathlib.Analysis.Fourier.FourierTransform
 public import Mathlib.Analysis.Fourier.FourierTransformDeriv
 public import Mathlib.Analysis.PSeries
 public import Mathlib.Analysis.Real.Pi.Bounds
-
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
-public import Mathlib.Analysis.Calculus.Deriv.Support
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,11 @@
 module
 
+public import Mathlib.FieldTheory.Galois.Basic
+public import ValuedFieldTheory.Valuation.Completion.AbsoluteValueExtensions
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import ValuedFieldTheory.Ramification.HilbertRamification.AlgebraicLocalization
 public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionFieldLocalization
 public import ValuedFieldTheory.Valuation.Completion.FiniteLocalization
-public import Mathlib.GroupTheory.Coset.Card
 
 
 set_option backward.privateInPublic true

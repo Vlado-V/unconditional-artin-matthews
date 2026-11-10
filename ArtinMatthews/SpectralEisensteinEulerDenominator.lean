@@ -1,7 +1,12 @@
 module
 
-public import ArtinMatthews.SpectralGamma0EisensteinTotientSeries
-public import Mathlib.Data.Nat.Factorization.Induction
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticGaussianFiniteContour
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
 
 
 set_option backward.privateInPublic true

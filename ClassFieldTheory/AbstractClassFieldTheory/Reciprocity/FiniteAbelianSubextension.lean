@@ -9,8 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AbstractClassFieldTheory.Reciprocity.FiniteGaloisSubextension
-public import Mathlib.Algebra.Group.Subgroup.Pointwise
-public import Mathlib.Topology.Algebra.Group.Pointwise
+public import ClassFieldTheory.AbstractClassFieldTheory.Degree.NormLaws
 
 
 set_option backward.privateInPublic true

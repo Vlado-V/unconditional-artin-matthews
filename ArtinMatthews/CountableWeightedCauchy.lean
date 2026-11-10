@@ -1,9 +1,6 @@
 module
 
-public import Mathlib.Analysis.Normed.Group.InfiniteSum
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
 
 
 set_option backward.privateInPublic true

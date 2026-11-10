@@ -2,7 +2,6 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticMixedTraceDualLattice
 public import Mathlib.NumberTheory.NumberField.Discriminant.Different
-public import Mathlib.RingTheory.FractionalIdeal.Norm
 
 
 set_option backward.privateInPublic true

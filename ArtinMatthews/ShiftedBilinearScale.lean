@@ -1,11 +1,8 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Analysis.SpecialFunctions.Sqrt
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Ring
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

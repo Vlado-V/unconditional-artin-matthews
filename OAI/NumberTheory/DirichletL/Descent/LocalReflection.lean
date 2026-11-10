@@ -2,9 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.NumberTheory.LegendreSymbol.AddCharacter
+public import Mathlib.NumberTheory.MulChar.Basic
 public import Mathlib.NumberTheory.GaussSum
-public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Tactic.Ring
 
 
 set_option backward.privateInPublic true

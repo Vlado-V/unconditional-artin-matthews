@@ -2,10 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorBatchCount
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorAmplitudeFirst
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorClassBudget
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorRowCountEndpoint
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorBatch
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorRawBranches
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorRowCountCrossing
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorCountFromMoments
 
 
 set_option backward.privateInPublic true

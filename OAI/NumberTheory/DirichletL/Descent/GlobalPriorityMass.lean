@@ -2,8 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.GlobalPriorityBranches
-public import OAI.NumberTheory.DirichletL.Descent.GlobalPrincipalMassPrefactor
+public import OAI.NumberTheory.DirichletL.Descent.GlobalPrioritySource
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.MarkBounds
 
 
 set_option backward.privateInPublic true

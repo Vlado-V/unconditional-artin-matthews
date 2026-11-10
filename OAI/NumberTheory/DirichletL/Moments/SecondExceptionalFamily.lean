@@ -2,10 +2,20 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.SecondLiveFamily
 public import OAI.NumberTheory.DirichletL.Moments.ReflectedSource
 public import OAI.NumberTheory.DirichletL.Moments.SecondRadicalBudget
+public import OAI.NumberTheory.DirichletL.Moments.SecondLiveBlock
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Hecke.PrimeScale
+public import OAI.NumberTheory.DirichletL.Moments.ExceptionalReflection
+public import OAI.NumberTheory.DirichletL.Moments.SecondBlockSupport
+public import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalLedger
+public import OAI.NumberTheory.DirichletL.Moments.SecondRadicalColumns
+public import OAI.NumberTheory.DirichletL.Moments.SecondReducedPredicate
+public import OAI.NumberTheory.DirichletL.Moments.SecondRetainedWidth
+public import OAI.NumberTheory.DirichletL.Moments.SecondSixthSource
 
 
 set_option backward.privateInPublic true

@@ -8,11 +8,11 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.RingTheory.Trace.Defs
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.Combinatorics.Matroid.Init
 public import Mathlib.LinearAlgebra.Charpoly.BaseChange
-public import Mathlib.LinearAlgebra.Trace
-public import Mathlib.RingTheory.Norm.Basic
-public import Mathlib.RingTheory.Trace.Basic
-public import Mathlib.RingTheory.TensorProduct.Basic
 
 
 set_option backward.privateInPublic true

@@ -2,11 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainPaid
-public import OAI.NumberTheory.DirichletL.Energy.CanonicalNestedReference
-public import OAI.NumberTheory.DirichletL.Energy.ActiveChildRestoration
 public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedPaidAdmission
 public import OAI.NumberTheory.DirichletL.Energy.AmplifiedRayDictionary
+public import OAI.NumberTheory.DirichletL.Moments.SecondNonexceptionalChosenBlock
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.ActiveChildRestoration
+public import OAI.NumberTheory.DirichletL.Energy.CanonicalMainPaid
+public import OAI.NumberTheory.DirichletL.Energy.CanonicalNestedReference
+public import OAI.NumberTheory.DirichletL.Energy.ChildState
 
 
 set_option backward.privateInPublic true

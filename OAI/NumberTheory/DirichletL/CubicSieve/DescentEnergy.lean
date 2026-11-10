@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.CubicSieve.Mobius
+public import OAI.NumberTheory.DirichletL.Eisenstein.SmoothSummands
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.CubicSieve.Elements
 
 
 set_option backward.privateInPublic true

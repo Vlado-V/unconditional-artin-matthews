@@ -1,5 +1,8 @@
 module
 
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import ArtinMatthews.SpectralHyperbolicWeakPairing
 public import Mathlib.Analysis.Calculus.FDeriv.Star
 

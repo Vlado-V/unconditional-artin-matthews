@@ -1,8 +1,9 @@
 module
 
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Probability.Moments.ComplexMGF
-public import Mathlib.MeasureTheory.Function.AEEqOfLIntegral
-public import Mathlib.MeasureTheory.Measure.OpenPos
 
 
 set_option backward.privateInPublic true

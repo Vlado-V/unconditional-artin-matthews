@@ -1,8 +1,10 @@
 module
 
+public import Mathlib.Analysis.Fourier.AddCircle
+public import ArtinMatthews.SpectralGamma0EisensteinSeries
 public import ArtinMatthews.SpectralGamma0EisensteinConvergence
 public import ArtinMatthews.SpectralGamma0EisensteinPositive
-public import Mathlib.Analysis.Fourier.AddCircle
+public import Mathlib.NumberTheory.Modular
 
 
 set_option backward.privateInPublic true

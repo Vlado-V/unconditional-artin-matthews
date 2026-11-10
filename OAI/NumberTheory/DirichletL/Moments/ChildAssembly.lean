@@ -5,6 +5,9 @@ module
 public import OAI.NumberTheory.DirichletL.Moments.MobiusRegroup
 public import OAI.NumberTheory.DirichletL.Moments.FixedRay
 public import OAI.NumberTheory.DirichletL.Moments.RowNorm
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

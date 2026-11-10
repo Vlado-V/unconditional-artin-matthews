@@ -3,9 +3,14 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.SecondExceptionalPairBound
+public import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalNonunit
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalCanonicalWindow
-public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalWindow
+public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalSymmetry
 public import OAI.NumberTheory.DirichletL.Moments.ExceptionalWindowHeight
+public import OAI.NumberTheory.DirichletL.Moments.SecondExceptionalPairDictionary
 
 
 set_option backward.privateInPublic true

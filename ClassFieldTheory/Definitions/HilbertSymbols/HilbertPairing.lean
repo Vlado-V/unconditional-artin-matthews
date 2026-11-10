@@ -9,7 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.Definitions.HilbertSymbols.PowerClassGroup
-public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
+public import Mathlib.RingTheory.RootsOfUnity.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,10 @@
 module
 
-public import Mathlib.Analysis.Meromorphic.Complex
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Meromorphic.Basic
+public import Mathlib.Analysis.Meromorphic.Order
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

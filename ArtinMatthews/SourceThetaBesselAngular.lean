@@ -1,8 +1,10 @@
 module
 
 public import ArtinMatthews.SourceThetaBesselDerivatives
-public import ArtinMatthews.SourceComplexUnitPolarHomeomorph
-public import Mathlib.Topology.Algebra.GroupWithZero
+public import ArtinMatthews.SourceComplexUnitPolar
+public import Mathlib.MeasureTheory.Group.Circle
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

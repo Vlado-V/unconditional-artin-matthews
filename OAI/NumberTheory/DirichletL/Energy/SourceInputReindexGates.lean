@@ -7,6 +7,10 @@ public import OAI.NumberTheory.DirichletL.Moments.AllocatedRayDictionary
 public import OAI.NumberTheory.DirichletL.Moments.FirstSecondInputGates
 public import OAI.NumberTheory.DirichletL.Moments.FirstAnnularActiveInput
 public import OAI.NumberTheory.DirichletL.Moments.FirstChildProfileControl
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

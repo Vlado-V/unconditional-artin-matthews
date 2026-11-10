@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Reflection.KernelGeometry
 public import OAI.NumberTheory.DirichletL.Inversion.KernelSourceUniform
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 
 
 set_option backward.privateInPublic true

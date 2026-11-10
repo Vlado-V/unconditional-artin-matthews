@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorFourierSeparation
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorPartition
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorProfiles
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

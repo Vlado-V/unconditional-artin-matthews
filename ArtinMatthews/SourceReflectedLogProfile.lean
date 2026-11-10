@@ -1,6 +1,10 @@
 module
 
+public import ArtinMatthews.SourceReflectedAngularFourier
+public import Mathlib.Analysis.CStarAlgebra.Classes
 public import ArtinMatthews.SourceReflectedFourierL1
+public import Mathlib.Analysis.Calculus.ContDiff.Bounds
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Mellin.LogProfiles
 
 

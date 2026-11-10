@@ -2,16 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Batteries.Tactic.Lemma
+public import PrimeNumberTheoremAnd.Erdos970.ResidueCalcOnRectangles
+public import Mathlib.NumberTheory.Harmonic.Defs
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
 public import Mathlib.MeasureTheory.Function.Floor
 public import Mathlib.MeasureTheory.Order.Group.Lattice
 public import Mathlib.NumberTheory.Harmonic.Bounds
 public import Mathlib.NumberTheory.LSeries.Nonvanishing
 public import PrimeNumberTheoremAnd.Erdos970.Auxiliary
+public import PrimeNumberTheoremAnd.Erdos970.EulerMaclaurin
 public import PrimeNumberTheoremAnd.Erdos970.Fourier
 public import PrimeNumberTheoremAnd.Erdos970.Mathlib.Analysis.SpecialFunctions.Log.Basic
-public import PrimeNumberTheoremAnd.Erdos970.ResidueCalcOnRectangles
-public import PrimeNumberTheoremAnd.Erdos970.EulerMaclaurin
 
 
 set_option backward.privateInPublic true

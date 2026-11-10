@@ -1,9 +1,7 @@
 module
 
-public import Mathlib.FieldTheory.Finite.Trace
-public import Mathlib.NumberTheory.MulChar.Lemmas
 public import Mathlib.NumberTheory.LegendreSymbol.AddCharacter
-public import Mathlib.GroupTheory.Coset.Card
+public import Mathlib.NumberTheory.MulChar.Basic
 
 
 set_option backward.privateInPublic true

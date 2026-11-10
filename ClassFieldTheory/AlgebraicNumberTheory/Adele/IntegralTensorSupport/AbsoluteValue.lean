@@ -8,20 +8,31 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Relative.Support
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Relative.FinitePlaceTensorNorm
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.RamificationInvariants
-public import ValuedFieldTheory.Valuation.AbsoluteValue.ExponentialValuation
-public import ValuedFieldTheory.Valuation.Henselian.Complete
-public import ValuedFieldTheory.Valuation.Completion.TensorProductDecomposition
-public import Mathlib.Algebra.Module.Torsion.Basic
-public import Mathlib.LinearAlgebra.Basis.SMul
-public import Mathlib.RingTheory.Algebraic.Integral
-public import Mathlib.RingTheory.DedekindDomain.Factorization
-public import Mathlib.RingTheory.Discriminant
-public import Mathlib.RingTheory.Localization.Finiteness
-public import Mathlib.RingTheory.Valuation.LocalSubring
 public import Mathlib.RingTheory.Valuation.ValuationSubring
+public import ValuedFieldTheory.Valuation.Completion.AbsoluteValueExtensions
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
+public import Mathlib.RingTheory.Valuation.LocalSubring
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import ValuedFieldTheory.Valuation.AbsoluteValue.ExponentialValuation
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
+public import ValuedFieldTheory.Valuation.Completion.DegreeNormTrace
+public import ValuedFieldTheory.Valuation.Henselian.Complete
 
 
 set_option backward.privateInPublic true

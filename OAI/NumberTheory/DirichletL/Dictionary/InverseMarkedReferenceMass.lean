@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceEnergy
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseAssignedCount
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

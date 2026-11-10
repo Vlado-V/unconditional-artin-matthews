@@ -1,7 +1,9 @@
 module
 
+public import ArtinMatthews.SpectralPrincipalDecayWeight
+public import Mathlib.Analysis.Complex.Basic
 public import ArtinMatthews.SpectralPrincipalWeightedCrossFinite
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
+public import ArtinMatthews.SpectralPrincipalWeightedFinite
 
 
 set_option backward.privateInPublic true

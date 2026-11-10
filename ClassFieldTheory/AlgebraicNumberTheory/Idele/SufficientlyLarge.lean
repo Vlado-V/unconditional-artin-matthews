@@ -8,16 +8,28 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.AlgEquiv
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.BaseChange
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.Core
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.NormComparison
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.NormalClosureNorm
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.Tower
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.TowerAlgEquivNaturality
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.TowerBaseChange
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.SPlaces
 public import Mathlib.NumberTheory.NumberField.ClassNumber
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.PrincipalCore
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.ClassGroup.Core
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Tactic.Polynomial.Basic
+public import Mathlib.Tactic.ReduceModChar
 
 
 set_option backward.privateInPublic true

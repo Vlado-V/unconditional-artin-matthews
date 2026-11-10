@@ -10,9 +10,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalBlocks.Induced
 public import ValuedFieldTheory.Valuation.Completion.TensorProductDecomposition
-public import ValuedFieldTheory.Ramification.HilbertRamification.AlgebraicLocalization
-public import ValuedFieldTheory.Ramification.HilbertRamification.AbsoluteValueConjugacy
-public import Mathlib.Algebra.Group.Pi.Units
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

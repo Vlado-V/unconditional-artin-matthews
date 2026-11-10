@@ -2,9 +2,19 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.PrimeRows.Ideal
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsRamified
+public import OAI.NumberTheory.DirichletL.Detector.SourceExclusions
+public import OAI.NumberTheory.DirichletL.PrimeRows.Euler
+public import OAI.NumberTheory.DirichletL.PrimeRows.Valuation
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsActual
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsRegion
+public import OAI.NumberTheory.DirichletL.Detector.IdealMultiplicative
 public import OAI.NumberTheory.DirichletL.Hecke.DeletionBounds
+public import OAI.NumberTheory.DirichletL.Hecke.Dyadic
+public import OAI.NumberTheory.DirichletL.PrimeRows.Ideal
 
 
 set_option backward.privateInPublic true

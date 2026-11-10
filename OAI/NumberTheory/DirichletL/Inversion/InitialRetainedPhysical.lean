@@ -2,10 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerReference
-public import OAI.NumberTheory.DirichletL.Inversion.InitialCanonicalEnergy
-public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankExistence
 public import OAI.NumberTheory.DirichletL.Inversion.InitialCanonicalState
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankExistenceData
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerSource
+public import OAI.NumberTheory.DirichletL.Inversion.InitialQuotientGeometry
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankExistence
+public import OAI.NumberTheory.DirichletL.Inversion.InitialCanonicalEnergy
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerReference
+import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerGeometry
 
 
 set_option backward.privateInPublic true

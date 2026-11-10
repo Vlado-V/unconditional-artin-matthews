@@ -1,8 +1,9 @@
 module
 
-public import Mathlib.NumberTheory.ModularForms.ProperlyDiscontinuous
-public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
 public import Mathlib.Topology.ContinuousMap.CompactlySupported
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
+public import Mathlib.NumberTheory.ModularForms.ArithmeticSubgroups
+public import Mathlib.NumberTheory.ModularForms.ProperlyDiscontinuous
 
 
 set_option backward.privateInPublic true

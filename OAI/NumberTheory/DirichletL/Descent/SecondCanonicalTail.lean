@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.SecondMarkedTail
-public import OAI.NumberTheory.DirichletL.Descent.SecondFreshTruncation
+public import OAI.NumberTheory.DirichletL.Descent.Basic
+public import OAI.NumberTheory.DirichletL.Descent.PhysicalExponents
+public import OAI.NumberTheory.DirichletL.Inversion.SecondPrincipalCaller
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.SecondCutoffScale
+public import OAI.NumberTheory.DirichletL.Descent.SecondFreshTruncation
+public import OAI.NumberTheory.DirichletL.Descent.SecondMarkedTail
 
 
 set_option backward.privateInPublic true

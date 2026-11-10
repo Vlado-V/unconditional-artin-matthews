@@ -1,8 +1,7 @@
 module
 
+public import ArtinMatthews.L2MeasurableCutoff
 public import ArtinMatthews.L2ChartRestriction
-public import Mathlib.Topology.MetricSpace.Pseudo.Basic
-public import Mathlib.Analysis.Normed.Group.Constructions
 
 
 set_option backward.privateInPublic true

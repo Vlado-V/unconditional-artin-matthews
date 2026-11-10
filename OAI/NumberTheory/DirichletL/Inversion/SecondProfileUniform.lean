@@ -4,6 +4,12 @@ module
 
 public import OAI.NumberTheory.DirichletL.Inversion.InitialProfile
 public import OAI.NumberTheory.DirichletL.Inversion.AmbientProfileTower
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.DescentHeight
+public import OAI.NumberTheory.DirichletL.Descent.DescentProfiles
+public import OAI.NumberTheory.DirichletL.Descent.ProfileIntegral
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 
 
 set_option backward.privateInPublic true

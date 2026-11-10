@@ -1,11 +1,8 @@
 module
 
 public import Mathlib.NumberTheory.DirichletCharacter.Orthogonality
-public import Mathlib.NumberTheory.DirichletCharacter.Bounds
-public import Mathlib.NumberTheory.MulChar.Lemmas
-public import Mathlib.Analysis.Real.Sqrt
-public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Analysis.SpecialFunctions.Complex.CircleAddChar
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
 
 
 set_option backward.privateInPublic true

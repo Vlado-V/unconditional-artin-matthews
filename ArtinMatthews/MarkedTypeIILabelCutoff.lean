@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralDyadicWeight
-public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 
 set_option backward.privateInPublic true

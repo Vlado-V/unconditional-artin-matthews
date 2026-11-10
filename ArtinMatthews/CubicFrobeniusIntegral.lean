@@ -1,10 +1,8 @@
 module
 
-public import Mathlib.FieldTheory.Galois.IsGaloisGroup
-public import Mathlib.NumberTheory.NumberField.Ideal.Basic
-public import Mathlib.RingTheory.Ideal.Int
-public import Mathlib.RingTheory.Ideal.GoingUp
 public import Mathlib.RingTheory.Frobenius
+public import Mathlib.NumberTheory.NumberField.Basic
+public import Mathlib.NumberTheory.NumberField.Ideal.Basic
 
 
 set_option backward.privateInPublic true

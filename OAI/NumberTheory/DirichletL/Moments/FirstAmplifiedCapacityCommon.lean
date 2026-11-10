@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedCapacitySource
-public import OAI.NumberTheory.DirichletL.Moments.FirstSecondCapacityDefect
+public import OAI.NumberTheory.DirichletL.Moments.AllocatedChildCapacity
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildInput
+public import OAI.NumberTheory.DirichletL.Moments.SecondCapacitySourceShift
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildSourceCaps
+public import OAI.NumberTheory.DirichletL.Moments.SecondPhysicalLedger
+import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedCapacitySource
 
 
 set_option backward.privateInPublic true

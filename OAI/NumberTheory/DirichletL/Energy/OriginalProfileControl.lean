@@ -5,7 +5,9 @@ module
 public import OAI.NumberTheory.DirichletL.Energy.NaturalInputMatches
 public import OAI.NumberTheory.DirichletL.Energy.ZeroComparison
 public import OAI.NumberTheory.DirichletL.Moments.FirstReferenceEnergy
-public import OAI.NumberTheory.DirichletL.Moments.SourceInputTailUniform
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

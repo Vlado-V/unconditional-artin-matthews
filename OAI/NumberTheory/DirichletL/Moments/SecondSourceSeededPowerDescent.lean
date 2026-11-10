@@ -3,11 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.SecondSourcePowerDescent
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.SecondUniformSubsetSource
 public import OAI.NumberTheory.DirichletL.Moments.SourceInputTailSeed
-public import OAI.NumberTheory.DirichletL.Moments.SecondChildPowerBudget
-public import OAI.NumberTheory.DirichletL.Moments.SourceInputReindex
-public import OAI.NumberTheory.DirichletL.Moments.SecondSourceRemainder
-public import OAI.NumberTheory.DirichletL.Moments.SecondNonexceptionalLiveSource
 
 
 set_option backward.privateInPublic true

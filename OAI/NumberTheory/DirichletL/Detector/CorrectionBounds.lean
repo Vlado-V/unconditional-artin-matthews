@@ -4,8 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.Euler
 public import OAI.NumberTheory.DirichletL.Detector.Local
-public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-public import Mathlib.Analysis.Complex.LocallyUniformLimit
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

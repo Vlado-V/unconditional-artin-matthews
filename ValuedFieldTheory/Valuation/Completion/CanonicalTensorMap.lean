@@ -8,9 +8,9 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Completion
 public import ValuedFieldTheory.Valuation.Completion.FiniteLocalization
-public import Mathlib.Algebra.Algebra.Pi
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

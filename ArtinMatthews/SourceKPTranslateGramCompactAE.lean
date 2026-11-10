@@ -1,8 +1,49 @@
 module
 
-public import ArtinMatthews.SourceKPTranslateGramRepresentativeAE
+public import ArtinMatthews.SourceKPTranslateCompactTrace
+public import ArtinMatthews.SourceKPTranslateGramL2
+public import ArtinMatthews.SourceKPArchComponentBorel
+public import ArtinMatthews.SourceKPArithmeticDiscreteness
+public import ArtinMatthews.SourceKPAutomorphicCompactTopology
+public import ArtinMatthews.SourceKPCompactRationalTransport
+public import ArtinMatthews.SourceKPTranslateBaseHaar
 public import ArtinMatthews.SourceKPTranslateGramGenuine
-public import Mathlib.MeasureTheory.Measure.Regular
+public import ArtinMatthews.SourceKPTranslateGramRepresentativeAE
+public import ArtinMatthews.SourceKPTranslateRepresentativeAE
+public import Mathlib.Algebra.Order.Floor.Extended
+public import Mathlib.Algebra.Order.Interval.Basic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Combinatorics.Enumerative.DyckWord
+public import Mathlib.Combinatorics.SimpleGraph.Triangle.Removal
+public import Mathlib.Data.NNRat.Floor
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.Geometry.Euclidean.Volume.Basic
+public import Mathlib.MeasureTheory.Measure.RegularityCompacts
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.Height.Projectivization
+public import Mathlib.NumberTheory.LucasLehmer
+public import Mathlib.NumberTheory.SelbergSieve
+public import Mathlib.RingTheory.Radical.NatInt
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Topology.Connected.Separation
+public import Mathlib.Topology.Separation.Lemmas
+public import Mathlib.Topology.Sheaves.Init
 
 
 set_option backward.privateInPublic true

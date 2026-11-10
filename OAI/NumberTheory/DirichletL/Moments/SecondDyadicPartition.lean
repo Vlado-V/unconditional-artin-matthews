@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.SecondPhysicalWindow
 public import OAI.NumberTheory.DirichletL.Moments.DyadicCount
+public import OAI.NumberTheory.DirichletL.Moments.LogDyadic
+public import OAI.NumberTheory.DirichletL.Moments.SecondSectorRetained
+public import OAI.NumberTheory.DirichletL.Moments.SecondWholeKernel
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.SecondPhysicalWindow
 
 
 set_option backward.privateInPublic true

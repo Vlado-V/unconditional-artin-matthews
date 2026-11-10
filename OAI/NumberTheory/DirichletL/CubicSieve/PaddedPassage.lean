@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Eisenstein.LocalCutoffs
 public import OAI.NumberTheory.DirichletL.MeanSquare.HarmonicAggregation
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

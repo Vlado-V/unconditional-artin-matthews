@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.ActualBounds
-public import OAI.NumberTheory.DirichletL.Reflection.FamilyFactorization
+public import OAI.NumberTheory.DirichletL.CubicSieve.Ideal
+public import OAI.NumberTheory.DirichletL.Reflection.NormalizedColumns
+public import OAI.NumberTheory.DirichletL.Reflection.Projections
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.Sharp
+public import OAI.NumberTheory.DirichletL.Reflection.ActualBounds
 
 
 set_option backward.privateInPublic true

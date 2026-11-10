@@ -8,7 +8,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import ClassFieldTheory.LubinTate.FormalModule.Series
 public import ClassFieldTheory.LubinTate.FormalModule.CoefficientEquation
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Combinatorics.Matroid.Init
 
 
 set_option backward.privateInPublic true

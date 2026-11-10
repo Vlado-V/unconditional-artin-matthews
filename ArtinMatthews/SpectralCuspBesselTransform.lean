@@ -1,7 +1,9 @@
 module
 
+public import OAI.NumberTheory.DirichletL.Eisenstein.HyperbolicSpace
 public import ArtinMatthews.SpectralBesselKWhittaker
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

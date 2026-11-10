@@ -1,8 +1,8 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Bessel
 public import ArtinMatthews.ShiftedVoronoiBessel
 public import ArtinMatthews.ShiftedVoronoiBesselMonomial
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
 
 
 set_option backward.privateInPublic true

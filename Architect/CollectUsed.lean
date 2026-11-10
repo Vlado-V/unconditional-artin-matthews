@@ -1,6 +1,7 @@
 module
 
 public import Architect.Basic
+public import Lean.MonadEnv
 
 public meta section
 

@@ -8,13 +8,15 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.AbsoluteValue.Completion
 public import ValuedFieldTheory.Valuation.Completion.ExtensionFactorClassification
-public import ValuedFieldTheory.Valuation.Completion.SeparablePolynomialFactors
 public import ValuedFieldTheory.Valuation.Completion.BaseChangeAdjoinRoot
 public import ValuedFieldTheory.Valuation.Completion.PolynomialCRT
 public import ValuedFieldTheory.Valuation.Completion.CanonicalTensorMap
 public import Mathlib.Algebra.Group.Pi.Units
+public import Mathlib.FieldTheory.PrimitiveElement
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import ValuedFieldTheory.Valuation.Completion.SeparablePolynomialFactors
 
 
 set_option backward.privateInPublic true

@@ -1,5 +1,6 @@
 module
 
+public import ArtinMatthews.CuspAverageProjectionOperator
 public import ArtinMatthews.CuspAverageProjectionIntegral
 
 

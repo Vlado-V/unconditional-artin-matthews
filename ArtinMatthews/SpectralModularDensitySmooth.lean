@@ -1,7 +1,11 @@
 module
 
 public import ArtinMatthews.SpectralModularDensitySmoothSpace
+public import Mathlib.MeasureTheory.Function.L2Space
 public import ArtinMatthews.SpectralModularBoundary
+public import ArtinMatthews.SpectralModularDensitySmoothGeometry
+public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

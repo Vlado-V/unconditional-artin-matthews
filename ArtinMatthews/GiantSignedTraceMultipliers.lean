@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.GiantSignedTraceProjection
+public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
 
 
 set_option backward.privateInPublic true

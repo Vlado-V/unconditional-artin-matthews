@@ -1,6 +1,12 @@
 module
 
 public import ArtinMatthews.SpectralPeterssonPeriodizedTaylor
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+public import Mathlib.Tactic.NormNum.Parity
 
 
 set_option backward.privateInPublic true

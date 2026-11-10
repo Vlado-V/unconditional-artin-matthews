@@ -1,5 +1,6 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Bessel
 public import ArtinMatthews.ShiftedVoronoiBessel
 
 

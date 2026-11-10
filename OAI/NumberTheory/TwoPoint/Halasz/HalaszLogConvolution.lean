@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.TwoPoint.Basic
 public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.NumberTheory.LSeries.Basic
 public import Mathlib.NumberTheory.LSeries.Deriv
 
 

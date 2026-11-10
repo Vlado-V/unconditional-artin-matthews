@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.L2MeasurableCutoff
-public import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+public import Mathlib.MeasureTheory.Function.L2Space
 
 
 set_option backward.privateInPublic true

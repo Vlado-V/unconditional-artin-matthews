@@ -1,8 +1,10 @@
 module
 
 public import ArtinMatthews.SpectralPoincareGamma0
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Measure
+public import Mathlib.NumberTheory.Modular
 public import ArtinMatthews.SpectralHyperbolicFiniteVolume
-public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

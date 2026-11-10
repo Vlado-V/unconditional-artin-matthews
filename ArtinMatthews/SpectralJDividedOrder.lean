@@ -1,8 +1,9 @@
 module
 
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
 public import ArtinMatthews.SpectralJForwardTransform
 public import Mathlib.Analysis.Complex.RemovableSingularity
-public import Mathlib.Tactic.FieldSimp
 
 
 set_option backward.privateInPublic true

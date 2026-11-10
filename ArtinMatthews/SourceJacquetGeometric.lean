@@ -1,8 +1,12 @@
 module
 
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Algebra.Field.Defs
+public import Mathlib.Algebra.GroupWithZero.Units.Basic
+public import Mathlib.Order.Interval.Finset.Nat
 public import Mathlib.Algebra.BigOperators.Intervals
-public import Mathlib.Algebra.Field.Basic
-public import Mathlib.Tactic.Ring
+public import Mathlib.Algebra.Order.Ring.Nat
+public import Mathlib.Tactic.Ring.RingNF
 
 
 set_option backward.privateInPublic true

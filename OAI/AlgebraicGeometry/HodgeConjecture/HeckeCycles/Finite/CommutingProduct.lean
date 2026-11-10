@@ -4,7 +4,7 @@ module
 
 public import Mathlib.Data.Finset.NoncommProd
 public import Mathlib.Algebra.Group.Subgroup.Defs
-public import Mathlib.LinearAlgebra.GeneralLinearGroup.Basic
+public import Mathlib.Algebra.Module.Equiv.Basic
 
 
 set_option backward.privateInPublic true

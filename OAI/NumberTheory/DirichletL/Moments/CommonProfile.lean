@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.CommonPrimeSlots
 public import OAI.NumberTheory.DirichletL.Moments.SourceProfileMass
+public import OAI.NumberTheory.DirichletL.Moments.CommonAllocationBox
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.CommonPrimeSlots
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationGlobal
+public import OAI.NumberTheory.DirichletL.PrimeRows.NormFiberExtraction
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.CenteredExceptionalCount
+public import OAI.NumberTheory.DirichletL.Eisenstein.ResidualCuspDecay
 
 
 set_option backward.privateInPublic true

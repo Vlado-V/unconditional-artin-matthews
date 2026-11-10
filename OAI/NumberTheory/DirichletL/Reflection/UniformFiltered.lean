@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Reflection.ActualWeightedEnergy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.CommonMeasure
 public import OAI.NumberTheory.DirichletL.Reflection.UniformSieve
-public import OAI.NumberTheory.DirichletL.Reflection.FilteredMeasure
+public import OAI.NumberTheory.DirichletL.Reflection.WeightedMeasurable
 
 
 set_option backward.privateInPublic true

@@ -9,6 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Valuation.AbsoluteValue.Completion
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 

@@ -2,11 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.FirstLiveExponentCaps
+public import OAI.NumberTheory.DirichletL.Descent.FirstLabelCellStepSource
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLivePartition
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileScales
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Descent.FirstLiveColumnScale
+public import OAI.NumberTheory.DirichletL.Descent.FirstLiveExponentCaps
 public import OAI.NumberTheory.DirichletL.Descent.FirstLiveRadiusPositive
 public import OAI.NumberTheory.DirichletL.Descent.FirstStepScalarCaps
-public import OAI.NumberTheory.DirichletL.Descent.FirstLabelCellStep
 
 
 set_option backward.privateInPublic true

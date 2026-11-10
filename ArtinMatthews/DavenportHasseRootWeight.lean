@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.DavenportHassePolynomialWeight
-public import Mathlib.RingTheory.Norm.Transitivity
+public import ArtinMatthews.FiniteFieldNormCharacter
 
 
 set_option backward.privateInPublic true

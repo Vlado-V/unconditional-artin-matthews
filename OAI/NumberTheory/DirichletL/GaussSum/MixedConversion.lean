@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.GaussSum.ActiveConductor
 public import OAI.NumberTheory.DirichletL.GaussSum.CubicTrace
+public import OAI.NumberTheory.DirichletL.Poisson.RadialFourier
+public import Mathlib.Analysis.SumIntegralComparisons
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

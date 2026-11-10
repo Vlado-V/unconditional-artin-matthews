@@ -1,7 +1,8 @@
 module
 
-public import ArtinMatthews.MarkedBirthRankCount
 public import Mathlib.Basic.Real.Basic
+public import ArtinMatthews.MarkedBirthDistinctPermutation
+public import ArtinMatthews.MarkedBirthRankCount
 
 
 set_option backward.privateInPublic true

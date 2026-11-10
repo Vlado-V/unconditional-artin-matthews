@@ -4,6 +4,12 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.FirstAmplificationChoice
 public import OAI.NumberTheory.DirichletL.Moments.CommonRadialData
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationAllocationCost
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationAllocationScale
+public import OAI.NumberTheory.DirichletL.Moments.Extraction
 
 
 set_option backward.privateInPublic true

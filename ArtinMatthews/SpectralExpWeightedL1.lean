@@ -1,8 +1,11 @@
 module
 
-public import ArtinMatthews.SpectralExpPolynomialDensity
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
 public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 
 set_option backward.privateInPublic true

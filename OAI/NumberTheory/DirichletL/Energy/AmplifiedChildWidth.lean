@@ -3,9 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.AmplifiedChildWidth
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedActiveCapacitySource
 public import OAI.NumberTheory.DirichletL.Energy.AmplifiedRayDictionary
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedCapacityCommon
+public import OAI.NumberTheory.DirichletL.Moments.FirstSecondActiveErrorGates
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedActiveCapacitySource
+public import OAI.NumberTheory.DirichletL.Moments.SecondChildRadialWidth
 
 
 set_option backward.privateInPublic true

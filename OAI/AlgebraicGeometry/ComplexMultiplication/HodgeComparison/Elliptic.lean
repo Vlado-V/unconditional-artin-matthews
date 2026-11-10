@@ -3,6 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.EllipticDifferenceEstimate
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceBounds
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.DifferenceCriterion
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevInv
 
 
 set_option backward.privateInPublic true

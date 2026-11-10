@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.HighRowsPrime
 public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationRows
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
 
 
 set_option backward.privateInPublic true

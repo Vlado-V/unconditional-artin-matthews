@@ -1,8 +1,9 @@
 module
 
+public import ArtinMatthews.SpectralContinuousQuadraticMeasure
+public import Mathlib.MeasureTheory.Function.LpSpace.ContinuousFunctions
 public import ArtinMatthews.SpectralContinuousQuadraticIntegral
 public import Mathlib.MeasureTheory.Function.ContinuousMapDense
-public import Mathlib.Analysis.Normed.Operator.Extend
 public import Mathlib.MeasureTheory.Function.L2Space
 
 

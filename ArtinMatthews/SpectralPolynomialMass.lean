@@ -1,8 +1,8 @@
 module
 
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
 public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.MeasureTheory.Integral.Bochner.SumMeasure
-public import Mathlib.Analysis.SpecificLimits.Normed
 
 
 set_option backward.privateInPublic true

@@ -3,8 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationFamily
-public import OAI.NumberTheory.DirichletL.Moments.SourceSmoothedAllocation
+public import OAI.NumberTheory.DirichletL.Moments.OriginalChildEnergy
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstTailAggregate
 public import OAI.NumberTheory.DirichletL.Moments.GaussNormalization
+public import OAI.NumberTheory.DirichletL.Moments.SourceSmoothedAllocation
 
 
 set_option backward.privateInPublic true

@@ -1,10 +1,13 @@
 module
 
-public import Mathlib.Topology.ContinuousMap.Weierstrass
-public import Mathlib.Analysis.Calculus.Deriv.Polynomial
+public import Mathlib.Algebra.Polynomial.Derivative
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Analysis.Calculus.Deriv.Polynomial
 public import Mathlib.Analysis.Calculus.MeanValue
 public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.Topology.ContinuousMap.Weierstrass
 
 
 set_option backward.privateInPublic true

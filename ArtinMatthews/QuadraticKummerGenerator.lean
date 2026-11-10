@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.QuadraticKummer
-public import Mathlib.FieldTheory.Galois.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.SecondCorrelatedCutoff
 public import OAI.NumberTheory.DirichletL.Descent.PhysicalExponents
+public import OAI.NumberTheory.DirichletL.Descent.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -2,10 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationRadicalChoice
-public import OAI.NumberTheory.DirichletL.Moments.SecondChildRadialWidth
-public import OAI.NumberTheory.DirichletL.Moments.CommonRadiusSaving
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationRadicalFamily
+public import OAI.NumberTheory.DirichletL.Moments.AmplifiedRetainedRadius
+public import OAI.NumberTheory.DirichletL.Moments.SecondExceptionalFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstCanonicalFamily
 public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalLedger
+public import OAI.NumberTheory.DirichletL.Moments.SecondActualWidth
+public import OAI.NumberTheory.DirichletL.Moments.SecondChildRadialWidth
 
 
 set_option backward.privateInPublic true

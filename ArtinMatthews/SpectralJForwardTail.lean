@@ -1,7 +1,9 @@
 module
 
+public import ArtinMatthews.SourceSturmCore
+public import ArtinMatthews.SpectralJForwardTransform
+public import ArtinMatthews.SourceSturmSpectralPowers
 public import ArtinMatthews.SpectralJForwardSturm
-public import Mathlib.Tactic.Linarith
 
 
 set_option backward.privateInPublic true

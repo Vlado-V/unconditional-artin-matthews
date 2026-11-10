@@ -4,8 +4,13 @@ module
 
 public import OAI.NumberTheory.DirichletL.Inversion.InitialRawDictionary
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorCoefficientTransfer
-public import OAI.NumberTheory.DirichletL.Hecke.DetectorRelativePrime
+public import OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationFamily
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeRow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Detector.RayPoolGood
+public import OAI.NumberTheory.DirichletL.Hecke.DetectorRelativePrime
 
 
 set_option backward.privateInPublic true

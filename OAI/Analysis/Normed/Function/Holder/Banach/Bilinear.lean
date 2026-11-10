@@ -4,7 +4,9 @@ module
 
 public import OAI.Analysis.Normed.Function.Holder.Banach.Linear
 public import OAI.Analysis.Normed.Function.Holder.Banach.Operator
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.ContDiff.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 
 
 set_option backward.privateInPublic true

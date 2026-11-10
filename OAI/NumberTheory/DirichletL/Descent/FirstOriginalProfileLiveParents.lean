@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileLiveEnergy
 public import OAI.NumberTheory.DirichletL.Descent.OriginalCellPriority
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.FirstOriginalProfileParents
 
 
 set_option backward.privateInPublic true

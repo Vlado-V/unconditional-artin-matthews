@@ -1,11 +1,22 @@
 module
 
-public import ArtinMatthews.Definitions
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
-public import Mathlib.Analysis.Calculus.Deriv.Pow
-public import Mathlib.Analysis.Calculus.Deriv.Mul
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.CategoryTheory.Category.Basic
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Data.Fintype.Pi
+public import Mathlib.Data.Nat.Prime.Defs
 public import Mathlib.Analysis.Calculus.Deriv.Add
+public import Mathlib.Analysis.Calculus.Deriv.Mul
+public import Mathlib.Analysis.Calculus.Deriv.Pow
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.Tactic.NormNum.GCD
 
 
 set_option backward.privateInPublic true

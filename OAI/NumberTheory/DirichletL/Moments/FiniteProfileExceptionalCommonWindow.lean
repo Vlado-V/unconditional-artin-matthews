@@ -5,6 +5,11 @@ module
 public import OAI.NumberTheory.DirichletL.Moments.CommonWindowColumn
 public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalCommonHeight
 public import OAI.NumberTheory.DirichletL.Moments.LogDyadic
+public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalCost
+public import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalNonunit
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalCommonCanonical
 
 

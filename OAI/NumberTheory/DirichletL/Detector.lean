@@ -3,12 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Analysis.Complex.Norm
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
-public import Mathlib.Data.Finset.Max
-public import Mathlib.Algebra.Order.Floor.Semiring
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Ring
 
 
 set_option backward.privateInPublic true

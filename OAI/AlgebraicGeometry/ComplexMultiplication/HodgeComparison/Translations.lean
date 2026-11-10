@@ -4,7 +4,6 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LpCoefficients
 public import Mathlib.Analysis.Fourier.LpSpace
-public import Mathlib.Analysis.Distribution.SchwartzSpace.Deriv
 
 
 set_option backward.privateInPublic true

@@ -9,7 +9,6 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.Basic
-public import Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots
 
 
 set_option backward.privateInPublic true

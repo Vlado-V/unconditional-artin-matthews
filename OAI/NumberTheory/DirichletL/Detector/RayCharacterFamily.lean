@@ -3,12 +3,20 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.BufferedBin
-public import OAI.NumberTheory.DirichletL.Detector.RayPhaseAmplitude
-public import OAI.NumberTheory.DirichletL.PrimeRows.PrincipalMask
 public import OAI.NumberTheory.DirichletL.PrimeRows.Conductor
 public import OAI.NumberTheory.DirichletL.PrimeRows.RowPartition
-public import OAI.NumberTheory.DirichletL.Hecke.PrimeScale
+public import OAI.NumberTheory.DirichletL.Hecke.ExceptionalRows
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeRow
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Conjugation
 public import OAI.NumberTheory.DirichletL.Hecke.PrimeNonprincipal
+public import OAI.NumberTheory.DirichletL.Hecke.PrimeScale
+public import OAI.NumberTheory.DirichletL.Hecke.RowNonprincipal
+public import OAI.NumberTheory.DirichletL.PrimeRows.DetectorBins
+public import OAI.NumberTheory.DirichletL.PrimeRows.Principal
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

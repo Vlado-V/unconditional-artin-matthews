@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Detector.PhysicalFourier
+public import OAI.NumberTheory.DirichletL.Detector.Physical
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Cusp.WeylRepresentatives
 
 
 set_option backward.privateInPublic true

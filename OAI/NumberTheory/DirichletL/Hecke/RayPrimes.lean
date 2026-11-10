@@ -5,6 +5,11 @@ module
 public import OAI.NumberTheory.DirichletL.Hecke.RayFamily
 public import OAI.NumberTheory.DirichletL.PrimeCounting.RayAsymptotic
 public import OAI.NumberTheory.DirichletL.PrimeCounting.IdealPrimeMass
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
 
 
 set_option backward.privateInPublic true

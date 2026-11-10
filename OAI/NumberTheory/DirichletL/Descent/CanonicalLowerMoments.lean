@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.CanonicalChildSupport
 public import OAI.NumberTheory.DirichletL.Descent.FirstLabelCellStep
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalChildSupport
+public import OAI.NumberTheory.DirichletL.Descent.FirstCanonicalChildren
+public import OAI.NumberTheory.DirichletL.Descent.FirstLabelCellStepChildren
 
 
 set_option backward.privateInPublic true

@@ -3,7 +3,16 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.ChineseRemainder.AdditiveCharacters
-public import OAI.NumberTheory.DirichletL.Arithmetic.EisensteinIdeals
+public import Mathlib.NumberTheory.JacobiSum.Basic
+public import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.Basic
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.Three
+import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
+import Mathlib.Analysis.Fourier.Notation
 
 
 set_option backward.privateInPublic true

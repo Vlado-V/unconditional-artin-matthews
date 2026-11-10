@@ -8,12 +8,14 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.Algebra.Exact.Basic
-public import Mathlib.FieldTheory.Galois.IsGaloisGroup
-public import Mathlib.GroupTheory.GroupAction.Quotient
-public import Mathlib.RingTheory.Invariant.Basic
 public import ValuedFieldTheory.Ramification.HilbertRamification.ValuationSubring
-public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteExtension.Core
+public import Mathlib.RingTheory.Valuation.Extension
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Complete
+public import Mathlib.FieldTheory.Galois.IsGaloisGroup
+public import Mathlib.Logic.Equiv.PartialEquiv
+public import Mathlib.RingTheory.Valuation.LocalSubring
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.FiniteExtension.Uniqueness
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.ResidueField
 
 
 set_option backward.privateInPublic true

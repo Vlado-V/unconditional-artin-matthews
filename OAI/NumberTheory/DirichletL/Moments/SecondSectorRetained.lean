@@ -3,7 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.SecondSectorFrequency
-public import OAI.NumberTheory.DirichletL.Moments.SecondLocalization
+public import OAI.NumberTheory.DirichletL.Moments.SectorLocalization
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstLocalization
+public import OAI.NumberTheory.DirichletL.Moments.SecondWholeKernel
+public import OAI.NumberTheory.DirichletL.Moments.Tail
 
 
 set_option backward.privateInPublic true

@@ -9,8 +9,8 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.IdealMap
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Topology
 public import Mathlib.RingTheory.DedekindDomain.SInteger
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Topology
 
 
 set_option backward.privateInPublic true

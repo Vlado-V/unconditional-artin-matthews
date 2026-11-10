@@ -1,7 +1,10 @@
 module
 
 public import ArtinMatthews.SpectralBesselKEquation
-public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import ArtinMatthews.SpectralBesselKDerivative
+public import ArtinMatthews.SpectralBesselKConvergence
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

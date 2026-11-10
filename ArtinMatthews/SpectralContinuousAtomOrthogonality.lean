@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralContinuousAtomVector
+public import Mathlib.Algebra.Order.Ring.Star
 
 
 set_option backward.privateInPublic true

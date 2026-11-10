@@ -4,14 +4,7 @@ module
 
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
-public import Mathlib.MeasureTheory.Integral.Bochner.Basic
-public import Mathlib.MeasureTheory.Integral.MeanInequalities
-public import Mathlib.MeasureTheory.Integral.Prod
-public import Mathlib.MeasureTheory.Group.Prod
-public import Mathlib.MeasureTheory.Measure.WithDensity
 public import Mathlib.MeasureTheory.Measure.Haar.Unique
-public import Mathlib.MeasureTheory.Function.L2Space
 public import Mathlib.Probability.Moments.Variance
 
 

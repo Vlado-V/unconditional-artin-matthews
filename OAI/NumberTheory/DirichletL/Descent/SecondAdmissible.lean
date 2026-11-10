@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.SecondTripleBounds
 public import OAI.NumberTheory.DirichletL.Descent.Basic
+public import OAI.NumberTheory.DirichletL.Descent.SecondPuncture
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.SecondPunctureBudget
+public import OAI.NumberTheory.DirichletL.Descent.SecondTripleBounds
 
 
 set_option backward.privateInPublic true

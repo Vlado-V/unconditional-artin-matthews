@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.PrincipalPhysicalRemainder
 public import OAI.NumberTheory.DirichletL.Detector.PrincipalResidueActual
+public import OAI.NumberTheory.DirichletL.Detector.PrincipalSplit
+public import OAI.NumberTheory.DirichletL.Detector.RaySlots
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.PrincipalPhysicalRemainder
+public import OAI.NumberTheory.DirichletL.Detector.RayPoolDisjoint
 public import OAI.NumberTheory.DirichletL.Detector.RayPoolThresholds
 
 

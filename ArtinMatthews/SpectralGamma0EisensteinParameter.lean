@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralGamma0EisensteinSeries
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.Complex.LocallyUniformLimit
 
 

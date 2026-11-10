@@ -10,15 +10,27 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 
 public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.CyclotomicTorsionFixedField
 public import GaloisCohomology.ProfiniteIntegers.ProfiniteInteger
-public import ClassFieldTheory.AlgebraicNumberTheory.Galois.InfiniteBaseChange
 public import ClassFieldTheory.AlgebraicNumberTheory.SeparableClosureEmbedding
 public import ClassFieldTheory.LocalClassFieldTheory.Finite.LocalReciprocity.FiniteAbstractFixedField
-public import Mathlib.FieldTheory.Galois.Abelian
-public import Mathlib.FieldTheory.IntermediateField.Algebraic
-public import Mathlib.FieldTheory.Normal.Closure
-public import Mathlib.FieldTheory.IsSepClosed
-public import Mathlib.FieldTheory.SeparableClosure
-public import Mathlib.GroupTheory.Index
+public import ClassFieldTheory.AlgebraicNumberTheory.Galois.InfiniteBaseChange
+public import GaloisCohomology.ProfiniteIntegers.CyclotomicTorsionQuotient
+public import Mathlib.FieldTheory.Galois.Profinite
+public import Mathlib.Tactic.Echelon.Zsqrtd
+public import Mathlib.Tactic.Inclusion.Extension.Core.Core
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Hypotheses
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+public import Mathlib.Tactic.NormNum.Irrational
+public import Mathlib.Tactic.NormNum.IsCoprime
+public import Mathlib.Tactic.NormNum.IsSquare
+public import Mathlib.Tactic.NormNum.LegendreSymbol
+public import Mathlib.Tactic.NormNum.ModEq
+public import Mathlib.Tactic.NormNum.NatFib
+public import Mathlib.Tactic.NormNum.NatLog
+public import Mathlib.Tactic.NormNum.NatSqrt
+public import Mathlib.Tactic.NormNum.Ordinal
+public import Mathlib.Tactic.NormNum.Parity
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
 
 
 set_option backward.privateInPublic true

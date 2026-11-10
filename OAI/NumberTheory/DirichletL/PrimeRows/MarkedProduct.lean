@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedLocal
 public import OAI.NumberTheory.DirichletL.PrimeRows.Euler
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighRowsExcluded
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

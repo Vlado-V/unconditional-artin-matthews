@@ -1,5 +1,9 @@
 module
 
+public import Mathlib.Analysis.Analytic.Basic
+public import OAI.NumberTheory.Ostmann.ZeroDensity.RectangleLogIntegrals
+public import Mathlib.Analysis.Analytic.Constructions
+public import Mathlib.Tactic.Positivity.Finset
 public import OAI.NumberTheory.Ostmann.ZeroDensity.RectangleGeometry
 
 

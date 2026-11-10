@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 
 set_option backward.privateInPublic true

@@ -8,10 +8,10 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.NormProperties
 public import Mathlib.Algebra.Module.LinearMap.Polynomial
+public import ClassFieldTheory.AlgebraicNumberTheory.Idele.Extension.BaseChange
+public import Mathlib.Algebra.MvPolynomial.Funext
 public import Mathlib.LinearAlgebra.Charpoly.BaseChange
-public import Mathlib.RingTheory.TensorProduct.MvPolynomial
 
 
 set_option backward.privateInPublic true

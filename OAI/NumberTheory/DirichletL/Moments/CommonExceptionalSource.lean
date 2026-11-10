@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.ExceptionalAsymmetricSource
-public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalMass
+public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalCost
+public import OAI.NumberTheory.DirichletL.Moments.CommonPairedSource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalGates
+public import OAI.NumberTheory.DirichletL.Moments.CommonExceptionalMass
+public import OAI.NumberTheory.DirichletL.Moments.ExceptionalAsymmetricSource
 
 
 set_option backward.privateInPublic true

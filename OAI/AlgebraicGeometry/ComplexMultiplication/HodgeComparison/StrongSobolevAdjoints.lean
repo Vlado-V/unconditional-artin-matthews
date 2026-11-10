@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongSobolevOperators
 public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongSobolev
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongSobolevOperators
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,8 @@
 module
 
+public import ArtinMatthews.KummerRowField
 public import ArtinMatthews.KummerRowDegree
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

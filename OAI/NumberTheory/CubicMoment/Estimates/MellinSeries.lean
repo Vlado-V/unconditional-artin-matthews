@@ -2,8 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.MellinTransform
 public import OAI.NumberTheory.CubicMoment.Estimates.MellinSmooth
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
 
 
 set_option backward.privateInPublic true

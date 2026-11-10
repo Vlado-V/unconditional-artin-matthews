@@ -1,7 +1,8 @@
 module
 
-public import ArtinMatthews.SourceCircleHaar
-public import Mathlib.Topology.Algebra.Group.Units
+public import Mathlib.Analysis.Complex.Circle
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

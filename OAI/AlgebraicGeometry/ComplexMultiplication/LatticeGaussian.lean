@@ -2,9 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.Analysis.Complex.Exponential
+public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
 public import Mathlib.Algebra.Module.ZLattice.Summable
-public import Mathlib.Analysis.SpecialFunctions.Exp
-public import Mathlib.Topology.DiscreteSubset
 
 
 set_option backward.privateInPublic true

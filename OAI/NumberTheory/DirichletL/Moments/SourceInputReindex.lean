@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildInput
 public import OAI.NumberTheory.DirichletL.Moments.OriginalCommonHarmonic
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

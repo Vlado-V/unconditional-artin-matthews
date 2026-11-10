@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Reflection.SectorData
 public import OAI.NumberTheory.DirichletL.Reflection.SectorAggregation
+public import OAI.NumberTheory.DirichletL.Reflection.SourceFamily
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.Reindex
 
 
 set_option backward.privateInPublic true

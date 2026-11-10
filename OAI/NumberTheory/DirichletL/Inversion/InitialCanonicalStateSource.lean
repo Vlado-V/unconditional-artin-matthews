@@ -3,6 +3,15 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Inversion.InitialCanonicalState
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerWindows
+public import OAI.NumberTheory.DirichletL.Inversion.InitialQuotientGeometry
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerGeometry
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerState
+public import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerWindowGeometry
+import OAI.NumberTheory.DirichletL.Inversion.InitialEnergyCallerRanges
 
 
 set_option backward.privateInPublic true

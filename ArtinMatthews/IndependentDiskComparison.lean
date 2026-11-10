@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.IndependentDiskZeros
 public import ArtinMatthews.IndependentDiskLog
 public import ArtinMatthews.IndependentDiskQuotient
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 /-! The finite zero sum and the quantitative logarithmic derivative remainder
 on the inner disk, with the radii and constants used by the OAI character

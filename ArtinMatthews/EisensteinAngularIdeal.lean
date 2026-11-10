@@ -1,6 +1,9 @@
 module
 
 public import OAI.NumberTheory.DirichletL.Arithmetic.IdealMobius
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.GaussSum.SquarePhaseFactorization
 
 
 set_option backward.privateInPublic true

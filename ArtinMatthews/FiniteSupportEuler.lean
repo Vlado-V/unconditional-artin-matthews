@@ -2,7 +2,6 @@ module
 
 public import ArtinMatthews.FiniteSupportEulerPrefix
 public import Mathlib.Analysis.Normed.Group.Tannery
-public import Mathlib.Order.Filter.AtTopBot.Finset
 
 
 set_option backward.privateInPublic true

@@ -3,13 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Algebra.Order.Archimedean.Basic
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.NormNum
-public import Mathlib.Tactic.Ring
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

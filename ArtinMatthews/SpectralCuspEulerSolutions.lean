@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralCuspEulerInvariant
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.FixedRay
 public import OAI.NumberTheory.DirichletL.CenteredExceptionalProfile
+public import OAI.NumberTheory.DirichletL.ChineseRemainder.PrimaryCompletions
+public import OAI.NumberTheory.DirichletL.Hecke.Operations
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

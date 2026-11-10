@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.NaturalMaskedFloor
 public import OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalPair
+public import OAI.NumberTheory.DirichletL.Moments.CoreFloor
+public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

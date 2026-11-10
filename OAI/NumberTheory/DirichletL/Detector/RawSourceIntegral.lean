@@ -4,6 +4,13 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.PhysicalRawIntegral
 public import OAI.NumberTheory.DirichletL.Detector.RawArithmetic
+public import OAI.NumberTheory.DirichletL.Detector.ContourShear
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.InitialProduct
+public import OAI.NumberTheory.DirichletL.Detector.InitialScales
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalAnalytic
 
 
 set_option backward.privateInPublic true

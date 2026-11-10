@@ -2,9 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.Topology.Algebra.Support
 
 
 set_option backward.privateInPublic true

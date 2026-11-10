@@ -4,6 +4,12 @@ module
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.Moments
 public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalRayCube
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Conjugation
+public import OAI.NumberTheory.DirichletL.Hecke.IdealOperations
+public import Std.Tactic.BVDecide.Normalize.Bool
 
 
 set_option backward.privateInPublic true

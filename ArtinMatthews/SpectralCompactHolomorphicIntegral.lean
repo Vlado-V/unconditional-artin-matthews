@@ -1,10 +1,9 @@
 module
 
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Analysis.Complex.Schwarz
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.Analysis.Calculus.Deriv.Slope
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
-public import Mathlib.Tactic.Linarith
 
 
 set_option backward.privateInPublic true

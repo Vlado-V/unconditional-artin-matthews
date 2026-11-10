@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.IdealLogPhase
+public import Mathlib.Algebra.Order.Algebra
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

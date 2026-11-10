@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.SpectralGamma0EisensteinRows
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.Summable
+public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 
 

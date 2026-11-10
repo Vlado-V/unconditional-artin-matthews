@@ -3,7 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.JointDickman.Amplification.OscillatoryTests
-public import OAI.NumberTheory.JointDickman.Amplification.RamanujanSum
+public import Mathlib.Analysis.SpecialFunctions.Complex.CircleAddChar
+public import OAI.NumberTheory.JointDickman.Amplification.RamanujanRoots
 
 
 set_option backward.privateInPublic true

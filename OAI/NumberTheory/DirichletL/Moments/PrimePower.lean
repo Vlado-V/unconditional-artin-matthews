@@ -3,10 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.Correlation
-public import Mathlib.NumberTheory.NumberField.Basic
 public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
-public import Mathlib.RingTheory.Ideal.Quotient.PowTransition
-public import Mathlib.RingTheory.Ideal.Quotient.Nilpotent
 
 
 set_option backward.privateInPublic true

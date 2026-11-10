@@ -1,7 +1,9 @@
 module
 
-public import ArtinMatthews.SourceHyperbolicLocalCalculus
 public import ArtinMatthews.SourceHyperbolicProductMeasure
+public import OAI.NumberTheory.DirichletL.CubicSieve.RadialProfiles
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

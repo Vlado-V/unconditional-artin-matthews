@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.SpectralModularDensitySeeds
+public import ArtinMatthews.SpectralModularBoundary
+public import ArtinMatthews.SpectralModularDensityPeriodization
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

@@ -8,7 +8,14 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import GaloisCohomology.Cyclic.Herbrand.HerbrandFiniteness
+public import GaloisCohomology.Cyclic.Herbrand.HerbrandLowDegree.Core
+public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.CategoryTheory.Category.Init
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
+public import Mathlib.Tactic.NormNum.GCD
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

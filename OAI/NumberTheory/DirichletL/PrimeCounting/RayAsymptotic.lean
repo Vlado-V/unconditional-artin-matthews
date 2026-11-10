@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.RayQuotient
 public import OAI.NumberTheory.DirichletL.IdealLogDerivative
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.LSeries.Linearity
 
 
 set_option backward.privateInPublic true

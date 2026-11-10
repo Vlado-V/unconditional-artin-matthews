@@ -3,7 +3,17 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.FirstAmplificationChoice
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationFamily
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationActiveFamily
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationChildEnergy
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationErrorPool
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationFamilyEnergy
+public import OAI.NumberTheory.DirichletL.Moments.FirstFamily
 public import OAI.NumberTheory.DirichletL.Moments.RadicalFamily
+public import OAI.NumberTheory.DirichletL.Moments.SecondChildProfile
 
 
 set_option backward.privateInPublic true

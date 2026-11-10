@@ -1,9 +1,8 @@
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.MeasureTheory.Measure.OpenPos
-public import Mathlib.Topology.Compactness.Lindelof
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
 
 
 set_option backward.privateInPublic true

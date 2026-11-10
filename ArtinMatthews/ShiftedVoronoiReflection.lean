@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.ShiftedVoronoiModularity
+public import Mathlib.Analysis.MellinTransform
 public import ArtinMatthews.ShiftedVoronoiMellin
 
 

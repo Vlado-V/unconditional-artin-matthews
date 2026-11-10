@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.PrimeRows.Continuation
+public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedExclusions
+public import OAI.NumberTheory.DirichletL.PrimeRows.Selected
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.PrimeRows.MarkedHolomorphic
 public import OAI.NumberTheory.DirichletL.PrimeRows.TupleSums
-public import OAI.NumberTheory.DirichletL.PrimeRows.TupleFactor
 
 
 set_option backward.privateInPublic true

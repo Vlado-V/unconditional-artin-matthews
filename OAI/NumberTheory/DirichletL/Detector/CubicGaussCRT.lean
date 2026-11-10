@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.PhysicalCRT
 public import OAI.NumberTheory.DirichletL.CubicSieve.Gauss
 public import OAI.NumberTheory.DirichletL.Detector.PairPhase
+public import OAI.NumberTheory.DirichletL.Detector.FrequencySupport
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstPoisson
+public import OAI.NumberTheory.DirichletL.RowCompletion.ThetaNonvanishing
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,8 @@
 module
 
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SchwartzGradient
 public import ArtinMatthews.SourceEuclideanEigenNormalization
+public import ArtinMatthews.SourceEuclideanEigenSobolev
 public import ArtinMatthews.SourceEuclideanEllipticExtension
 public import ArtinMatthews.SourceEuclideanSmoothGluing
 

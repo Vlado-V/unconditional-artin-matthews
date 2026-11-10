@@ -8,10 +8,11 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.FieldTheory.PrimitiveElement
-public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
 public import Mathlib.RingTheory.AdjoinRoot
 public import Mathlib.RingTheory.TensorProduct.Free
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.RingTheory.LocalRing.Basic
 
 
 set_option backward.privateInPublic true

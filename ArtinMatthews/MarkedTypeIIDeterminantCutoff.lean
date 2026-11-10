@@ -1,9 +1,8 @@
 module
 
-public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
-public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
-public import Mathlib.Tactic.NormNum
+public import Mathlib.Analysis.Calculus.BumpFunction.Basic
+public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
 
 
 set_option backward.privateInPublic true

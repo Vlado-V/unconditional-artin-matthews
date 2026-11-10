@@ -1,9 +1,8 @@
 module
 
-public import Mathlib.NumberTheory.Modular
 public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
-public import Mathlib.GroupTheory.Index
 public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
+public import Mathlib.NumberTheory.Modular
 
 
 set_option backward.privateInPublic true

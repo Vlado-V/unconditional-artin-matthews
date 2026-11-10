@@ -2,7 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.CanonicalLongFull
+public import OAI.NumberTheory.DirichletL.CubicSieve.DensityBudgets
+public import OAI.NumberTheory.DirichletL.Descent.ReopenedOriginalRow
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.ReopenedBinEnergy
 
 
 set_option backward.privateInPublic true

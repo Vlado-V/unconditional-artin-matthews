@@ -1,8 +1,9 @@
 module
 
-public import Mathlib.Analysis.Calculus.MeanValue
 public import Mathlib.Analysis.Complex.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Mul
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.ContinuousMap.Algebra
+public import Mathlib.Analysis.Calculus.MeanValue
 public import Mathlib.Topology.ContinuousMap.Compact
 
 

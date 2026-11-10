@@ -8,7 +8,8 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalBlocks.Family.H0
+public import ClassFieldTheory.LocalClassFieldTheory.ClassFormation.LocalBlocks.Family.Instances
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

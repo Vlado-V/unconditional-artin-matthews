@@ -3,14 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import Mathlib.NumberTheory.MulChar.Basic
-public import Mathlib.Basic.NNReal.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Ring
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Algebra.Group.Commute.Units
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

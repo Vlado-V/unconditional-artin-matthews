@@ -4,6 +4,10 @@ module
 
 public import OAI.NumberTheory.DirichletL.Inversion.InitialCommonLists
 public import OAI.NumberTheory.DirichletL.Inversion.InitialCommonRatios
+public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapFourier
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapIdealFourier
 
 

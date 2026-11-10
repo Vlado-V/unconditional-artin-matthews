@@ -1,7 +1,8 @@
 module
 
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
 
 set_option backward.privateInPublic true

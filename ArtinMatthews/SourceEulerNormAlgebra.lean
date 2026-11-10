@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Tactic.Ring
 
 
 set_option backward.privateInPublic true

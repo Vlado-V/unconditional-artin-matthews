@@ -9,19 +9,10 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Valuation.AbsoluteValue.ValuationSubring
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicLocalization
-public import ValuedFieldTheory.Valuation.Completion.FiniteLocalization
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.Core
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.FiniteNormExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormula
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaAbsoluteValue
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaCoefficients
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaExtension
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.NormFormulaIntegralClosure
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.RamificationInvariants
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.UniqueExtensionCoefficients
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicExtension.UniqueValuationSubring
-public import ValuedFieldTheory.Ramification.HilbertRamification.BaseChange
+public import ValuedFieldTheory.Ramification.HilbertRamification.ValuationSubring
+public import ValuedFieldTheory.Valuation.Completion.AbsoluteValueExtensions
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.ResidueField
 
 
 set_option backward.privateInPublic true

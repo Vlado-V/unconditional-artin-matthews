@@ -9,6 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import Mathlib.GroupTheory.DoubleCoset
+public import Mathlib.GroupTheory.OrderOfElement
 public import Mathlib.GroupTheory.Sylow
 
 

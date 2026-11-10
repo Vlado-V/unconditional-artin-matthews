@@ -9,7 +9,9 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionGroup
+public import Mathlib.FieldTheory.KrullTopology
 public import Mathlib.FieldTheory.Galois.Infinite
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.NumberTheory.Height.NumberField
 public import ArtinMatthews.SourceKPRationalHeightSummability
-public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
 
 
 set_option backward.privateInPublic true

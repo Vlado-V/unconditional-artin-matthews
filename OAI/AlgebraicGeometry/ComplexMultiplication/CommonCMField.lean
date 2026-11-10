@@ -3,7 +3,6 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.Decomposition
-public import Mathlib.FieldTheory.Normal.Closure
 
 
 set_option backward.privateInPublic true

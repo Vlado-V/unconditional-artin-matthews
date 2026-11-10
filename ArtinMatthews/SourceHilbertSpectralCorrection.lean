@@ -1,6 +1,11 @@
 module
 
 public import ArtinMatthews.SourceHilbertPencilParameter
+public import Mathlib.Analysis.Meromorphic.Basic
+public import ArtinMatthews.SourceHilbertMeromorphicResolvent
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Eisenstein.MeromorphicResolvent
 
 
 set_option backward.privateInPublic true

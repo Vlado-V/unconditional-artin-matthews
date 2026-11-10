@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.Canonical
 public import OAI.NumberTheory.DirichletL.ResidueCharacter
+public import Mathlib.Algebra.Group.Pi.Units
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

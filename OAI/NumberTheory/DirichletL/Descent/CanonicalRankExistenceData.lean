@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Descent.CanonicalCompleteRankNormalized
-public import OAI.NumberTheory.DirichletL.Descent.CanonicalCompleteBudget
-public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankPuncture
+public import OAI.NumberTheory.DirichletL.Cusp.StaticReflectionPhases
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankMoments
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankMonotone
+import OAI.NumberTheory.DirichletL.Reflection.Cross
 
 
 set_option backward.privateInPublic true

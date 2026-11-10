@@ -3,7 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.StrongCutoffGradient
-public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LocalElliptic
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.GradientSupport
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SobolevSmoothDensity
 
 
 set_option backward.privateInPublic true

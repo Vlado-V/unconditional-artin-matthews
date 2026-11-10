@@ -2,13 +2,20 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceMass
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceArithmetic
-public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawConjugateGates
-public import OAI.NumberTheory.DirichletL.Inversion.InitialResidualUniformEnergy
-public import OAI.NumberTheory.DirichletL.Inversion.InitialMarkedAssignedGeometry
-public import OAI.NumberTheory.DirichletL.Inversion.InitialMarkedReserve
+public import OAI.NumberTheory.DirichletL.Cusp.StaticReflectionPhases
+public import OAI.NumberTheory.DirichletL.Descent.SecondSeparatedColumns
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceTuples
+public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedPool
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedPadding
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceArithmetic
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceMass
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceReindex
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawConjugateGates
+public import OAI.NumberTheory.DirichletL.Inversion.InitialMarkedAssignedGeometry
+public import OAI.NumberTheory.DirichletL.Inversion.InitialResidualUniformEnergy
 
 
 set_option backward.privateInPublic true

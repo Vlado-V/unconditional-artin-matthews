@@ -1,14 +1,12 @@
 module
 
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 public import Mathlib.Analysis.Complex.BorelCaratheodory
 public import Mathlib.Analysis.Complex.HasPrimitives
 public import Mathlib.Analysis.Complex.Liouville
-public import Mathlib.Analysis.SpecialFunctions.Complex.Log
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.Positivity
-public import Mathlib.Tactic.Ring
 
 /-! Quantitative logarithmic derivative bound for a zero-free disk.
 A normalized primitive of the logarithmic derivative reduces this to

@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Eisenstein.SourceBesselExpansion
 public import OAI.NumberTheory.DirichletL.Eisenstein.InverseCuspCoordinates
+public import Mathlib.Analysis.Calculus.Deriv.Star
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

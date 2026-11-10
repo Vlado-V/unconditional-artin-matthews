@@ -3,6 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Detector.GaussianCompensation
+public import OAI.NumberTheory.DirichletL.Detector.GaussianCoupled
+public import OAI.NumberTheory.DirichletL.Detector.GaussianSeminorm
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.GaussianPhysicalTuple
+public import OAI.NumberTheory.DirichletL.Detector.GaussianTuple
 
 
 set_option backward.privateInPublic true

@@ -2,7 +2,9 @@ module
 
 public import ArtinMatthews.SourceThetaBesselSchlafli
 public import ArtinMatthews.SourceThetaSchlafliRecurrence
-public import Mathlib.Analysis.Complex.RealDeriv
+public import ArtinMatthews.SourceThetaIntegralDerivatives
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

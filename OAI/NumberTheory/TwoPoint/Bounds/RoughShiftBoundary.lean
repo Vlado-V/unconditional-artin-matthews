@@ -3,7 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.TwoPoint.Basic
-public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.Analysis.Complex.Basic
 
 
 set_option backward.privateInPublic true

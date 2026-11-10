@@ -2,9 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Detector.SpectralSupport
-public import OAI.NumberTheory.DirichletL.Detector.HighAbsolute
+public import OAI.NumberTheory.DirichletL.Detector.HighDeletion
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.CalibrationSupport
 public import OAI.NumberTheory.DirichletL.Detector.IdealUnit
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalMellinCoefficient
+public import OAI.NumberTheory.DirichletL.Detector.SpectralSupport
+public import OAI.NumberTheory.DirichletL.IdealEuler
 
 
 set_option backward.privateInPublic true

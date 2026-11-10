@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SourceReflectedFourierSeparation
-public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 
 
 set_option backward.privateInPublic true

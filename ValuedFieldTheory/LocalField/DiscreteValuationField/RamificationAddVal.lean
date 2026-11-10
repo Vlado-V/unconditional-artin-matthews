@@ -8,8 +8,11 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Complete
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.Extensions
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.Combinatorics.Matroid.Init
 public import ValuedFieldTheory.LocalField.DiscreteValuationField.RamificationIdeal
-public import ValuedFieldTheory.Valuation.DiscreteValuationField.AddVal
 
 
 set_option backward.privateInPublic true

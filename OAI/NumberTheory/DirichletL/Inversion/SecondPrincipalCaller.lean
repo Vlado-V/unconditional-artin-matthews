@@ -4,6 +4,11 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.FirstToSecond
 public import OAI.NumberTheory.DirichletL.Descent.PrincipalChild
+public import OAI.NumberTheory.DirichletL.CubicSieve.RankMargins
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.FirstPass
+public import OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly
 
 
 set_option backward.privateInPublic true

@@ -1,8 +1,8 @@
 module
 
-public import ArtinMatthews.SourceEuclideanH1Gradient
-public import ArtinMatthews.SourceEuclideanEigenSobolev
 public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.SchwartzGradient
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.CutoffDifferential
+public import OAI.AlgebraicGeometry.ComplexMultiplication.HodgeComparison.LocalSmoothRegularity
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.MeasureTheory.Measure.Restrict
-public import Mathlib.Topology.Compactness.Lindelof
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.Analysis.Complex.RealDeriv
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
 
 

@@ -1,8 +1,10 @@
 module
 
 public import ArtinMatthews.ShiftedVoronoiRadialNormalization
-public import Mathlib.Analysis.MellinTransform
-public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import OAI.NumberTheory.DirichletL.Fourier.PositiveLogProfiles
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Poisson.RadialFourier
 
 
 set_option backward.privateInPublic true

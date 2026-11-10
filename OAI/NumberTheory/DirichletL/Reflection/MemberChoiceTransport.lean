@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Reflection.TupleMembers
 public import OAI.NumberTheory.DirichletL.Reflection.ChoiceTransport
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Reflection.MarkedTuples
 
 

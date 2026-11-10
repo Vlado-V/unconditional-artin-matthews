@@ -2,10 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.FirstSecondCapacityDefect
-public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalLedger
 public import OAI.NumberTheory.DirichletL.Moments.SecondCanonical
+public import OAI.NumberTheory.DirichletL.Moments.FirstAmplificationChoice
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.FinalStageLedger
+public import OAI.NumberTheory.DirichletL.Moments.FirstPhysicalLedger
+public import OAI.NumberTheory.DirichletL.Moments.FirstSecondCapacityShift
 
 
 set_option backward.privateInPublic true

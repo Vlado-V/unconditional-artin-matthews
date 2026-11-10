@@ -1,7 +1,10 @@
 module
 
-public import ArtinMatthews.PrimitiveArithmetic
+public import ArtinMatthews.Definitions
+public import Mathlib.NumberTheory.LegendreSymbol.Basic
 public import ArtinMatthews.NegativeThreeSquare
+public import ArtinMatthews.PrimitiveArithmetic
+public import Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity
 
 
 set_option backward.privateInPublic true

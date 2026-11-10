@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.DirichletL.Eisenstein.ArbitraryCuspPullback
 public import OAI.NumberTheory.DirichletL.Reciprocity.CubeCorrespondence
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

@@ -1,10 +1,10 @@
 module
 
-public import Mathlib.NumberTheory.NumberField.Ideal.Basic
 public import Mathlib.FieldTheory.Galois.IsGaloisGroup
 public import Mathlib.FieldTheory.Galois.Abelian
 public import Mathlib.RingTheory.Frobenius
-public import Mathlib.NumberTheory.RamificationInertia.Galois
+public import Mathlib.RingTheory.RamificationInertia.Inertia
+public import Mathlib.NumberTheory.NumberField.Ideal.Basic
 
 
 set_option backward.privateInPublic true

@@ -2,9 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli
-public import Mathlib.Topology.Sequences
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+public import Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli
 
 
 set_option backward.privateInPublic true

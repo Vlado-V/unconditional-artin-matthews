@@ -1,8 +1,11 @@
 module
 
 public import ArtinMatthews.SpectralPlaneDerivativeMap
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
-public import Mathlib.Analysis.Calculus.Deriv.Inv
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.Data.Sym.Sym2.Init
+public import Mathlib.Tactic.NormNum.GCD
 
 
 set_option backward.privateInPublic true

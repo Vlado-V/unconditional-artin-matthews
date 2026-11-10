@@ -1,8 +1,7 @@
 module
 
 public import ArtinMatthews.CommutingOrbitQuotient
-public import Mathlib.Topology.Algebra.ProperAction.CompactlyGenerated
-public import Mathlib.GroupTheory.GroupAction.SubMulAction
+public import Mathlib.Tactic.Bound.Init
 
 
 set_option backward.privateInPublic true

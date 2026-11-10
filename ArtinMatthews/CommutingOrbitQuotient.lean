@@ -1,7 +1,6 @@
 module
 
 public import Mathlib.Topology.Algebra.MulAction
-public import Mathlib.Topology.Algebra.ConstMulAction
 public import Mathlib.Topology.Homeomorph.Quotient
 public import Mathlib.Topology.ContinuousMap.Basic
 

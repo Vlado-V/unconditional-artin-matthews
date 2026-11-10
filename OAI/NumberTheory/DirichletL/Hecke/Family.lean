@@ -3,10 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Hecke.Theta
-public import Mathlib.NumberTheory.NumberField.Cyclotomic.Three
-public import Mathlib.NumberTheory.MulChar.Lemmas
-public import Mathlib.RingTheory.Ideal.Quotient.Operations
-public import Mathlib.RingTheory.Ideal.Norm.AbsNorm
+public import Mathlib.NumberTheory.MulChar.Basic
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.Basic
 
 
 set_option backward.privateInPublic true

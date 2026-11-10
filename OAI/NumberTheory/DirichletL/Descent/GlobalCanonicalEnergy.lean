@@ -3,8 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Inversion.FirstGlobalParents
-public import OAI.NumberTheory.DirichletL.Descent.GlobalParentEnergy
 public import OAI.NumberTheory.DirichletL.Descent.GlobalPriorityFullAggregate
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.GlobalParentEnergy
 
 
 set_option backward.privateInPublic true

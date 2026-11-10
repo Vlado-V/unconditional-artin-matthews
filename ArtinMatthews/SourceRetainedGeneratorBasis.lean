@@ -1,8 +1,8 @@
 module
 
 public import Mathlib.Basic.Complex.Basic
-public import Mathlib.LinearAlgebra.FiniteDimensional.Basic
-public import Mathlib.LinearAlgebra.Isomorphisms
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
 
 
 set_option backward.privateInPublic true

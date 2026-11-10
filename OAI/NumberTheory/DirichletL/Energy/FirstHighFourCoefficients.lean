@@ -2,13 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Energy.FirstHighExceptionalPowers
 public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedFourCoefficients
-public import OAI.NumberTheory.DirichletL.Moments.FirstAmplifiedPowerBudget
-public import OAI.NumberTheory.DirichletL.Moments.FirstCommonReferencePower
-public import OAI.NumberTheory.DirichletL.Moments.FirstMixedExceptionalDeclared
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.FirstHighExceptionalPowers
 public import OAI.NumberTheory.DirichletL.Moments.FirstMixedDiagonal
-public import OAI.NumberTheory.DirichletL.Moments.SuccessorPaidParameters
+public import Std.Tactic.BVDecide.Normalize.Prop
+import OAI.NumberTheory.DirichletL.Moments.SuccessorPaidParameters
 
 
 set_option backward.privateInPublic true

@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalLedger
-public import OAI.NumberTheory.DirichletL.Moments.HeckeExceptionalEnergy
+public import OAI.NumberTheory.DirichletL.Moments.HeckeColumnWindow
+public import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalNonunit
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Eisenstein.FixedConductor
 public import OAI.NumberTheory.DirichletL.Moments.SecondHeightFamily
+public import OAI.NumberTheory.DirichletL.Moments.SourceRow
+import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalLedger
 
 
 set_option backward.privateInPublic true

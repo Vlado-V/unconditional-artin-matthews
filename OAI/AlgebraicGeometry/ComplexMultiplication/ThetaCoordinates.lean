@@ -4,6 +4,7 @@ module
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.SiegelThetaSpanning
 public import Mathlib.Algebra.Module.ZLattice.Basic
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

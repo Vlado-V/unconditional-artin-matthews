@@ -2,7 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentData
+public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyData
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentPrimeGeometry
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferenceFiberEnergy
+public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedReferencePrimeGates
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseMarkedUniform
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorDyadicGeometry
 

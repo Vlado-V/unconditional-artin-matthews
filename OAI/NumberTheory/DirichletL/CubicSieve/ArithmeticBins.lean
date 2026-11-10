@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.QuadraticSieve.PoissonComparison
+public import Mathlib.Geometry.Euclidean.Inversion.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.Geometry.Euclidean.Inversion.Calculus
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

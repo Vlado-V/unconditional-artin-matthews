@@ -2,7 +2,7 @@ module
 
 public import ArtinMatthews.SpectralPoincareL2
 public import ArtinMatthews.SpectralPoincareLinear
-public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
 
 
 set_option backward.privateInPublic true

@@ -1,7 +1,10 @@
 module
 
-public import ArtinMatthews.SpectralGamma0EisensteinInitial
 public import ArtinMatthews.SpectralEisensteinPowerCalculus
+public import ArtinMatthews.SpectralGamma0EisensteinSeries
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.MeasureTheory.Covering.Besicovitch
 
 
 set_option backward.privateInPublic true

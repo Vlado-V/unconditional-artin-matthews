@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.IndependentDiskFactors
+public import Mathlib.Analysis.InnerProductSpace.Basic
 public import Mathlib.Analysis.Complex.AbsMax
 
 /-! The finite Blaschke quotient is extended at each selected zero by its

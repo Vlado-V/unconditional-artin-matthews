@@ -1,6 +1,10 @@
 module
 
 public import ArtinMatthews.SourceContourHeightWeight
+public import OAI.NumberTheory.DirichletL.Detector.Physical
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.PrincipalMellinResidues
 
 

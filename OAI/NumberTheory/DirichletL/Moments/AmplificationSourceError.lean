@@ -2,10 +2,16 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationSourcePolynomial
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationSourcePool
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationShortening
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationSourceDomain
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Moments.AmplificationRectangle
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationSource
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationSourcePolynomial
 public import OAI.NumberTheory.DirichletL.Moments.GaussNormalization
+import OAI.NumberTheory.DirichletL.Moments.AmplificationSourcePool
 
 
 set_option backward.privateInPublic true

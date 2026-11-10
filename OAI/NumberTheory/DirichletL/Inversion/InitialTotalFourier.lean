@@ -2,9 +2,17 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Inversion.InitialTotalRows
-public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapHeight
+public import OAI.NumberTheory.DirichletL.Cusp.StaticReflectionPhases
+public import OAI.NumberTheory.DirichletL.Descent.SecondSeparatedColumns
+public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapFourier
+public import OAI.NumberTheory.DirichletL.Inversion.InitialQuotientGeometry
+public import OAI.NumberTheory.DirichletL.Inversion.InitialRayAttachment
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Inversion.InitialMarkedInputEnergy
+public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapHeight
+public import OAI.NumberTheory.DirichletL.Inversion.InitialTotalRows
 
 
 set_option backward.privateInPublic true

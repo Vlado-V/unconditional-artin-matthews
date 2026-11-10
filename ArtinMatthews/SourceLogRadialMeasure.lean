@@ -1,7 +1,8 @@
 module
 
-public import Mathlib.MeasureTheory.Function.JacobianOneDim
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.MeasureTheory.Function.JacobianOneDim
 
 
 set_option backward.privateInPublic true

@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationEnergy
-public import OAI.NumberTheory.DirichletL.Moments.Extraction
+public import OAI.NumberTheory.DirichletL.ChineseRemainder.PrimaryCompletions
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationGlobal
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationLocal
+public import OAI.NumberTheory.DirichletL.Moments.Unequal
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.PhysicalCRT
+public import OAI.NumberTheory.DirichletL.Moments.Amplification
 
 
 set_option backward.privateInPublic true

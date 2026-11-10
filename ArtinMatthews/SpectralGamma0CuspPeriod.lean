@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralPoincareGamma0
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
 public import Mathlib.NumberTheory.Modular
 
 

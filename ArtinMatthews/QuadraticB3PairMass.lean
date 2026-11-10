@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.QuadraticHeckeFiniteEnergy
+public import Mathlib.Analysis.Complex.Basic
 
 
 set_option backward.privateInPublic true

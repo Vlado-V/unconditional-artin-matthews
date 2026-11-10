@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapInputFourier
+public import OAI.NumberTheory.DirichletL.Descent.SecondSeparatedColumns
+public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapFourier
+public import OAI.NumberTheory.DirichletL.Inversion.InitialRayAttachment
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapFresh
+public import OAI.NumberTheory.DirichletL.Inversion.InitialOverlapInputFourier
 
 
 set_option backward.privateInPublic true

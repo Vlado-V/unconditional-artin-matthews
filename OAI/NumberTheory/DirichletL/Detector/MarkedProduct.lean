@@ -4,6 +4,12 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.MarkedLocal
 public import OAI.NumberTheory.DirichletL.Detector.SourceExclusions
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Detector.HighExcludedLocal
+public import OAI.NumberTheory.DirichletL.Detector.NormalProduct
+public import OAI.NumberTheory.DirichletL.Hecke.Euler
 
 
 set_option backward.privateInPublic true

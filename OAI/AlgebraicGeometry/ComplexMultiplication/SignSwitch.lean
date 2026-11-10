@@ -2,10 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib.Data.Fintype.EquivFin
-public import Mathlib.GroupTheory.Perm.Sign
-public import Mathlib.Logic.Relation
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Algebra.Group.End
+public import Mathlib.Data.Fintype.Card
 public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+public import Mathlib.GroupTheory.Perm.Sign
 
 
 set_option backward.privateInPublic true

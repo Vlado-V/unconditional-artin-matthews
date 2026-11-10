@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SpectralHyperbolicEnergyTransport
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 
 set_option backward.privateInPublic true

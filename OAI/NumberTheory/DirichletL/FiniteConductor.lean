@@ -3,12 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.FiniteFourier
-public import Mathlib.NumberTheory.MulChar.Duality
-public import Mathlib.RingTheory.Ideal.Quotient.Defs
 public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.GroupTheory.FiniteAbelian.Duality
+public import Mathlib.NumberTheory.MulChar.Lemmas
 public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
-public import Mathlib.Order.Preorder.Finite
-public import Mathlib.RingTheory.Ideal.Maps
 
 
 set_option backward.privateInPublic true

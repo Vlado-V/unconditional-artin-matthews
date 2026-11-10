@@ -4,10 +4,20 @@ module
 
 public import OAI.NumberTheory.DirichletL.PrincipalSlotEstimate
 public import OAI.NumberTheory.DirichletL.PrincipalMellinResidues
-public import OAI.NumberTheory.DirichletL.Hecke.SignalBounds
 public import OAI.NumberTheory.DirichletL.Detector.SourceExclusions
-public import OAI.NumberTheory.DirichletL.Detector.CompensationActual
 public import OAI.NumberTheory.DirichletL.Detector.Basic
+public import OAI.NumberTheory.DirichletL.Detector.MarkedRational
+public import OAI.NumberTheory.DirichletL.Hecke.SignalShift
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.NumberField.Cyclotomic.PID
+public import OAI.NumberTheory.DirichletL.Detector.CorrectionBounds
+public import OAI.NumberTheory.DirichletL.Detector.EulerHolomorphic
+public import OAI.NumberTheory.DirichletL.Detector.EulerRegion
+public import OAI.NumberTheory.DirichletL.Hecke.ReciprocalGrowth
+public import OAI.NumberTheory.DirichletL.Hecke.SignalBounds
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

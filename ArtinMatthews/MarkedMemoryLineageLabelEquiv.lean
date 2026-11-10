@@ -1,8 +1,9 @@
 module
 
+public import ArtinMatthews.MarkedMemoryHistoryPresence
+public import Mathlib.Data.Fintype.OfMap
+public import Mathlib.Tactic.ToAdditive
 public import ArtinMatthews.MarkedMemoryHistoryPresenceMarks
-public import ArtinMatthews.MarkedMemoryHistoryPresenceIntervals
-public import Mathlib.Data.Fintype.EquivFin
 
 
 set_option backward.privateInPublic true

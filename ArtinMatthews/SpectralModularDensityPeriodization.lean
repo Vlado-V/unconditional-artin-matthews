@@ -1,7 +1,8 @@
 module
 
-public import ArtinMatthews.SpectralModularPartition
 public import ArtinMatthews.SpectralPoincareGamma0
+public import Mathlib.NumberTheory.Modular
+public import ArtinMatthews.SpectralModularPartition
 
 
 set_option backward.privateInPublic true

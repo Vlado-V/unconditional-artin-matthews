@@ -2,8 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalNonunit
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Eisenstein.FixedConductor
+public import OAI.NumberTheory.DirichletL.Moments.DivisorAllocation
 public import OAI.NumberTheory.DirichletL.Moments.SecondExceptionalCount
-public import OAI.NumberTheory.DirichletL.Moments.RankinRadical
+public import OAI.NumberTheory.DirichletL.Moments.SourceRow
+import OAI.NumberTheory.DirichletL.Moments.SecondCanonicalLedger
 
 
 set_option backward.privateInPublic true

@@ -9,6 +9,7 @@ Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
 public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionGroup
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import ValuedFieldTheory.Valuation.DiscreteValuationField.ResidueField
 
 

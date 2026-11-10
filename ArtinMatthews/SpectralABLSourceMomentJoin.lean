@@ -1,7 +1,7 @@
 module
 
-public import Mathlib.Analysis.Real.Pi.Bounds
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Analysis.Real.Pi.Bounds
 
 
 set_option backward.privateInPublic true

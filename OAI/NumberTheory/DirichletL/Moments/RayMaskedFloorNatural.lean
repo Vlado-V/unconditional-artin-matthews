@@ -2,9 +2,15 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Moments.RayMaskedFloorSlots
-public import OAI.NumberTheory.DirichletL.Moments.PlainPositiveEnergy
 public import OAI.NumberTheory.DirichletL.Moments.AllocatedNaturalRadial
+public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceInternal
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.NonprincipalGate
+public import OAI.NumberTheory.DirichletL.Moments.PlainGlobalEnergy
+public import OAI.NumberTheory.DirichletL.Moments.PlainPositiveScale
+public import OAI.NumberTheory.DirichletL.Moments.RayMaskedFloorSlots
 
 
 set_option backward.privateInPublic true

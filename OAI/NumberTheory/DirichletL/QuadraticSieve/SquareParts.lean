@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.QuadraticSieve.AnnularRecursion
 public import OAI.NumberTheory.DirichletL.Eisenstein.ConstantTermSupport
+public import OAI.NumberTheory.DirichletL.CubicSieve.FrequencyBlocks
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

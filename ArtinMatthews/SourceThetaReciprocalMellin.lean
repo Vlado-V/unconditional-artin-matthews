@@ -1,7 +1,10 @@
 module
 
+public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
 public import ArtinMatthews.ShiftedVoronoiGammaGrowth
 public import ArtinMatthews.VaryingKummerAnalyticGaussianFiniteBounds
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
 
 
 set_option backward.privateInPublic true

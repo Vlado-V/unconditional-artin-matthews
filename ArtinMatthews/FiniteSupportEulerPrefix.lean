@@ -1,7 +1,7 @@
 module
 
+public import Mathlib.Analysis.Complex.Basic
 public import ArtinMatthews.FinitePiSeries
-public import Mathlib.Data.Finsupp.Basic
 
 
 set_option backward.privateInPublic true

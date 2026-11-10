@@ -3,7 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.AlgebraicGeometry.ComplexMultiplication.ThetaCompletion
+public import Mathlib.Topology.Algebra.Module.FiniteDimension
+public import Mathlib.Topology.Instances.Matrix
+public import Mathlib.Analysis.Calculus.SmoothSeries
 public import Mathlib.Analysis.Matrix.Normed
+public import Mathlib.LinearAlgebra.FreeModule.PID
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 
 set_option backward.privateInPublic true

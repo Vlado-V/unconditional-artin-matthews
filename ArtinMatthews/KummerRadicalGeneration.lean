@@ -1,6 +1,10 @@
 module
 
-public import ArtinMatthews.KummerRadicalCyclic
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+public import Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs
+public import Mathlib.Combinatorics.Matroid.Init
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Basic
 
 
 set_option backward.privateInPublic true

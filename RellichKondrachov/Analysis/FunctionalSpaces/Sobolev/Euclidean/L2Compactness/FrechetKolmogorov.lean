@@ -4,7 +4,6 @@ module
 
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation
 public import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer
-public import Mathlib.Topology.UniformSpace.Cauchy
 
 
 set_option backward.privateInPublic true

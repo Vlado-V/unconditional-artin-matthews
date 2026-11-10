@@ -8,8 +8,6 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import Mathlib.FieldTheory.Galois.Basic
-public import Mathlib.FieldTheory.Normal.Closure
 public import Mathlib.NumberTheory.NumberField.Basic
 
 

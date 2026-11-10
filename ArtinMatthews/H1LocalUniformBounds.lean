@@ -1,7 +1,10 @@
 module
 
 public import ArtinMatthews.SourceHyperbolicH1LocalTests
-public import Mathlib.Analysis.Normed.Group.Bounded
+public import ArtinMatthews.SourceHyperbolicProductEnergy
+public import ArtinMatthews.SourceHyperbolicH1CoreEnergy
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

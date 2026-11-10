@@ -2,6 +2,9 @@ module
 
 public import ArtinMatthews.ShiftedLegendreIntervalLp
 public import ArtinMatthews.ShiftedLegendreMoments
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Covering.Besicovitch
+public import Mathlib.Tactic.Positivity.Finset
 
 
 set_option backward.privateInPublic true

@@ -2,7 +2,11 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import OAI.NumberTheory.DirichletL.Reflection.OriginalTransport
+public import OAI.NumberTheory.DirichletL.GaussSum.ResidualEquivalence
+public import OAI.NumberTheory.DirichletL.Reflection.Canonical
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Reflection.Rows
 
 
 set_option backward.privateInPublic true

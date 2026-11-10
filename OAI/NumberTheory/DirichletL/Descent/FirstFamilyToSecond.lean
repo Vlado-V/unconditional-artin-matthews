@@ -5,6 +5,8 @@ module
 public import OAI.NumberTheory.DirichletL.Descent.FirstFamilyEnergy
 public import OAI.NumberTheory.DirichletL.Descent.FirstOldEnergy
 public import OAI.NumberTheory.DirichletL.Descent.FirstToSecond
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

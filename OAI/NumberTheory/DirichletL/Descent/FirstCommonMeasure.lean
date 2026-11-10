@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.DirichletL.Descent.FirstPhysicalCommon
 public import OAI.NumberTheory.DirichletL.Descent.FirstFreshMeasure
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.ProfileIntegral
 
 
 set_option backward.privateInPublic true

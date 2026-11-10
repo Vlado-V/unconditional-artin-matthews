@@ -3,7 +3,14 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Moments.FirstAnnularActiveInput
-public import OAI.NumberTheory.DirichletL.Moments.AmplificationRadicalChoice
+public import OAI.NumberTheory.DirichletL.Moments.AmplificationRadicalFamily
+public import OAI.NumberTheory.DirichletL.Moments.AmplifiedRetainedRadius
+public import OAI.NumberTheory.DirichletL.Moments.FirstAnnularMajorant
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Moments.FirstAnnularAmplification
+public import OAI.NumberTheory.DirichletL.Moments.FirstAnnularInput
 
 
 set_option backward.privateInPublic true

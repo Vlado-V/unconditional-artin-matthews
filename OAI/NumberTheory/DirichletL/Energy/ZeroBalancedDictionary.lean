@@ -3,8 +3,14 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Energy.ZeroReferencePhysical
+public import OAI.NumberTheory.DirichletL.Energy.PositiveHighSource
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Energy.OriginalHighReflectionSymmetric
 public import OAI.NumberTheory.DirichletL.Energy.PositiveHighParameters
-public import OAI.NumberTheory.DirichletL.Moments.FirstAnnularInput
+public import OAI.NumberTheory.DirichletL.Energy.ReferenceLowBranchGeometry
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

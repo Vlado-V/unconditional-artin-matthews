@@ -1,7 +1,10 @@
 module
 
-public import ArtinMatthews.SpectralMeromorphicHalfPlaneIdentity
-public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Meromorphic.Order
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Factorial.DoubleFactorial
 
 
 set_option backward.privateInPublic true

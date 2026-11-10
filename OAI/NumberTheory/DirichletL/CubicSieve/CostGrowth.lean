@@ -2,9 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
+public import OAI.NumberTheory.DirichletL.CubicDyadicDecay
+public import OAI.NumberTheory.DirichletL.CubicSieve.CommonFactorBound
+public import OAI.NumberTheory.DirichletL.CubicSieve.Growth
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
 public import OAI.NumberTheory.DirichletL.CubicSieve.B2Growth
 public import OAI.NumberTheory.DirichletL.CubicSieve.DescendantBounds
-public import OAI.NumberTheory.DirichletL.CubicDyadicDecay
 
 
 set_option backward.privateInPublic true

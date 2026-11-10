@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.MarkedMajorFourierSeparationInversion
-public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
 
 
 set_option backward.privateInPublic true

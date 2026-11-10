@@ -3,7 +3,13 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankExistenceData
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalCompleteBudget
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalCompleteRankNormalized
 public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankFamilyGates
+public import OAI.NumberTheory.DirichletL.Descent.CanonicalRankMonotone
 
 
 set_option backward.privateInPublic true

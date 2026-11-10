@@ -8,12 +8,13 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
 -/
 
-public import ValuedFieldTheory.Valuation.AbsoluteValue.AlgebraicLocalization
-public import ValuedFieldTheory.Ramification.HilbertRamification.AlgebraicLocalization
-public import ValuedFieldTheory.Ramification.HilbertRamification.LocalizationDensity
 public import ValuedFieldTheory.Ramification.HilbertRamification.DecompositionFieldExtension
-public import ValuedFieldTheory.Valuation.Completion.ExtensionInvariants
-public import Mathlib.FieldTheory.SeparableClosure
+public import ValuedFieldTheory.Valuation.AbsoluteValue.ValuationSubring
+public import ValuedFieldTheory.Valuation.DiscreteValuationField.ResidueField
+public import Mathlib.FieldTheory.Galois.Infinite
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import ValuedFieldTheory.Ramification.HilbertRamification.AlgebraicLocalization
+public import ValuedFieldTheory.Valuation.AbsoluteValue.Nonarchimedean
 
 
 set_option backward.privateInPublic true

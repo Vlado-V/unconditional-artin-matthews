@@ -1,7 +1,10 @@
 module
 
-public import OAI.NumberTheory.DirichletL.Hecke.Nonvanishing
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorZeros
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.NumberTheory.Chebyshev
+public import OAI.NumberTheory.DirichletL.Hecke.Nonvanishing
 
 
 set_option backward.privateInPublic true

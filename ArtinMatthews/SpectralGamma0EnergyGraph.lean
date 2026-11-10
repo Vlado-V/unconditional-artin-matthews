@@ -1,7 +1,9 @@
 module
 
 public import ArtinMatthews.SpectralPoincareGradientL2
-public import Mathlib.Analysis.Normed.Lp.ProdLp
+public import ArtinMatthews.SpectralPoincareEnergy
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Mathlib.MeasureTheory.Function.L2Space
 
 
 set_option backward.privateInPublic true

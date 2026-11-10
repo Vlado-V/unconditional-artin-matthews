@@ -1,8 +1,8 @@
 module
 
+public import ArtinMatthews.SpectralPrincipalDecayWeight
+public import Mathlib.Analysis.Complex.Norm
 public import ArtinMatthews.SpectralPrincipalWeightedFinite
-public import Mathlib.Analysis.Real.Sqrt
-public import Mathlib.Analysis.Complex.Basic
 
 
 set_option backward.privateInPublic true
