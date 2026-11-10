@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.SpectralCuspCompletedUnfolding
 public import ArtinMatthews.SpectralSectionLaplacianPullback
 public import ArtinMatthews.SpectralGamma0GlobalWeakLaplacian
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.RingTheory.PiTensorProduct
 
 
 set_option backward.privateInPublic true

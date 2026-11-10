@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceComplexAdelicNorm
 public import ArtinMatthews.SourceProductFourierDecay
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.RapidLatticePoisson
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

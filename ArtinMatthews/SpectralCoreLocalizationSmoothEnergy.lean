@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralCoreLocalizationRellich
 public import ArtinMatthews.SpectralCoreLocalizationChartCompact
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Metric
 
 
 set_option backward.privateInPublic true

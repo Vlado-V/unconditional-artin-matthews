@@ -6,6 +6,7 @@ public import OAI.Analysis.PDE.Dirichlet.HolderCompactness
 public import OAI.Analysis.PDE.Dirichlet.DerivativeLimit
 public import Mathlib.Analysis.Normed.Module.FiniteDimension
 public import Mathlib.Analysis.Calculus.MeanValue
+public import Mathlib.RingTheory.RegularLocalRing.Defs
 
 
 set_option backward.privateInPublic true

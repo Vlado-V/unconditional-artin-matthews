@@ -3,6 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.Weak
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.Topology.MetricSpace.Ultra.Pi
+public import Mathlib.NumberTheory.Ostrowski
+public import Mathlib.Topology.LocallyConstant.Algebra
+public import Mathlib.Analysis.Normed.Field.Ultra
+public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
 
 
 set_option backward.privateInPublic true

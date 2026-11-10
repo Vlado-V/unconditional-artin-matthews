@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKubotaRationalCoordinates
 public import ArtinMatthews.SourceFiniteKPMultipliers
 public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.FinitePlaceAdicHilbertProductFormula
+public import Mathlib.Algebra.FiniteSupport.Basic
 
 
 set_option backward.privateInPublic true

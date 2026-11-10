@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.Analysis.Fourier.WavePackets.Spacetime
+public import Mathlib.Topology.Separation.CompletelyRegular
+public import Mathlib.Algebra.Module.ZLattice.Summable
 
 
 set_option backward.privateInPublic true

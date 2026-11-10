@@ -4,6 +4,7 @@ public import ArtinMatthews.MarkedMemoryHistoryEdgeOriginsPopulation
 public import ArtinMatthews.MarkedMemoryHistoryEdgeOriginsIndices
 public import ArtinMatthews.MarkedMemoryHistoryOrigins
 public import ArtinMatthews.MarkedMinorArcRawEdgeState
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

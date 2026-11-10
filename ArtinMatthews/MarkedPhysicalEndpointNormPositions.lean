@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.MarkedPhysicalEndpointActual
+public import Mathlib.Data.Int.Lemmas
 
 
 set_option backward.privateInPublic true

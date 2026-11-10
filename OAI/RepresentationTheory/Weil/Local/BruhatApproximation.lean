@@ -4,6 +4,8 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.NonarchimedeanNorm
 public import Mathlib.Topology.Algebra.Group.Quotient
+public import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
+public import Mathlib.Topology.Connected.Separation
 
 
 set_option backward.privateInPublic true

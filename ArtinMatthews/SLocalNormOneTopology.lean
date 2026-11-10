@@ -5,6 +5,9 @@ public import ArtinMatthews.SLocalSUnitIsolation
 public import Mathlib.Data.Finsupp.Encodable
 public import Mathlib.Data.Rat.Encodable
 public import Mathlib.Topology.Algebra.IsUniformGroup.Basic
+public import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
+public import Mathlib.Topology.Connected.Separation
+public import Mathlib.Topology.Algebra.ProperAction.Basic
 
 
 set_option backward.privateInPublic true

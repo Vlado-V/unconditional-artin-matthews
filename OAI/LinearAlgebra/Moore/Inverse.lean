@@ -4,6 +4,7 @@ module
 
 public import OAI.LinearAlgebra.Moore.Derivative
 public import OAI.LinearAlgebra.Moore.Normalize
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 
 set_option backward.privateInPublic true

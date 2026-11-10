@@ -5,6 +5,8 @@ module
 public import OAI.RepresentationTheory.Weil.Local.FunctionsMetaplectic
 public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Deriv
 public import Mathlib.Analysis.Calculus.Deriv.Pow
+public import Std.Tactic.BVDecide.Normalize.Prop
+public import Mathlib.Tactic.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticMixedGammaLogDerivBound
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Digamma
 
 
 set_option backward.privateInPublic true

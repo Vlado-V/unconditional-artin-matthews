@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.VaryingKummerAnalyticRayCharacter
 public import Mathlib.RingTheory.Frobenius
 public import Mathlib.NumberTheory.RamificationInertia.Galois
+public import Mathlib.NumberTheory.NumberField.Ideal.Basic
 
 
 set_option backward.privateInPublic true

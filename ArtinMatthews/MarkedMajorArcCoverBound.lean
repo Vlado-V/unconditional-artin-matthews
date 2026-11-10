@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.MarkedMajorArcCircleLift
 public import ArtinMatthews.MarkedMajorArcCircleSource
+import ArtinMatthews.MarkedMinorArcEndpoints
 
 
 set_option backward.privateInPublic true

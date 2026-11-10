@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.MarkedRootPartitionIntervals
 public import ArtinMatthews.FixedURootWeightedGeometry
+public import Std.Tactic.BVDecide.Normalize.BitVec
 
 
 set_option backward.privateInPublic true

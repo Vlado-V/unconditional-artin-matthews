@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.Decomposition
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.Bilinear
+public import Mathlib.Algebra.Order.Ring.Star
 
 
 set_option backward.privateInPublic true

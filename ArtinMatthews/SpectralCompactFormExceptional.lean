@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralCompactFormPencil
 public import ArtinMatthews.SpectralCompactSpectralCutoff
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

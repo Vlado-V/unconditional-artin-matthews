@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.FiniteIsotropyCounting
 public import Mathlib.MeasureTheory.Group.FundamentalDomain
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

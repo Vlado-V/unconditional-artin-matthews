@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralCuspEisensteinSigns
 public import ArtinMatthews.SpectralCuspEisensteinIntegral
+public import Std.Tactic.BVDecide.Normalize.BitVec
 
 
 set_option backward.privateInPublic true

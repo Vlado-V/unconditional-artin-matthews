@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.MarkedRawBoundary
 public import ArtinMatthews.MarkedMinorArcRawGhostWeight
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

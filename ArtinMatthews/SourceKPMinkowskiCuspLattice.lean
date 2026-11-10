@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceAdelicFundamentalDomain
 public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 
 set_option backward.privateInPublic true

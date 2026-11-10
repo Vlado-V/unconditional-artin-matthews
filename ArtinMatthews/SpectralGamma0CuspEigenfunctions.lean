@@ -4,6 +4,7 @@ public import ArtinMatthews.SpectralGamma0CuspEigenbasis
 public import ArtinMatthews.SpectralGamma0CuspFormFaithful
 public import ArtinMatthews.SpectralGamma0CuspMassSpace
 public import ArtinMatthews.SpectralCompactCountable
+public import Mathlib.MeasureTheory.Measure.SeparableMeasure
 
 
 set_option backward.privateInPublic true

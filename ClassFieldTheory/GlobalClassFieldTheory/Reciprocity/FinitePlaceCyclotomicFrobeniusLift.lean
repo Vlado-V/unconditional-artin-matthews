@@ -18,6 +18,7 @@ public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.RationalCyclot
 public import ValuedFieldTheory.LocalField.Padic.ClosedAddSubgroup
 public import Mathlib.GroupTheory.Nilpotent
 public import Mathlib.Topology.Algebra.ContinuousMonoidHom
+public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.RationalCyclotomicPrincipalProduct
 
 
 set_option backward.privateInPublic true

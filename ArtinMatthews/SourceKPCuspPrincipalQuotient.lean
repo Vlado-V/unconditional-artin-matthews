@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPCuspFiniteIdeal
 public import ArtinMatthews.SourceKPMinkowskiCuspTorus
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.ArchimedeanCharacterLattice
+public import Mathlib.Topology.Algebra.ProperAction.Basic
 
 
 set_option backward.privateInPublic true

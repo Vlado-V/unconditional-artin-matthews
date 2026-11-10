@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Theta.AdelicSupport
 public import Mathlib.NumberTheory.Padics.HeightOneSpectrum
+public import Mathlib.NumberTheory.Padics.ProperSpace
 
 
 set_option backward.privateInPublic true

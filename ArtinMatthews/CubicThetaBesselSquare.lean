@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.CubicThetaMeanSquare
 public import ArtinMatthews.ShiftedWeightedSquare
 public import ArtinMatthews.ShiftedBesselScale
+public import Mathlib.Algebra.Lie.OfAssociative
 
 
 set_option backward.privateInPublic true

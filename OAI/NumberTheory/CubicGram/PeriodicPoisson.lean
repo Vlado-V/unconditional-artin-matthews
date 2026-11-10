@@ -2,9 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.CubicGram.ResidueCharacters
 public import OAI.NumberTheory.CubicGram.LatticePoisson
+public import Mathlib.Topology.Separation.CompletelyRegular
+public import Mathlib.Algebra.GroupWithZero.Submonoid.CancelMulZero
+public import Mathlib.Topology.Sheaves.Presheaf
+public import Mathlib.Tactic.Monotonicity.Lemmas
 
 
 set_option backward.privateInPublic true

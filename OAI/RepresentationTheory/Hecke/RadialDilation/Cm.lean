@@ -2,9 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
-public import OAI.AlgebraicGeometry.ComplexMultiplication.GaloisCMType
 public import OAI.RepresentationTheory.Hecke.RadialDilation.Prerequisites
+public import Mathlib.NumberTheory.Padics.PadicNumbers
 
 
 set_option backward.privateInPublic true

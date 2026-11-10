@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.CubicThetaShiftedCorrelation
 public import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+public import Mathlib.Order.Interval.Finset.Box
 
 
 set_option backward.privateInPublic true

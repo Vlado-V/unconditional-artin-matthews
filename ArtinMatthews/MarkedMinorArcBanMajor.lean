@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.MarkedMinorArcCircle
 public import Mathlib.MeasureTheory.Group.AddCircle
+public import ArtinMatthews.MarkedMinorArcProductOperator
+public import Mathlib.Topology.Sheaves.Presheaf
 
 
 set_option backward.privateInPublic true

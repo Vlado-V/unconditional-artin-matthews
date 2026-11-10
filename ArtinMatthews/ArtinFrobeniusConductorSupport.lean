@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.ArtinFrobeniusIdealCharacter
 public import Mathlib.NumberTheory.NumberField.Discriminant.Basic
 public import Mathlib.NumberTheory.RamificationInertia.Unramified
+public import Mathlib.Algebra.AffineMonoid.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralEisensteinCriticalPoleRemoval
+public import Mathlib.RingTheory.Coalgebra.IsFrobenius
+public import Mathlib.RingTheory.HopfAlgebra.Basic
 
 
 set_option backward.privateInPublic true

@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.VaryingKummerAnalyticRayCharacterMultiplicityAlgebra
 public import Mathlib.LinearAlgebra.Dimension.Constructions
 public import Mathlib.LinearAlgebra.Dimension.Finite
+public import Mathlib.RingTheory.Coalgebra.IsFrobenius
+public import Mathlib.RingTheory.HopfAlgebra.Basic
 
 
 set_option backward.privateInPublic true

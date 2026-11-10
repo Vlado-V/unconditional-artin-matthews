@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.MarkedMinorArcBanKernel
+public import ArtinMatthews.MarkedMinorArcPositionOperator
 
 
 set_option backward.privateInPublic true

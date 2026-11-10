@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.Calculus.Quaternion.ThirdTensor
 public import OAI.Analysis.Calculus.Quaternion.Algebra
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 
 set_option backward.privateInPublic true

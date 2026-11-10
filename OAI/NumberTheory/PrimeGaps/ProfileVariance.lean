@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.Profiles
+public import Mathlib.Topology.Sheaves.Presheaf
+public import Mathlib.Tactic.Monotonicity.Lemmas
 
 
 set_option backward.privateInPublic true

@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPAdeleLocalEmbedding
 public import ArtinMatthews.SourceKPExteriorTensorUpper
 public import ArtinMatthews.SourceKPAdelicUpper
+import ArtinMatthews.SourceAdelicIwasawaAssembly
 
 
 set_option backward.privateInPublic true

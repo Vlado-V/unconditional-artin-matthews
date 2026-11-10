@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.Indices
+public import Mathlib.NumberTheory.Harmonic.Bounds
+public import Mathlib.Data.Nat.ChineseRemainder
 
 
 set_option backward.privateInPublic true

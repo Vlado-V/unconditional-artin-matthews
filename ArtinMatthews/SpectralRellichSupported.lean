@@ -1,6 +1,7 @@
 module
 
 public import OAI.MathematicalPhysics.BFSS.RellichCompactness
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

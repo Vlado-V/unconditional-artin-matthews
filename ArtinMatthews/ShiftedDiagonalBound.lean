@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.ShiftedDiagonalFiber
 public import OAI.NumberTheory.Jacobsthal.Sieve.DivisorLogGrowth
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

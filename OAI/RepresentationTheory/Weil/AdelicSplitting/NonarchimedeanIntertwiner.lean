@@ -5,6 +5,9 @@ module
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.DeterminantMeasure
 public import OAI.RepresentationTheory.Weil.Local.Generators
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.FourierTools
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.Topology.Algebra.Nonarchimedean.TotallyDisconnected
+public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
 
 
 set_option backward.privateInPublic true

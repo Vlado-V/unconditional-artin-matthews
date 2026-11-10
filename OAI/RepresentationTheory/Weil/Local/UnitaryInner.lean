@@ -3,6 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Weil.Local.FunctionsMetaplectic
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 
 
 set_option backward.privateInPublic true

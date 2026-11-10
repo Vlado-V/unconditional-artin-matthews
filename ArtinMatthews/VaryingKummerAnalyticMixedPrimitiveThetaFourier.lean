@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.VaryingKummerAnalyticIdealModuleFrequencyLabels
 public import ArtinMatthews.VaryingKummerAnalyticIdealGaussFourier
 public import Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
+public import Mathlib.NumberTheory.MulChar.Lemmas
 
 
 set_option backward.privateInPublic true

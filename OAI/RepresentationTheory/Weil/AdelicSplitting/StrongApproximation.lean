@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.FiniteApproximation
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.IntegralAdeles
+public import Mathlib.Algebra.Order.Star.Real
 
 
 set_option backward.privateInPublic true

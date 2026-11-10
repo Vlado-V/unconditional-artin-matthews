@@ -5,6 +5,7 @@ module
 public import OAI.NumberTheory.JointDickman.Amplification.AdditivePhaseBridge
 public import OAI.NumberTheory.JointDickman.Amplification.CorrelationPhase
 public import Mathlib.Analysis.Fourier.ZMod
+public import Mathlib.NumberTheory.DirichletCharacter.Bounds
 
 
 set_option backward.privateInPublic true

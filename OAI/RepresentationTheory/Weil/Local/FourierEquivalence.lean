@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.RealFourierLp
 public import OAI.RepresentationTheory.Weil.Local.QuadraticIntertwiner
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 
 
 set_option backward.privateInPublic true

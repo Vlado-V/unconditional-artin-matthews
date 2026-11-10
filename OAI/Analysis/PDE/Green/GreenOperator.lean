@@ -3,6 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.Analysis.PDE.Green.GreenReal
+public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.Order.CompletePartialOrder
+public import Mathlib.Tactic.ReduceModChar
 
 
 set_option backward.privateInPublic true

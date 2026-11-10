@@ -1,6 +1,7 @@
 module
 
 public import rml.carlitz.newton_index
+public import Mathlib.RingTheory.PiTensorProduct
 
 @[expose] public section
 

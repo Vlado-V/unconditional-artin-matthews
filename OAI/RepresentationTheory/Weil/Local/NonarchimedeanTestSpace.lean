@@ -3,6 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Weil.Local.QuadraticIntertwiner
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.Topology.Algebra.Nonarchimedean.TotallyDisconnected
+public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
 
 
 set_option backward.privateInPublic true

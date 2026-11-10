@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.GiantSignedMemoryState
+public import Mathlib.CategoryTheory.Countable
 
 
 set_option backward.privateInPublic true

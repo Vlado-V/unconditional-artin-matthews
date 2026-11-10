@@ -2,8 +2,14 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.Jacobsthal.Analysis.ImplicitDerivatives
+public import Mathlib.RingTheory.Etale.Weakly
+public import Mathlib.RingTheory.TotallySplit
+public import Mathlib.Algebra.Ring.IsFormallyReal
+public import Mathlib.Data.Int.Star
+public import Std.Tactic.BVDecide.Normalize.Prop
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Algebra.Order.Ring.Star
 
 
 set_option backward.privateInPublic true

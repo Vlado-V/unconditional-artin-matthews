@@ -2,8 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.MathematicalPhysics.BFSS.RellichSmoothing
+public import Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli
+public import Mathlib.MeasureTheory.Function.L2Space
+public import Mathlib.Tactic.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

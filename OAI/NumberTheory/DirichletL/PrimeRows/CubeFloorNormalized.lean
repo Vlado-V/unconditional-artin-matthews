@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.CubeFloorGlobalIntegral
 public import OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizer
+import OAI.NumberTheory.DirichletL.PrimeRows.NonfloorArithmetic
 
 
 set_option backward.privateInPublic true

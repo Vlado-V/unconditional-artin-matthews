@@ -2,11 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
-public import Mathlib.Data.Int.CardIntervalMod
-public import Mathlib.Tactic
 public import OAI.NumberTheory.Jacobsthal.Estimates.PositionDensities
 public import OAI.NumberTheory.Jacobsthal.Sieve.MobiusCoprimeExpansion
+public import Mathlib.Data.Rat.Star
 
 
 set_option backward.privateInPublic true

@@ -5,6 +5,7 @@ public import ArtinMatthews.HeckePrimeZeroMaximum
 public import ArtinMatthews.HeckePrimeLongParameters
 public import OAI.NumberTheory.DirichletL.Hecke.PrimeDyadicScaled
 public import OAI.NumberTheory.DirichletL.Hecke.DyadicTailBudget
+public import Mathlib.Order.CompletePartialOrder
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.Oscillator
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.TestSpaceAnalysis
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 
 
 set_option backward.privateInPublic true

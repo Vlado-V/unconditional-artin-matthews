@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.FunctionsMetaplectic
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.ArchimedeanAdeles
+public import Mathlib.Analysis.Complex.Circle
 
 
 set_option backward.privateInPublic true

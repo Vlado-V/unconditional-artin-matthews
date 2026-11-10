@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.IdealKernelCauchy
+public import Mathlib.RingTheory.PiTensorProduct
 
 
 set_option backward.privateInPublic true

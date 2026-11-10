@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.Normed.Function.Sobolev.WeakIterated
 public import OAI.Analysis.Normed.Function.Sobolev.FourierDecay
+public import Mathlib.Analysis.Real.Pi.Bounds
 
 
 set_option backward.privateInPublic true

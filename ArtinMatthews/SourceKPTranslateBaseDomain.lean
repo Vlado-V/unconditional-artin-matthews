@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPAutomorphicMeasureChoice
 public import ArtinMatthews.SourceKPCuspFundamentalSection
 public import Mathlib.MeasureTheory.Measure.Count
+public import Mathlib.Topology.Separation.Lemmas
 
 
 set_option backward.privateInPublic true

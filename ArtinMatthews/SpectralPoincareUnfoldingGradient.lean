@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralPoincareUnfoldingGradientSupport
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 
 
 set_option backward.privateInPublic true

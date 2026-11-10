@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceKPFiniteIntegralIndex
 public import Mathlib.GroupTheory.Commensurable
+import ArtinMatthews.SourceKPFiniteStabilizerCompact
 
 
 set_option backward.privateInPublic true

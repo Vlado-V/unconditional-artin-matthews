@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralKFrameCompactProfiles
 public import ArtinMatthews.SpectralKLMacdonaldBilinear
+public import Mathlib.MeasureTheory.Order.Group.Lattice
 
 
 set_option backward.privateInPublic true

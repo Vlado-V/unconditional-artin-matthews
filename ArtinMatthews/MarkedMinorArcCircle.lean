@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.MarkedMinorArcSmoothOperator
 public import ArtinMatthews.MarkedMinorArcProductFourier
 public import Mathlib.Analysis.Normed.Group.AddCircle
+public import ArtinMatthews.MarkedMinorArcProductEnergy
 
 
 set_option backward.privateInPublic true

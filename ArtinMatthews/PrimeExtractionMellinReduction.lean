@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.PrimeExtractionRelevantMellin
 public import ArtinMatthews.PrimeExtractionDyadicLogGrowth
 public import ArtinMatthews.PrimeExtractionLogMomentDecay
+public import Mathlib.Topology.UniformSpace.Uniformizable
 
 
 set_option backward.privateInPublic true

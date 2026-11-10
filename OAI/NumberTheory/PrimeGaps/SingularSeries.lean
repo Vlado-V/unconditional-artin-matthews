@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.MangoldtBounds
+public import Mathlib.Order.Interval.Finset.Box
+public import Mathlib.Algebra.Ring.IsFormallyReal
+public import Mathlib.Analysis.SpecialFunctions.Log.Summable
+public import Mathlib.NumberTheory.SumPrimeReciprocals
 
 
 set_option backward.privateInPublic true

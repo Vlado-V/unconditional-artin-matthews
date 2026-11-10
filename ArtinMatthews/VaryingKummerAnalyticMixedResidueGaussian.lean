@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticMixedResidueTheta
 public import ArtinMatthews.VaryingKummerAnalyticRayIdealCoefficients
+public import Mathlib.RingTheory.Coalgebra.CoassocSimps
 
 
 set_option backward.privateInPublic true

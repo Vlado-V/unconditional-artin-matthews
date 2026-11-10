@@ -5,6 +5,9 @@ module
 public import OAI.RepresentationTheory.Weil.Local.NonarchimedeanNormalFormProduct
 public import OAI.RepresentationTheory.Weil.Local.GeneralSchur
 public import OAI.RepresentationTheory.Weil.Local.BruhatCosets
+public import Mathlib.RingTheory.Etale.Weakly
+public import Mathlib.RingTheory.TotallySplit
+public import Mathlib.RingTheory.Finiteness.ModuleFinitePresentation
 
 
 set_option backward.privateInPublic true

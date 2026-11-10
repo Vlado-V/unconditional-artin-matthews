@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Theta.PoissonAutomorphyNormalizationData
 public import Mathlib.Analysis.Fourier.AddCircleMulti
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
 
 
 set_option backward.privateInPublic true

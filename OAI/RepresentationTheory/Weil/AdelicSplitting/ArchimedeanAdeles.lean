@@ -4,6 +4,11 @@ module
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.QuadraticTopology
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.RestrictedLimits
+public import Mathlib.RingTheory.RegularLocalRing.Defs
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.NumberTheory.NumberField.AdeleRing
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

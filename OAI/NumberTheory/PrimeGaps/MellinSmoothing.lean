@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.RieszBounds
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.MellinInversion
 
 
 set_option backward.privateInPublic true

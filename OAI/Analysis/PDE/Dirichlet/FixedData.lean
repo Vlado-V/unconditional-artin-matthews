@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.PDE.Dirichlet.Continuity
 public import OAI.Analysis.PDE.Dirichlet.RigidBounds
+public import Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order
 
 
 set_option backward.privateInPublic true

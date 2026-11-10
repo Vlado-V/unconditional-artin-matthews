@@ -3,6 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.ContourSums
+public import Mathlib.Algebra.Lie.OfAssociative
 
 
 set_option backward.privateInPublic true

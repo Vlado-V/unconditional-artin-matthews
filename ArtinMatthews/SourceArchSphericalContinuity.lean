@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPAdelicCompactSection
 public import ArtinMatthews.SourceArchSphericalSection
 public import Mathlib.Topology.Algebra.Group.Units
+public import Mathlib.Topology.Algebra.Group.Matrix
 
 
 set_option backward.privateInPublic true

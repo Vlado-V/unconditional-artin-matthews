@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.OneCoordinate
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.NonarchimedeanIntertwiner
+public import Mathlib.MeasureTheory.Integral.Pi
 
 
 set_option backward.privateInPublic true

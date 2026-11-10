@@ -2,6 +2,10 @@ module
 
 public import ArtinMatthews.UnitTorusLocalRellich
 public import ArtinMatthews.VaryingKummerAnalyticPoisson
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+public import Mathlib.Analysis.Calculus.Deriv.Pi
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

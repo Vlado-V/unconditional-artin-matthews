@@ -4,6 +4,7 @@ public import ArtinMatthews.SourceKPResidualChartGradient
 public import ArtinMatthews.SourceKPCompactFormLocalization
 public import ArtinMatthews.SourceKPCompactH1WeakTests
 public import ArtinMatthews.SourceKPPeriodizedWeakTest
+import ArtinMatthews.SourceKPCompactNativeTestSupport
 
 
 set_option backward.privateInPublic true

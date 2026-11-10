@@ -1,7 +1,6 @@
 module
 
 public import ArtinMatthews.SourceAdelicTraceHaar
-public import Mathlib
 
 
 set_option backward.privateInPublic true

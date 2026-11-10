@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.PotentialDerivatives
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.RegularizedMass
+public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
 
 
 set_option backward.privateInPublic true

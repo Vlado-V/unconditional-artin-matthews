@@ -4,6 +4,8 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.GeneralSchur
 public import OAI.RepresentationTheory.Weil.Local.BareGeneration
+public import Mathlib.AlgebraicTopology.FundamentalGroupoid.SimplyConnected
+public import Mathlib.Analysis.Convex.Contractible
 
 
 set_option backward.privateInPublic true

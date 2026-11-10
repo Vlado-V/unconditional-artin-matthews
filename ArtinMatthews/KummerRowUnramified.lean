@@ -5,6 +5,9 @@ public import ArtinMatthews.KummerRowIndividualDegree
 public import ArtinMatthews.SixthExteriorPowerClasses
 public import ArtinMatthews.VaryingKummerAnalyticRayFractionalDenominatorCount
 public import Mathlib.NumberTheory.RamificationInertia.Unramified
+public import Mathlib.Order.CompletePartialOrder
+public import Mathlib.Algebra.Lie.OfAssociative
+public import Mathlib.Algebra.GroupWithZero.Submonoid.CancelMulZero
 
 
 set_option backward.privateInPublic true

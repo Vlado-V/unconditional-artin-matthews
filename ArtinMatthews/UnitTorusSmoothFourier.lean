@@ -1,6 +1,10 @@
 module
 
 public import ArtinMatthews.UnitTorusSmoothCoordinate
+public import Mathlib.Topology.Separation.CompletelyRegular
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Analysis.PSeries
 
 
 set_option backward.privateInPublic true

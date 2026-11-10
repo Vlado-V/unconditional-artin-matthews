@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.CubicGram.LatticeCounts
 public import OAI.NumberTheory.CubicGram.IntegerBasis
+public import Mathlib.Algebra.Module.ZLattice.Summable
 
 
 set_option backward.privateInPublic true

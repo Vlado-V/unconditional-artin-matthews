@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SpectralEisensteinMatchingOffCut
 public import Mathlib.Analysis.Meromorphic.Order
 public import Mathlib.Topology.Algebra.Group.Matrix
+public import Mathlib.AlgebraicTopology.FundamentalGroupoid.SimplyConnected
 
 
 set_option backward.privateInPublic true

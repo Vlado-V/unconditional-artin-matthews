@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralRellichCoordinates
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Basic
 
 
 set_option backward.privateInPublic true

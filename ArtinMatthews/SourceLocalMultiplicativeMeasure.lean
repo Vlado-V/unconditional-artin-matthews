@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceLocalAdditiveModulus
 public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+public import Mathlib.Topology.Algebra.IsOpenUnits
 
 
 set_option backward.privateInPublic true

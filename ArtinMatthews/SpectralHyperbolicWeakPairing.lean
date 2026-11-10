@@ -4,6 +4,7 @@ public import ArtinMatthews.SpectralHyperbolicBochnerCoordinates
 public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
 public import Mathlib.Analysis.Calculus.ContDiff.Operations
 public import Mathlib.MeasureTheory.Group.Prod
+import ArtinMatthews.SpectralHyperbolicGreen
 
 
 set_option backward.privateInPublic true

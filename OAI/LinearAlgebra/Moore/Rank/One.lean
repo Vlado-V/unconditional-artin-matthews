@@ -4,6 +4,8 @@ module
 
 public import OAI.LinearAlgebra.Moore.Basic
 public import OAI.Analysis.PDE.Energy.Algebra
+public import Mathlib.RingTheory.PiTensorProduct
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 
 set_option backward.privateInPublic true

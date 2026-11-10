@@ -5,6 +5,11 @@ module
 public import OAI.Analysis.Calculus.Quaternion.Algebra
 public import OAI.Analysis.PDE.Dirichlet.Maximum
 public import Mathlib.Analysis.InnerProductSpace.Laplacian
+public import Mathlib.Order.CompletePartialOrder
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+public import Mathlib.LinearAlgebra.Matrix.PosDef
 
 
 set_option backward.privateInPublic true

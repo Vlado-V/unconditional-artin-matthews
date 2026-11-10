@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SourceAdelicBlichfeldt
+public import Mathlib.Order.CompletePartialOrder
 
 
 set_option backward.privateInPublic true

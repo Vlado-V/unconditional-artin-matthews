@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.MarkedMajorCharacterActual
 public import ArtinMatthews.MarkedMinorArcBanMajor
+public import ArtinMatthews.MarkedMinorArcCleanKernel
 
 
 set_option backward.privateInPublic true

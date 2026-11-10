@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SIntegerPrincipalQuotient
+public import Mathlib.Algebra.GroupWithZero.Submonoid.CancelMulZero
 
 
 set_option backward.privateInPublic true

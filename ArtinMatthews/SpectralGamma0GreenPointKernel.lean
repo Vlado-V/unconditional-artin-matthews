@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralGamma0GreenPointSeries
 public import ArtinMatthews.SpectralGamma0GreenSquaredExpansion
+import ArtinMatthews.SpectralGamma0CuspActualExpansion
 
 
 set_option backward.privateInPublic true

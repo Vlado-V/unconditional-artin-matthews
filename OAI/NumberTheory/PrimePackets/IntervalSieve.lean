@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.PrimePackets.PowerfulIdeals
+public import Mathlib.RingTheory.PiTensorProduct
+public import Mathlib.Data.Finset.NatDivisors
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+public import Mathlib.Topology.Sheaves.Presheaf
+public import Mathlib.Data.Nat.Prime.Factorial
+public import Mathlib.Tactic.Monotonicity.Lemmas
 
 
 set_option backward.privateInPublic true

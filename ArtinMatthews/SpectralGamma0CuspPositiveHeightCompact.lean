@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SpectralCompactChartEnergy
 public import ArtinMatthews.SpectralGamma0CuspGraphCore
 public import ArtinMatthews.SpectralCoreLocalizationChartCompact
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Metric
 
 
 set_option backward.privateInPublic true

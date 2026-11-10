@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.SquareComparison
 public import OAI.RepresentationTheory.Weil.Local.NormSquareKernels
+public import Mathlib.Topology.Algebra.Group.Units
 
 
 set_option backward.privateInPublic true

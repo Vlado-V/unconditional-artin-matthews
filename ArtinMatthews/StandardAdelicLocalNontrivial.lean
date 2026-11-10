@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.StandardAdelicCharacter
 public import ArtinMatthews.StandardAdelicPoleIdeals
+public import Mathlib.Data.Int.Star
+public import Mathlib.Algebra.Order.Ring.Star
 
 
 set_option backward.privateInPublic true

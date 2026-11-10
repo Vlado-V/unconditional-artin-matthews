@@ -3,6 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.ZetaKernel
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 
 set_option backward.privateInPublic true

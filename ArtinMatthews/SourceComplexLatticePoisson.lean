@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceComplexTraceForm
 public import ArtinMatthews.SourceArchimedeanRapid
+public import Mathlib.Topology.Separation.CompletelyRegular
 
 
 set_option backward.privateInPublic true

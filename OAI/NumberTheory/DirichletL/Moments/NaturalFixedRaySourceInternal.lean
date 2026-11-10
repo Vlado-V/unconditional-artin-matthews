@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceCharacters
 public import OAI.NumberTheory.DirichletL.Moments.HeckeExceptionalEnergy
+public import OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceSlots
 
 
 set_option backward.privateInPublic true

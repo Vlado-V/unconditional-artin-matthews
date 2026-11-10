@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralPoincareUnfolding
 public import ArtinMatthews.SpectralGamma0EnergyPairing
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 
 
 set_option backward.privateInPublic true

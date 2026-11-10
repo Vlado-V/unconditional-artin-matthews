@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceAdelicRationalTopology
 public import Mathlib.MeasureTheory.Group.FundamentalDomain
 public import Mathlib.MeasureTheory.Measure.Haar.Basic
+public import Mathlib.Topology.Separation.CompletelyRegular
 
 
 set_option backward.privateInPublic true

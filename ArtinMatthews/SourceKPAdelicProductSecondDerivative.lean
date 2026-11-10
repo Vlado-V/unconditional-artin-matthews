@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceArchNormalizedProductC2
 public import ArtinMatthews.SourceKPAdelicEisensteinProductC1
+public import Mathlib.Algebra.Lie.OfAssociative
 
 
 set_option backward.privateInPublic true

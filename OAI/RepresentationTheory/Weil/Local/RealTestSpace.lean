@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.FunctionsMetaplectic
 public import OAI.RepresentationTheory.Weil.Local.Gaussian
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 
 set_option backward.privateInPublic true

@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralGamma0CuspFormSpace
 public import OAI.Analysis.CoulombIonization.FormDomain.CoerciveOperator
+public import Mathlib.Analysis.InnerProductSpace.Positive
 
 
 set_option backward.privateInPublic true

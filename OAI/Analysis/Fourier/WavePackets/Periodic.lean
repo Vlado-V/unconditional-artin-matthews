@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.Analysis.Fourier.WavePackets.Local
+public import Mathlib.Data.Pi.Interval
+public import Mathlib.Analysis.Fourier.AddCircleMulti
 
 
 set_option backward.privateInPublic true

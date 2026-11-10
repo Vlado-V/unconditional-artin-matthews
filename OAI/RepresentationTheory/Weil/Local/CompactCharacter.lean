@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.NonarchimedeanTestSpace
 public import OAI.RepresentationTheory.Weil.Local.FourierEquivalence
+public import Mathlib.Topology.LocallyConstant.Algebra
 
 
 set_option backward.privateInPublic true

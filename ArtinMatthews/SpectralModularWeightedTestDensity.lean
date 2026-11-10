@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralModularWeightedTestConstruction
 public import ArtinMatthews.SpectralModularDensitySmooth
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 
 
 set_option backward.privateInPublic true

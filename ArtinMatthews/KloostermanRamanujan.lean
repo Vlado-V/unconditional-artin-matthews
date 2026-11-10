@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.KloostermanWeakBound
 public import OAI.NumberTheory.JointDickman.Arithmetic.RamanujanDivisorFormula
+public import Mathlib.Topology.Sheaves.Presheaf
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

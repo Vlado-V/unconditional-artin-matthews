@@ -2,8 +2,10 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.CubicGram.Coordinates
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.RingTheory.PiTensorProduct
+public import Mathlib.Tactic.ENatToNat
 
 
 set_option backward.privateInPublic true

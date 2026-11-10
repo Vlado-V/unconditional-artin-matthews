@@ -10,6 +10,10 @@ public import rml.stepanov.specialized_curve
 public import rml.stepanov.point_count_bridge
 public import rml.stepanov.carlitz_roots
 public import rml.stepanov.power_sum_spectral
+public import Mathlib.Data.Int.Star
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Algebra.Order.Ring.Star
 
 @[expose] public section
 

@@ -2,8 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.PrimePackets.SieveConvolution
+public import Mathlib.NumberTheory.NumberField.DedekindZeta
+public import Mathlib.Data.Sym.NatCard
 
 
 set_option backward.privateInPublic true

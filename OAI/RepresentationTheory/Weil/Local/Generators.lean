@@ -3,6 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Weil.Local.FunctionsMetaplectic
+public import Mathlib.Tactic.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

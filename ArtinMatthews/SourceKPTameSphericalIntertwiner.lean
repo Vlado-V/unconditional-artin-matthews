@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPTameParametricOpenCell
 public import ArtinMatthews.SourceKPTameIntertwiningAbsolute
 public import ArtinMatthews.SourceKPExceptionalLocalFactor
+public import Mathlib.RingTheory.Finiteness.ModuleFinitePresentation
 
 
 set_option backward.privateInPublic true

@@ -3,6 +3,12 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.UnitaryBase
+public import Mathlib.RingTheory.RegularLocalRing.Defs
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.RingTheory.TotallySplit
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.RingTheory.PiTensorProduct
+public import Mathlib.Tactic.ENatToNat
 
 
 set_option backward.privateInPublic true

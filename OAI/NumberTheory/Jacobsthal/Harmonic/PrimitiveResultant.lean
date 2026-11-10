@@ -2,8 +2,13 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.Jacobsthal.Partitions.NestedCoordinates
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.RingTheory.Polynomial.Resultant.Basic
+public import Mathlib.Data.Int.Star
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Algebra.Order.Ring.Star
+public import Mathlib.Tactic.ReduceModChar
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,12 @@ module
 
 public import OAI.RepresentationTheory.Theta.IntegralAdeles
 public import Mathlib.Data.Nat.ChineseRemainder
+public import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
+public import Mathlib.Order.CompletePartialOrder
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.Topology.Connected.Separation
+public import Mathlib.RingTheory.PiTensorProduct
+public import Mathlib.Algebra.Ring.IsFormallyReal
 
 
 set_option backward.privateInPublic true

@@ -5,6 +5,7 @@ module
 public import OAI.NumberTheory.CubicMoment.Estimates.PrimePowerDivisors
 public import OAI.NumberTheory.CubicMoment.Estimates.PrimePowerSupport
 public import OAI.NumberTheory.CubicMoment.Estimates.BalancedErrorMoment
+public import Mathlib.Analysis.SpecialFunctions.Log.Base
 
 
 set_option backward.privateInPublic true

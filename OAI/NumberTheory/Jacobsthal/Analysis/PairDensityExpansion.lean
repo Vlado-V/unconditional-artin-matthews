@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.Jacobsthal.Partitions.IntervalPairCount
 public import OAI.NumberTheory.Jacobsthal.Primes.PrimeHitRepresentative
+public import Mathlib.RingTheory.WittVector.IsPoly
 
 
 set_option backward.privateInPublic true

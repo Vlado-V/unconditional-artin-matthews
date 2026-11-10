@@ -3,6 +3,11 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.EgyptianFractions.FourierSecondMoment
+public import Mathlib.Order.Interval.Finset.Box
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Algebra.Order.Ring.Star
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

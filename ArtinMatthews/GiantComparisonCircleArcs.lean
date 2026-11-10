@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.GiantComparisonCircleCauchy
 public import ArtinMatthews.MarkedMinorArcDiophantine
+public import ArtinMatthews.MarkedMinorArcCleanKernel
 
 
 set_option backward.privateInPublic true

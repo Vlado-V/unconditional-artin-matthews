@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceArchJacquetGaussian
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.ScalarPlancherel
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
 
 
 set_option backward.privateInPublic true

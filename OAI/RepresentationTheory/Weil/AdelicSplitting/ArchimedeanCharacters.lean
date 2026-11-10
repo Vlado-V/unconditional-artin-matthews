@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.TestSpace
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+public import Mathlib.Topology.Sheaves.Presheaf
+public import Mathlib.Tactic.Polynomial.Basic
+public import Mathlib.Tactic.Monotonicity.Lemmas
 
 
 set_option backward.privateInPublic true

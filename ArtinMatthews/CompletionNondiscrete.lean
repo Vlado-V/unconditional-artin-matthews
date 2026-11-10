@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.AdelicCharacterData
+public import Mathlib.AlgebraicTopology.FundamentalGroupoid.SimplyConnected
 
 
 set_option backward.privateInPublic true

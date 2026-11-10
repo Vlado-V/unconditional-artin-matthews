@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.HenselPowerPolynomial
+public import Mathlib.RingTheory.Henselian
 
 
 set_option backward.privateInPublic true

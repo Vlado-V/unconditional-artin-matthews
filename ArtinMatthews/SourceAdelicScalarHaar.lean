@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceAdelicTraceHaar
 public import Mathlib.MeasureTheory.Measure.Haar.Unique
+public import Mathlib.Dynamics.Ergodic.Action.Regular
 
 
 set_option backward.privateInPublic true

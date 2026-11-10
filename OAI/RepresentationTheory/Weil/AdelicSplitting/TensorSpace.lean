@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.UnitaryBase
 public import OAI.RepresentationTheory.Weil.Local.FunctionsMetaplectic
+public import Mathlib.RingTheory.Coalgebra.CoassocSimps
 
 
 set_option backward.privateInPublic true

@@ -3,6 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Theta.PoissonAutomorphyFiniteFourier
+public import Mathlib.Data.Rat.Star
 
 
 set_option backward.privateInPublic true

@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.CubicNormClassIdealReindex
 public import ArtinMatthews.CubicNormCellDiscrepancy
 public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+public import Mathlib.Order.CompletePartialOrder
 
 
 set_option backward.privateInPublic true

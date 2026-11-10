@@ -4,6 +4,9 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.FiniteQuadratic
 public import Mathlib.GroupTheory.Coset.Basic
+public import Mathlib.GroupTheory.Nilpotent
+public import Mathlib.Data.Int.Star
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

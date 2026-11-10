@@ -4,6 +4,9 @@ module
 
 public import OAI.Analysis.Calculus.Quaternion.CofactorSymbol
 public import OAI.Analysis.PDE.Dirichlet.Hessian
+public import Mathlib.LinearAlgebra.Matrix.FiniteDimensional
+public import Mathlib.Analysis.Quaternion
+public import Mathlib.Analysis.Matrix.Normed
 
 
 set_option backward.privateInPublic true

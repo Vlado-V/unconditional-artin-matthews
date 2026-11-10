@@ -4,6 +4,8 @@ public import ArtinMatthews.SourceSLocalRadialSheet
 public import ArtinMatthews.SourceSLocalSheetHaar
 public import ArtinMatthews.SourceSLocalWholeProductBorel
 public import ArtinMatthews.SourceProductSwapMiddle
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.MeasureTheory.Measure.RegularityCompacts
 
 
 set_option backward.privateInPublic true

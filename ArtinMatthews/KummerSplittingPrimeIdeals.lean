@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.KummerSplittingFrobenius
 public import OAI.NumberTheory.PrimePackets.IdealCoefficients
+public import Mathlib.Algebra.AffineMonoid.Basic
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

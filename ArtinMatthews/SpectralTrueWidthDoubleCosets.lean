@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralCuspTrueWidth
 public import ArtinMatthews.SpectralCuspDoubleCosetRepresentatives
+public import Mathlib.Data.Int.Star
 
 
 set_option backward.privateInPublic true

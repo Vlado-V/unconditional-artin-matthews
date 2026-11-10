@@ -4,6 +4,8 @@ module
 
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.ModulationMeasure
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.UltraMultiplier
+public import Mathlib.Topology.Sheaves.Presheaf
+public import Mathlib.Tactic.Monotonicity.Lemmas
 
 
 set_option backward.privateInPublic true

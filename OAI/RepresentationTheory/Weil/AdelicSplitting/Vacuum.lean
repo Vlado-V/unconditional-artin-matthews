@@ -5,6 +5,8 @@ module
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.LocalCompact
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.Oscillator
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.Integral
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.Topology.LocallyConstant.Algebra
 
 
 set_option backward.privateInPublic true

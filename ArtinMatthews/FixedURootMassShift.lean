@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.FixedURootPowerSaving
+public import Mathlib.Analysis.Real.Pi.Bounds
 
 
 set_option backward.privateInPublic true

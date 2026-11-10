@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPExteriorUpperCompatibility
 public import ArtinMatthews.SourceKPAdelicPrincipalSeries
 public import ArtinMatthews.SourceKPProjectiveCanonicalFactors
+import ArtinMatthews.SourceAdelicIwasawaAssembly
 
 
 set_option backward.privateInPublic true

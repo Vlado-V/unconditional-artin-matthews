@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.MarkedMajorMellinKernelSeparation
 public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
+public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
 
 
 set_option backward.privateInPublic true

@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticIdealFrequencyCoordinates
 public import ArtinMatthews.SourceKPMinkowskiCuspLattice
+public import Mathlib.Algebra.AffineMonoid.Basic
 
 
 set_option backward.privateInPublic true

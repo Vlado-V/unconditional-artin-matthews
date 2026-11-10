@@ -5,6 +5,7 @@ public import ClassFieldTheory.GlobalClassFieldTheory.GlobalClassFields.SUnitKum
 public import ClassFieldTheory.KummerTheory.Concrete.SUnitPreparation.SUnitLocalPowerKernel
 public import ClassFieldTheory.Definitions.HilbertSymbols.PowerClassGroup
 public import Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex
+public import Mathlib.Order.CompletePartialOrder
 
 
 set_option backward.privateInPublic true

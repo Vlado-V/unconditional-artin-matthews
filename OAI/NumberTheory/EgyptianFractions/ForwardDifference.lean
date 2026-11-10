@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.EgyptianFractions.ReciprocalDerivatives
+public import Mathlib.Order.CompletePartialOrder
+public import Std.Tactic.BVDecide.Normalize.Prop
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ module
 
 public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Local.MatrixPivot
 public import OAI.RepresentationTheory.Theta.PoissonAutomorphyFiniteFourier
+public import Mathlib.RingTheory.Henselian
 
 
 set_option backward.privateInPublic true

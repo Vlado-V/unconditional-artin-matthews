@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.EisensteinAngularEmbedding
 public import Mathlib.NumberTheory.NumberField.Cyclotomic.Embeddings
 public import Mathlib.Data.Fintype.EquivFin
+import ArtinMatthews.EisensteinAngularField
 
 
 set_option backward.privateInPublic true

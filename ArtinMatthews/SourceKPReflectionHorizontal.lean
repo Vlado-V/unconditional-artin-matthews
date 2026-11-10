@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SourceKPReflectionDifferential
+public import Std.Tactic.BVDecide.Normalize.Bool
 
 
 set_option backward.privateInPublic true

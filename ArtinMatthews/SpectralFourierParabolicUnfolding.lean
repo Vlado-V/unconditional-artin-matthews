@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SpectralHorizontalLatticePartition
 public import ArtinMatthews.SpectralCuspTranslationAdmissibility
 public import ArtinMatthews.SpectralCuspFourierTestSeed
+public import Mathlib.RingTheory.SimpleRing.Principal
 
 
 set_option backward.privateInPublic true

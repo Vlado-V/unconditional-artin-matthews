@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.Coordinates
 public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 
 set_option backward.privateInPublic true

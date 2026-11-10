@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticMellin
+public import Mathlib.RingTheory.PiTensorProduct
+public import Mathlib.Topology.Separation.CompletelyRegular
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 
 set_option backward.privateInPublic true

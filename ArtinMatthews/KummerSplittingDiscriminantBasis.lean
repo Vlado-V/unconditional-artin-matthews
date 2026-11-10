@@ -1,9 +1,25 @@
 module
 
 public import ArtinMatthews.KummerSplittingDegree
-public import Mathlib.NumberTheory.NumberField.Discriminant.Basic
-public import Mathlib.RingTheory.AlgebraTower
-public import Mathlib
+public import Mathlib.RingTheory.Radical.NatInt
+public import Mathlib.NumberTheory.LucasLehmer
+public import Mathlib.NumberTheory.Height.Projectivization
+public import Mathlib.NumberTheory.Height.NumberField
+public import Mathlib.Geometry.Euclidean.Volume.Basic
+public import Mathlib.Data.NNRat.Floor
+public import Mathlib.Combinatorics.Enumerative.DyckWord
+public import Mathlib.Combinatorics.SimpleGraph.Triangle.Removal
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Basic
+public import Mathlib.Algebra.Order.Interval.Basic
+public import Mathlib.Algebra.Order.Floor.Extended
+public import Mathlib.Topology.Sheaves.Init
+public import Mathlib.NumberTheory.SelbergSieve
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Data.Nat.Choose.Multinomial
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.SpecialFunctions.Bernstein
+public import Mathlib.NumberTheory.Chebyshev
 
 
 set_option backward.privateInPublic true

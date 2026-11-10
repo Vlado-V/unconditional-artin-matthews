@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralTrueWidthNormalizedMatrices
 public import Mathlib.Algebra.Field.GeomSum
+public import Mathlib.Data.Int.Star
 
 
 set_option backward.privateInPublic true

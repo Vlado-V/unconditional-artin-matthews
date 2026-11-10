@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.MarkedSparsePhaseKernel
 public import OAI.NumberTheory.JointDickman.Analysis.LogPhaseSharpBounds
 public import OAI.NumberTheory.JointDickman.Analysis.LogPhaseUniform
+public import Mathlib.Analysis.Real.Pi.Bounds
 
 
 set_option backward.privateInPublic true

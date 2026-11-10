@@ -4,6 +4,8 @@ module
 
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.KernelDerivative
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.Reflection
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
 
 
 set_option backward.privateInPublic true

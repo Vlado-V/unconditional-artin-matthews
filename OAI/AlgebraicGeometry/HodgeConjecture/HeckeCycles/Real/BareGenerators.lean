@@ -6,6 +6,7 @@ public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Real.Schrodinger
 public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Real.Fourier
 public import OAI.RepresentationTheory.Weil.Local.RealFourierFamily
 public import OAI.RepresentationTheory.Hecke.RadialDilation.QuadraticCommutator
+public import Mathlib.RingTheory.Coalgebra.CoassocSimps
 
 
 set_option backward.privateInPublic true

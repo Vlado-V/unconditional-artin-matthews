@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticCongruenceTheta
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.LinearAlgebra.FreeModule.ModN
 
 
 set_option backward.privateInPublic true

@@ -5,6 +5,7 @@ module
 public import Mathlib.Data.Nat.Choose.Sum
 public import Mathlib.Tactic
 public import OAI.NumberTheory.Jacobsthal.Sieve.IntervalBoundingSieve
+public import Mathlib.Topology.Sheaves.Presheaf
 
 
 set_option backward.privateInPublic true

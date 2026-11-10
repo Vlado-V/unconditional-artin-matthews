@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticRayUnramifiedEuler
 public import ArtinMatthews.VaryingKummerAnalyticRayUnramifiedClassXi
+public import Mathlib.Analysis.Meromorphic.Order
 
 
 set_option backward.privateInPublic true

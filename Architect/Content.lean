@@ -2,6 +2,7 @@ module
 
 public import Architect.Basic
 public import Architect.Command
+public meta import Architect.Basic
 
 public meta section
 

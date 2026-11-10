@@ -5,6 +5,7 @@ module
 public import OAI.RepresentationTheory.Theta.GaussianIntegral
 public import OAI.RepresentationTheory.Theta.RealGenerators
 public import Lean.Util.CollectAxioms
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

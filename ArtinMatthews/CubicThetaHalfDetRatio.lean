@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.CubicThetaSiegelTransform
 public import OAI.RepresentationTheory.Theta.Adelic.ContinuousSquareRoot
+public import Mathlib.Analysis.Complex.UpperHalfPlane.Topology
 
 
 set_option backward.privateInPublic true

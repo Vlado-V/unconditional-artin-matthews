@@ -10,6 +10,10 @@ public import rml.weil.prime_foundation
 public import Mathlib.FieldTheory.Finite.GaloisField
 public import Mathlib.RingTheory.Trace.Basic
 public import Mathlib.Analysis.SpecialFunctions.Complex.CircleAddChar
+public import Mathlib.RingTheory.RegularLocalRing.Defs
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Basify
 
 @[expose] public section
 

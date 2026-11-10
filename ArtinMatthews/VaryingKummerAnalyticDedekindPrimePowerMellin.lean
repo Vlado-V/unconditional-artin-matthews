@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticDedekindPrimePowerMellinTerms
 public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.CategoryTheory.Countable
 
 
 set_option backward.privateInPublic true

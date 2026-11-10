@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceHyperbolicProductGreen
 public import ArtinMatthews.SourceArchProductCasimir
+public import Mathlib.Analysis.Calculus.FDeriv.Pi
 
 
 set_option backward.privateInPublic true

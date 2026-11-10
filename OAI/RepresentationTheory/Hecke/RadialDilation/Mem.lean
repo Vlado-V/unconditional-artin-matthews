@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Hecke.RadialDilation.Cm
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.Topology.MetricSpace.Ultra.Pi
+public import Mathlib.NumberTheory.Padics.ProperSpace
+public import Mathlib.Topology.LocallyConstant.Algebra
 
 
 set_option backward.privateInPublic true

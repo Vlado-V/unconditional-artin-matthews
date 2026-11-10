@@ -1,6 +1,9 @@
 module
 
 public import ArtinMatthews.KummerTowerDiscriminant
+public import Mathlib.RingTheory.RegularLocalRing.Defs
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.Algebra.Ring.IsFormallyReal
 
 
 set_option backward.privateInPublic true

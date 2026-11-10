@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.CubicThetaActualCuspFormBase
 public import ArtinMatthews.CubicThetaActualTransformation
+public import Mathlib.Geometry.Manifold.VectorBundle.CovariantDerivative.LeviCivita
 
 
 set_option backward.privateInPublic true

@@ -5,6 +5,7 @@ module
 public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentFiberGates
 public import OAI.NumberTheory.DirichletL.Inversion.InitialPhysicalSlots
 public import OAI.NumberTheory.DirichletL.Detector.RayPoolDisjoint
+public import OAI.NumberTheory.DirichletL.Detector.SourceAmplitudeClasses
 
 
 set_option backward.privateInPublic true

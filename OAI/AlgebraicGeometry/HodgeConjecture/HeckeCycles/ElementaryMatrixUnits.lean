@@ -4,6 +4,7 @@ module
 
 public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Finite.MatrixPivot
 public import Mathlib.LinearAlgebra.Matrix.Transvection
+public import Mathlib.LinearAlgebra.Matrix.Permutation
 
 
 set_option backward.privateInPublic true

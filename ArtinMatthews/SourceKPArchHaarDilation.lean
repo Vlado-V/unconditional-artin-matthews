@@ -4,6 +4,7 @@ public import ArtinMatthews.SourceKPIdeleAbsoluteNorm
 public import ArtinMatthews.SourceAdelicStandardHaar
 public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
 public import Mathlib.RingTheory.Complex
+public import Mathlib.RingTheory.TotallySplit
 
 
 set_option backward.privateInPublic true

@@ -6,6 +6,9 @@ public import Mathlib.Topology.DiscreteSubset
 public import Mathlib.Topology.Algebra.OpenSubgroup
 public import Mathlib.Topology.Algebra.Group.Quotient
 public import Mathlib.LinearAlgebra.Countable
+public import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
+public import Mathlib.NumberTheory.NumberField.FiniteAdeleRing
+public import Mathlib.Topology.Connected.Separation
 
 
 set_option backward.privateInPublic true

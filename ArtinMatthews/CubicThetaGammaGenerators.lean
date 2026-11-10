@@ -1,6 +1,11 @@
 module
 
 public import ArtinMatthews.CubicThetaGammaBalanced
+public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.NumberTheory.ModularForms.CongruenceSubgroups
+public import Mathlib.GroupTheory.Nilpotent
+public import Mathlib.Tactic.ReduceModChar
+public import Mathlib.Tactic.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

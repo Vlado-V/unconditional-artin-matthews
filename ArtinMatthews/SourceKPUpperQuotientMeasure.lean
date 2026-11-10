@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPArchHaar
 public import ArtinMatthews.SourceKPArithmeticUpperQuotient
 public import ArtinMatthews.SourceKPArchComponentIntegration
+public import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
 
 
 set_option backward.privateInPublic true

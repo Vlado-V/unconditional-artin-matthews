@@ -4,6 +4,9 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.RealTestSpace
 public import OAI.RepresentationTheory.Weil.Local.FourierTools
+public import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
+public import Mathlib.Analysis.Fourier.LpSpace
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 
 set_option backward.privateInPublic true

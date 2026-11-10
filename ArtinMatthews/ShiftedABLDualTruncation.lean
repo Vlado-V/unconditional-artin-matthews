@@ -4,6 +4,7 @@ public import ArtinMatthews.ShiftedABLDualPartition
 public import ArtinMatthews.ShiftedABLThetaSourceDecay
 public import ArtinMatthews.CubicThetaCircleDyadic
 public import ArtinMatthews.CircleQuarterGrowth
+public import Mathlib.Topology.Separation.CompletelyRegular
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ public import ArtinMatthews.StandardComplexWeil
 public import ArtinMatthews.AdelicWeilFiniteProducts
 public import ArtinMatthews.QuadraticHilbertNormSign
 public import ClassFieldTheory.GlobalClassFieldTheory.Reciprocity.FinitePlaceAdicHilbertProductFormula
+public import Mathlib.Algebra.FiniteSupport.Basic
 
 
 set_option backward.privateInPublic true

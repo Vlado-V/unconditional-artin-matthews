@@ -4,6 +4,8 @@ module
 
 public import OAI.NumberTheory.Jacobsthal.Estimates.UnitCyclicBounds
 public import OAI.NumberTheory.Jacobsthal.Primes.PrimePowerGrowth
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Algebra.Order.Ring.Star
 
 
 set_option backward.privateInPublic true

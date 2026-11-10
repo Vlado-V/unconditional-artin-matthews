@@ -6,6 +6,8 @@ public import OAI.RepresentationTheory.Theta.CosetPoisson
 public import OAI.RepresentationTheory.Theta.CosetTests
 public import OAI.RepresentationTheory.Theta.AdelicTopology
 public import OAI.RepresentationTheory.Theta.Generators
+public import Mathlib.Analysis.Calculus.ContDiff.RestrictScalars
+public import Mathlib.Analysis.Matrix.Order
 
 
 set_option backward.privateInPublic true

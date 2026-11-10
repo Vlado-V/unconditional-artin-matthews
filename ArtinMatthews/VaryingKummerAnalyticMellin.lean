@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticGaussian
+public import Mathlib.Analysis.Real.Pi.Bounds
 
 
 set_option backward.privateInPublic true

@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceAdditiveMellinDual
 public import ArtinMatthews.MarkedMajorFourierWeight
+public import Mathlib.Algebra.Ring.IsFormallyReal
 
 
 set_option backward.privateInPublic true

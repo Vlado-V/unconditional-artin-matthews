@@ -3,6 +3,9 @@ module
 public import ArtinMatthews.VaryingKummerAnalyticMixedRadialMeasure
 public import ArtinMatthews.VaryingKummerAnalyticMixedRadialCoordinates
 public import ArtinMatthews.VaryingKummerAnalyticMellinScaling
+public import Mathlib.RingTheory.RegularLocalRing.Defs
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.RingTheory.SimpleRing.Principal
 
 
 set_option backward.privateInPublic true

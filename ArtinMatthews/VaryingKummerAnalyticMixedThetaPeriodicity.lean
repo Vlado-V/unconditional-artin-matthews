@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticMixedDedekindCompletion
+public import Mathlib.AlgebraicTopology.FundamentalGroupoid.SimplyConnected
+public import Mathlib.Analysis.Convex.Contractible
 
 
 set_option backward.privateInPublic true

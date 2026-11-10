@@ -1,6 +1,8 @@
 module
 
 public import ArtinMatthews.SpectralCuspHyperbolicProjection
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.MeasureTheory.Measure.RegularityCompacts
 
 
 set_option backward.privateInPublic true

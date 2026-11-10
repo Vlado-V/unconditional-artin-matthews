@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.PDE.Variational.Periodization
 public import OAI.Analysis.PDE.Variational.ZeroExtension
+public import Mathlib.Data.Pi.Interval
 
 
 set_option backward.privateInPublic true

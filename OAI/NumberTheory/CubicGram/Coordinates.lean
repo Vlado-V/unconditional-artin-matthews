@@ -2,8 +2,12 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.CubicGram.Definitions
+public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Tactic.ReduceModChar
+public import Mathlib.Tactic.Polynomial.Basic
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

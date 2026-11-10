@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.ProbeEulerNormalProduct
 public import Mathlib.Analysis.Complex.Schwarz
 public import Mathlib.Analysis.Calculus.SmoothSeries
+public import Mathlib.Order.CompletePartialOrder
 
 
 set_option backward.privateInPublic true

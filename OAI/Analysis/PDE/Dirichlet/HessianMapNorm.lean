@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.PDE.Dirichlet.NormalRemainder
 public import Mathlib.Analysis.Matrix.Normed
+public import Mathlib.LinearAlgebra.Matrix.FiniteDimensional
 
 
 set_option backward.privateInPublic true

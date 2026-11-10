@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.GiantCandidateCountMoments
+public import Mathlib.Data.Rat.Star
 
 
 set_option backward.privateInPublic true

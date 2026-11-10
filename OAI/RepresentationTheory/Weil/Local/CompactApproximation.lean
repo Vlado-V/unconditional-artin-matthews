@@ -4,6 +4,8 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.BruhatApproximation
 public import Mathlib.Topology.MetricSpace.Thickening
+public import Mathlib.Order.CompletePartialOrder
+public import Mathlib.Topology.LocallyConstant.Algebra
 
 
 set_option backward.privateInPublic true

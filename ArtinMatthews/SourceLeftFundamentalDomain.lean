@@ -1,7 +1,6 @@
 module
 
 public import OAI.NumberTheory.ArithmeticGroups.Lattices.FiniteDomainMeasureRigidity
-public import Mathlib
 
 
 set_option backward.privateInPublic true

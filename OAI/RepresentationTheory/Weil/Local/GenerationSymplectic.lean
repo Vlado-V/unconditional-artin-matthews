@@ -4,6 +4,8 @@ module
 
 public import OAI.LinearAlgebra.Symplectic.BigCell
 public import OAI.RepresentationTheory.Weil.Local.Generators
+public import Mathlib.LinearAlgebra.Matrix.Permutation
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

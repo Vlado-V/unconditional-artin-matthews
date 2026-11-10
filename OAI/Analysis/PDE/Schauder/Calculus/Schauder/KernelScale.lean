@@ -3,6 +3,7 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.Singular
+public import Mathlib.RingTheory.SimpleRing.Principal
 
 
 set_option backward.privateInPublic true

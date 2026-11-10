@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.DirichletL.PrimeRows.CanonicalRayCube
 public import OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizer
+import OAI.NumberTheory.DirichletL.Detector.DetectorMomentData
 
 
 set_option backward.privateInPublic true

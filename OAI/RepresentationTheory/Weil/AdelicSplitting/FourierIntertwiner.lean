@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.FourierTools
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.NonarchimedeanIntertwiner
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 
 
 set_option backward.privateInPublic true

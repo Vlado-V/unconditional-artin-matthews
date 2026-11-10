@@ -4,6 +4,7 @@ module
 
 public import rml.carlitz.newton_sum
 public import rml.carlitz.formal_algebra
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 

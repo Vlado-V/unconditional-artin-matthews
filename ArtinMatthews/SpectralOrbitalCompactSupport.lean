@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralFiniteFunctionIntegrals
+public import Mathlib.Data.Int.Star
 
 
 set_option backward.privateInPublic true

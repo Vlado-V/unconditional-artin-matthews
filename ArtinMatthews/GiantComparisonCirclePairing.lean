@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.MarkedMinorArcProductFourier
+public import ArtinMatthews.MarkedMinorArcProductEnergy
 
 
 set_option backward.privateInPublic true

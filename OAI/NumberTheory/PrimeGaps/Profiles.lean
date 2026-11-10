@@ -3,6 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.DivisorBounds
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.MeasureTheory.Integral.Pi
+public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
 
 
 set_option backward.privateInPublic true

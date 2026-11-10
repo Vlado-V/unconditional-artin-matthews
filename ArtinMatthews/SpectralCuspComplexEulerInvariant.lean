@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.SpectralEisensteinVerticalCutoff
 public import Mathlib.Analysis.Calculus.MeanValue
+public import Mathlib.RingTheory.Etale.Weakly
+public import Mathlib.RingTheory.TotallySplit
 
 
 set_option backward.privateInPublic true

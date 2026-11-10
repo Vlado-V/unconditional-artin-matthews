@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.KummerRowIndividualDegree
 public import ArtinMatthews.ArtinFrobeniusTowerTransfer
+public import Mathlib.Algebra.Lie.OfAssociative
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ module
 
 public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Constructed.AdelicCharacter
 public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Finite.SymplecticLocal
+public import Mathlib.Data.Int.Star
 
 
 set_option backward.privateInPublic true

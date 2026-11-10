@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.CubicMoment.Estimates.DispersionAlgebra
 public import OAI.NumberTheory.CubicMoment.Estimates.WeightedPrimeInput
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 
 set_option backward.privateInPublic true

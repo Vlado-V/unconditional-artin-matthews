@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.Jacobsthal.Estimates.RegularImplicitArc
 public import OAI.NumberTheory.Jacobsthal.Partitions.NestedCoordinates
+public import Mathlib.Analysis.Calculus.ImplicitContDiff
 
 
 set_option backward.privateInPublic true

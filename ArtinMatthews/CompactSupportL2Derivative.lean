@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.CompactSupportL2Map
 public import ArtinMatthews.ContinuousMapDerivative
+public import Mathlib.Analysis.CStarAlgebra.ContinuousMap
 
 
 set_option backward.privateInPublic true

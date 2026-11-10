@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.HenselPowerUnits
 public import Mathlib.RingTheory.Norm.Defs
+public import Mathlib.RingTheory.SimpleRing.Principal
 
 
 set_option backward.privateInPublic true

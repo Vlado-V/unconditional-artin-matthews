@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.VaryingKummerAnalyticIdealOrbits
 public import OAI.NumberTheory.PrimePackets.IdealCoefficients
 public import Mathlib.NumberTheory.LSeries.Deriv
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

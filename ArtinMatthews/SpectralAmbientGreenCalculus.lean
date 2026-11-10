@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.SpectralContinuousQuadraticIntegral
 public import ArtinMatthews.SpectralGamma0AmbientResolventAnalytic
 public import Mathlib.Analysis.InnerProductSpace.StarOrder
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

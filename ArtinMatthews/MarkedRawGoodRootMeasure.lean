@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.MarkedMinorArcDirtySecondError
 public import ArtinMatthews.MarkedRawBoundaryActual
+public import Mathlib.CategoryTheory.Countable
 
 
 set_option backward.privateInPublic true

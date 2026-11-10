@@ -4,6 +4,9 @@ module
 
 public import OAI.NumberTheory.Jacobsthal.Estimates.NestedDegreeBounds
 public import OAI.NumberTheory.Jacobsthal.Estimates.NestedPartials
+public import Mathlib.RingTheory.MvPolynomial.IrreducibleQuadratic
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

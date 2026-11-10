@@ -9,6 +9,8 @@ module
 public import rml.carlitz.class_value
 public import rml.carlitz.conj_decomp
 public import Mathlib.FieldTheory.Separable
+public import Mathlib.RingTheory.PicardGroup
+public import Mathlib.Algebra.Lie.OfAssociative
 
 @[expose] public section
 

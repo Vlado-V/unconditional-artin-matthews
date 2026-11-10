@@ -1,7 +1,7 @@
 module
 
 public import ArtinMatthews.SourceKPArchMeasureTopology
-public import Mathlib
+public import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
 
 
 set_option backward.privateInPublic true

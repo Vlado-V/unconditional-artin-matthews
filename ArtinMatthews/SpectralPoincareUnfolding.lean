@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralPoincareUnfoldingCosets
+public import Mathlib.Algebra.FiniteSupport.Basic
 
 
 set_option backward.privateInPublic true

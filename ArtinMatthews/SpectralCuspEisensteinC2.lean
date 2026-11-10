@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.SpectralCuspEisensteinDerivativeBounds
 public import ArtinMatthews.SpectralLocalC2Series
+public import Mathlib.RingTheory.Etale.Weakly
+public import Mathlib.RingTheory.TotallySplit
 
 
 set_option backward.privateInPublic true

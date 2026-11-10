@@ -3,6 +3,7 @@ module
 public import OAI.NumberTheory.EgyptianFractions.VaughanBilinear
 public import OAI.NumberTheory.EgyptianFractions.RationalPhaseSpacing
 public import OAI.NumberTheory.EgyptianFractions.RealPhaseEnvelope
+public import Mathlib.Order.Interval.Finset.Box
 
 
 set_option backward.privateInPublic true

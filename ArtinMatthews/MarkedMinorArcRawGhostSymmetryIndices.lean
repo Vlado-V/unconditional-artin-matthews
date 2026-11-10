@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.MarkedMinorArcRawGhostAction
 public import ArtinMatthews.MarkedMinorArcRawMemoryExtension
 public import Mathlib.Logic.Equiv.Fin.Basic
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

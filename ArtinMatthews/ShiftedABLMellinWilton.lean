@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.ShiftedABLMellinCoefficient
 public import ArtinMatthews.ShiftedConvolutionWeights
 public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import Mathlib.Topology.UniformSpace.Uniformizable
 
 
 set_option backward.privateInPublic true

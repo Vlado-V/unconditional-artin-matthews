@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.GiantComparisonMinorMultiplier
 public import ArtinMatthews.GiantComparisonCircleArcs
 public import ArtinMatthews.GiantComparisonNatFourier
+public import ArtinMatthews.GiantTwoSidedReturnFourier
 
 
 set_option backward.privateInPublic true

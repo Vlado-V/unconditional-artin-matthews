@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.Analysis.PDE.Schauder.Calculus.Schauder.Annulus
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+public import Mathlib.Tactic.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

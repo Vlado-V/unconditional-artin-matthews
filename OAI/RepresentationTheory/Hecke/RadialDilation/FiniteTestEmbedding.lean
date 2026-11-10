@@ -5,6 +5,8 @@ module
 public import OAI.RepresentationTheory.Hecke.RadialDilation.Mem
 public import OAI.RepresentationTheory.Theta.PoissonAutomorphyNormalizationData
 public import Mathlib.NumberTheory.Padics.HeightOneSpectrum
+public import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
+public import Mathlib.Topology.Connected.Separation
 
 
 set_option backward.privateInPublic true

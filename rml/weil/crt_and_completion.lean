@@ -7,6 +7,8 @@ module
    commit 0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68. Apache-2.0. -/
 
 public import rml.weil.prime_kloosterman
+public import Mathlib.NumberTheory.Harmonic.Bounds
+public import Mathlib.Analysis.Fourier.ZMod
 
 @[expose] public section
 

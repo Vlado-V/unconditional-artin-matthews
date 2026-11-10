@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.MarkedMinorArcOperator
 public import Mathlib.Analysis.Fourier.AddCircle
+public import Mathlib.Topology.Separation.CompletelyRegular
 
 
 set_option backward.privateInPublic true

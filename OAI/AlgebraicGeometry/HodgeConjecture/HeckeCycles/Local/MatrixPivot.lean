@@ -4,6 +4,7 @@ module
 
 public import OAI.LinearAlgebra.Symplectic.BigCell
 public import OAI.RepresentationTheory.Hecke.RadialDilation.QuadraticCommutator
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

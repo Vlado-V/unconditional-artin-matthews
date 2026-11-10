@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticGammaIntegral
 public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

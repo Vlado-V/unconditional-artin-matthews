@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.L2DyadicShells
 public import ArtinMatthews.DyadicMassBootstrap
+public import Mathlib.Order.CompletePartialOrder
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.CubicMoment.Estimates.PublishedHecke
 public import OAI.NumberTheory.CubicMoment.Estimates.WeightedAbel
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

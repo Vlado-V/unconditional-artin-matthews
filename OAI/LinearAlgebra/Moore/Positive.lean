@@ -4,6 +4,7 @@ module
 
 public import OAI.LinearAlgebra.Moore.PositiveInverse
 public import OAI.LinearAlgebra.Moore.ODE
+public import Mathlib.RingTheory.SimpleRing.Principal
 
 
 set_option backward.privateInPublic true

@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SourceKPTameJacquetWhittaker
 public import ArtinMatthews.SourceKPTameJacquetSignedIntegrability
 public import ArtinMatthews.SourceKPTameJacquetStable
+public import Mathlib.RingTheory.Finiteness.ModuleFinitePresentation
 
 
 set_option backward.privateInPublic true

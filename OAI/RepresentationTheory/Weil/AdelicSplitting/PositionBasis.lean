@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.LatticeDualCoordinates
 public import Mathlib.LinearAlgebra.Basis.SMul
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

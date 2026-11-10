@@ -9,6 +9,7 @@ public import Mathlib.Tactic.Linarith
 public import Mathlib.Tactic.Ring
 public import OAI.NumberTheory.Jacobsthal.Conclusions.Targets
 public import OAI.NumberTheory.Jacobsthal.Sieve.AlignedPrimeCongruence
+public import Mathlib.RingTheory.PiTensorProduct
 
 
 set_option backward.privateInPublic true

@@ -6,6 +6,7 @@ public import ArtinMatthews.SpectralSectionLaplacianSeed
 public import ArtinMatthews.SpectralSectionGradientPairing
 public import ArtinMatthews.SpectralGamma0CompactMass
 public import Mathlib.MeasureTheory.Measure.OpenPos
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

@@ -6,6 +6,7 @@ public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentData
 public import OAI.NumberTheory.DirichletL.Dictionary.InverseRawFiberSource
 public import OAI.NumberTheory.DirichletL.Hecke.DetectorBatch
 public import OAI.NumberTheory.DirichletL.Inversion.InitialExcludedElement
+public import OAI.NumberTheory.DirichletL.Detector.DetectorBatch
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ module
 
 public import OAI.Analysis.PDE.Weak.Elliptic.DifferenceBound
 public import Mathlib.Analysis.Calculus.Deriv.Slope
+public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Inner
 
 
 set_option backward.privateInPublic true

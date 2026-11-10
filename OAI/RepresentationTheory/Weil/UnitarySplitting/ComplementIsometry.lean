@@ -4,6 +4,12 @@ module
 
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.DualPair
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.SymplecticPlane
+public import Mathlib.RingTheory.RegularLocalRing.Defs
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.RingTheory.TotallySplit
+public import Mathlib.RingTheory.Coalgebra.IsFrobenius
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.RingTheory.HopfAlgebra.Basic
 
 
 set_option backward.privateInPublic true

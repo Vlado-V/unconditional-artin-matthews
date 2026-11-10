@@ -2,9 +2,9 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.CubicGram.Conjugation
 public import OAI.NumberTheory.CubicGram.PrimaryNormalization
+public import Mathlib.NumberTheory.JacobiSum.Basic
 
 
 set_option backward.privateInPublic true

@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.SpectralSectionPlaneSmoothExtension
 public import ArtinMatthews.SpectralCuspGraphCompletion
+import ArtinMatthews.SpectralCoreLocalizationCoordinates
+public import Mathlib.Algebra.Ring.IsFormallyReal
 
 
 set_option backward.privateInPublic true

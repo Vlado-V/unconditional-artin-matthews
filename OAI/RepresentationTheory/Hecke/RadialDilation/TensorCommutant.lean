@@ -3,6 +3,10 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.RepresentationTheory.Hecke.RadialDilation.TestSections
+public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.GroupTheory.NoncommCoprod
+public import Mathlib.Topology.LocallyConstant.Algebra
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

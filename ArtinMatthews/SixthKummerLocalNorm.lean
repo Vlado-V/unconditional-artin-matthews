@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SixthKummerLocalDegree
 public import ClassFieldTheory.AlgebraicNumberTheory.Idele.NormApproximation.FinitePlaces
+public import Mathlib.Algebra.Lie.OfAssociative
 
 
 set_option backward.privateInPublic true

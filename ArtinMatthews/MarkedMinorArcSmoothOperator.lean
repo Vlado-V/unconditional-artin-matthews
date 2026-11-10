@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.MarkedMinorArcTrivial
 public import ArtinMatthews.MarkedMinorArcCutoff
 public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.LinearAlgebra.Matrix.FiniteDimensional
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,14 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticPoisson
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+public import Mathlib.Algebra.Module.ZLattice.Summable
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Basify
 
 
 set_option backward.privateInPublic true

@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.CircleDetector
 public import ArtinMatthews.DoubleVoronoiDetection
+public import Mathlib.RingTheory.SimpleRing.Principal
 
 
 set_option backward.privateInPublic true

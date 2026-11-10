@@ -3,6 +3,8 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.Analysis.PDE.Dirichlet.Hessian
+public import Std.Tactic.BVDecide.Normalize.Prop
+public import Mathlib.Analysis.Matrix.Order
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,8 @@ public import ArtinMatthews.MarkedMinorArcLatticeBox
 public import Mathlib.Data.Int.CardIntervalMod
 public import Mathlib.Data.Rat.Cast.Order
 public import Mathlib.Tactic
+public import Mathlib.GroupTheory.Nilpotent
+public import Mathlib.Data.Rat.Star
 
 
 set_option backward.privateInPublic true

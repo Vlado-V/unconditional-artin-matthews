@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SpectralGamma0AmbientResolvent
 public import Mathlib.Analysis.Analytic.Constructions
+public import Mathlib.Analysis.CStarAlgebra.ContinuousLinearMap
 
 
 set_option backward.privateInPublic true

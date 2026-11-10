@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.CubicThetaGammaGenerators
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

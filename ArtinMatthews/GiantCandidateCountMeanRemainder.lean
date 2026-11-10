@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.GiantCandidateCountVectorRemainder
 public import ArtinMatthews.GiantCandidateCountMoments
+public import Mathlib.Data.Rat.Star
 
 
 set_option backward.privateInPublic true

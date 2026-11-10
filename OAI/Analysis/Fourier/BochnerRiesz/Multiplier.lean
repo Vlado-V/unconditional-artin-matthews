@@ -5,6 +5,7 @@ module
 public import OAI.Analysis.Fourier.BochnerRiesz.Dilation
 public import OAI.Analysis.Fourier.BochnerRiesz.Kernel
 public import OAI.Analysis.Fourier.WavePackets.ConvolutionIdentity
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

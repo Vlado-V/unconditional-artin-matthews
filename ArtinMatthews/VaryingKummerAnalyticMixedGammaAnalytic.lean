@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.VaryingKummerAnalyticMixedGammaSignature
 public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
 public import Mathlib.Analysis.Analytic.Uniqueness
+public import Mathlib.RingTheory.Etale.Weakly
+public import Mathlib.RingTheory.TotallySplit
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ module
 
 public import OAI.LinearAlgebra.Symplectic.BigCell
 public import OAI.RepresentationTheory.Theta.PoissonAutomorphyNormalizationData
+public import Mathlib.RingTheory.Henselian
 
 
 set_option backward.privateInPublic true

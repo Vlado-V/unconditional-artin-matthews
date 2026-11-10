@@ -1,6 +1,10 @@
 module
 
 public import ArtinMatthews.SpectralCompactEigenbasis
+public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
+public import Mathlib.Tactic.ReduceModChar
+public import Mathlib.Tactic.Polynomial.Basic
 
 
 set_option backward.privateInPublic true

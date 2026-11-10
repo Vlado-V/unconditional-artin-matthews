@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralOrbitalKloosterman
+public import Mathlib.Order.Interval.Finset.Box
 
 
 set_option backward.privateInPublic true

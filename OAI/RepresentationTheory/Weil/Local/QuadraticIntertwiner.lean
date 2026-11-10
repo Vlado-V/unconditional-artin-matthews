@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.Local.LinearIntertwiner
 public import OAI.RepresentationTheory.Weil.Local.RealTestSpace
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

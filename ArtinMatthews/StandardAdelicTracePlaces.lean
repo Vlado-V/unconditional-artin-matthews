@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.StandardAdelicLocalNontrivial
+public import Mathlib.Algebra.AffineMonoid.Basic
 
 
 set_option backward.privateInPublic true

@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.VaryingKummerAnalyticMixedThetaPeriodicity
+public import Mathlib.Dynamics.Ergodic.Action.Regular
 
 
 set_option backward.privateInPublic true

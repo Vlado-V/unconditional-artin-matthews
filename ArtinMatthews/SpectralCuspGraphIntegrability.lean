@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.SpectralCuspProjectedTail
 public import ArtinMatthews.SpectralRellichCoordinates
 public import ArtinMatthews.SpectralHyperbolicFiniteVolume
+import ArtinMatthews.SpectralCoreLocalizationCoordinates
 
 
 set_option backward.privateInPublic true

@@ -7,6 +7,7 @@ public import OAI.RepresentationTheory.Weil.AdelicSplitting.UnitaryAlgebra
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.CorrectedNormalizationAnalysis
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.RationalLevi
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.Normalization
+public import Mathlib.Order.CompletePartialOrder
 
 
 set_option backward.privateInPublic true

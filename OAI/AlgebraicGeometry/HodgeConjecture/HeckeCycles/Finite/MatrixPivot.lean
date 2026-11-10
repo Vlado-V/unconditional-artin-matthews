@@ -4,6 +4,7 @@ module
 
 public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Finite.PivotChoices
 public import OAI.AlgebraicGeometry.HodgeConjecture.HeckeCycles.Adelic.Units
+public import Mathlib.RingTheory.RegularLocalRing.Defs
 
 
 set_option backward.privateInPublic true

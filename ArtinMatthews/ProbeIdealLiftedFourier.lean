@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticIdealGaussFourier
 public import Mathlib.GroupTheory.Index
+public import Mathlib.Order.CompletePartialOrder
 
 
 set_option backward.privateInPublic true

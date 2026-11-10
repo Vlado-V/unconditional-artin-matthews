@@ -1,6 +1,7 @@
 module
 
 public import OAI.Analysis.Conductivity.Variational.IntervalMeanPoincare
+public import Mathlib.Analysis.CStarAlgebra.Classes
 
 
 set_option backward.privateInPublic true

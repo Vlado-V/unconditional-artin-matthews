@@ -4,6 +4,7 @@ public import ArtinMatthews.SpectralPeterssonUniform
 public import ArtinMatthews.SpectralPeterssonPoincareAction
 public import Mathlib.Analysis.Complex.LocallyUniformLimit
 public import Mathlib.NumberTheory.ModularForms.EisensteinSeries.QExpansion
+public import Mathlib.Geometry.Manifold.VectorBundle.CovariantDerivative.LeviCivita
 
 
 set_option backward.privateInPublic true

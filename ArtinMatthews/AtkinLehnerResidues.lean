@@ -3,6 +3,7 @@ module
 public import ArtinMatthews.AtkinLehnerModuli
 public import ArtinMatthews.KloostermanDoubleCoset
 public import ArtinMatthews.KloostermanWeakBound
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 
 set_option backward.privateInPublic true

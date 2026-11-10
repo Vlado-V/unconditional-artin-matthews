@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.GiantComparisonCirclePairing
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import ArtinMatthews.MarkedMinorArcProductOperator
 
 
 set_option backward.privateInPublic true

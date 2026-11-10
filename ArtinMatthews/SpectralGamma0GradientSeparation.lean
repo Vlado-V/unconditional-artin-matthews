@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SpectralModularWeakFunctionals
+public import Mathlib.Algebra.Ring.IsFormallyReal
 
 
 set_option backward.privateInPublic true

@@ -4,6 +4,7 @@ public import ArtinMatthews.SourceKPCuspWirtingerSeries
 public import ArtinMatthews.SourceKPCuspResidualGeneralTheta
 public import ArtinMatthews.SourceKPResidualUnitNormalization
 public import ArtinMatthews.SourceReflectionAngularIdeal
+public import Std.Tactic.BVDecide.Normalize.BitVec
 
 
 set_option backward.privateInPublic true

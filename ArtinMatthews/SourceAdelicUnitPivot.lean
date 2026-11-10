@@ -3,6 +3,8 @@ module
 public import ArtinMatthews.SourceAdelicStandardHaar
 public import Mathlib.Analysis.Normed.Group.Ultra
 public import Mathlib.Topology.Algebra.RestrictedProduct.Units
+public import Mathlib.Topology.Sheaves.Presheaf
+public import Mathlib.Tactic.Monotonicity.Lemmas
 
 
 set_option backward.privateInPublic true

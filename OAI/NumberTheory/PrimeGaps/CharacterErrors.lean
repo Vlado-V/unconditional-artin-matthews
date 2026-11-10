@@ -3,6 +3,9 @@ module
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
 public import OAI.NumberTheory.PrimeGaps.DetectorMoments
+public import Mathlib.RingTheory.SimpleRing.Principal
+public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
+public import Mathlib.NumberTheory.DirichletCharacter.Orthogonality
 
 
 set_option backward.privateInPublic true

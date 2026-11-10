@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.FourierCompactDomain
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.FourierIntertwiner
+public import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
 
 
 set_option backward.privateInPublic true

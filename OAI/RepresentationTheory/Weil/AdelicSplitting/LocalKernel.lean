@@ -5,6 +5,8 @@ module
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.Kernel
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.FourierRelations
 public import OAI.RepresentationTheory.Weil.AdelicSplitting.Scalars
+public import Mathlib.AlgebraicTopology.FundamentalGroupoid.SimplyConnected
+public import Mathlib.Analysis.Convex.Contractible
 
 
 set_option backward.privateInPublic true

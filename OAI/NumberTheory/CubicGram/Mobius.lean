@@ -2,8 +2,8 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
 public import OAI.NumberTheory.CubicGram.SquarefreeGauss
+public import Mathlib.RingTheory.UniqueFactorizationDomain.Moebius
 
 
 set_option backward.privateInPublic true

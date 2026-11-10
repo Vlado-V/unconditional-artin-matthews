@@ -2,14 +2,6 @@ module
 
 /- Adapted in the Artin–Matthews source bundle. The source, upstream and packaged digests are recorded in SOURCE_MANIFEST.json. -/
 
-public import Mathlib
-public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-public import Mathlib.Algebra.BigOperators.Ring.Finset
-public import Mathlib.Algebra.Order.BigOperators.Group.Finset
-public import Mathlib.Data.Finset.Max
-public import Mathlib.Order.Interval.Finset.Nat
-public import Mathlib.Tactic.Linarith
-public import Mathlib.Tactic.NormNum
 public import OAI.NumberTheory.Jacobsthal.Estimates.FactorDividesAbscissa
 public import OAI.NumberTheory.Jacobsthal.Primes.PrimeHitRepresentative
 

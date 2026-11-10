@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.SpectralGamma0EisensteinSecondSeries
 public import ArtinMatthews.SpectralSectionLaplacian
+public import Mathlib.RingTheory.PiTensorProduct
+public import Mathlib.Algebra.Lie.OfAssociative
 
 
 set_option backward.privateInPublic true

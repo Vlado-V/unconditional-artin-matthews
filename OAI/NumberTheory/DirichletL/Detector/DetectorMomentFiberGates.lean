@@ -4,6 +4,7 @@ module
 
 public import OAI.NumberTheory.DirichletL.Detector.DetectorMomentGates
 public import OAI.NumberTheory.DirichletL.Detector.FinalAssemblyData
+public import OAI.NumberTheory.DirichletL.Detector.SourceBatch
 
 
 set_option backward.privateInPublic true

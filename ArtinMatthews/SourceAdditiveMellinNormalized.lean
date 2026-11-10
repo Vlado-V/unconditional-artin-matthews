@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceMellinEnergyPairing
 public import ArtinMatthews.SourceMellinLogPullbackSobolev
+public import Mathlib.Analysis.Real.Pi.Bounds
 
 
 set_option backward.privateInPublic true

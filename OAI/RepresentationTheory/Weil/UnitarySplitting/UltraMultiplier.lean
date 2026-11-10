@@ -4,6 +4,7 @@ module
 
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.LocalTest
 public import OAI.RepresentationTheory.Weil.UnitarySplitting.Heisenberg
+public import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
 
 
 set_option backward.privateInPublic true

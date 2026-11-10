@@ -2,6 +2,7 @@ module
 
 public import ArtinMatthews.SourceKPAdeleSingleMatrix
 public import ArtinMatthews.SourceKPAdelicProjective
+import ArtinMatthews.SourceAdelicIwasawaAssembly
 
 
 set_option backward.privateInPublic true

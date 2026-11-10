@@ -1,6 +1,7 @@
 module
 
 public import ArtinMatthews.SourceKPAdeleLocalEmbedding
+import ArtinMatthews.SourceAdelicIwasawaAssembly
 
 
 set_option backward.privateInPublic true

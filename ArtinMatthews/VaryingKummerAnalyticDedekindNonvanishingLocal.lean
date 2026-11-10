@@ -2,6 +2,8 @@ module
 
 public import ArtinMatthews.VaryingKummerAnalyticDedekindNonvanishingProducts
 public import OAI.NumberTheory.PrimePackets.IdealCoefficients
+public import Mathlib.Topology.Separation.CompletelyRegular
+public import Mathlib.NumberTheory.EulerProduct.DirichletLSeries
 
 
 set_option backward.privateInPublic true
