@@ -128,4 +128,4 @@ automation:
 
 review:
   status: "unchecked"
-  notes: "The original exact theorem passed the Lean 4.35.0-rc3 kernel and its axiom audit. The review status records independent mathematical review."
+  notes: "The selected theorem passed automated mechanical verification with Lean 4.35.0-rc3, the standard-axiom audit, Comparator, NanoDa, and con-ron."

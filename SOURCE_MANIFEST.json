@@ -12841,7 +12841,7 @@
     "ValuedFieldTheory/Valuation/UniqueRing.lean": "e7c49a4dd409ab64a5b6359534ab840e18b00427a93bf46f5983d12f63cc9a24",
     "ValuedFieldTheory/Valuation/ValuedAdicComplete.lean": "89367044883a5ae663f25132eb8001ee05f2262b4685ed88fd761fcbd9cd8963",
     "comparator.json": "9f0525a5df7e361b0b653af2f15fc83b4ffb7462e01e5c9fc85b787f8554750e",
-    "formalization.yaml": "d507558411c6d8cf734c8ba0537dc49a72b4d63deaf9676749046f7554823f39",
+    "formalization.yaml": "a7c2ad4b083facf5c7ef3b2e85ce09b736d9766f3ef7a9e598bae67155c07f96",
     "lake-manifest.json": "b4767cfaa92f432fa59579eabf6aaf9357f221849ef75af093867005d06cde51",
     "lakefile.toml": "cf32e4666b960aa849ded3a14cc5b59eda988fc03ec02485418514c5caef03de",
     "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
@@ -527346,7 +527346,7 @@
     "OAI.NumberTheory.TwoPoint.ShortIntervals.MRTCharacterDisk",
     "OAI.NumberTheory.TwoPoint.ShortIntervals.MRTCharacterHighZeros"
   ],
-  "source_tree_sha256": "54efd5a1c512f011078618c9deebb11ae6d8d103f62a93458fb284dc7d5f45f4",
+  "source_tree_sha256": "776a1e4d2ea71da398143da37e2bbdb0ed0bc201834c492922f4a51af8a55628",
   "status": "source_release_optimization_candidate",
   "toolchain": "leanprover/lean4:v4.35.0-rc3",
   "vendor_licenses": [
